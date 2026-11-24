@@ -1,0 +1,206 @@
+{
+  "jobs": {
+    "applypilot-native-checkpoint-v1": {
+      "ok": 288,
+      "notOk": [],
+      "deliveryStates": {
+        "not-started": 288
+      }
+    },
+    "applypilot-alerts-v1": {
+      "ok": 96,
+      "notOk": [],
+      "deliveryStates": {
+        "not-started": 96
+      }
+    },
+    "8b9b9386-3e29-41b1-81a7-81b7d2ee1fa3": {
+      "ok": 2,
+      "notOk": [],
+      "deliveryStates": {
+        "started": 2
+      }
+    },
+    "84d44c23-b477-4504-a8e4-5d64b0a79186": {
+      "ok": 2,
+      "notOk": [],
+      "deliveryStates": {
+        "started": 2
+      }
+    },
+    "applypilot-observation-local-v1": {
+      "ok": 8,
+      "notOk": [],
+      "deliveryStates": {
+        "not-started": 8
+      }
+    },
+    "applypilot-observation-cloud-v1": {
+      "ok": 0,
+      "notOk": [
+        {
+          "at": "2026-11-18T08:45:01.322Z",
+          "status": "error"
+        },
+        {
+          "at": "2026-11-18T14:45:02.231Z",
+          "status": "error"
+        },
+        {
+          "at": "2026-11-18T20:45:00.019Z",
+          "status": "error"
+        },
+        {
+          "at": "2026-11-19T02:45:00.016Z",
+          "status": "error"
+        },
+        {
+          "at": "2026-11-19T08:45:00.017Z",
+          "status": "error"
+        },
+        {
+          "at": "2026-11-19T14:45:00.015Z",
+          "status": "error"
+        },
+        {
+          "at": "2026-11-19T20:45:00.019Z",
+          "status": "error"
+        },
+        {
+          "at": "2026-11-20T02:45:00.016Z",
+          "status": "error"
+        }
+      ],
+      "deliveryStates": {
+        "not-started": 8
+      }
+    },
+    "bf837fdc-86bb-41ad-806a-25d4935cc76b": {
+      "ok": 1,
+      "notOk": [],
+      "deliveryStates": {
+        "started": 1
+      }
+    },
+    "applypilot-briefing-v1": {
+      "ok": 2,
+      "notOk": [],
+      "deliveryStates": {
+        "started": 2
+      }
+    },
+    "applypilot-recap-v1": {
+      "ok": 2,
+      "notOk": [],
+      "deliveryStates": {
+        "started": 2
+      }
+    }
+  },
+  "lastJobState": [
+    {
+      "declarationKey": "applypilot-briefing-v1",
+      "enabled": true,
+      "lastRunAt": "2026-11-12T21:50:42.210Z",
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "delivered",
+      "consecutiveErrors": 0
+    },
+    {
+      "declarationKey": "applypilot-recap-v1",
+      "enabled": true,
+      "lastRunAt": "2026-11-12T22:49:08.763Z",
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "delivered",
+      "consecutiveErrors": 0
+    },
+    {
+      "declarationKey": "applypilot-alerts-v1",
+      "enabled": true,
+      "lastRunAt": "2026-11-13T00:30:00.007Z",
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-delivered",
+      "consecutiveErrors": 0
+    },
+    {
+      "declarationKey": "applypilot-briefing-v1",
+      "enabled": true,
+      "lastRunAt": "2026-11-19T16:00:00.001Z",
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "delivered",
+      "consecutiveErrors": 0
+    },
+    {
+      "declarationKey": "applypilot-recap-v1",
+      "enabled": true,
+      "lastRunAt": "2026-11-20T02:00:00.003Z",
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "delivered",
+      "consecutiveErrors": 0
+    },
+    {
+      "declarationKey": "applypilot-alerts-v1",
+      "enabled": true,
+      "lastRunAt": "2026-11-20T06:30:00.003Z",
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-delivered",
+      "consecutiveErrors": 0
+    },
+    {
+      "declarationKey": "applypilot-native-checkpoint-v1",
+      "enabled": true,
+      "lastRunAt": "2026-11-20T06:40:00.002Z",
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
+      "consecutiveErrors": 0
+    },
+    {
+      "declarationKey": "applypilot-advanced-acceptance-20261113-briefing",
+      "enabled": false,
+      "lastRunAt": "2026-11-13T07:19:58.657Z",
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "delivered",
+      "consecutiveErrors": 0
+    },
+    {
+      "declarationKey": "applypilot-advanced-acceptance-20261113-recap",
+      "enabled": false,
+      "lastRunAt": "2026-11-13T07:22:23.957Z",
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "delivered",
+      "consecutiveErrors": 0
+    },
+    {
+      "declarationKey": "applypilot-advanced-acceptance-20261113-alerts",
+      "enabled": false,
+      "lastRunAt": "2026-11-13T07:24:10.461Z",
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-delivered",
+      "consecutiveErrors": 0
+    },
+    {
+      "declarationKey": "applypilot-fresh-alert-20261113-alerts",
+      "enabled": false,
+      "lastRunAt": "2026-11-13T08:08:35.967Z",
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "delivered",
+      "consecutiveErrors": 0
+    },
+    {
+      "declarationKey": "applypilot-observation-local-v1",
+      "enabled": true,
+      "lastRunAt": "2026-11-20T02:40:00.003Z",
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
+      "consecutiveErrors": 0
+    },
+    {
+      "declarationKey": "applypilot-observation-cloud-v1",
+      "enabled": true,
+      "lastRunAt": "2026-11-20T02:45:00.016Z",
+      "lastRunStatus": "error",
+      "lastDeliveryStatus": "not-requested",
+      "consecutiveErrors": 8
+    }
+  ]
+}

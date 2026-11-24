@@ -1,0 +1,6 @@
+{
+  "at": "2026-11-16T20:31:32.167466+00:00",
+  "reason": "User completed fresh cloud model OAuth with selected account; actual gpt-6-luna request verified",
+  "preserveFailures": true,
+  "limitation": "Cloud credentials renewed mid-experiment; stored profile ID remained unchanged. An account identity change was not independently established. Same served model and user prompts."
+}

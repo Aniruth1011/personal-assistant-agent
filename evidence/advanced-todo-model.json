@@ -1,0 +1,18 @@
+{
+  "image": "sha256:0f8fd3f2cc347cc3530181311673be2b645183162c5ea49ad0790ca4b0458089",
+  "sessionId": "advanced-todos-20261113",
+  "source": "Actual deployed OpenClaw agent main; read-only synthetic task request",
+  "status": "ok",
+  "provider": "ollama",
+  "model": "gemma4:e2b",
+  "toolSummary": {
+    "calls": 1,
+    "tools": [
+      "list_todos"
+    ],
+    "failures": 0
+  },
+  "response": "The current synthetic to-do list is empty. The current task count is 0.",
+  "groundTruthTaskCount": 0,
+  "limitation": "Does not prove an authenticated Telegram task mutation."
+}

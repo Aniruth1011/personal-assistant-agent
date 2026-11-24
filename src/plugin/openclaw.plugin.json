@@ -1,0 +1,48 @@
+{
+  "id": "applypilot-agent",
+  "name": "ApplyPilot",
+  "description": "Personal assistant for email, calendar, web search and to-do management.",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "testGmailAccount": {
+        "type": "string",
+        "pattern": "^[^\\s@]+@gmail\\.com$"
+      },
+      "cloudModel": {
+        "type": "string",
+        "const": "openai/gpt-6-luna"
+      },
+      "testCalendarId": {
+        "type": "string",
+        "minLength": 3,
+        "maxLength": 256,
+        "pattern": "^[A-Za-z0-9._@-]+$"
+      },
+      "assistantStatePath": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1024
+      }
+    },
+    "additionalProperties": false
+  },
+  "activation": {
+    "onStartup": true
+  },
+  "contracts": {
+    "tools": [
+      "list_todos",
+      "durability_checkpoint",
+      "assistant_report",
+      "weather_read",
+      "public_web_search",
+      "list_test_emails",
+      "get_test_email",
+      "classify_assistant_email",
+      "draft_email_reply",
+      "list_test_events"
+    ]
+  }
+}

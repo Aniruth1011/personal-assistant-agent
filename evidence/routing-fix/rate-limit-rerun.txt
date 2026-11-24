@@ -1,0 +1,635 @@
+{
+  "payloads": [
+    {
+      "text": "Merge sort is a stable sorting algorithm with a guaranteed time complexity of O(n log n) and requires extra space, whereas Quicksort is generally faster in practice but is not stable and typically performs in-place.",
+      "mediaUrl": null
+    }
+  ],
+  "meta": {
+    "durationMs": 68832,
+    "agentMeta": {
+      "sessionId": "routing-rate-isolated-20261116",
+      "sessionFile": "agent:public-research:explicit:routing-rate-isolated-20261116",
+      "provider": "ollama",
+      "model": "gemma4:e2b",
+      "contextTokens": 32768,
+      "contextTokensSource": "resolved",
+      "agentHarnessId": "openclaw",
+      "credentialSource": {
+        "kind": "direct",
+        "evidence": "synthetic",
+        "authorization": "declared"
+      },
+      "usage": {
+        "usageReport": {
+          "state": "available"
+        },
+        "input": 24689,
+        "output": 244,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "total": 24933,
+        "cost": {
+          "total": 0
+        }
+      },
+      "lastCallUsage": {
+        "input": 24689,
+        "output": 244,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "cacheTelemetry": {
+          "state": "available"
+        },
+        "cost": {
+          "total": 0
+        },
+        "contextUsage": {
+          "state": "available",
+          "promptTokens": 24689,
+          "totalTokens": 24933
+        },
+        "usageReport": {
+          "state": "available"
+        },
+        "total": 24933
+      },
+      "promptTokens": 24689,
+      "contextBudgetStatus": {
+        "schemaVersion": 1,
+        "source": "pre-prompt-estimate",
+        "updatedAt": 1794859603529,
+        "provider": "ollama",
+        "model": "gemma4:e2b",
+        "route": "compact_only",
+        "shouldCompact": true,
+        "estimatedPromptTokens": 43206,
+        "contextTokenBudget": 32768,
+        "promptBudgetBeforeReserve": 24576,
+        "reserveTokens": 8192,
+        "effectiveReserveTokens": 8192,
+        "remainingPromptBudgetTokens": 0,
+        "overflowTokens": 18630,
+        "toolResultReducibleChars": 0,
+        "messageCount": 0,
+        "unwindowedMessageCount": 0,
+        "sessionId": "routing-rate-isolated-20261116"
+      },
+      "codeModeEngaged": false,
+      "assistantTurns": 1,
+      "costUsd": 0,
+      "terminalReceipt": {
+        "runId": "5f952d07-1075-4f20-a108-70105ff22823",
+        "sessionId": "routing-rate-isolated-20261116",
+        "turnId": "5f952d07-1075-4f20-a108-70105ff22823",
+        "requested": {
+          "provider": "ollama",
+          "model": "gemma4:e2b"
+        },
+        "effective": {
+          "provider": "ollama",
+          "model": "gemma4:e2b",
+          "responseModel": "gemma4:e2b"
+        },
+        "successfulToolNames": [],
+        "rerouted": false,
+        "terminalDisposition": "visible"
+      }
+    },
+    "aborted": false,
+    "systemPromptReport": {
+      "source": "run",
+      "generatedAt": 1794859595078,
+      "sessionId": "routing-rate-isolated-20261116",
+      "sessionKey": "agent:public-research:explicit:routing-rate-isolated-20261116",
+      "provider": "ollama",
+      "model": "gemma4:e2b",
+      "workspaceDir": "/data/runtime/public-workspace",
+      "bootstrapMaxChars": 20000,
+      "bootstrapTotalMaxChars": 60000,
+      "bootstrapTruncation": {
+        "warningMode": "always",
+        "warningShown": false,
+        "truncatedFiles": 0,
+        "nearLimitFiles": 0,
+        "totalNearLimit": false
+      },
+      "sandbox": {
+        "mode": "off",
+        "sandboxed": false
+      },
+      "systemPrompt": {
+        "chars": 18479,
+        "hash": "33a7b6c26c85d47cb75c7d91130829d0dff1d0dd96a1484f90935f175648a389",
+        "projectContextChars": 4710,
+        "nonProjectContextChars": 13769
+      },
+      "injectedWorkspaceFiles": [
+        {
+          "name": "AGENTS.md",
+          "path": "/data/runtime/public-workspace/AGENTS.md",
+          "missing": false,
+          "rawChars": 151,
+          "injectedChars": 151,
+          "truncated": false
+        },
+        {
+          "name": "SOUL.md",
+          "path": "/data/runtime/public-workspace/SOUL.md",
+          "missing": false,
+          "rawChars": 1526,
+          "injectedChars": 1526,
+          "truncated": false
+        },
+        {
+          "name": "IDENTITY.md",
+          "path": "/data/runtime/public-workspace/IDENTITY.md",
+          "missing": false,
+          "rawChars": 1453,
+          "injectedChars": 1453,
+          "truncated": false
+        },
+        {
+          "name": "USER.md",
+          "path": "/data/runtime/public-workspace/USER.md",
+          "missing": false,
+          "rawChars": 1136,
+          "injectedChars": 1136,
+          "truncated": false
+        }
+      ],
+      "skills": {
+        "promptChars": 0,
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "entries": []
+      },
+      "tools": {
+        "listChars": 0,
+        "schemaChars": 57201,
+        "entries": [
+          {
+            "name": "ls",
+            "summaryChars": 192,
+            "summaryHash": "90bdd7a772f66ad236d45f18e28ee873b8c795fe219804f2c19074a867423e20",
+            "schemaChars": 254,
+            "schemaHash": "ebe8d6a85b7011ec7e0d43a759b3b53b1ce96e682f54a64312b10e89260e9af9",
+            "propertiesCount": 3
+          },
+          {
+            "name": "read",
+            "summaryChars": 164,
+            "summaryHash": "d136f5b09e28d671addad4ca800b75b8aa6a36002bc739ead964f618d3e34829",
+            "schemaChars": 481,
+            "schemaHash": "b1b9b637dfe1dfade40f50c37cf840a298f1992b534cb9425b7470233a6b0cbb",
+            "propertiesCount": 5
+          },
+          {
+            "name": "edit",
+            "summaryChars": 130,
+            "summaryHash": "4149500b1f6501ec6450e4c048bdb6844764dd4a888a10846726cbbc7256152e",
+            "schemaChars": 501,
+            "schemaHash": "adf3140833ca927b84c66c989d6833fdcbd9de011dd2ffc59f9a2c4d3c25f127",
+            "propertiesCount": 2
+          },
+          {
+            "name": "write",
+            "summaryChars": 49,
+            "summaryHash": "f9ce3d8ac929a51498c03331b97c59bfaa2bb4d25580a5ddf0102e6a8e173aec",
+            "schemaChars": 191,
+            "schemaHash": "b61d2da23febf5fbda55e391526f36d283e9e9fb7f1a1dbadcf5c618a0632287",
+            "propertiesCount": 2
+          },
+          {
+            "name": "apply_patch",
+            "summaryChars": 71,
+            "summaryHash": "5c1173efe93d080a386a23216bc3e58db2e0033eb3ddea697eb2439938b7cae4",
+            "schemaChars": 153,
+            "schemaHash": "05521268363ff4f191472c90d69ef08a503ba9acf1d2febc50b3ee68db32ab65",
+            "propertiesCount": 1
+          },
+          {
+            "name": "exec",
+            "summaryChars": 556,
+            "summaryHash": "4d657ebc7d43d3fdc9156e340e38909dcfef901fe23dbb9e6457b4bde3188c9a",
+            "schemaChars": 1549,
+            "schemaHash": "ae4801d14056df2d10528add8259c3174c0460fdc57787dfeaf900bec93f5e22",
+            "propertiesCount": 13
+          },
+          {
+            "name": "process",
+            "summaryChars": 258,
+            "summaryHash": "c9c81d9c38f731d0efcc810924c78c3161c38524baa561c6f9251638d9e164b2",
+            "schemaChars": 1164,
+            "schemaHash": "6cf3281369349e15ea532e644c8ec7f94c96fa6a4e3287272c8cfe90b0960516",
+            "propertiesCount": 12
+          },
+          {
+            "name": "dashboard",
+            "summaryChars": 1373,
+            "summaryHash": "b2fb814de22c52538a217bc3ad182b640974e66917d53e4857b5e1f904a1d1a9",
+            "schemaChars": 2377,
+            "schemaHash": "73db41cf596d2063a7cb41e1c5011e2475b5703fda5707e5a140cf81e6f83d8f",
+            "propertiesCount": 13
+          },
+          {
+            "name": "nodes",
+            "summaryChars": 606,
+            "summaryHash": "38583547ed25ab07ce6de2cc48900eefcb19cc01b8f39b85d48c091fa8f43edb",
+            "schemaChars": 2977,
+            "schemaHash": "a3141e101581a4ef9705096ff7459a8080ac18a32e1d10a7c3eafbd4c0423798",
+            "propertiesCount": 37
+          },
+          {
+            "name": "mobile_ui",
+            "summaryChars": 453,
+            "summaryHash": "1bb7df5038cc1c8a999c91cfd7f7e40d3cdc9b45bd8ef4fbcf5bbc1c54f7d3ce",
+            "schemaChars": 2042,
+            "schemaHash": "8750f2f6ed3052edcdae2037dfa9433d73a8ef31bd86c5057413c253b65975d4",
+            "propertiesCount": 8
+          },
+          {
+            "name": "automations",
+            "summaryChars": 6469,
+            "summaryHash": "e49c001a25df775a87e60ebd0a40d281dfcb5564f132333a5103af3f8b206424",
+            "schemaChars": 9030,
+            "schemaHash": "fde4ba1fb5cc16e9c21b5d5ebe5d06781071f3939d027014bcb3e9c88d4fb232",
+            "propertiesCount": 18
+          },
+          {
+            "name": "sessions",
+            "summaryChars": 640,
+            "summaryHash": "328ab081c1c0dccd8681129d4995d53f30a262de4674aa20c51b0cfd9aa720a5",
+            "schemaChars": 4453,
+            "schemaHash": "f34e27ecc5f90678c7675b93f0a6b8c2a0b2b8ccb525821978e8a6324a6e72d6",
+            "propertiesCount": 26
+          },
+          {
+            "name": "theme",
+            "summaryChars": 790,
+            "summaryHash": "89c28af46851a2eac2c7b868a9b561064952917277a5384e3a526ace3742cd64",
+            "schemaChars": 4840,
+            "schemaHash": "5a8404be0b0d7ff25a8e1e507b1d7f91eea2b9c5d96acbc48125c03572284d4a",
+            "propertiesCount": 6
+          },
+          {
+            "name": "terminal",
+            "summaryChars": 281,
+            "summaryHash": "7cd87f59b6645de1e5e9f45cc730410e1bc1bb1ee90a2bb5a50e7a09b9a7af88",
+            "schemaChars": 419,
+            "schemaHash": "4ebd33330c3b006d29d39aed6bfce7bc3d5a9f81025bbb7ce9c81d3da88e4491",
+            "propertiesCount": 5
+          },
+          {
+            "name": "portal",
+            "summaryChars": 950,
+            "summaryHash": "972b8c5e3b629affb50f2a9eff8ff98a0a3086a8e86ee1de1c5b95504f2c775e",
+            "schemaChars": 528,
+            "schemaHash": "6014e524c837af83fd8a7c74b464c98c46f68d4b209f71a550d0b4956252789a",
+            "propertiesCount": 7
+          },
+          {
+            "name": "message",
+            "summaryChars": 64,
+            "summaryHash": "c76c94110d6313f5f35415528841472d4003682533cb3a07c48a9001bb63baae",
+            "schemaChars": 2672,
+            "schemaHash": "2cb7ed6a5cfb23b1991b0f9f2dd46b14e1cf9160ebf23e86d6f3eadcf4acdde1",
+            "propertiesCount": 31
+          },
+          {
+            "name": "heartbeat_respond",
+            "summaryChars": 156,
+            "summaryHash": "75ebcf57f2d67ae16e33a6c4659d7f8c429db4cb6e83c3bb65ccfa02a8115513",
+            "schemaChars": 528,
+            "schemaHash": "e46be5f99ab0fd8a3165f697fac6892a70ff76b6f9733d0a3ca33cd3ab8578be",
+            "propertiesCount": 8
+          },
+          {
+            "name": "tts",
+            "summaryChars": 245,
+            "summaryHash": "841f7db9ad3ece79d54c59de7395e7a8591d24327be97750c4d76c1bff5a107a",
+            "schemaChars": 264,
+            "schemaHash": "e40695f92ef72d913ee5eb13ef738a15d6f33ae3af3ec609975c45991ef99a78",
+            "propertiesCount": 3
+          },
+          {
+            "name": "transcripts",
+            "summaryChars": 112,
+            "summaryHash": "77b3b93af0d12a84fa84e3f745a86e5730bacf60a66f683a8d9fdf708197d443",
+            "schemaChars": 999,
+            "schemaHash": "153465a071b65ff76e15f327e027e1e3b976bdd87fc2612e51a27e29a877a8d7",
+            "propertiesCount": 12
+          },
+          {
+            "name": "presence",
+            "summaryChars": 627,
+            "summaryHash": "8de54af9193a1045808067afdf77d51a129fbfb256610fcb74a7b913d3d8b02e",
+            "schemaChars": 1053,
+            "schemaHash": "fdbc54879e5befc4f050ad4007135f8ddb2f99a99de201febbd488980d673f45",
+            "propertiesCount": 5
+          },
+          {
+            "name": "gateway",
+            "summaryChars": 172,
+            "summaryHash": "37523c5d9a9072bc525a0c58f193198e1337a3caa78cca6da4e624027a3a2dcf",
+            "schemaChars": 441,
+            "schemaHash": "50d83bbf3e75f780ef892bc2e2f5df5aa1485867d6557cf8cda24ff971f93ffb",
+            "propertiesCount": 6
+          },
+          {
+            "name": "plugins",
+            "summaryChars": 767,
+            "summaryHash": "2b38c58a6cc05d9728d5413b159fe0a940ad45e808509871667db32d4e15cb03",
+            "schemaChars": 684,
+            "schemaHash": "52e052548c3d9ad7eb9c1b9bd99b4d14bb1282a17f3116f0e262c0ad53861bd2",
+            "propertiesCount": 8
+          },
+          {
+            "name": "openclaw",
+            "summaryChars": 456,
+            "summaryHash": "45212b5ccc76e78f8dc05e9a9d90d721c53f16f18ee08a23a5868020bbe24f6d",
+            "schemaChars": 196,
+            "schemaHash": "9956b2b6fde1ca6ca3d035b66217a09c717a6503aa4e59a2ce184dbf67849bd3",
+            "propertiesCount": 2
+          },
+          {
+            "name": "agents_list",
+            "summaryChars": 116,
+            "summaryHash": "a86dafe00675913d8f07e9bac4c134435539c31e80cac7c431f879cc0285ab16",
+            "schemaChars": 33,
+            "schemaHash": "8243f0af367f188a376f2c17b5eabe872a2f7a979813e0d4e2be6d594c2aa259",
+            "propertiesCount": 0
+          },
+          {
+            "name": "get_goal",
+            "summaryChars": 101,
+            "summaryHash": "cb629fcdf8051a05b88fa535b74d7b4f9814ba14e79b027bfcc5bb2f3c3a2fea",
+            "schemaChars": 33,
+            "schemaHash": "8243f0af367f188a376f2c17b5eabe872a2f7a979813e0d4e2be6d594c2aa259",
+            "propertiesCount": 0
+          },
+          {
+            "name": "create_goal",
+            "summaryChars": 264,
+            "summaryHash": "4f431787069f93890b977aed5233531481f3e5b4618decbf53e72c197a7779c6",
+            "schemaChars": 306,
+            "schemaHash": "0e17e2116eb1b011e8798ec6272458493f9272ee578118cf2af05c3e372d7945",
+            "propertiesCount": 2
+          },
+          {
+            "name": "update_goal",
+            "summaryChars": 543,
+            "summaryHash": "8fcdb0dfdde868b2bd4b26828cc91d452d6d841293daee394ed9309ee6da74db",
+            "schemaChars": 207,
+            "schemaHash": "063df78da73d06b7cf4a20d6d98b15e29e1c76f2128b7a4edb22e859ca5e2ca1",
+            "propertiesCount": 2
+          },
+          {
+            "name": "skill_workshop",
+            "summaryChars": 2205,
+            "summaryHash": "f6d63f7db20f765fd47f682645642d529a1bb4d7e228f7acb9d6a623e467b3cf",
+            "schemaChars": 950,
+            "schemaHash": "3686d49d3dfadcb5357730b793acb9ad290318f1d8412f35faca58a4bb8febf3",
+            "propertiesCount": 9
+          },
+          {
+            "name": "progress_card",
+            "summaryChars": 1948,
+            "summaryHash": "f8149353709e4360500d65aaccc53c1693ad3b8f1feac06db19f421df13cb80a",
+            "schemaChars": 401,
+            "schemaHash": "17936a8909b680a54f70957a8468dec2db700c94ee3fd327ddcad13e4e11c32f",
+            "propertiesCount": 2
+          },
+          {
+            "name": "ask_user",
+            "summaryChars": 857,
+            "summaryHash": "e903258acafe070ab656997ab2d4f0a52f52b557fa592724d97c9dca08938857",
+            "schemaChars": 1944,
+            "schemaHash": "abd9cfe38eb3228b36dce9762d6a69942148ca4e3c2ed0072171cbaff77ff8a7",
+            "propertiesCount": 2
+          },
+          {
+            "name": "secrets",
+            "summaryChars": 981,
+            "summaryHash": "2e714cc92cf9213ceae29cbc91111ef0eeaf715cf7c3636288708401677dfcc1",
+            "schemaChars": 1175,
+            "schemaHash": "f9049107a8adf8e90f5ef41b13632f0a355123ac40f3df87565447fe289ed908",
+            "propertiesCount": 6
+          },
+          {
+            "name": "sessions_list",
+            "summaryChars": 880,
+            "summaryHash": "8bdca38def2db23dbd73e4fd9dc7b425f49fdfb34fba25250fd1ed2ea2f4d6af",
+            "schemaChars": 1239,
+            "schemaHash": "323cf9a402b5d1746421b0b4718a7f2da1b77ab4ecc00c40db3060eedfeada18",
+            "propertiesCount": 21
+          },
+          {
+            "name": "sessions_history",
+            "summaryChars": 600,
+            "summaryHash": "42f3308a8ea48c867c8008fa616e83dd0af979f2a363c5882ad2ca309222fc79",
+            "schemaChars": 805,
+            "schemaHash": "0892d947e886b781b3508ca73a5df20be1e0cf62a48220159a3153f69ad188a7",
+            "propertiesCount": 8
+          },
+          {
+            "name": "sessions_search",
+            "summaryChars": 177,
+            "summaryHash": "334f96a1cafd9325d695608fe065a4a00888f6b55279d396590575b39e62728a",
+            "schemaChars": 451,
+            "schemaHash": "dc7d765d0b17a3176dec273941f54bd81b0bf25d45137c88ca85b8717fddea48",
+            "propertiesCount": 4
+          },
+          {
+            "name": "conversations_list",
+            "summaryChars": 159,
+            "summaryHash": "527335ff7cc669a406a88dbb1ea150631cea16155fa517fc76c8be38f8285190",
+            "schemaChars": 182,
+            "schemaHash": "49892a498ef1d6c253ce4a1bb1e97592906a526314ef999c31aa2319fd38e9b8",
+            "propertiesCount": 3
+          },
+          {
+            "name": "conversations_send",
+            "summaryChars": 152,
+            "summaryHash": "7031570c2ea879e8ebb39548c931374a864db8bfeb4d634de7d234a7f43fbbe3",
+            "schemaChars": 180,
+            "schemaHash": "05beb08b5a7ac5ade11f42e20123eeb76985950ae50ae524c6501c7675354fd9",
+            "propertiesCount": 2
+          },
+          {
+            "name": "conversations_turn",
+            "summaryChars": 190,
+            "summaryHash": "67bb15e899769e37e6d2ff596dba9c33ac6c828e12ef2903fc40fbf5df56aeb3",
+            "schemaChars": 242,
+            "schemaHash": "7f2589fad8e1a6d54e1431bdb40ac6861262ef0e5111596e9d9f5c80032d73c9",
+            "propertiesCount": 3
+          },
+          {
+            "name": "sessions_send",
+            "summaryChars": 1928,
+            "summaryHash": "03bc1a3a36db10ba9dc43aa9e11181b090b1c673f8a35d3e3543b0604d8d1c76",
+            "schemaChars": 591,
+            "schemaHash": "d1cbcaca2adfcd2959b9a4d207df579d6c815a283b3825188f021eeffd325079",
+            "propertiesCount": 8
+          },
+          {
+            "name": "sessions_spawn",
+            "summaryChars": 3910,
+            "summaryHash": "5f896c1abb5a3ec46cbdee55d02dcf71fcef9ddf0a45e4ab002e9da3da17784e",
+            "schemaChars": 5953,
+            "schemaHash": "3b2a90fd3fd0706936d6806f024aeaee5302495f3a458ddb12e5d786ab93bc40",
+            "propertiesCount": 31
+          },
+          {
+            "name": "agents_wait",
+            "summaryChars": 202,
+            "summaryHash": "eedf035982c7c4b9b386ed87e932630b03bc6f07fcdf94709b287665c77c168d",
+            "schemaChars": 400,
+            "schemaHash": "2bd3b8d28debbb1012112e731288dc09fddca281521b24bb31684cf4f9936bec",
+            "propertiesCount": 3
+          },
+          {
+            "name": "sessions_yield",
+            "summaryChars": 408,
+            "summaryHash": "470a8575514ff51a8f6eec8abb2a40c7f87f58bf706c1198728a0168c73e5e22",
+            "schemaChars": 539,
+            "schemaHash": "a5313700805e438f5ff8096b2d6074432400b6bf8ef9d1e5728a825869930de1",
+            "propertiesCount": 3
+          },
+          {
+            "name": "subagents",
+            "summaryChars": 159,
+            "summaryHash": "3a6c28bad09ee88cf3a09610ab7c234e5cbcf2b542ff6fe01a361b15baf6f927",
+            "schemaChars": 410,
+            "schemaHash": "ebca1dd5b1f3605ee2de9f2fd2b830195594fe0f04459ac3b014566b92cba590",
+            "propertiesCount": 5
+          },
+          {
+            "name": "session_status",
+            "summaryChars": 192,
+            "summaryHash": "23343479c1bf552695627bd580795ca22cdc1020232f6984bf0cad5557f74dbd",
+            "schemaChars": 264,
+            "schemaHash": "e3baf5366ce6c03802e7a7eb83f9980c2bbfcf94c5332e0add4348c7a6bad053",
+            "propertiesCount": 4
+          },
+          {
+            "name": "web_fetch",
+            "summaryChars": 78,
+            "summaryHash": "616ac805dfdeaeadbb5e03504e84d52b01ecaa88c7e7100fa4c06eca8eb6195f",
+            "schemaChars": 317,
+            "schemaHash": "eca30c487911c9e897ba27b4650770cf23137fc6ed8d77756ea3952fa496ea61",
+            "propertiesCount": 3
+          },
+          {
+            "name": "list_todos",
+            "summaryChars": 147,
+            "summaryHash": "fe07e917e96b6046221cecf6fbca28f9cd328fba3116226e8cba5e4bddc2decb",
+            "schemaChars": 185,
+            "schemaHash": "bc612221bc140ea5052736c3fd93747834e2c4ff6e66d913a17a2d73657078ec",
+            "propertiesCount": 1
+          },
+          {
+            "name": "durability_checkpoint",
+            "summaryChars": 162,
+            "summaryHash": "3347016ce6a30ac93f58b1f8e541339bf00bacb5477c261d9a57e311ab501630",
+            "schemaChars": 62,
+            "schemaHash": "32062bdb9024160d3b9816f12ba2f337808ee107449f8bf08d55b0026944f51e",
+            "propertiesCount": 0
+          },
+          {
+            "name": "assistant_report",
+            "summaryChars": 237,
+            "summaryHash": "42e2c8e00a87632ebc569537bee0a2ecb520c02127b152074acc0e60bb7aff2d",
+            "schemaChars": 315,
+            "schemaHash": "1c98cfdc9c7ada1c4249ee590f4c9ce7b9a992f89cd81464d0fa6eacd6b96ff9",
+            "propertiesCount": 1
+          },
+          {
+            "name": "list_test_emails",
+            "summaryChars": 194,
+            "summaryHash": "b05dd048f5ae6b495496f31624ee2fc712f0446ccdf92c8b38a84854bb1d48f0",
+            "schemaChars": 328,
+            "schemaHash": "f9ab1665ec417b309a72aec62ebb023691962a3e865b68983c53da2029bd895a",
+            "propertiesCount": 3
+          },
+          {
+            "name": "get_test_email",
+            "summaryChars": 217,
+            "summaryHash": "637f2dc0f34c321f9cd8637ffb26ac6ae6e94e67e219a40ed8d9bee92d6f2ed6",
+            "schemaChars": 257,
+            "schemaHash": "d2f2be2425e4b0ce3019c286c414dc9cd08f27b8bf32bea5c0da4451e85a6cab",
+            "propertiesCount": 2
+          },
+          {
+            "name": "classify_assistant_email",
+            "summaryChars": 235,
+            "summaryHash": "91c43e8b2d829b11cd7a33e7ffdb9b6df1ac1bf64152f1ab617a5acf14c7ff80",
+            "schemaChars": 257,
+            "schemaHash": "d2f2be2425e4b0ce3019c286c414dc9cd08f27b8bf32bea5c0da4451e85a6cab",
+            "propertiesCount": 2
+          },
+          {
+            "name": "draft_email_reply",
+            "summaryChars": 211,
+            "summaryHash": "ae3c24783ff6d0f53931193b71a4d96c2024652be61da04a2dcc110ce4fe16c2",
+            "schemaChars": 257,
+            "schemaHash": "d2f2be2425e4b0ce3019c286c414dc9cd08f27b8bf32bea5c0da4451e85a6cab",
+            "propertiesCount": 2
+          },
+          {
+            "name": "list_test_events",
+            "summaryChars": 225,
+            "summaryHash": "3fbe68f41039b17c9e7bdd53a9e117778de6b83aa42e0f3fdd37b3aaa4726e88",
+            "schemaChars": 476,
+            "schemaHash": "a47a3b27a161e4ef340ddc04b7bcb6b83290a8e1e4c44fd9d8ca2047f9f7dbb5",
+            "propertiesCount": 5
+          },
+          {
+            "name": "node_inference",
+            "summaryChars": 206,
+            "summaryHash": "49c5e7e56c65dee8e708065c58240d64d8067dc07d9d13597890ecb5388ac88d",
+            "schemaChars": 646,
+            "schemaHash": "be130f0c61252e22f4d55745a82bc04926efb36ec1c8204bcfb49a7cda0aab20",
+            "propertiesCount": 8
+          }
+        ]
+      },
+      "currentTurn": {
+        "promptChars": 64,
+        "runtimeContextChars": 225,
+        "modelOnlyPromptChars": 0
+      }
+    },
+    "finalPromptText": "Compare merge sort and quicksort in two sentences. Use no tools.",
+    "finalAssistantVisibleText": "Merge sort is a stable sorting algorithm with a guaranteed time complexity of O(n log n) and requires extra space, whereas Quicksort is generally faster in practice but is not stable and typically performs in-place.",
+    "finalAssistantRawText": "Merge sort is a stable sorting algorithm with a guaranteed time complexity of O(n log n) and requires extra space, whereas Quicksort is generally faster in practice but is not stable and typically performs in-place.",
+    "replayInvalid": false,
+    "livenessState": "working",
+    "stopReason": "stop",
+    "executionTrace": {
+      "winnerProvider": "ollama",
+      "winnerModel": "gemma4:e2b",
+      "attempts": [
+        {
+          "provider": "ollama",
+          "model": "gemma4:e2b",
+          "result": "success",
+          "stage": "assistant"
+        }
+      ],
+      "fallbackUsed": false,
+      "runner": "embedded"
+    },
+    "requestShaping": {
+      "thinking": "low"
+    },
+    "completion": {
+      "stopReason": "stop",
+      "finishReason": "stop"
+    },
+    "finalAssistantMessageRawText": "Merge sort is a stable sorting algorithm with a guaranteed time complexity of O(n log n) and requires extra space, whereas Quicksort is generally faster in practice but is not stable and typically performs in-place.",
+    "terminalReply": {
+      "disposition": "visible",
+      "text": "Merge sort is a stable sorting algorithm with a guaranteed time complexity of O(n log n) and requires extra space, whereas Quicksort is generally faster in practice but is not stable and typically performs in-place."
+    }
+  }
+}

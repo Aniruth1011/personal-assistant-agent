@@ -1,0 +1,41 @@
+[
+  {
+    "jsonPayload": {
+      "at": "2026-11-16T20:48:34.043Z",
+      "event": "assistant.routed_model_verified",
+      "kind": "local",
+      "model": "gemma4:e2b",
+      "provider": "ollama"
+    },
+    "timestamp": "2026-11-16T20:48:34.042912Z"
+  },
+  {
+    "jsonPayload": {
+      "at": "2026-11-16T20:48:02.435Z",
+      "event": "assistant.routed_model_verified",
+      "kind": "cloud",
+      "model": "gpt-6-luna",
+      "provider": "openai"
+    },
+    "timestamp": "2026-11-16T20:48:02.435273Z"
+  },
+  {
+    "jsonPayload": {
+      "at": "2026-11-16T20:47:22.957Z",
+      "calendarCount": 0,
+      "emailCount": 1,
+      "event": "assistant.google_read_verified"
+    },
+    "timestamp": "2026-11-16T20:47:22.957267Z"
+  },
+  {
+    "jsonPayload": {
+      "at": "2026-11-16T20:47:16.738Z",
+      "capabilities": "0000000000000000",
+      "event": "assistant.isolation_verified",
+      "noNewPrivileges": "1",
+      "uid": 1000
+    },
+    "timestamp": "2026-11-16T20:47:16.738821Z"
+  }
+]

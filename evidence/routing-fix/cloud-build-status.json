@@ -1,0 +1,121 @@
+{
+  "artifacts": {
+    "images": [
+      "us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime:routing-fix-20261116"
+    ]
+  },
+  "createTime": "2026-11-16T19:40:06.604078533Z",
+  "finishTime": "2026-11-16T19:43:22.717823Z",
+  "id": "e75ae3cd-a4fb-43d0-8c9e-ca7a90730f9d",
+  "images": [
+    "us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime:routing-fix-20261116"
+  ],
+  "logUrl": "https://console.cloud.google.com/cloud-build/builds;region=us-west1/e75ae3cd-a4fb-43d0-8c9e-ca7a90730f9d?project=469697186976",
+  "logsBucket": "gs://469697186976-us-west1-cloudbuild-logs",
+  "name": "projects/469697186976/locations/us-west1/builds/e75ae3cd-a4fb-43d0-8c9e-ca7a90730f9d",
+  "options": {
+    "logging": "LEGACY",
+    "pool": {},
+    "workerRelease": "legacy"
+  },
+  "projectId": "amplified-coder-510723-p3",
+  "queueTtl": "3600s",
+  "results": {
+    "buildStepImages": [
+      "sha256:91eaff0806a70dc0b3c853191a2da9995b2aa88d9b24196182344a4cef633603"
+    ],
+    "buildStepOutputs": [
+      ""
+    ],
+    "images": [
+      {
+        "artifactRegistryPackage": "projects/amplified-coder-510723-p3/locations/us-west1/repositories/applypilot/packages/runtime/versions/sha256:e7cdaeb8fee94df39729e4829c80bbf6904df70ab77f23de2e6da375e642aad7",
+        "digest": "sha256:e7cdaeb8fee94df39729e4829c80bbf6904df70ab77f23de2e6da375e642aad7",
+        "name": "us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime:routing-fix-20261116",
+        "pushTiming": {
+          "endTime": "2026-11-16T19:43:20.557301748Z",
+          "startTime": "2026-11-16T19:42:21.611008252Z"
+        }
+      }
+    ],
+    "resourceUsage": {
+      "averageCpuUtilization": 0.6458219,
+      "averageMemoryUtilization": 0.109248586,
+      "peakCpuUtilization": 1.0,
+      "peakMemoryUtilization": 0.20956051,
+      "totalCpuDuration": "243.340s"
+    }
+  },
+  "serviceAccount": "projects/amplified-coder-510723-p3/serviceAccounts/469697186976-compute@developer.gserviceaccount.com",
+  "source": {
+    "storageSource": {
+      "bucket": "amplified-coder-510723-p3_cloudbuild",
+      "generation": "1794858006068812",
+      "object": "source/1794858005.520367-63e9d072c782474a817d643a87de922e.tgz"
+    }
+  },
+  "sourceProvenance": {
+    "fileHashes": {
+      "gs://amplified-coder-510723-p3_cloudbuild/source/1794858005.520367-63e9d072c782474a817d643a87de922e.tgz#1794858006068812": {
+        "fileHash": [
+          {
+            "type": "MD5",
+            "value": "DPhchHYMx7A261yUNO_lKg=="
+          },
+          {
+            "type": "SHA256",
+            "value": "bGQ985bGPbgUpSCk1ug91RiXvZ6Q4bWlalBHZ6mJuFM="
+          }
+        ]
+      }
+    },
+    "resolvedStorageSource": {
+      "bucket": "amplified-coder-510723-p3_cloudbuild",
+      "generation": "1794858006068812",
+      "object": "source/1794858005.520367-63e9d072c782474a817d643a87de922e.tgz"
+    }
+  },
+  "startTime": "2026-11-16T19:40:07.948757398Z",
+  "status": "SUCCESS",
+  "steps": [
+    {
+      "args": [
+        "build",
+        "-f",
+        "deploy/Dockerfile",
+        "-t",
+        "us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime:routing-fix-20261116",
+        "."
+      ],
+      "name": "gcr.io/cloud-builders/docker",
+      "pullTiming": {
+        "endTime": "2026-11-16T19:40:12.405963467Z",
+        "startTime": "2026-11-16T19:40:12.396782221Z"
+      },
+      "status": "SUCCESS",
+      "timing": {
+        "endTime": "2026-11-16T19:42:21.563481502Z",
+        "startTime": "2026-11-16T19:40:12.396782221Z"
+      }
+    }
+  ],
+  "timeout": "1800s",
+  "timing": {
+    "BUILD": {
+      "endTime": "2026-11-16T19:42:21.610572248Z",
+      "startTime": "2026-11-16T19:40:11.674008219Z"
+    },
+    "FETCHSOURCE": {
+      "endTime": "2026-11-16T19:40:11.673650252Z",
+      "startTime": "2026-11-16T19:40:09.487537808Z"
+    },
+    "PUSH": {
+      "endTime": "2026-11-16T19:43:20.560075685Z",
+      "startTime": "2026-11-16T19:42:21.610993292Z"
+    },
+    "STORAGE_SOURCE": {
+      "endTime": "2026-11-16T19:40:11.673650252Z",
+      "startTime": "2026-11-16T19:40:09.487537808Z"
+    }
+  }
+}

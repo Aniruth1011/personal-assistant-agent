@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-13T07:15:33.952Z",
+  "image": "sha256:0f8fd3f2cc347cc3530181311673be2b645183162c5ea49ad0790ca4b0458089",
+  "counts": {
+    "assistant_report_runs": 6,
+    "assistant_email_context": 2,
+    "todos": 0,
+    "knowledge_facts": 0
+  },
+  "knowledgeMirrorHash": "9cb865e809cf3d5d730fa7f0440a5dc85b65219d1a9c9e8e60c6c766ec79e0d1",
+  "matchesBefore": true,
+  "limitation": "Positive recovery of report/email records; nonempty human-created knowledge/task cloud recovery remains pending human input."
+}

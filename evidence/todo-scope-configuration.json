@@ -1,0 +1,24 @@
+{
+  "scope": "Isolated local prepare only; no Gateway or Telegram started",
+  "skills": [
+    "todo",
+    "email",
+    "calendar",
+    "web-search"
+  ],
+  "tools": [
+    "durability_checkpoint",
+    "assistant_report",
+    "list_todos",
+    "list_test_emails",
+    "get_test_email",
+    "classify_assistant_email",
+    "draft_email_reply",
+    "list_test_events",
+    "web_search",
+    "skills_read",
+    "skills_search"
+  ],
+  "statePreserved": true,
+  "configuredDatabase": true
+}

@@ -1,0 +1,8 @@
+
+> openclaw-plugin-applypilot-agent@0.1.0 plugin:build
+> npm run build && mkdir -p dist/fixtures && cp -R ../../fixtures/. dist/fixtures/ && openclaw plugins build --entry ./dist/src/plugin/src/index.js
+
+npm notice run openclaw-plugin-applypilot-agent@0.1.0 build
+npm notice run tsc -p tsconfig.json
+Wrote openclaw.plugin.json
+Updated package.json

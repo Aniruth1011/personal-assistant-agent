@@ -1,0 +1,10 @@
+{
+  "caseId": "priority-06",
+  "type": "work_prioritization",
+  "arm": "cloud",
+  "startedAt": "2026-11-16T20:15:33.181203+00:00",
+  "elapsedMs": 958976,
+  "exit": 124,
+  "stdout": "",
+  "stderr": "CLIENT_TIMEOUT"
+}

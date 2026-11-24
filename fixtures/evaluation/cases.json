@@ -1,0 +1,272 @@
+[
+  {
+    "id": "extract-00",
+    "type": "bulletin_extraction",
+    "prompt": "Analyze this fictional public bulletin. The Atlas workshop is on 2026-12-01. Registration closes on 2026-11-19. The venue changed from Hall A to Hall B. Return ONLY JSON with keys event_date, registration_deadline, venue. Use no tools.",
+    "expected": {
+      "event_date": "2026-12-01",
+      "registration_deadline": "2026-11-19",
+      "venue": "Hall B"
+    }
+  },
+  {
+    "id": "gap-00",
+    "type": "schedule_gap_reasoning",
+    "prompt": "Analyze this fictional public timetable. Working window 09:00 to 10:30. Busy intervals: 09:00\u201309:20, 09:40\u201310:00. Find the earliest free interval of exactly 20 minutes. Endpoints may touch. Return ONLY JSON with start and end as HH:MM strings. Use no tools.",
+    "expected": {
+      "start": "09:20",
+      "end": "09:40"
+    }
+  },
+  {
+    "id": "priority-00",
+    "type": "work_prioritization",
+    "prompt": "Evaluate these fictional public work items. Rank earlier due date first, then priority ascending (1 highest), then ID alphabetically. A0: due 2026-12-03 priority 1; B0: due 2026-12-02 priority 2; C0: due 2026-12-02 priority 1. Return ONLY JSON with key order containing the three IDs. Use no tools.",
+    "expected": {
+      "order": ["C0", "B0", "A0"]
+    }
+  },
+  {
+    "id": "extract-01",
+    "type": "bulletin_extraction",
+    "prompt": "Analyze this fictional public bulletin. The Atlas workshop is on 2026-12-02. Registration closes on 2026-11-20. The venue changed from Hall A to Hall B. Return ONLY JSON with keys event_date, registration_deadline, venue. Use no tools.",
+    "expected": {
+      "event_date": "2026-12-02",
+      "registration_deadline": "2026-11-20",
+      "venue": "Hall B"
+    }
+  },
+  {
+    "id": "gap-01",
+    "type": "schedule_gap_reasoning",
+    "prompt": "Analyze this fictional public timetable. Working window 09:05 to 10:35. Busy intervals: 09:05\u201309:25, 09:45\u201310:05. Find the earliest free interval of exactly 20 minutes. Endpoints may touch. Return ONLY JSON with start and end as HH:MM strings. Use no tools.",
+    "expected": {
+      "start": "09:25",
+      "end": "09:45"
+    }
+  },
+  {
+    "id": "priority-01",
+    "type": "work_prioritization",
+    "prompt": "Evaluate these fictional public work items. Rank earlier due date first, then priority ascending (1 highest), then ID alphabetically. A1: due 2026-12-03 priority 1; B1: due 2026-12-02 priority 2; C1: due 2026-12-02 priority 1. Return ONLY JSON with key order containing the three IDs. Use no tools.",
+    "expected": {
+      "order": ["C1", "B1", "A1"]
+    }
+  },
+  {
+    "id": "extract-02",
+    "type": "bulletin_extraction",
+    "prompt": "Analyze this fictional public bulletin. The Atlas workshop is on 2026-12-03. Registration closes on 2026-11-21. The venue changed from Hall A to Hall B. Return ONLY JSON with keys event_date, registration_deadline, venue. Use no tools.",
+    "expected": {
+      "event_date": "2026-12-03",
+      "registration_deadline": "2026-11-21",
+      "venue": "Hall B"
+    }
+  },
+  {
+    "id": "gap-02",
+    "type": "schedule_gap_reasoning",
+    "prompt": "Analyze this fictional public timetable. Working window 09:10 to 10:40. Busy intervals: 09:10\u201309:30, 09:50\u201310:10. Find the earliest free interval of exactly 20 minutes. Endpoints may touch. Return ONLY JSON with start and end as HH:MM strings. Use no tools.",
+    "expected": {
+      "start": "09:30",
+      "end": "09:50"
+    }
+  },
+  {
+    "id": "priority-02",
+    "type": "work_prioritization",
+    "prompt": "Evaluate these fictional public work items. Rank earlier due date first, then priority ascending (1 highest), then ID alphabetically. A2: due 2026-12-03 priority 1; B2: due 2026-12-02 priority 2; C2: due 2026-12-02 priority 1. Return ONLY JSON with key order containing the three IDs. Use no tools.",
+    "expected": {
+      "order": ["C2", "B2", "A2"]
+    }
+  },
+  {
+    "id": "extract-03",
+    "type": "bulletin_extraction",
+    "prompt": "Analyze this fictional public bulletin. The Atlas workshop is on 2026-12-04. Registration closes on 2026-11-22. The venue changed from Hall A to Hall B. Return ONLY JSON with keys event_date, registration_deadline, venue. Use no tools.",
+    "expected": {
+      "event_date": "2026-12-04",
+      "registration_deadline": "2026-11-22",
+      "venue": "Hall B"
+    }
+  },
+  {
+    "id": "gap-03",
+    "type": "schedule_gap_reasoning",
+    "prompt": "Analyze this fictional public timetable. Working window 09:15 to 10:45. Busy intervals: 09:15\u201309:35, 09:55\u201310:15. Find the earliest free interval of exactly 20 minutes. Endpoints may touch. Return ONLY JSON with start and end as HH:MM strings. Use no tools.",
+    "expected": {
+      "start": "09:35",
+      "end": "09:55"
+    }
+  },
+  {
+    "id": "priority-03",
+    "type": "work_prioritization",
+    "prompt": "Evaluate these fictional public work items. Rank earlier due date first, then priority ascending (1 highest), then ID alphabetically. A3: due 2026-12-03 priority 1; B3: due 2026-12-02 priority 2; C3: due 2026-12-02 priority 1. Return ONLY JSON with key order containing the three IDs. Use no tools.",
+    "expected": {
+      "order": ["C3", "B3", "A3"]
+    }
+  },
+  {
+    "id": "extract-04",
+    "type": "bulletin_extraction",
+    "prompt": "Analyze this fictional public bulletin. The Atlas workshop is on 2026-12-05. Registration closes on 2026-11-23. The venue changed from Hall A to Hall B. Return ONLY JSON with keys event_date, registration_deadline, venue. Use no tools.",
+    "expected": {
+      "event_date": "2026-12-05",
+      "registration_deadline": "2026-11-23",
+      "venue": "Hall B"
+    }
+  },
+  {
+    "id": "gap-04",
+    "type": "schedule_gap_reasoning",
+    "prompt": "Analyze this fictional public timetable. Working window 09:20 to 10:50. Busy intervals: 09:20\u201309:40, 10:00\u201310:20. Find the earliest free interval of exactly 20 minutes. Endpoints may touch. Return ONLY JSON with start and end as HH:MM strings. Use no tools.",
+    "expected": {
+      "start": "09:40",
+      "end": "10:00"
+    }
+  },
+  {
+    "id": "priority-04",
+    "type": "work_prioritization",
+    "prompt": "Evaluate these fictional public work items. Rank earlier due date first, then priority ascending (1 highest), then ID alphabetically. A4: due 2026-12-03 priority 1; B4: due 2026-12-02 priority 2; C4: due 2026-12-02 priority 1. Return ONLY JSON with key order containing the three IDs. Use no tools.",
+    "expected": {
+      "order": ["C4", "B4", "A4"]
+    }
+  },
+  {
+    "id": "extract-05",
+    "type": "bulletin_extraction",
+    "prompt": "Analyze this fictional public bulletin. The Atlas workshop is on 2026-12-06. Registration closes on 2026-11-24. The venue changed from Hall A to Hall B. Return ONLY JSON with keys event_date, registration_deadline, venue. Use no tools.",
+    "expected": {
+      "event_date": "2026-12-06",
+      "registration_deadline": "2026-11-24",
+      "venue": "Hall B"
+    }
+  },
+  {
+    "id": "gap-05",
+    "type": "schedule_gap_reasoning",
+    "prompt": "Analyze this fictional public timetable. Working window 09:25 to 10:55. Busy intervals: 09:25\u201309:45, 10:05\u201310:25. Find the earliest free interval of exactly 20 minutes. Endpoints may touch. Return ONLY JSON with start and end as HH:MM strings. Use no tools.",
+    "expected": {
+      "start": "09:45",
+      "end": "10:05"
+    }
+  },
+  {
+    "id": "priority-05",
+    "type": "work_prioritization",
+    "prompt": "Evaluate these fictional public work items. Rank earlier due date first, then priority ascending (1 highest), then ID alphabetically. A5: due 2026-12-03 priority 1; B5: due 2026-12-02 priority 2; C5: due 2026-12-02 priority 1. Return ONLY JSON with key order containing the three IDs. Use no tools.",
+    "expected": {
+      "order": ["C5", "B5", "A5"]
+    }
+  },
+  {
+    "id": "extract-06",
+    "type": "bulletin_extraction",
+    "prompt": "Analyze this fictional public bulletin. The Atlas workshop is on 2026-12-07. Registration closes on 2026-11-25. The venue changed from Hall A to Hall B. Return ONLY JSON with keys event_date, registration_deadline, venue. Use no tools.",
+    "expected": {
+      "event_date": "2026-12-07",
+      "registration_deadline": "2026-11-25",
+      "venue": "Hall B"
+    }
+  },
+  {
+    "id": "gap-06",
+    "type": "schedule_gap_reasoning",
+    "prompt": "Analyze this fictional public timetable. Working window 09:30 to 11:00. Busy intervals: 09:30\u201309:50, 10:10\u201310:30. Find the earliest free interval of exactly 20 minutes. Endpoints may touch. Return ONLY JSON with start and end as HH:MM strings. Use no tools.",
+    "expected": {
+      "start": "09:50",
+      "end": "10:10"
+    }
+  },
+  {
+    "id": "priority-06",
+    "type": "work_prioritization",
+    "prompt": "Evaluate these fictional public work items. Rank earlier due date first, then priority ascending (1 highest), then ID alphabetically. A6: due 2026-12-03 priority 1; B6: due 2026-12-02 priority 2; C6: due 2026-12-02 priority 1. Return ONLY JSON with key order containing the three IDs. Use no tools.",
+    "expected": {
+      "order": ["C6", "B6", "A6"]
+    }
+  },
+  {
+    "id": "extract-07",
+    "type": "bulletin_extraction",
+    "prompt": "Analyze this fictional public bulletin. The Atlas workshop is on 2026-12-08. Registration closes on 2026-11-26. The venue changed from Hall A to Hall B. Return ONLY JSON with keys event_date, registration_deadline, venue. Use no tools.",
+    "expected": {
+      "event_date": "2026-12-08",
+      "registration_deadline": "2026-11-26",
+      "venue": "Hall B"
+    }
+  },
+  {
+    "id": "gap-07",
+    "type": "schedule_gap_reasoning",
+    "prompt": "Analyze this fictional public timetable. Working window 09:35 to 11:05. Busy intervals: 09:35\u201309:55, 10:15\u201310:35. Find the earliest free interval of exactly 20 minutes. Endpoints may touch. Return ONLY JSON with start and end as HH:MM strings. Use no tools.",
+    "expected": {
+      "start": "09:55",
+      "end": "10:15"
+    }
+  },
+  {
+    "id": "priority-07",
+    "type": "work_prioritization",
+    "prompt": "Evaluate these fictional public work items. Rank earlier due date first, then priority ascending (1 highest), then ID alphabetically. A7: due 2026-12-03 priority 1; B7: due 2026-12-02 priority 2; C7: due 2026-12-02 priority 1. Return ONLY JSON with key order containing the three IDs. Use no tools.",
+    "expected": {
+      "order": ["C7", "B7", "A7"]
+    }
+  },
+  {
+    "id": "extract-08",
+    "type": "bulletin_extraction",
+    "prompt": "Analyze this fictional public bulletin. The Atlas workshop is on 2026-12-09. Registration closes on 2026-11-27. The venue changed from Hall A to Hall B. Return ONLY JSON with keys event_date, registration_deadline, venue. Use no tools.",
+    "expected": {
+      "event_date": "2026-12-09",
+      "registration_deadline": "2026-11-27",
+      "venue": "Hall B"
+    }
+  },
+  {
+    "id": "gap-08",
+    "type": "schedule_gap_reasoning",
+    "prompt": "Analyze this fictional public timetable. Working window 09:40 to 11:10. Busy intervals: 09:40\u201310:00, 10:20\u201310:40. Find the earliest free interval of exactly 20 minutes. Endpoints may touch. Return ONLY JSON with start and end as HH:MM strings. Use no tools.",
+    "expected": {
+      "start": "10:00",
+      "end": "10:20"
+    }
+  },
+  {
+    "id": "priority-08",
+    "type": "work_prioritization",
+    "prompt": "Evaluate these fictional public work items. Rank earlier due date first, then priority ascending (1 highest), then ID alphabetically. A8: due 2026-12-03 priority 1; B8: due 2026-12-02 priority 2; C8: due 2026-12-02 priority 1. Return ONLY JSON with key order containing the three IDs. Use no tools.",
+    "expected": {
+      "order": ["C8", "B8", "A8"]
+    }
+  },
+  {
+    "id": "extract-09",
+    "type": "bulletin_extraction",
+    "prompt": "Analyze this fictional public bulletin. The Atlas workshop is on 2026-12-10. Registration closes on 2026-11-28. The venue changed from Hall A to Hall B. Return ONLY JSON with keys event_date, registration_deadline, venue. Use no tools.",
+    "expected": {
+      "event_date": "2026-12-10",
+      "registration_deadline": "2026-11-28",
+      "venue": "Hall B"
+    }
+  },
+  {
+    "id": "gap-09",
+    "type": "schedule_gap_reasoning",
+    "prompt": "Analyze this fictional public timetable. Working window 09:45 to 11:15. Busy intervals: 09:45\u201310:05, 10:25\u201310:45. Find the earliest free interval of exactly 20 minutes. Endpoints may touch. Return ONLY JSON with start and end as HH:MM strings. Use no tools.",
+    "expected": {
+      "start": "10:05",
+      "end": "10:25"
+    }
+  },
+  {
+    "id": "priority-09",
+    "type": "work_prioritization",
+    "prompt": "Evaluate these fictional public work items. Rank earlier due date first, then priority ascending (1 highest), then ID alphabetically. A9: due 2026-12-03 priority 1; B9: due 2026-12-02 priority 2; C9: due 2026-12-02 priority 1. Return ONLY JSON with key order containing the three IDs. Use no tools.",
+    "expected": {
+      "order": ["C9", "B9", "A9"]
+    }
+  }
+]

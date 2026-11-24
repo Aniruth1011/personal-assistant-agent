@@ -1,0 +1,46 @@
+{
+  "gate": 6,
+  "task": "G6-22",
+  "runtime": {
+    "openclaw": "2026.11.2",
+    "node": "24.22.1",
+    "execution": "local Gateway tools.invoke against built ApplyPilot plugin",
+    "pluginValidation": "passed"
+  },
+  "happy": {
+    "observedAtUtc": "2026-11-11T00:21:07.056Z",
+    "tool": "draft_recruiter_reply",
+    "source": "plugin",
+    "status": "success",
+    "category": "interview",
+    "notSent": true,
+    "providerSideDraftCreated": false,
+    "contentTrust": "untrusted_external_content",
+    "evidenceReferenceCount": 2,
+    "auditResult": "success_not_sent"
+  },
+  "edgeAndFailure": {
+    "ambiguousMessage": "needs_human / EMAIL_REPLY_CONTEXT_UNCLEAR; one source reference; no draft or send",
+    "providerOutage": "failed_safe / EMAIL_PROVIDER_UNAVAILABLE; zero evidence references",
+    "tests": "both cases passed in src/plugin/src/index.test.ts"
+  },
+  "security": {
+    "providerOperation": "read-only Gmail thread retrieval",
+    "sendOrDraftCommandAllowed": false,
+    "requestRecipientAccepted": false,
+    "messageBodyInAudit": false
+  },
+  "testRuns": {
+    "format": "passed",
+    "lint": "passed",
+    "typecheck": "passed",
+    "unitIntegrationE2e": "13 files passed; 107 tests passed",
+    "secretScan": "passed; no configured patterns in 112 files",
+    "pluginBuild": "passed",
+    "pluginValidation": "Plugin applypilot-agent is valid."
+  },
+  "limitations": [
+    "The tool returns suggested text only; authenticated approved sending is not implemented in this operation.",
+    "Live proof used the local Gateway and dedicated synthetic Gmail, not a cloud deployment."
+  ]
+}

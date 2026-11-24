@@ -1,0 +1,270 @@
+{
+  "scope": "plugin",
+  "metadata": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 23,
+      "high": 4,
+      "critical": 0,
+      "total": 27
+    },
+    "dependencies": {
+      "prod": 54,
+      "dev": 614,
+      "optional": 114,
+      "peer": 37,
+      "peerOptional": 0,
+      "total": 667
+    }
+  },
+  "advisories": [
+    {
+      "name": "@npmcli/arborist",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "openclaw",
+        "version": "2026.4.29",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "@npmcli/config",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "openclaw",
+        "version": "2026.4.29",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "@npmcli/map-workspaces",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "openclaw",
+        "version": "2026.4.29",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "@npmcli/metavuln-calculator",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "openclaw",
+        "version": "2026.4.29",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "@npmcli/package-json",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "openclaw",
+        "version": "2026.4.29",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "@sigstore/tuf",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "openclaw",
+        "version": "2026.4.29",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "@tufjs/models",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "openclaw",
+        "version": "2026.4.29",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "brace-expansion",
+      "severity": "high",
+      "isDirect": false,
+      "fixAvailable": true
+    },
+    {
+      "name": "cacache",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "openclaw",
+        "version": "2026.4.29",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "glob",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "openclaw",
+        "version": "2026.4.29",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "ignore-walk",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": true
+    },
+    {
+      "name": "ip-address",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": true
+    },
+    {
+      "name": "libnpmdiff",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "openclaw",
+        "version": "2026.4.29",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "libnpmexec",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "openclaw",
+        "version": "2026.4.29",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "libnpmfund",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "openclaw",
+        "version": "2026.4.29",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "libnpmpack",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "openclaw",
+        "version": "2026.4.29",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "libnpmpublish",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "openclaw",
+        "version": "2026.4.29",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "minimatch",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "openclaw",
+        "version": "2026.4.29",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "npm",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "openclaw",
+        "version": "2026.4.29",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "npm-packlist",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": true
+    },
+    {
+      "name": "openclaw",
+      "severity": "high",
+      "isDirect": true,
+      "fixAvailable": {
+        "name": "openclaw",
+        "version": "2026.4.29",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "pacote",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "openclaw",
+        "version": "2026.4.29",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "postcss-selector-parser",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": true
+    },
+    {
+      "name": "sigstore",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "openclaw",
+        "version": "2026.4.29",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "tuf-js",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "openclaw",
+        "version": "2026.4.29",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "undici",
+      "severity": "high",
+      "isDirect": false,
+      "fixAvailable": true
+    },
+    {
+      "name": "zod",
+      "severity": "high",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "openclaw",
+        "version": "2026.4.29",
+        "isSemVerMajor": true
+      }
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,1 @@
+{"uid":1000,"sourceReadable":true,"sourceWritable":false,"prepare":"PASS","fourSkills":["todo","email","calendar","web-search"]}

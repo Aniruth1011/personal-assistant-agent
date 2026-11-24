@@ -1,0 +1,16 @@
+{
+  "results": {
+    "images": [
+      {
+        "artifactRegistryPackage": "projects/amplified-coder-510723-p3/locations/us-west1/repositories/applypilot/packages/runtime/versions/sha256:0f8ba6aa230573df618772bbe41ed33ebf1db5143303163bdd6a42f423e8a886",
+        "digest": "sha256:0f8ba6aa230573df618772bbe41ed33ebf1db5143303163bdd6a42f423e8a886",
+        "name": "us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime:telegram-read-fix-r5-20261116",
+        "pushTiming": {
+          "endTime": "2026-11-16T22:43:05.270866096Z",
+          "startTime": "2026-11-16T22:43:03.559682442Z"
+        }
+      }
+    ]
+  },
+  "status": "SUCCESS"
+}

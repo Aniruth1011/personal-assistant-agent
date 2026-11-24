@@ -1,0 +1,106 @@
+{
+  "at": "2026-11-12T20:24:51.907Z",
+  "kind": "Actual Gateway tool RPC; not model-directed or Telegram skill test",
+  "results": [
+    {
+      "tool": "evaluate_eligibility",
+      "http": 200,
+      "status": "success",
+      "dataKeys": [
+        "candidateId",
+        "jobId",
+        "jobRevision",
+        "status",
+        "requirements"
+      ],
+      "contentBlocks": 1
+    },
+    {
+      "tool": "list_test_events",
+      "http": 200,
+      "status": "success",
+      "dataKeys": [
+        "events"
+      ],
+      "contentBlocks": 1,
+      "eventCount": 0
+    },
+    {
+      "tool": "list_test_emails",
+      "http": 200,
+      "status": "success",
+      "dataKeys": [
+        "threads"
+      ],
+      "contentBlocks": 1,
+      "threadCount": 1
+    },
+    {
+      "tool": "get_test_email",
+      "http": 200,
+      "status": "success",
+      "dataKeys": [
+        "threadId",
+        "message",
+        "contentTrust"
+      ],
+      "contentBlocks": 1
+    },
+    {
+      "tool": "classify_recruitment_email",
+      "http": 200,
+      "status": "success",
+      "dataKeys": [
+        "threadId",
+        "deduplication",
+        "classification"
+      ],
+      "contentBlocks": 1,
+      "deduplication": "new"
+    },
+    {
+      "tool": "draft_recruiter_reply",
+      "http": 200,
+      "status": "success",
+      "dataKeys": [
+        "threadId",
+        "category",
+        "body",
+        "notSent",
+        "contentTrust"
+      ],
+      "contentBlocks": 1,
+      "notSent": true
+    },
+    {
+      "tool": "classify_recruitment_email",
+      "http": 200,
+      "status": "success",
+      "dataKeys": [
+        "threadId",
+        "deduplication",
+        "classification"
+      ],
+      "contentBlocks": 1,
+      "deduplication": "duplicate"
+    },
+    {
+      "tool": "web_search",
+      "http": 200,
+      "dataKeys": [],
+      "contentBlocks": 1,
+      "resultCount": 3,
+      "sources": [
+        "https://docs.openclaw.ai/tools/plugin",
+        "https://docs.openclaw.ai/plugins/building-plugins",
+        "https://openclaw-ai.com/en/docs/tools/plugin"
+      ]
+    },
+    {
+      "tool": "send_approved_email",
+      "http": 404,
+      "dataKeys": [],
+      "contentBlocks": 0
+    }
+  ]
+}

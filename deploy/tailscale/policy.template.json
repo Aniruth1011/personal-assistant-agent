@@ -1,0 +1,27 @@
+{
+  "tagOwners": {
+    "tag:applypilot-cloud": ["autogroup:admin"]
+  },
+  "hosts": {
+    "applypilot-laptop": "192.0.2.1"
+  },
+  "grants": [
+    {
+      "src": ["tag:applypilot-cloud"],
+      "dst": ["applypilot-laptop"],
+      "ip": ["tcp:11434"]
+    },
+    {
+      "src": ["autogroup:member", "autogroup:shared"],
+      "dst": ["tag:applypilot-cloud"],
+      "ip": ["tcp:443"]
+    }
+  ],
+  "tests": [
+    {
+      "src": "tag:applypilot-cloud",
+      "accept": ["applypilot-laptop:11434"],
+      "deny": ["applypilot-laptop:22", "applypilot-laptop:443"]
+    }
+  ]
+}

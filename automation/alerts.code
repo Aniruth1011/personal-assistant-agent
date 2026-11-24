@@ -1,0 +1,2 @@
+const report = await assistant_report({ kind: "alerts" });
+return report.text ? { notify: report.text } : {};

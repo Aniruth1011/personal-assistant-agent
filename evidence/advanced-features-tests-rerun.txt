@@ -1,0 +1,13 @@
+
+> applypilot@0.1.0 test
+> vitest run
+
+
+ RUN  v5.1.0 /Users/aniruthsundararajan/Documents/Assignment3/Assignment 3 attached files Nov 6, 2026 1217 PM
+
+
+ Test Files  19 passed (19)
+      Tests  87 passed (87)
+   Start at  22:47:34
+   Duration  584ms (import 69%, tests 22%, transform 7%, worker 2%)
+

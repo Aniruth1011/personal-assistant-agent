@@ -1,0 +1,9 @@
+{
+  "at": "2026-11-13T08:27:32.411Z",
+  "http": 200,
+  "model": "gemma4:e2b",
+  "done": true,
+  "correct": true,
+  "latencyMs": 1319,
+  "kind": "Actual cloud-to-laptop inference after local outage recovery"
+}

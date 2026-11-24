@@ -1,0 +1,24 @@
+{
+  "routingStatus": "local recovery passed",
+  "wordCountStatus": "reply back online has2words, not requested3",
+  "localEndpoint": "HTTP connection succeeded; gemma4:e2b loaded,100%GPU,32768context",
+  "messages": [
+    {
+      "role": "user",
+      "timestamp": 1794874975108,
+      "content": "This is confidential: say \"back online\" in three words."
+    },
+    {
+      "role": "assistant",
+      "provider": "ollama",
+      "model": "gemma4:e2b",
+      "timestamp": 1794874984552,
+      "content": [
+        {
+          "type": "text",
+          "text": "back online"
+        }
+      ]
+    }
+  ]
+}

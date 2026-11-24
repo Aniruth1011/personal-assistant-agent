@@ -1,0 +1,10 @@
+{
+  "at": "2026-11-13T08:09:00.621Z",
+  "facts": 1,
+  "tasks": 1,
+  "factHash": "13752e4e29a88e1aacd085a94387e5205b3c81ed1d429003b40d982f23427148",
+  "taskHash": "08363be381b062333d9cc2604ddda45b95671e9d4add5d3ffd9e9f8fbc184571",
+  "knowledgeMirrorHash": "bb9053b304100f5a3046ae74b5ddc60bf2a5c0c48d8e6b8fbf548d08c5261206",
+  "kind": "Independent process restoring real GCS snapshot to fresh temporary disk; live database untouched",
+  "snapshotId": "a4792a8073daeb7178a38756fe63e9819d0ea4fbbf24834ed36f7b5c0e783c2b"
+}

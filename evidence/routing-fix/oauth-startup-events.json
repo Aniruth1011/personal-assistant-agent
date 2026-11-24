@@ -1,0 +1,62 @@
+[
+  {
+    "jsonPayload": {
+      "event": "assistant.readiness_wait"
+    },
+    "timestamp": "2026-11-16T20:43:57.435689Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "assistant.readiness_wait"
+    },
+    "timestamp": "2026-11-16T20:43:26.469451Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "assistant.readiness_wait"
+    },
+    "timestamp": "2026-11-16T20:42:56.035490Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "assistant.readiness_wait"
+    },
+    "timestamp": "2026-11-16T20:42:23.858486Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "assistant.readiness_wait"
+    },
+    "timestamp": "2026-11-16T20:41:53.435981Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "assistant.readiness_wait"
+    },
+    "timestamp": "2026-11-16T20:41:22.983384Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "assistant.gateway_starting"
+    },
+    "timestamp": "2026-11-16T20:41:22.963048Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "assistant.google_credentials_ready"
+    },
+    "timestamp": "2026-11-16T20:41:20.305762Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "assistant.state_restored"
+    },
+    "timestamp": "2026-11-16T20:41:19.597337Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "assistant.shutdown_checkpoint"
+    },
+    "timestamp": "2026-11-16T20:41:01.218329Z"
+  }
+]

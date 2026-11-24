@@ -1,0 +1,48 @@
+{
+  "at": "2026-11-12T20:15:36.003Z",
+  "kind": "live Gateway HTTP calls and real controlled Chromium forms; no model inference",
+  "results": [
+    {
+      "siteId": "single-page",
+      "http": 200,
+      "status": "success",
+      "applicationId": "application-90644b9060c48cb4",
+      "applicationStatus": "AWAITING_APPROVAL",
+      "fieldCount": 3
+    },
+    {
+      "siteId": "multi-step",
+      "http": 200,
+      "status": "success",
+      "applicationId": "application-af856645d5560d9a",
+      "applicationStatus": "AWAITING_APPROVAL",
+      "fieldCount": 5
+    },
+    {
+      "siteId": "dynamic",
+      "http": 200,
+      "status": "success",
+      "applicationId": "application-19de7cff83af9dbb",
+      "applicationStatus": "AWAITING_APPROVAL",
+      "fieldCount": 4
+    }
+  ],
+  "replaySameId": true,
+  "unsupportedStatus": "needs_human",
+  "unauthorizedHttp": 401,
+  "submissionCount": 0,
+  "states": [
+    {
+      "application_id": "application-19de7cff83af9dbb",
+      "status": "AWAITING_APPROVAL"
+    },
+    {
+      "application_id": "application-90644b9060c48cb4",
+      "status": "AWAITING_APPROVAL"
+    },
+    {
+      "application_id": "application-af856645d5560d9a",
+      "status": "AWAITING_APPROVAL"
+    }
+  ]
+}

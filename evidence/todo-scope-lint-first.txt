@@ -1,0 +1,4 @@
+Command: npm run lint (Node 24.22.1)
+Exit: 1
+src/tasks/store.ts:20:21 error Unexpected control character(s) in regular expression: \x00, \x1f (no-control-regex)
+Tests NOT_RUN: lint stopped the sequential verification chain.

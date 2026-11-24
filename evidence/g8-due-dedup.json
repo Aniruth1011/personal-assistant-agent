@@ -1,0 +1,9 @@
+{
+  "recordedAt": "2026-11-12T21:53:20.850010+00:00",
+  "trigger": "actual wall-clock one-shot, not manual run",
+  "runAtMs": 1794520333379,
+  "durationMs": 1573,
+  "status": "ok",
+  "deliverySuppressionReason": "empty",
+  "delivered": false
+}

@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-13T08:10:21.619Z",
+  "jobId": "ae634b39-ea8a-42a8-9b0e-527b66e79d69",
+  "scheduledAt": "2026-11-13T08:08:35.919Z",
+  "status": "ok",
+  "delivered": true,
+  "deliveryStatus": "delivered",
+  "runAtMs": 1794557315967,
+  "durationMs": 38550,
+  "hasError": false,
+  "summaryCharacters": 77,
+  "hasTaskDeadline": true
+}

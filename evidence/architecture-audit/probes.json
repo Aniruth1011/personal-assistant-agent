@@ -1,0 +1,66 @@
+{
+  "intents": [
+    {
+      "q": "Is there any new mail from xyz?",
+      "read": null,
+      "search": null
+    },
+    {
+      "q": "Check email from coordinator@example.test since yesterday",
+      "read": "email",
+      "search": null
+    },
+    {
+      "q": "What is on my calendar tomorrow?",
+      "read": "calendar",
+      "search": null
+    },
+    {
+      "q": "Will I need an umbrella in LA right now?",
+      "read": null,
+      "search": null
+    },
+    {
+      "q": "Find the official OpenClaw documentation",
+      "read": null,
+      "search": null
+    },
+    {
+      "q": "Search the public web for official OpenClaw docs",
+      "read": null,
+      "search": "official OpenClaw docs"
+    }
+  ],
+  "routes": [
+    {
+      "q": "What is an API token?",
+      "privacy": "private",
+      "complexity": "short"
+    },
+    {
+      "q": "Search the public web for official OpenClaw docs",
+      "privacy": "public",
+      "complexity": "short"
+    },
+    {
+      "q": "My home address is 123 Main Street",
+      "privacy": "public",
+      "complexity": "short"
+    },
+    {
+      "q": "Explain why the sky is blue",
+      "privacy": "public",
+      "complexity": "short"
+    }
+  ],
+  "dispatchedMessage": "Show my private test emails. First call assistant_report with {\"kind\":\"email\"} and report its current results. Do not send email or mutate any state.",
+  "recap": {
+    "header": "ApplyPilot recap — 2026-11-18 (America/Los_Angeles)",
+    "calendarInput": {
+      "from": "2026-11-18T08:00:00Z",
+      "to": "2026-11-19T08:00:00Z",
+      "timeZone": "America/Los_Angeles",
+      "maxResults": 50
+    }
+  }
+}

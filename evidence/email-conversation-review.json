@@ -1,0 +1,18 @@
+{
+  "at": "2026-11-17T06:36:41.378373+00:00",
+  "kind": "Read-only email conversation and assignment requirement review",
+  "pdfSha256": "42c8b02d913eacb0d03a8686009b43989ba0f94563fa4ec611cbf1a4bedc74be",
+  "findings": {
+    "externalRecipientRequestSeen": true,
+    "repeatedDraftPromptAfterBodySupplied": true,
+    "repeatedAssistantPrompts": 4,
+    "bareApproveCommandRejected": true,
+    "sendCommandWasPlatformControlNotEmail": true,
+    "currentSendRecipient": "dedicated test account itself",
+    "assignmentRequiresRecipientAllowlist": true,
+    "assignmentRequiresHumanApprovalEverySend": true,
+    "assignmentRequiresSelfOnly": false
+  },
+  "runtimeChanged": false,
+  "emailSentByThisReview": false
+}

@@ -1,0 +1,28 @@
+{
+  "at": "2026-11-19T04:26:41.305Z",
+  "bootId": "e6215b72-606b-45a6-85f3-b2ab563c2ebd",
+  "configHash": "12a60e7251e82b400309ec323c7ba36f9ded82afe4c388b3a054a42e3dce44e1",
+  "counts": {
+    "assistant_alerts": 9,
+    "assistant_email_context": 10,
+    "assistant_report_runs": 350,
+    "email_outbox_events": 16,
+    "knowledge_events": 1,
+    "knowledge_facts": 1,
+    "todo_events": 5,
+    "todos": 4
+  },
+  "outbox": [
+    {
+      "count": 5,
+      "status": "SENT"
+    }
+  ],
+  "memoryHashes": {
+    "IDENTITY.md": "e4ce84fb1b75695e7f3ff30434dbc56ff12d4873eef92d1cd9d853a37033ae7a",
+    "KNOWLEDGE.md": "bb9053b304100f5a3046ae74b5ddc60bf2a5c0c48d8e6b8fbf548d08c5261206",
+    "MEMORY.md": "e97fb80369ddcfa5e085ccbcb3f76617cdb94633a5173506e86ce776490d58f1",
+    "SOUL.md": "db0d77417721fc30540a8bcba0ed7d92f7024b671f850f47bbc7a7d88a953b6b",
+    "USER.md": "ab5819df939d4d6b105d53095a9a0e495bea76b089bfbdae21aa54b990671100"
+  }
+}

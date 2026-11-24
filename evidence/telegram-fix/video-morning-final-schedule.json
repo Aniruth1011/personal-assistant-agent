@@ -1,0 +1,47 @@
+{
+  "verifiedAt": "2026-11-17T18:03:47.856687+00:00",
+  "startAt": "2026-11-17T18:09:00.000Z",
+  "jobs": [
+    {
+      "id": "8b9b9386-3e29-41b1-81a7-81b7d2ee1fa3",
+      "label": "Briefing",
+      "at": "2026-11-17T18:10:00.000Z",
+      "enabledVerified": true
+    },
+    {
+      "id": "84d44c23-b477-4504-a8e4-5d64b0a79186",
+      "label": "Deadline reminder",
+      "at": "2026-11-17T18:13:30.000Z",
+      "enabledVerified": true
+    },
+    {
+      "id": "bf837fdc-86bb-41ad-806a-25d4935cc76b",
+      "label": "Recap (simulated evening)",
+      "at": "2026-11-17T18:15:00.000Z",
+      "enabledVerified": true
+    }
+  ],
+  "chatLinks": [
+    {
+      "name": "simple",
+      "agent": "public-research",
+      "key": "agent:public-research:dashboard:recording-20261117180232-simple",
+      "url": "https://applypilot-cloud.tail631b8f.ts.net/chat?session=agent%3Apublic-research%3Adashboard%3Arecording-20261117180232-simple",
+      "created": true
+    },
+    {
+      "name": "reasoning",
+      "agent": "public-research",
+      "key": "agent:public-research:dashboard:recording-20261117180232-reasoning",
+      "url": "https://applypilot-cloud.tail631b8f.ts.net/chat?session=agent%3Apublic-research%3Adashboard%3Arecording-20261117180232-reasoning",
+      "created": true
+    },
+    {
+      "name": "private",
+      "agent": "main",
+      "key": "agent:main:dashboard:recording-20261117180232-private",
+      "url": "https://applypilot-cloud.tail631b8f.ts.net/chat?session=agent%3Amain%3Adashboard%3Arecording-20261117180232-private",
+      "created": true
+    }
+  ]
+}

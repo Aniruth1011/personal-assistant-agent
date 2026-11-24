@@ -1,0 +1,28 @@
+{
+  "at": "2026-11-13T06:50:09.140Z",
+  "source": "live Open-Meteo HTTPS",
+  "result": {
+    "status": "success",
+    "city": "Los Angeles (fixed demo city)",
+    "temperatureC": 16.9,
+    "weatherCode": 3,
+    "observedAt": "2026-11-13T06:45:00.000Z",
+    "forecast": [
+      {
+        "date": "2026-11-12",
+        "highC": 26,
+        "lowC": 14.4,
+        "rainProbability": 5,
+        "weatherCode": 3
+      },
+      {
+        "date": "2026-11-13",
+        "highC": 19.5,
+        "lowC": 14.8,
+        "rainProbability": 71,
+        "weatherCode": 65
+      }
+    ],
+    "source": "https://open-meteo.com/"
+  }
+}

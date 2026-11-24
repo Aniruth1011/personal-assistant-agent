@@ -1,0 +1,16 @@
+{
+  "results": {
+    "images": [
+      {
+        "artifactRegistryPackage": "projects/amplified-coder-510723-p3/locations/us-west1/repositories/applypilot/packages/runtime/versions/sha256:0b42b1f0a78c188a3205764504bedbb80a6531d11ff5dcf1497dfb3309569e59",
+        "digest": "sha256:0b42b1f0a78c188a3205764504bedbb80a6531d11ff5dcf1497dfb3309569e59",
+        "name": "us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime:oauth-routing-20261116",
+        "pushTiming": {
+          "endTime": "2026-11-16T20:38:55.014427489Z",
+          "startTime": "2026-11-16T20:38:53.379388135Z"
+        }
+      }
+    ]
+  },
+  "status": "SUCCESS"
+}

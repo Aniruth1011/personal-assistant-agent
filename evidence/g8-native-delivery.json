@@ -1,0 +1,45 @@
+{
+  "recordedAt": "2026-11-12T21:51:32.794856+00:00",
+  "execution": "manually triggered native scheduler jobs with actual Telegram delivery",
+  "runs": [
+    {
+      "kind": "briefing",
+      "runId": "cron-request.bd1aa4d5-044d-4572-b763-7a322c9a08e1",
+      "runAtMs": 1794520242210,
+      "durationMs": 3792,
+      "status": "ok",
+      "deliveryStatus": "delivered",
+      "summaryChecks": {
+        "containsTitle": true,
+        "containsWeather": true,
+        "containsPendingApprovals": false
+      }
+    },
+    {
+      "kind": "recap",
+      "runId": "cron-request.3991de78-5db1-4db9-80dc-2314c48b0994",
+      "runAtMs": 1794520247323,
+      "durationMs": 2535,
+      "status": "ok",
+      "deliveryStatus": "delivered",
+      "summaryChecks": {
+        "containsTitle": true,
+        "containsWeather": false,
+        "containsPendingApprovals": true
+      }
+    },
+    {
+      "kind": "alerts",
+      "runId": "cron-request.96002f96-60c7-4593-81a1-500023559221",
+      "runAtMs": 1794520252424,
+      "durationMs": 2244,
+      "status": "ok",
+      "deliveryStatus": "delivered",
+      "summaryChecks": {
+        "containsTitle": true,
+        "containsWeather": false,
+        "containsPendingApprovals": false
+      }
+    }
+  ]
+}

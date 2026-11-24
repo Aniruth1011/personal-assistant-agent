@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-11-13T08:01:10.743702+00:00",
+  "samples": [
+    {
+      "at": "2026-11-13T07:59:38.443Z",
+      "bootId": "6346c7b9-fa50-4d84-a4bc-16bfbe0b2922",
+      "health": {
+        "gateway": {
+          "http": null,
+          "ok": false
+        },
+        "application": {
+          "http": 503,
+          "ok": false
+        },
+        "localModelListed": {
+          "http": 200,
+          "ok": true
+        }
+      },
+      "issues": [],
+      "sha256": "29d0a0bb05b3bed577974bd36a9d1943c4a0cb9ee9f721615ed021702a187e83"
+    },
+    {
+      "at": "2026-11-13T08:00:39.015Z",
+      "bootId": "6346c7b9-fa50-4d84-a4bc-16bfbe0b2922",
+      "health": {
+        "gateway": {
+          "http": null,
+          "ok": false
+        },
+        "application": {
+          "http": 503,
+          "ok": false
+        },
+        "localModelListed": {
+          "http": 200,
+          "ok": true
+        }
+      },
+      "issues": [],
+      "sha256": "f2d92708c8c06d1483593ddf263e2485c32aa38d775cbe2bf89a58213ccd003f"
+    }
+  ],
+  "formalWindow": "NOT_STARTED",
+  "https": "PENDING_ADMIN",
+  "memoryAndTask": "PENDING_HUMAN_COMMANDS",
+  "observedIntervalSeconds": 60.572
+}

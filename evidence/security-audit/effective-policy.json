@@ -1,0 +1,44 @@
+{
+  "configHash": "hmac-sha256:v1:vghBVoTQpxTzG-H244TBUQRGqvyAijgttVnhDXbRMUU",
+  "tools": {
+    "allow": [
+      "durability_checkpoint",
+      "assistant_report",
+      "list_todos",
+      "list_test_emails",
+      "get_test_email",
+      "classify_assistant_email",
+      "draft_email_reply",
+      "list_test_events",
+      "web_search",
+      "skills_read",
+      "skills_search"
+    ],
+    "byProvider": {
+      "ollama/gemma4:e2b": {
+        "deny": [
+          "group:web",
+          "browser"
+        ]
+      }
+    },
+    "web": {
+      "search": {
+        "provider": "duckduckgo"
+      }
+    },
+    "toolSearch": false
+  },
+  "agentTools": {
+    "main": null,
+    "public-research": {
+      "allow": [
+        "web_search",
+        "skills_search"
+      ]
+    }
+  },
+  "privateFallbacks": [],
+  "gatewayAuthMode": "token",
+  "telegramDmPolicy": "allowlist"
+}

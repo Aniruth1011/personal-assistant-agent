@@ -1,0 +1,6 @@
+Command: npx --yes --package=node@24.22.1 -- npm run verify
+Exit: 0
+Observed: format, lint, typecheck passed; 16 test files and 123 tests passed; secret-pattern scan passed across 142 files.
+Actual controlled-site submission count: 0
+Actual local application states: 3 AWAITING_APPROVAL
+Recorded: 2026-11-12T20:29:34+00:00

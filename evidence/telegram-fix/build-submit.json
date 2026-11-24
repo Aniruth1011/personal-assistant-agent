@@ -1,0 +1,54 @@
+{
+  "artifacts": {
+    "images": [
+      "us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime:telegram-read-fix-20261116"
+    ]
+  },
+  "createTime": "2026-11-16T22:20:13.414226374Z",
+  "id": "b41af74b-ecba-4837-bb30-1df4051a81fc",
+  "images": [
+    "us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime:telegram-read-fix-20261116"
+  ],
+  "logUrl": "https://console.cloud.google.com/cloud-build/builds;region=us-west1/b41af74b-ecba-4837-bb30-1df4051a81fc?project=469697186976",
+  "logsBucket": "gs://469697186976-us-west1-cloudbuild-logs",
+  "name": "projects/469697186976/locations/us-west1/builds/b41af74b-ecba-4837-bb30-1df4051a81fc",
+  "options": {
+    "logging": "LEGACY",
+    "pool": {},
+    "workerRelease": "legacy"
+  },
+  "projectId": "amplified-coder-510723-p3",
+  "queueTtl": "3600s",
+  "serviceAccount": "projects/amplified-coder-510723-p3/serviceAccounts/469697186976-compute@developer.gserviceaccount.com",
+  "source": {
+    "storageSource": {
+      "bucket": "amplified-coder-510723-p3_cloudbuild",
+      "generation": "1794867613128230",
+      "object": "source/1794867612.682539-c26c5391a99e4e05a45ccca32a5e1621.tgz"
+    }
+  },
+  "sourceProvenance": {
+    "resolvedStorageSource": {
+      "bucket": "amplified-coder-510723-p3_cloudbuild",
+      "generation": "1794867613128230",
+      "object": "source/1794867612.682539-c26c5391a99e4e05a45ccca32a5e1621.tgz"
+    }
+  },
+  "status": "QUEUED",
+  "steps": [
+    {
+      "args": [
+        "docker",
+        "build",
+        "--network",
+        "cloudbuild",
+        "--no-cache",
+        "-t",
+        "us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime:telegram-read-fix-20261116",
+        "."
+      ],
+      "name": "gcr.io/cloud-builders/gcb-internal"
+    }
+  ],
+  "timeout": "3600s"
+}

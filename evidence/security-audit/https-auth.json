@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-17T06:14:20.562Z",
+  "scope": "Existing authorized laptop; not grader-account reachability",
+  "tlsValidation": "default",
+  "results": [
+    {
+      "authenticated": false,
+      "status": 401
+    },
+    {
+      "authenticated": true,
+      "status": 200
+    }
+  ]
+}

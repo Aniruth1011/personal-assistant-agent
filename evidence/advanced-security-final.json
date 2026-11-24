@@ -1,0 +1,16 @@
+{
+  "image": "sha256:0f8fd3f2cc347cc3530181311673be2b645183162c5ea49ad0790ca4b0458089",
+  "command": "openclaw security audit --deep --json (actual Cloud Run Instance, node user)",
+  "first": {
+    "critical": 0,
+    "warn": 1,
+    "info": 2,
+    "warning": "gateway.probe_failed: timeout during startup/load"
+  },
+  "rerun": {
+    "critical": 0,
+    "warn": 0,
+    "info": 2
+  },
+  "limitations": "Exposure and small-model informational findings remain; separate dependency vulnerability findings are not cleared by this audit."
+}

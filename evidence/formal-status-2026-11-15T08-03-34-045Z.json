@@ -1,0 +1,20 @@
+{
+  "at": "2026-11-15T08:03:34.045Z",
+  "start": "2026-11-13T08:30:39.916Z",
+  "end": "2026-11-15T08:30:39.916Z",
+  "elapsedHours": 47.54836972222222,
+  "checks": [
+    {
+      "name": "cloudGateway",
+      "http": 200,
+      "ready": true
+    },
+    {
+      "name": "localOllama",
+      "http": 200,
+      "models": [
+        "gemma4:e2b"
+      ]
+    }
+  ]
+}

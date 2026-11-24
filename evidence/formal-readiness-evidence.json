@@ -1,0 +1,23 @@
+{
+  "at": "2026-11-13T08:30:27.518756+00:00",
+  "status": "READY",
+  "image": "sha256:df7364fdd6e4378a10d66be054657c5ff561994063ab5bfcd40a259b2c0a861c",
+  "evidence": {
+    "readiness-https-live.json": "7a6a0b16a6e8ae006599833b6d1f02e3d4baaa15691876c9b2e963365ba26599",
+    "readiness-memory-after-restart.json": "43ec9c86026812e144f4ff916f3c6fb7aaa5ccf98fa66259ec19e1bbc816ed39",
+    "readiness-fresh-alert-delivery.json": "6ce8a970e4a680538cc2ed4423ea5c3044b69dc8a448429fcf23758691c55fac",
+    "readiness-alert-dedup-live.json": "3563111f2e1454b67df9b58f2faba75bd2a12b663297a67f632893024abb7d42",
+    "readiness-final-model-startup.json": "508bc2add4494c1fb7c7f903664554887be94488e6af335cb563ae168e246822",
+    "readiness-local-recovered.json": "45af51211a5f2ae419612bc3474cd4a7a3cc24f53f90348b72e4759313d4a094",
+    "readiness-security-final.json": "ef81de30c5a82506e40c58609327729356c097c3d75f79d2fea8f35c770428d3",
+    "readiness-private-outage-cloud.json": "93e5747149e847147dcf5a8ecb8099aebd6eb80991af7cd8af3c9ad51c31348c",
+    "readiness-certificate-vault.json": "7d07fde4b81c16b38172bc51bc118ea05b8a834388143dea6ac5d97500e18535",
+    "readiness-tls-fix-verify.txt": "d92fe01e0851474475d0fbd2e87c0c4938d666afa11f10bce4ae24c15d66ec23",
+    "observation-model-schedules.json": "1105772ad7d317d7fdb6259868d1c9c96c87c42074c46cb3aca7d62e303b7ab1"
+  },
+  "limitations": [
+    "Not an assignment-completion claim",
+    "Actual grader-account handoff, performance comparisons, publication, video and packaging remain",
+    "Dependency audit findings remain separately documented"
+  ]
+}

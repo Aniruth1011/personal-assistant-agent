@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-11-17T19:22:52.974982+00:00",
+  "imageDigest": "sha256:8f395e0a2212843eb7a3617cc8cc189ae9114b3443a399b871fcf72cdb5062b1",
+  "sourceSha256": "7249b4d63bf11d3a714c48fbcbd8eec36c11869715eba69e4d2cdf3212dafa7c",
+  "restoredConfig": {
+    "heartbeat": {
+      "every": "0m",
+      "target": "none",
+      "isolatedSession": true
+    },
+    "execNotifyOnExit": false,
+    "openaiAuth": "USC Edu only",
+    "eduOAuthRestored": true
+  },
+  "googleAccountUnchanged": true,
+  "gatewayReadiness": "pending"
+}

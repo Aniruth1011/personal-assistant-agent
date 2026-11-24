@@ -1,0 +1,18 @@
+{
+  "startedAt": "2026-11-16T20:36:03.093203+00:00",
+  "selectedCaseIds": [
+    "priority-00",
+    "gap-05",
+    "priority-05",
+    "extract-06",
+    "gap-06",
+    "priority-06"
+  ],
+  "casesSha256": "da1c944a5afdd055d63962d255b03b255a3470d7bad6fcceafc2027db0985c59",
+  "design": "Identical public synthetic prompts; main/private workspace selects local, isolated public-research selects cloud. Full platform turns, different workspace/system contexts: deployed-path comparison, not a controlled model-only benchmark.",
+  "arms": {
+    "local": "main",
+    "cloud": "public-research"
+  },
+  "costPolicy": "Native catalog cost estimates are not OAuth charges. Local provider charge is zero; electricity/hardware and shared infrastructure are excluded."
+}

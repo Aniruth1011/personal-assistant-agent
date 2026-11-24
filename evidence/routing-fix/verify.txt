@@ -1,0 +1,71 @@
+
+> applypilot@0.1.0 verify
+> npm run format:check && npm run lint && npm run typecheck && npm test && npm run check:secrets
+
+
+> applypilot@0.1.0 format:check
+> prettier --check .
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> applypilot@0.1.0 lint
+> eslint .
+
+
+> applypilot@0.1.0 typecheck
+> tsc --noEmit
+
+
+> applypilot@0.1.0 test
+> vitest run
+
+
+ RUN  v5.1.0 /Users/aniruthsundararajan/Documents/Assignment3/Assignment 3 attached files Nov 6, 2026 1217 PM
+
+ ❯ tests/integration/ollama-proxy.test.mjs (2 tests | 1 failed) 5010ms
+   ❯ fixed-destination Ollama bridge (2)
+     × denies model mutation, query strings and arbitrary forwarding routes 5006ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/integration/ollama-proxy.test.mjs > fixed-destination Ollama bridge > denies model mutation, query strings and arbitrary forwarding routes
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/integration/ollama-proxy.test.mjs:27:3
+     25|       expect(() => createOllamaProxy(host)).toThrow("INVALID_OLLAMA_TA…
+     26|   });
+     27|   it("denies model mutation, query strings and arbitrary forwarding ro…
+       |   ^
+     28|     const origin = await start();
+     29|     for (const [path, method] of [
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+⎯⎯⎯⎯⎯⎯ Unhandled Errors ⎯⎯⎯⎯⎯⎯
+
+Vitest caught 1 unhandled error during the test run.
+This might cause false positive tests. Resolve unhandled errors to make sure your tests are not affected.
+
+⎯⎯⎯⎯⎯ Uncaught Exception ⎯⎯⎯⎯⎯
+Error: listen EPERM: operation not permitted 127.0.0.1
+ ❯ Server.setupListenHandle [as _listen2] node:net:2368:21
+ ❯ listenInCluster node:net:2499:12
+ ❯ node:net:2728:7
+ ❯ process.processTicksAndRejections node:internal/process/task_queues:90:21
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+Serialized Error: { code: 'EPERM', errno: -1, syscall: 'listen', address: '127.0.0.1' }
+This error originated in "tests/integration/ollama-proxy.test.mjs" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+The last test to run before this error was "denies model mutation, query strings and arbitrary forwarding routes". This means either:
+- the error was thrown while Vitest was running this test, or
+- the error was thrown after the test completed, and this was the most recent test at that point.
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+
+ Test Files  1 failed | 20 passed (21)
+      Tests  1 failed | 93 passed (94)
+     Errors  1 error
+   Start at  11:32:59
+   Duration  5.21s (tests 72%, import 22%, transform 5%, worker 1%)
+

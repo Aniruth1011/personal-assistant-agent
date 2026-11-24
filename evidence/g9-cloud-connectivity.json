@@ -1,0 +1,33 @@
+{
+  "at": "2026-11-12T23:56:44.512Z",
+  "events": [
+    {
+      "timestamp": "2026-11-12T23:55:16.239400Z",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "2026-11-12T23:55:15.445445Z",
+      "severity": "INFO"
+    },
+    {
+      "timestamp": "2026-11-12T23:55:10.127784Z",
+      "event": "probe.ready"
+    },
+    {
+      "timestamp": "2026-11-12T23:55:10.127058Z",
+      "event": "cloud_to_laptop.inference_verified",
+      "model": "gemma4:e2b",
+      "answer": "4"
+    },
+    {
+      "timestamp": "2026-11-12T23:55:03.914212Z",
+      "event": "tailscale.identity_durable",
+      "restored": false,
+      "tagged": true
+    },
+    {
+      "timestamp": "2026-11-12T23:53:56.960128Z",
+      "severity": "NOTICE"
+    }
+  ]
+}

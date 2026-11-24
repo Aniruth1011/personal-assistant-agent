@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "enqueued": true,
+  "runId": "cron-request.506d873d-2cce-4baa-b7f6-d6297446c31f",
+  "processInstanceId": "80f2a994-811a-4397-8902-c10127ad6314",
+  "run": {
+    "ts": 1794943196615,
+    "jobId": "7153f8db-96c6-4091-90c0-e1af4e0a2432",
+    "action": "finished",
+    "status": "ok",
+    "completionStatus": "succeeded",
+    "summary": "Merge sort guarantees O(n log n) time but typically needs O(n) extra space. Quicksort is usually faster in practice and can sort in place, but its worst-case time is O(n\u00b2).",
+    "runId": "cron-request.506d873d-2cce-4baa-b7f6-d6297446c31f",
+    "runAtMs": 1794943189703,
+    "durationMs": 6912,
+    "nextRunAtMs": 1794948300000,
+    "model": "gpt-6-luna",
+    "provider": "openai",
+    "usage": {
+      "input_tokens": 2624,
+      "output_tokens": 46,
+      "total_tokens": 2670
+    },
+    "delivered": false,
+    "deliveryStatus": "not-requested",
+    "delivery": {
+      "intended": {
+        "channel": "last",
+        "to": null,
+        "source": "last"
+      },
+      "fallbackUsed": false,
+      "delivered": false
+    },
+    "sessionId": "87557103-0402-4226-ba2a-109b8e995741",
+    "sessionKey": "agent:public-research:cron:7153f8db-96c6-4091-90c0-e1af4e0a2432:run:87557103-0402-4226-ba2a-109b8e995741",
+    "jobName": "ApplyPilot observation cloud"
+  }
+}

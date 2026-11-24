@@ -1,0 +1,30 @@
+{
+  "gate": "6",
+  "task": "G6-37",
+  "change": "declared the existing Zod import as a direct pinned OpenClaw plugin runtime dependency",
+  "packageChange": {
+    "file": "src/plugin/package.json",
+    "dependency": "zod@4.6.7",
+    "reason": "application-tools imports Zod at runtime; it was previously only present through the root project/transitive installation"
+  },
+  "commands": {
+    "pluginBuild": "passed",
+    "pluginValidate": "passed: Plugin applypilot-agent is valid.",
+    "pluginTests": "2 files, 34 tests passed",
+    "projectVerify": "passed; 15 files, 118 tests; secret scanner found no configured credential patterns in 129 files",
+    "pluginRuntimeInspect": "loaded, activated=true, ten tools including fill_application, no diagnostics"
+  },
+  "gatewayReprobe": {
+    "config": "temporary isolated profile, loopback only, dedicated local SQLite and controlled form site",
+    "registryRefresh": "passed with no diagnostics",
+    "actualOutcome": "failed_safe",
+    "error": "Plugin entry is outside its captured source package",
+    "invocation": "NOT_RUN; Gateway shut down during startup",
+    "siteSubmissionRecords": 0
+  },
+  "cleanup": {
+    "gatewayRunning": false,
+    "siteServerRunning": false,
+    "telegramConfigured": false
+  }
+}

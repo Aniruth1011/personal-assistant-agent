@@ -1,0 +1,16 @@
+{
+  "at": "2026-11-13T08:09:54.788Z",
+  "tlsValidation": "default certificate verification enabled",
+  "results": [
+    {
+      "authenticated": false,
+      "failed": true,
+      "code": "ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR"
+    },
+    {
+      "authenticated": true,
+      "failed": true,
+      "code": "ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR"
+    }
+  ]
+}

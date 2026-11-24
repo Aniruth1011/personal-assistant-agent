@@ -1,0 +1,44 @@
+[
+  {
+    "jsonPayload": {
+      "event": "assistant.readiness_wait"
+    },
+    "timestamp": "2026-11-16T22:25:48.319545Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "assistant.readiness_wait"
+    },
+    "timestamp": "2026-11-16T22:25:17.053987Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "assistant.readiness_wait"
+    },
+    "timestamp": "2026-11-16T22:24:46.889118Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "assistant.gateway_starting"
+    },
+    "timestamp": "2026-11-16T22:24:46.873892Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "assistant.google_credentials_ready"
+    },
+    "timestamp": "2026-11-16T22:24:44.149664Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "assistant.state_restored"
+    },
+    "timestamp": "2026-11-16T22:24:43.315114Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "assistant.shutdown_checkpoint"
+    },
+    "timestamp": "2026-11-16T22:24:21.856937Z"
+  }
+]

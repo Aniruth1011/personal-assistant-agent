@@ -1,0 +1,2 @@
+const checkpoint = await durability_checkpoint({});
+return { checkpoint };

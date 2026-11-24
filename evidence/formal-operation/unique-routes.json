@@ -1,0 +1,6234 @@
+[
+  {
+    "seq": 133,
+    "at": "2026-11-13T08:40:03.387Z",
+    "kind": "decision",
+    "id": "b0acfcc4-b99c-4bf8-8f66-e7d388aa9716",
+    "sessionHash": "fdb59a30090f8b5f3fbfc82c4f62a0e5a94a33043366c07c1187862f4a24a403",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 134,
+    "at": "2026-11-13T08:40:03.553Z",
+    "kind": "decision",
+    "id": "b0acfcc4-b99c-4bf8-8f66-e7d388aa9716",
+    "sessionHash": "fdb59a30090f8b5f3fbfc82c4f62a0e5a94a33043366c07c1187862f4a24a403",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 135,
+    "at": "2026-11-13T08:40:11.658Z",
+    "kind": "outcome",
+    "id": "b0acfcc4-b99c-4bf8-8f66-e7d388aa9716",
+    "outcome": "completed",
+    "durationMs": 4640
+  },
+  {
+    "seq": 136,
+    "at": "2026-11-13T08:40:11.703Z",
+    "kind": "served",
+    "id": "b0acfcc4-b99c-4bf8-8f66-e7d388aa9716",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 2351,
+    "outputTokens": 346,
+    "totalTokens": 2699
+  },
+  {
+    "seq": 137,
+    "at": "2026-11-13T08:45:00.312Z",
+    "kind": "decision",
+    "id": "937793fe-8f8a-4918-9950-a4d833652365",
+    "sessionHash": "f3d62681f03f83d8eff370ce7e80b58ab97c0268ef6906d19bd9a95c99fc864c",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 138,
+    "at": "2026-11-13T08:45:00.459Z",
+    "kind": "decision",
+    "id": "937793fe-8f8a-4918-9950-a4d833652365",
+    "sessionHash": "f3d62681f03f83d8eff370ce7e80b58ab97c0268ef6906d19bd9a95c99fc864c",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 139,
+    "at": "2026-11-13T08:45:07.039Z",
+    "kind": "outcome",
+    "id": "937793fe-8f8a-4918-9950-a4d833652365",
+    "outcome": "completed",
+    "durationMs": 5237
+  },
+  {
+    "seq": 140,
+    "at": "2026-11-13T08:45:07.063Z",
+    "kind": "served",
+    "id": "937793fe-8f8a-4918-9950-a4d833652365",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 2323,
+    "outputTokens": 354,
+    "totalTokens": 2706
+  },
+  {
+    "seq": 141,
+    "at": "2026-11-13T08:50:55.937Z",
+    "kind": "decision",
+    "id": "a02983d5-90ba-481d-84a9-3827ac6f7926",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 142,
+    "at": "2026-11-13T08:50:56.974Z",
+    "kind": "decision",
+    "id": "a02983d5-90ba-481d-84a9-3827ac6f7926",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 143,
+    "at": "2026-11-13T08:51:06.808Z",
+    "kind": "outcome",
+    "id": "a02983d5-90ba-481d-84a9-3827ac6f7926",
+    "outcome": "completed",
+    "durationMs": 7903
+  },
+  {
+    "seq": 144,
+    "at": "2026-11-13T08:51:06.856Z",
+    "kind": "served",
+    "id": "a02983d5-90ba-481d-84a9-3827ac6f7926",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 9852,
+    "outputTokens": 16,
+    "totalTokens": 9897
+  },
+  {
+    "seq": 145,
+    "at": "2026-11-13T09:20:55.640Z",
+    "kind": "decision",
+    "id": "7eff1f08-165b-483d-a8e7-6fa887d0eb12",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 146,
+    "at": "2026-11-13T09:20:56.954Z",
+    "kind": "decision",
+    "id": "7eff1f08-165b-483d-a8e7-6fa887d0eb12",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 147,
+    "at": "2026-11-13T09:21:01.653Z",
+    "kind": "outcome",
+    "id": "7eff1f08-165b-483d-a8e7-6fa887d0eb12",
+    "outcome": "completed",
+    "durationMs": 1681
+  },
+  {
+    "seq": 148,
+    "at": "2026-11-13T09:21:01.718Z",
+    "kind": "served",
+    "id": "7eff1f08-165b-483d-a8e7-6fa887d0eb12",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 223,
+    "outputTokens": 8,
+    "totalTokens": 10108
+  },
+  {
+    "seq": 149,
+    "at": "2026-11-13T09:50:55.443Z",
+    "kind": "decision",
+    "id": "96942741-c319-46c6-8eab-b06e126081c1",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 150,
+    "at": "2026-11-13T09:50:56.572Z",
+    "kind": "decision",
+    "id": "96942741-c319-46c6-8eab-b06e126081c1",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 151,
+    "at": "2026-11-13T09:51:01.263Z",
+    "kind": "outcome",
+    "id": "96942741-c319-46c6-8eab-b06e126081c1",
+    "outcome": "completed",
+    "durationMs": 1766
+  },
+  {
+    "seq": 152,
+    "at": "2026-11-13T09:51:01.321Z",
+    "kind": "served",
+    "id": "96942741-c319-46c6-8eab-b06e126081c1",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 211,
+    "outputTokens": 8,
+    "totalTokens": 10327
+  },
+  {
+    "seq": 153,
+    "at": "2026-11-13T10:20:55.456Z",
+    "kind": "decision",
+    "id": "6e5f3162-f033-402e-9ac6-88ce52b7d618",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 154,
+    "at": "2026-11-13T10:20:56.583Z",
+    "kind": "decision",
+    "id": "6e5f3162-f033-402e-9ac6-88ce52b7d618",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 155,
+    "at": "2026-11-13T10:21:01.076Z",
+    "kind": "outcome",
+    "id": "6e5f3162-f033-402e-9ac6-88ce52b7d618",
+    "outcome": "completed",
+    "durationMs": 1774
+  },
+  {
+    "seq": 156,
+    "at": "2026-11-13T10:21:01.143Z",
+    "kind": "served",
+    "id": "6e5f3162-f033-402e-9ac6-88ce52b7d618",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 212,
+    "outputTokens": 8,
+    "totalTokens": 10547
+  },
+  {
+    "seq": 157,
+    "at": "2026-11-13T10:50:55.664Z",
+    "kind": "decision",
+    "id": "d29a52fc-2b66-4f7c-b0a1-21c651a4cf90",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 158,
+    "at": "2026-11-13T10:50:56.895Z",
+    "kind": "decision",
+    "id": "d29a52fc-2b66-4f7c-b0a1-21c651a4cf90",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 159,
+    "at": "2026-11-13T10:51:10.298Z",
+    "kind": "outcome",
+    "id": "d29a52fc-2b66-4f7c-b0a1-21c651a4cf90",
+    "outcome": "completed",
+    "durationMs": 10119
+  },
+  {
+    "seq": 160,
+    "at": "2026-11-13T10:51:10.379Z",
+    "kind": "served",
+    "id": "d29a52fc-2b66-4f7c-b0a1-21c651a4cf90",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 10759,
+    "outputTokens": 8,
+    "totalTokens": 10767
+  },
+  {
+    "seq": 161,
+    "at": "2026-11-13T11:20:55.792Z",
+    "kind": "decision",
+    "id": "cfb4c07c-ec1e-435d-baaf-b5c0c116f893",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 162,
+    "at": "2026-11-13T11:20:57.001Z",
+    "kind": "decision",
+    "id": "cfb4c07c-ec1e-435d-baaf-b5c0c116f893",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 163,
+    "at": "2026-11-13T11:21:10.102Z",
+    "kind": "outcome",
+    "id": "cfb4c07c-ec1e-435d-baaf-b5c0c116f893",
+    "outcome": "completed",
+    "durationMs": 10071
+  },
+  {
+    "seq": 164,
+    "at": "2026-11-13T11:21:10.166Z",
+    "kind": "served",
+    "id": "cfb4c07c-ec1e-435d-baaf-b5c0c116f893",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 10979,
+    "outputTokens": 8,
+    "totalTokens": 10987
+  },
+  {
+    "seq": 165,
+    "at": "2026-11-13T11:50:55.476Z",
+    "kind": "decision",
+    "id": "d6f9d00f-2054-4b90-8013-416c14aed27a",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 166,
+    "at": "2026-11-13T11:50:56.908Z",
+    "kind": "decision",
+    "id": "d6f9d00f-2054-4b90-8013-416c14aed27a",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 167,
+    "at": "2026-11-13T11:51:10.109Z",
+    "kind": "outcome",
+    "id": "d6f9d00f-2054-4b90-8013-416c14aed27a",
+    "outcome": "completed",
+    "durationMs": 9865
+  },
+  {
+    "seq": 168,
+    "at": "2026-11-13T11:51:10.174Z",
+    "kind": "served",
+    "id": "d6f9d00f-2054-4b90-8013-416c14aed27a",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 11199,
+    "outputTokens": 8,
+    "totalTokens": 11207
+  },
+  {
+    "seq": 169,
+    "at": "2026-11-13T12:20:55.602Z",
+    "kind": "decision",
+    "id": "a1f6bdb1-f0a6-4e47-b8cf-3b612bf6739e",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 170,
+    "at": "2026-11-13T12:20:57.017Z",
+    "kind": "decision",
+    "id": "a1f6bdb1-f0a6-4e47-b8cf-3b612bf6739e",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 171,
+    "at": "2026-11-13T12:21:10.235Z",
+    "kind": "outcome",
+    "id": "a1f6bdb1-f0a6-4e47-b8cf-3b612bf6739e",
+    "outcome": "completed",
+    "durationMs": 9923
+  },
+  {
+    "seq": 172,
+    "at": "2026-11-13T12:21:10.299Z",
+    "kind": "served",
+    "id": "a1f6bdb1-f0a6-4e47-b8cf-3b612bf6739e",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 11419,
+    "outputTokens": 8,
+    "totalTokens": 11427
+  },
+  {
+    "seq": 173,
+    "at": "2026-11-13T12:50:55.594Z",
+    "kind": "decision",
+    "id": "5f790489-0083-48a9-80c0-e40251c00359",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 174,
+    "at": "2026-11-13T12:50:56.717Z",
+    "kind": "decision",
+    "id": "5f790489-0083-48a9-80c0-e40251c00359",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 175,
+    "at": "2026-11-13T12:51:10.180Z",
+    "kind": "outcome",
+    "id": "5f790489-0083-48a9-80c0-e40251c00359",
+    "outcome": "completed",
+    "durationMs": 10428
+  },
+  {
+    "seq": 176,
+    "at": "2026-11-13T12:51:10.249Z",
+    "kind": "served",
+    "id": "5f790489-0083-48a9-80c0-e40251c00359",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 11639,
+    "outputTokens": 8,
+    "totalTokens": 11647
+  },
+  {
+    "seq": 177,
+    "at": "2026-11-13T13:20:55.496Z",
+    "kind": "decision",
+    "id": "78e182b9-d460-4d67-a276-9a7d84222cd1",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 178,
+    "at": "2026-11-13T13:20:56.621Z",
+    "kind": "decision",
+    "id": "78e182b9-d460-4d67-a276-9a7d84222cd1",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 179,
+    "at": "2026-11-13T13:21:09.888Z",
+    "kind": "outcome",
+    "id": "78e182b9-d460-4d67-a276-9a7d84222cd1",
+    "outcome": "completed",
+    "durationMs": 10398
+  },
+  {
+    "seq": 180,
+    "at": "2026-11-13T13:21:10.122Z",
+    "kind": "served",
+    "id": "78e182b9-d460-4d67-a276-9a7d84222cd1",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 11858,
+    "outputTokens": 8,
+    "totalTokens": 11866
+  },
+  {
+    "seq": 181,
+    "at": "2026-11-13T13:50:55.604Z",
+    "kind": "decision",
+    "id": "9079e6e9-c31d-4583-ba75-e7b46ab99ce6",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 182,
+    "at": "2026-11-13T13:50:56.729Z",
+    "kind": "decision",
+    "id": "9079e6e9-c31d-4583-ba75-e7b46ab99ce6",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 183,
+    "at": "2026-11-13T13:51:10.392Z",
+    "kind": "outcome",
+    "id": "9079e6e9-c31d-4583-ba75-e7b46ab99ce6",
+    "outcome": "completed",
+    "durationMs": 10687
+  },
+  {
+    "seq": 184,
+    "at": "2026-11-13T13:51:10.454Z",
+    "kind": "served",
+    "id": "9079e6e9-c31d-4583-ba75-e7b46ab99ce6",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 12077,
+    "outputTokens": 8,
+    "totalTokens": 12085
+  },
+  {
+    "seq": 185,
+    "at": "2026-11-13T14:20:55.818Z",
+    "kind": "decision",
+    "id": "f6d643e8-999c-4968-b0cb-46cf0d4d41bc",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 186,
+    "at": "2026-11-13T14:20:57.045Z",
+    "kind": "decision",
+    "id": "f6d643e8-999c-4968-b0cb-46cf0d4d41bc",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 187,
+    "at": "2026-11-13T14:21:11.071Z",
+    "kind": "outcome",
+    "id": "f6d643e8-999c-4968-b0cb-46cf0d4d41bc",
+    "outcome": "completed",
+    "durationMs": 10794
+  },
+  {
+    "seq": 188,
+    "at": "2026-11-13T14:21:11.160Z",
+    "kind": "served",
+    "id": "f6d643e8-999c-4968-b0cb-46cf0d4d41bc",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 12296,
+    "outputTokens": 8,
+    "totalTokens": 12304
+  },
+  {
+    "seq": 189,
+    "at": "2026-11-13T14:40:03.449Z",
+    "kind": "decision",
+    "id": "f6e13818-58fa-4586-a8e6-cffa29f2c393",
+    "sessionHash": "456655b03c3efc6df4fe44f8655b64494a64dd31c48ea277ad1377f1ca6687fd",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 190,
+    "at": "2026-11-13T14:40:03.639Z",
+    "kind": "decision",
+    "id": "f6e13818-58fa-4586-a8e6-cffa29f2c393",
+    "sessionHash": "456655b03c3efc6df4fe44f8655b64494a64dd31c48ea277ad1377f1ca6687fd",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 191,
+    "at": "2026-11-13T14:40:16.153Z",
+    "kind": "outcome",
+    "id": "f6e13818-58fa-4586-a8e6-cffa29f2c393",
+    "outcome": "completed",
+    "durationMs": 8467
+  },
+  {
+    "seq": 192,
+    "at": "2026-11-13T14:40:16.181Z",
+    "kind": "served",
+    "id": "f6e13818-58fa-4586-a8e6-cffa29f2c393",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 2353,
+    "outputTokens": 394,
+    "totalTokens": 2747
+  },
+  {
+    "seq": 193,
+    "at": "2026-11-13T14:45:00.293Z",
+    "kind": "decision",
+    "id": "86b26039-e755-4322-8967-a4fbb1e8fe08",
+    "sessionHash": "de527e781388ba24602e46f892420b562f397041d8c340d3f617201b3c3eddc9",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 194,
+    "at": "2026-11-13T14:45:00.461Z",
+    "kind": "decision",
+    "id": "86b26039-e755-4322-8967-a4fbb1e8fe08",
+    "sessionHash": "de527e781388ba24602e46f892420b562f397041d8c340d3f617201b3c3eddc9",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 195,
+    "at": "2026-11-13T14:45:07.544Z",
+    "kind": "outcome",
+    "id": "86b26039-e755-4322-8967-a4fbb1e8fe08",
+    "outcome": "completed",
+    "durationMs": 5466
+  },
+  {
+    "seq": 196,
+    "at": "2026-11-13T14:45:07.576Z",
+    "kind": "served",
+    "id": "86b26039-e755-4322-8967-a4fbb1e8fe08",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 2352,
+    "outputTokens": 395,
+    "totalTokens": 2747
+  },
+  {
+    "seq": 197,
+    "at": "2026-11-13T14:50:55.517Z",
+    "kind": "decision",
+    "id": "f4739f95-f932-4f0b-9d01-571d02d1e176",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 198,
+    "at": "2026-11-13T14:50:56.563Z",
+    "kind": "decision",
+    "id": "f4739f95-f932-4f0b-9d01-571d02d1e176",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 199,
+    "at": "2026-11-13T14:51:09.378Z",
+    "kind": "outcome",
+    "id": "f4739f95-f932-4f0b-9d01-571d02d1e176",
+    "outcome": "completed",
+    "durationMs": 10938
+  },
+  {
+    "seq": 200,
+    "at": "2026-11-13T14:51:09.427Z",
+    "kind": "served",
+    "id": "f4739f95-f932-4f0b-9d01-571d02d1e176",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 12515,
+    "outputTokens": 8,
+    "totalTokens": 12523
+  },
+  {
+    "seq": 201,
+    "at": "2026-11-13T15:20:55.733Z",
+    "kind": "decision",
+    "id": "cc666b59-8dcb-462f-a8cf-4ed1a103e1b1",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 202,
+    "at": "2026-11-13T15:20:57.167Z",
+    "kind": "decision",
+    "id": "cc666b59-8dcb-462f-a8cf-4ed1a103e1b1",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 203,
+    "at": "2026-11-13T15:21:10.532Z",
+    "kind": "outcome",
+    "id": "cc666b59-8dcb-462f-a8cf-4ed1a103e1b1",
+    "outcome": "completed",
+    "durationMs": 10359
+  },
+  {
+    "seq": 204,
+    "at": "2026-11-13T15:21:10.597Z",
+    "kind": "served",
+    "id": "cc666b59-8dcb-462f-a8cf-4ed1a103e1b1",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 12734,
+    "outputTokens": 8,
+    "totalTokens": 12742
+  },
+  {
+    "seq": 205,
+    "at": "2026-11-13T15:50:55.738Z",
+    "kind": "decision",
+    "id": "679daa0f-0b7b-48e1-b169-bff4da667ded",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 206,
+    "at": "2026-11-13T15:50:57.272Z",
+    "kind": "decision",
+    "id": "679daa0f-0b7b-48e1-b169-bff4da667ded",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 207,
+    "at": "2026-11-13T15:51:11.693Z",
+    "kind": "outcome",
+    "id": "679daa0f-0b7b-48e1-b169-bff4da667ded",
+    "outcome": "completed",
+    "durationMs": 11153
+  },
+  {
+    "seq": 208,
+    "at": "2026-11-13T15:51:11.757Z",
+    "kind": "served",
+    "id": "679daa0f-0b7b-48e1-b169-bff4da667ded",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 12953,
+    "outputTokens": 8,
+    "totalTokens": 12961
+  },
+  {
+    "seq": 209,
+    "at": "2026-11-13T16:20:55.575Z",
+    "kind": "decision",
+    "id": "161b542e-fbf7-4d3a-911f-f6e4ce69d3de",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 210,
+    "at": "2026-11-13T16:20:56.768Z",
+    "kind": "decision",
+    "id": "161b542e-fbf7-4d3a-911f-f6e4ce69d3de",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 211,
+    "at": "2026-11-13T16:21:11.932Z",
+    "kind": "outcome",
+    "id": "161b542e-fbf7-4d3a-911f-f6e4ce69d3de",
+    "outcome": "completed",
+    "durationMs": 11722
+  },
+  {
+    "seq": 212,
+    "at": "2026-11-13T16:21:12.065Z",
+    "kind": "served",
+    "id": "161b542e-fbf7-4d3a-911f-f6e4ce69d3de",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 14368,
+    "outputTokens": 8,
+    "totalTokens": 14376
+  },
+  {
+    "seq": 213,
+    "at": "2026-11-13T16:50:55.548Z",
+    "kind": "decision",
+    "id": "25da7907-5386-43d9-8245-bae384c1d673",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 214,
+    "at": "2026-11-13T16:50:56.572Z",
+    "kind": "decision",
+    "id": "25da7907-5386-43d9-8245-bae384c1d673",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 215,
+    "at": "2026-11-13T16:51:11.452Z",
+    "kind": "outcome",
+    "id": "25da7907-5386-43d9-8245-bae384c1d673",
+    "outcome": "completed",
+    "durationMs": 11727
+  },
+  {
+    "seq": 216,
+    "at": "2026-11-13T16:51:11.548Z",
+    "kind": "served",
+    "id": "25da7907-5386-43d9-8245-bae384c1d673",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 14587,
+    "outputTokens": 8,
+    "totalTokens": 14595
+  },
+  {
+    "seq": 217,
+    "at": "2026-11-13T17:20:55.560Z",
+    "kind": "decision",
+    "id": "198d14ac-2c88-494b-b4f7-43908060bd43",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 218,
+    "at": "2026-11-13T17:20:56.643Z",
+    "kind": "decision",
+    "id": "198d14ac-2c88-494b-b4f7-43908060bd43",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 219,
+    "at": "2026-11-13T17:21:12.248Z",
+    "kind": "outcome",
+    "id": "198d14ac-2c88-494b-b4f7-43908060bd43",
+    "outcome": "completed",
+    "durationMs": 12333
+  },
+  {
+    "seq": 220,
+    "at": "2026-11-13T17:21:12.313Z",
+    "kind": "served",
+    "id": "198d14ac-2c88-494b-b4f7-43908060bd43",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 14806,
+    "outputTokens": 8,
+    "totalTokens": 14814
+  },
+  {
+    "seq": 221,
+    "at": "2026-11-13T17:50:55.671Z",
+    "kind": "decision",
+    "id": "ff072b3f-e71d-4655-8af9-16a1caaa02f4",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 222,
+    "at": "2026-11-13T17:50:56.900Z",
+    "kind": "decision",
+    "id": "ff072b3f-e71d-4655-8af9-16a1caaa02f4",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 223,
+    "at": "2026-11-13T17:51:12.296Z",
+    "kind": "outcome",
+    "id": "ff072b3f-e71d-4655-8af9-16a1caaa02f4",
+    "outcome": "completed",
+    "durationMs": 12389
+  },
+  {
+    "seq": 224,
+    "at": "2026-11-13T17:51:12.364Z",
+    "kind": "served",
+    "id": "ff072b3f-e71d-4655-8af9-16a1caaa02f4",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 15025,
+    "outputTokens": 8,
+    "totalTokens": 15033
+  },
+  {
+    "seq": 225,
+    "at": "2026-11-13T18:20:55.575Z",
+    "kind": "decision",
+    "id": "b92c4b17-9e09-4acb-b99c-5540be8f3b27",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 226,
+    "at": "2026-11-13T18:20:56.805Z",
+    "kind": "decision",
+    "id": "b92c4b17-9e09-4acb-b99c-5540be8f3b27",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 227,
+    "at": "2026-11-13T18:21:12.442Z",
+    "kind": "outcome",
+    "id": "b92c4b17-9e09-4acb-b99c-5540be8f3b27",
+    "outcome": "completed",
+    "durationMs": 12570
+  },
+  {
+    "seq": 228,
+    "at": "2026-11-13T18:21:12.503Z",
+    "kind": "served",
+    "id": "b92c4b17-9e09-4acb-b99c-5540be8f3b27",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 15244,
+    "outputTokens": 8,
+    "totalTokens": 15252
+  },
+  {
+    "seq": 229,
+    "at": "2026-11-13T18:50:55.580Z",
+    "kind": "decision",
+    "id": "126e478c-41fc-410d-9186-6b76ff8a828d",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 230,
+    "at": "2026-11-13T18:50:56.707Z",
+    "kind": "decision",
+    "id": "126e478c-41fc-410d-9186-6b76ff8a828d",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 231,
+    "at": "2026-11-13T18:51:12.304Z",
+    "kind": "outcome",
+    "id": "126e478c-41fc-410d-9186-6b76ff8a828d",
+    "outcome": "completed",
+    "durationMs": 12589
+  },
+  {
+    "seq": 232,
+    "at": "2026-11-13T18:51:12.366Z",
+    "kind": "served",
+    "id": "126e478c-41fc-410d-9186-6b76ff8a828d",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 15463,
+    "outputTokens": 8,
+    "totalTokens": 15471
+  },
+  {
+    "seq": 233,
+    "at": "2026-11-13T19:20:55.613Z",
+    "kind": "decision",
+    "id": "6704318c-8ce0-432f-9d93-444ebf99ab63",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 234,
+    "at": "2026-11-13T19:20:57.126Z",
+    "kind": "decision",
+    "id": "6704318c-8ce0-432f-9d93-444ebf99ab63",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 235,
+    "at": "2026-11-13T19:21:13.041Z",
+    "kind": "outcome",
+    "id": "6704318c-8ce0-432f-9d93-444ebf99ab63",
+    "outcome": "completed",
+    "durationMs": 12954
+  },
+  {
+    "seq": 236,
+    "at": "2026-11-13T19:21:13.114Z",
+    "kind": "served",
+    "id": "6704318c-8ce0-432f-9d93-444ebf99ab63",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 15682,
+    "outputTokens": 8,
+    "totalTokens": 15690
+  },
+  {
+    "seq": 237,
+    "at": "2026-11-13T19:50:55.570Z",
+    "kind": "decision",
+    "id": "2357bd44-ef84-4ed4-825f-a43768c9b72b",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 238,
+    "at": "2026-11-13T19:50:56.632Z",
+    "kind": "decision",
+    "id": "2357bd44-ef84-4ed4-825f-a43768c9b72b",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 239,
+    "at": "2026-11-13T19:51:14.489Z",
+    "kind": "outcome",
+    "id": "2357bd44-ef84-4ed4-825f-a43768c9b72b",
+    "outcome": "completed",
+    "durationMs": 14772
+  },
+  {
+    "seq": 240,
+    "at": "2026-11-13T19:51:14.741Z",
+    "kind": "served",
+    "id": "2357bd44-ef84-4ed4-825f-a43768c9b72b",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 15901,
+    "outputTokens": 8,
+    "totalTokens": 15909
+  },
+  {
+    "seq": 241,
+    "at": "2026-11-13T20:20:55.707Z",
+    "kind": "decision",
+    "id": "06067e6a-c42f-41c9-84a2-2599830c2adf",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 242,
+    "at": "2026-11-13T20:20:56.827Z",
+    "kind": "decision",
+    "id": "06067e6a-c42f-41c9-84a2-2599830c2adf",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 243,
+    "at": "2026-11-13T20:21:14.138Z",
+    "kind": "outcome",
+    "id": "06067e6a-c42f-41c9-84a2-2599830c2adf",
+    "outcome": "completed",
+    "durationMs": 14243
+  },
+  {
+    "seq": 244,
+    "at": "2026-11-13T20:21:14.207Z",
+    "kind": "served",
+    "id": "06067e6a-c42f-41c9-84a2-2599830c2adf",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 16120,
+    "outputTokens": 8,
+    "totalTokens": 16128
+  },
+  {
+    "seq": 245,
+    "at": "2026-11-13T20:40:04.049Z",
+    "kind": "decision",
+    "id": "dd64ffce-f26b-4cd8-afb0-a75f502a0214",
+    "sessionHash": "9f12a58c631fcd0b5cc570787bb3dbad72771f8142f7a72fb0027a0081cb95a4",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 246,
+    "at": "2026-11-13T20:40:04.442Z",
+    "kind": "decision",
+    "id": "dd64ffce-f26b-4cd8-afb0-a75f502a0214",
+    "sessionHash": "9f12a58c631fcd0b5cc570787bb3dbad72771f8142f7a72fb0027a0081cb95a4",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 247,
+    "at": "2026-11-13T20:40:16.948Z",
+    "kind": "outcome",
+    "id": "dd64ffce-f26b-4cd8-afb0-a75f502a0214",
+    "outcome": "completed",
+    "durationMs": 8711
+  },
+  {
+    "seq": 248,
+    "at": "2026-11-13T20:40:17.019Z",
+    "kind": "served",
+    "id": "dd64ffce-f26b-4cd8-afb0-a75f502a0214",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 2353,
+    "outputTokens": 346,
+    "totalTokens": 2699
+  },
+  {
+    "seq": 249,
+    "at": "2026-11-13T20:45:00.298Z",
+    "kind": "decision",
+    "id": "dd73a81f-05b8-4f4b-938a-675665734060",
+    "sessionHash": "78d96ce5e3a88a8eace1458235305da991e40f6b646c6ad715ce5753e10781c6",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 250,
+    "at": "2026-11-13T20:45:00.457Z",
+    "kind": "decision",
+    "id": "dd73a81f-05b8-4f4b-938a-675665734060",
+    "sessionHash": "78d96ce5e3a88a8eace1458235305da991e40f6b646c6ad715ce5753e10781c6",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 251,
+    "at": "2026-11-13T20:45:07.520Z",
+    "kind": "outcome",
+    "id": "dd73a81f-05b8-4f4b-938a-675665734060",
+    "outcome": "completed",
+    "durationMs": 5161
+  },
+  {
+    "seq": 252,
+    "at": "2026-11-13T20:45:07.544Z",
+    "kind": "served",
+    "id": "dd73a81f-05b8-4f4b-938a-675665734060",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 2352,
+    "outputTokens": 361,
+    "totalTokens": 2713
+  },
+  {
+    "seq": 253,
+    "at": "2026-11-13T20:50:55.727Z",
+    "kind": "decision",
+    "id": "d0d0d19a-7503-4191-b339-9d6dec02ff73",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 254,
+    "at": "2026-11-13T20:50:56.840Z",
+    "kind": "decision",
+    "id": "d0d0d19a-7503-4191-b339-9d6dec02ff73",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 255,
+    "at": "2026-11-13T20:51:11.863Z",
+    "kind": "outcome",
+    "id": "d0d0d19a-7503-4191-b339-9d6dec02ff73",
+    "outcome": "completed",
+    "durationMs": 13244
+  },
+  {
+    "seq": 256,
+    "at": "2026-11-13T20:51:11.926Z",
+    "kind": "served",
+    "id": "d0d0d19a-7503-4191-b339-9d6dec02ff73",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 16339,
+    "outputTokens": 8,
+    "totalTokens": 16347
+  },
+  {
+    "seq": 257,
+    "at": "2026-11-13T21:20:55.656Z",
+    "kind": "decision",
+    "id": "99abfca4-09aa-4169-82f8-476ac9cc4e52",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 258,
+    "at": "2026-11-13T21:20:56.748Z",
+    "kind": "decision",
+    "id": "99abfca4-09aa-4169-82f8-476ac9cc4e52",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 259,
+    "at": "2026-11-13T21:21:13.573Z",
+    "kind": "outcome",
+    "id": "99abfca4-09aa-4169-82f8-476ac9cc4e52",
+    "outcome": "completed",
+    "durationMs": 13818
+  },
+  {
+    "seq": 260,
+    "at": "2026-11-13T21:21:13.641Z",
+    "kind": "served",
+    "id": "99abfca4-09aa-4169-82f8-476ac9cc4e52",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 16558,
+    "outputTokens": 8,
+    "totalTokens": 16566
+  },
+  {
+    "seq": 261,
+    "at": "2026-11-13T21:50:55.677Z",
+    "kind": "decision",
+    "id": "713befd1-7448-43d6-8e22-d34787f9013a",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 262,
+    "at": "2026-11-13T21:50:56.869Z",
+    "kind": "decision",
+    "id": "713befd1-7448-43d6-8e22-d34787f9013a",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 263,
+    "at": "2026-11-13T21:51:13.853Z",
+    "kind": "outcome",
+    "id": "713befd1-7448-43d6-8e22-d34787f9013a",
+    "outcome": "completed",
+    "durationMs": 13909
+  },
+  {
+    "seq": 264,
+    "at": "2026-11-13T21:51:13.934Z",
+    "kind": "served",
+    "id": "713befd1-7448-43d6-8e22-d34787f9013a",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 16777,
+    "outputTokens": 8,
+    "totalTokens": 16785
+  },
+  {
+    "seq": 265,
+    "at": "2026-11-13T22:20:55.711Z",
+    "kind": "decision",
+    "id": "729ea50c-781d-41eb-9af5-d8ab6ad35346",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 266,
+    "at": "2026-11-13T22:20:56.902Z",
+    "kind": "decision",
+    "id": "729ea50c-781d-41eb-9af5-d8ab6ad35346",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 267,
+    "at": "2026-11-13T22:21:14.499Z",
+    "kind": "outcome",
+    "id": "729ea50c-781d-41eb-9af5-d8ab6ad35346",
+    "outcome": "completed",
+    "durationMs": 14521
+  },
+  {
+    "seq": 268,
+    "at": "2026-11-13T22:21:14.579Z",
+    "kind": "served",
+    "id": "729ea50c-781d-41eb-9af5-d8ab6ad35346",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 16997,
+    "outputTokens": 8,
+    "totalTokens": 17005
+  },
+  {
+    "seq": 269,
+    "at": "2026-11-13T22:50:55.768Z",
+    "kind": "decision",
+    "id": "171bd8cb-929b-45af-a986-fc59be906f7e",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 270,
+    "at": "2026-11-13T22:50:56.992Z",
+    "kind": "decision",
+    "id": "171bd8cb-929b-45af-a986-fc59be906f7e",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 271,
+    "at": "2026-11-13T22:51:14.198Z",
+    "kind": "outcome",
+    "id": "171bd8cb-929b-45af-a986-fc59be906f7e",
+    "outcome": "completed",
+    "durationMs": 14085
+  },
+  {
+    "seq": 272,
+    "at": "2026-11-13T22:51:14.264Z",
+    "kind": "served",
+    "id": "171bd8cb-929b-45af-a986-fc59be906f7e",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 17217,
+    "outputTokens": 8,
+    "totalTokens": 17225
+  },
+  {
+    "seq": 273,
+    "at": "2026-11-13T23:20:55.541Z",
+    "kind": "decision",
+    "id": "b69f26ce-f733-40ae-8f46-78997d5961d4",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 274,
+    "at": "2026-11-13T23:20:57.440Z",
+    "kind": "decision",
+    "id": "b69f26ce-f733-40ae-8f46-78997d5961d4",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 275,
+    "at": "2026-11-13T23:21:15.209Z",
+    "kind": "outcome",
+    "id": "b69f26ce-f733-40ae-8f46-78997d5961d4",
+    "outcome": "completed",
+    "durationMs": 14805
+  },
+  {
+    "seq": 276,
+    "at": "2026-11-13T23:21:15.284Z",
+    "kind": "served",
+    "id": "b69f26ce-f733-40ae-8f46-78997d5961d4",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 17437,
+    "outputTokens": 8,
+    "totalTokens": 17445
+  },
+  {
+    "seq": 277,
+    "at": "2026-11-13T23:50:55.568Z",
+    "kind": "decision",
+    "id": "4287b665-97b9-4e4f-958d-7bcbe7cc0c5a",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 278,
+    "at": "2026-11-13T23:50:56.858Z",
+    "kind": "decision",
+    "id": "4287b665-97b9-4e4f-958d-7bcbe7cc0c5a",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 279,
+    "at": "2026-11-13T23:51:14.379Z",
+    "kind": "outcome",
+    "id": "4287b665-97b9-4e4f-958d-7bcbe7cc0c5a",
+    "outcome": "completed",
+    "durationMs": 14353
+  },
+  {
+    "seq": 280,
+    "at": "2026-11-13T23:51:14.459Z",
+    "kind": "served",
+    "id": "4287b665-97b9-4e4f-958d-7bcbe7cc0c5a",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 17657,
+    "outputTokens": 8,
+    "totalTokens": 17665
+  },
+  {
+    "seq": 281,
+    "at": "2026-11-14T00:20:55.782Z",
+    "kind": "decision",
+    "id": "de5ae251-6146-4192-934f-72d940e25112",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 282,
+    "at": "2026-11-14T00:20:57.213Z",
+    "kind": "decision",
+    "id": "de5ae251-6146-4192-934f-72d940e25112",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 283,
+    "at": "2026-11-14T00:21:14.366Z",
+    "kind": "outcome",
+    "id": "de5ae251-6146-4192-934f-72d940e25112",
+    "outcome": "completed",
+    "durationMs": 14303
+  },
+  {
+    "seq": 284,
+    "at": "2026-11-14T00:21:14.431Z",
+    "kind": "served",
+    "id": "de5ae251-6146-4192-934f-72d940e25112",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 17877,
+    "outputTokens": 8,
+    "totalTokens": 17885
+  },
+  {
+    "seq": 285,
+    "at": "2026-11-14T00:50:55.584Z",
+    "kind": "decision",
+    "id": "211eaf74-7927-4757-906a-1cc9f5c90d47",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 286,
+    "at": "2026-11-14T00:50:56.681Z",
+    "kind": "decision",
+    "id": "211eaf74-7927-4757-906a-1cc9f5c90d47",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 287,
+    "at": "2026-11-14T00:51:14.514Z",
+    "kind": "outcome",
+    "id": "211eaf74-7927-4757-906a-1cc9f5c90d47",
+    "outcome": "completed",
+    "durationMs": 14912
+  },
+  {
+    "seq": 288,
+    "at": "2026-11-14T00:51:14.588Z",
+    "kind": "served",
+    "id": "211eaf74-7927-4757-906a-1cc9f5c90d47",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 18097,
+    "outputTokens": 8,
+    "totalTokens": 18105
+  },
+  {
+    "seq": 289,
+    "at": "2026-11-14T01:20:55.652Z",
+    "kind": "decision",
+    "id": "bfd2c8f7-9dcd-4577-9512-73aae67962be",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 290,
+    "at": "2026-11-14T01:20:56.822Z",
+    "kind": "decision",
+    "id": "bfd2c8f7-9dcd-4577-9512-73aae67962be",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 291,
+    "at": "2026-11-14T01:21:17.557Z",
+    "kind": "outcome",
+    "id": "bfd2c8f7-9dcd-4577-9512-73aae67962be",
+    "outcome": "completed",
+    "durationMs": 17794
+  },
+  {
+    "seq": 292,
+    "at": "2026-11-14T01:21:17.690Z",
+    "kind": "served",
+    "id": "bfd2c8f7-9dcd-4577-9512-73aae67962be",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 18316,
+    "outputTokens": 8,
+    "totalTokens": 18324
+  },
+  {
+    "seq": 293,
+    "at": "2026-11-14T01:50:55.613Z",
+    "kind": "decision",
+    "id": "a91a1d2e-b70b-415e-abc3-664b2e08a442",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 294,
+    "at": "2026-11-14T01:50:56.836Z",
+    "kind": "decision",
+    "id": "a91a1d2e-b70b-415e-abc3-664b2e08a442",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 295,
+    "at": "2026-11-14T01:51:15.307Z",
+    "kind": "outcome",
+    "id": "a91a1d2e-b70b-415e-abc3-664b2e08a442",
+    "outcome": "completed",
+    "durationMs": 15403
+  },
+  {
+    "seq": 296,
+    "at": "2026-11-14T01:51:15.392Z",
+    "kind": "served",
+    "id": "a91a1d2e-b70b-415e-abc3-664b2e08a442",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 18535,
+    "outputTokens": 8,
+    "totalTokens": 18543
+  },
+  {
+    "seq": 297,
+    "at": "2026-11-14T02:20:55.584Z",
+    "kind": "decision",
+    "id": "8769736d-2dc0-4dd1-9e17-478785a16f7c",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 298,
+    "at": "2026-11-14T02:20:56.746Z",
+    "kind": "decision",
+    "id": "8769736d-2dc0-4dd1-9e17-478785a16f7c",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 299,
+    "at": "2026-11-14T02:21:15.845Z",
+    "kind": "outcome",
+    "id": "8769736d-2dc0-4dd1-9e17-478785a16f7c",
+    "outcome": "completed",
+    "durationMs": 16109
+  },
+  {
+    "seq": 300,
+    "at": "2026-11-14T02:21:15.940Z",
+    "kind": "served",
+    "id": "8769736d-2dc0-4dd1-9e17-478785a16f7c",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 19304,
+    "outputTokens": 8,
+    "totalTokens": 19312
+  },
+  {
+    "seq": 301,
+    "at": "2026-11-14T02:40:03.673Z",
+    "kind": "decision",
+    "id": "3ae7c9fb-5ff4-4213-a8e3-9f169473f890",
+    "sessionHash": "116154ac6fb190fdd5cf349647fc0800f81a155a3a68ca126dffe9dd8ebd67d2",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 302,
+    "at": "2026-11-14T02:40:03.893Z",
+    "kind": "decision",
+    "id": "3ae7c9fb-5ff4-4213-a8e3-9f169473f890",
+    "sessionHash": "116154ac6fb190fdd5cf349647fc0800f81a155a3a68ca126dffe9dd8ebd67d2",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 303,
+    "at": "2026-11-14T02:40:16.542Z",
+    "kind": "outcome",
+    "id": "3ae7c9fb-5ff4-4213-a8e3-9f169473f890",
+    "outcome": "completed",
+    "durationMs": 8407
+  },
+  {
+    "seq": 304,
+    "at": "2026-11-14T02:40:16.568Z",
+    "kind": "served",
+    "id": "3ae7c9fb-5ff4-4213-a8e3-9f169473f890",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 2353,
+    "outputTokens": 346,
+    "totalTokens": 2699
+  },
+  {
+    "seq": 305,
+    "at": "2026-11-14T02:45:00.302Z",
+    "kind": "decision",
+    "id": "fe016cd3-86a9-419b-b774-9eb0d74b3957",
+    "sessionHash": "f254447cea6ffdd4ae572f7973683ca274810f811a1d02f2012e953452f49c64",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 306,
+    "at": "2026-11-14T02:45:00.455Z",
+    "kind": "decision",
+    "id": "fe016cd3-86a9-419b-b774-9eb0d74b3957",
+    "sessionHash": "f254447cea6ffdd4ae572f7973683ca274810f811a1d02f2012e953452f49c64",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 307,
+    "at": "2026-11-14T02:45:07.657Z",
+    "kind": "outcome",
+    "id": "fe016cd3-86a9-419b-b774-9eb0d74b3957",
+    "outcome": "completed",
+    "durationMs": 5500
+  },
+  {
+    "seq": 308,
+    "at": "2026-11-14T02:45:07.675Z",
+    "kind": "served",
+    "id": "fe016cd3-86a9-419b-b774-9eb0d74b3957",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 2352,
+    "outputTokens": 389,
+    "totalTokens": 2741
+  },
+  {
+    "seq": 309,
+    "at": "2026-11-14T02:50:55.791Z",
+    "kind": "decision",
+    "id": "115a666b-6fc9-4740-8526-56b8fe5d4e1c",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 310,
+    "at": "2026-11-14T02:50:56.855Z",
+    "kind": "decision",
+    "id": "115a666b-6fc9-4740-8526-56b8fe5d4e1c",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 311,
+    "at": "2026-11-14T02:51:13.917Z",
+    "kind": "outcome",
+    "id": "115a666b-6fc9-4740-8526-56b8fe5d4e1c",
+    "outcome": "completed",
+    "durationMs": 15192
+  },
+  {
+    "seq": 312,
+    "at": "2026-11-14T02:51:13.989Z",
+    "kind": "served",
+    "id": "115a666b-6fc9-4740-8526-56b8fe5d4e1c",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 19523,
+    "outputTokens": 8,
+    "totalTokens": 19531
+  },
+  {
+    "seq": 313,
+    "at": "2026-11-14T03:00:03.745Z",
+    "kind": "decision",
+    "id": "0280d176-2fd2-4d26-b4cc-f128415bf259",
+    "sessionHash": "a876e73c6cabd0988cf9ae17881925f3a4c911ac746633224bc09eee41a86c13",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 314,
+    "at": "2026-11-14T03:00:04.232Z",
+    "kind": "decision",
+    "id": "0280d176-2fd2-4d26-b4cc-f128415bf259",
+    "sessionHash": "a876e73c6cabd0988cf9ae17881925f3a4c911ac746633224bc09eee41a86c13",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 315,
+    "at": "2026-11-14T03:20:55.664Z",
+    "kind": "decision",
+    "id": "46205b43-3504-4ca1-87f0-352688d81dbe",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 316,
+    "at": "2026-11-14T03:20:56.821Z",
+    "kind": "decision",
+    "id": "46205b43-3504-4ca1-87f0-352688d81dbe",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 317,
+    "at": "2026-11-14T03:21:16.089Z",
+    "kind": "outcome",
+    "id": "46205b43-3504-4ca1-87f0-352688d81dbe",
+    "outcome": "completed",
+    "durationMs": 16090
+  },
+  {
+    "seq": 318,
+    "at": "2026-11-14T03:21:16.199Z",
+    "kind": "served",
+    "id": "46205b43-3504-4ca1-87f0-352688d81dbe",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 19742,
+    "outputTokens": 8,
+    "totalTokens": 19750
+  },
+  {
+    "seq": 319,
+    "at": "2026-11-14T03:50:55.559Z",
+    "kind": "decision",
+    "id": "fa707dfc-140e-45ea-8b85-a410e84b27e5",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 320,
+    "at": "2026-11-14T03:50:56.969Z",
+    "kind": "decision",
+    "id": "fa707dfc-140e-45ea-8b85-a410e84b27e5",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 321,
+    "at": "2026-11-14T03:51:16.048Z",
+    "kind": "outcome",
+    "id": "fa707dfc-140e-45ea-8b85-a410e84b27e5",
+    "outcome": "completed",
+    "durationMs": 15835
+  },
+  {
+    "seq": 322,
+    "at": "2026-11-14T03:51:16.146Z",
+    "kind": "served",
+    "id": "fa707dfc-140e-45ea-8b85-a410e84b27e5",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 19961,
+    "outputTokens": 8,
+    "totalTokens": 19969
+  },
+  {
+    "seq": 323,
+    "at": "2026-11-14T04:20:55.644Z",
+    "kind": "decision",
+    "id": "f0574971-9990-4d8f-b326-fb68e9e2a264",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 324,
+    "at": "2026-11-14T04:20:57.085Z",
+    "kind": "decision",
+    "id": "f0574971-9990-4d8f-b326-fb68e9e2a264",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 325,
+    "at": "2026-11-14T04:21:16.070Z",
+    "kind": "outcome",
+    "id": "f0574971-9990-4d8f-b326-fb68e9e2a264",
+    "outcome": "completed",
+    "durationMs": 15899
+  },
+  {
+    "seq": 326,
+    "at": "2026-11-14T04:21:16.159Z",
+    "kind": "served",
+    "id": "f0574971-9990-4d8f-b326-fb68e9e2a264",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 20180,
+    "outputTokens": 8,
+    "totalTokens": 20188
+  },
+  {
+    "seq": 327,
+    "at": "2026-11-14T04:50:55.768Z",
+    "kind": "decision",
+    "id": "db65c2b0-94f0-429e-b4c6-178586e397dc",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 328,
+    "at": "2026-11-14T04:50:57.094Z",
+    "kind": "decision",
+    "id": "db65c2b0-94f0-429e-b4c6-178586e397dc",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 329,
+    "at": "2026-11-14T04:51:16.099Z",
+    "kind": "outcome",
+    "id": "db65c2b0-94f0-429e-b4c6-178586e397dc",
+    "outcome": "completed",
+    "durationMs": 15948
+  },
+  {
+    "seq": 330,
+    "at": "2026-11-14T04:51:16.181Z",
+    "kind": "served",
+    "id": "db65c2b0-94f0-429e-b4c6-178586e397dc",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 20399,
+    "outputTokens": 8,
+    "totalTokens": 20407
+  },
+  {
+    "seq": 331,
+    "at": "2026-11-14T05:20:55.566Z",
+    "kind": "decision",
+    "id": "7c2c70a9-d339-4636-b87f-aeefac35d313",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 332,
+    "at": "2026-11-14T05:20:56.697Z",
+    "kind": "decision",
+    "id": "7c2c70a9-d339-4636-b87f-aeefac35d313",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 333,
+    "at": "2026-11-14T05:21:16.889Z",
+    "kind": "outcome",
+    "id": "7c2c70a9-d339-4636-b87f-aeefac35d313",
+    "outcome": "completed",
+    "durationMs": 17019
+  },
+  {
+    "seq": 334,
+    "at": "2026-11-14T05:21:16.980Z",
+    "kind": "served",
+    "id": "7c2c70a9-d339-4636-b87f-aeefac35d313",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 20618,
+    "outputTokens": 8,
+    "totalTokens": 20626
+  },
+  {
+    "seq": 335,
+    "at": "2026-11-14T05:50:55.577Z",
+    "kind": "decision",
+    "id": "94bfcbd5-4388-4f63-a233-d0e8c7d237b8",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 336,
+    "at": "2026-11-14T05:50:56.602Z",
+    "kind": "decision",
+    "id": "94bfcbd5-4388-4f63-a233-d0e8c7d237b8",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 337,
+    "at": "2026-11-14T05:51:15.381Z",
+    "kind": "outcome",
+    "id": "94bfcbd5-4388-4f63-a233-d0e8c7d237b8",
+    "outcome": "completed",
+    "durationMs": 15982
+  },
+  {
+    "seq": 338,
+    "at": "2026-11-14T05:51:15.457Z",
+    "kind": "served",
+    "id": "94bfcbd5-4388-4f63-a233-d0e8c7d237b8",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 20837,
+    "outputTokens": 8,
+    "totalTokens": 20845
+  },
+  {
+    "seq": 339,
+    "at": "2026-11-14T06:20:55.594Z",
+    "kind": "decision",
+    "id": "cbd56da2-fe75-464f-b4e1-04aaebc7af78",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 340,
+    "at": "2026-11-14T06:20:56.715Z",
+    "kind": "decision",
+    "id": "cbd56da2-fe75-464f-b4e1-04aaebc7af78",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 341,
+    "at": "2026-11-14T06:21:17.881Z",
+    "kind": "outcome",
+    "id": "cbd56da2-fe75-464f-b4e1-04aaebc7af78",
+    "outcome": "completed",
+    "durationMs": 18323
+  },
+  {
+    "seq": 342,
+    "at": "2026-11-14T06:21:17.959Z",
+    "kind": "served",
+    "id": "cbd56da2-fe75-464f-b4e1-04aaebc7af78",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 21056,
+    "outputTokens": 8,
+    "totalTokens": 21064
+  },
+  {
+    "seq": 343,
+    "at": "2026-11-14T06:50:55.623Z",
+    "kind": "decision",
+    "id": "7dff97a7-e600-4dc7-bd66-b27e0d64b375",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 344,
+    "at": "2026-11-14T06:50:56.721Z",
+    "kind": "decision",
+    "id": "7dff97a7-e600-4dc7-bd66-b27e0d64b375",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 345,
+    "at": "2026-11-14T06:51:16.077Z",
+    "kind": "outcome",
+    "id": "7dff97a7-e600-4dc7-bd66-b27e0d64b375",
+    "outcome": "completed",
+    "durationMs": 16442
+  },
+  {
+    "seq": 346,
+    "at": "2026-11-14T06:51:16.150Z",
+    "kind": "served",
+    "id": "7dff97a7-e600-4dc7-bd66-b27e0d64b375",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 21275,
+    "outputTokens": 8,
+    "totalTokens": 21283
+  },
+  {
+    "seq": 347,
+    "at": "2026-11-14T07:20:55.804Z",
+    "kind": "decision",
+    "id": "bc2e3f88-b83b-413c-8ceb-4c5de3243026",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 348,
+    "at": "2026-11-14T07:20:57.135Z",
+    "kind": "decision",
+    "id": "bc2e3f88-b83b-413c-8ceb-4c5de3243026",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 349,
+    "at": "2026-11-14T07:21:19.836Z",
+    "kind": "outcome",
+    "id": "bc2e3f88-b83b-413c-8ceb-4c5de3243026",
+    "outcome": "completed",
+    "durationMs": 19536
+  },
+  {
+    "seq": 350,
+    "at": "2026-11-14T07:21:19.935Z",
+    "kind": "served",
+    "id": "bc2e3f88-b83b-413c-8ceb-4c5de3243026",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 21494,
+    "outputTokens": 8,
+    "totalTokens": 21502
+  },
+  {
+    "seq": 351,
+    "at": "2026-11-14T07:50:55.861Z",
+    "kind": "decision",
+    "id": "bc876ae0-67ee-43f6-a8e4-fa1dfb7e9db0",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 352,
+    "at": "2026-11-14T07:50:57.160Z",
+    "kind": "decision",
+    "id": "bc876ae0-67ee-43f6-a8e4-fa1dfb7e9db0",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 353,
+    "at": "2026-11-14T07:51:16.352Z",
+    "kind": "outcome",
+    "id": "bc876ae0-67ee-43f6-a8e4-fa1dfb7e9db0",
+    "outcome": "completed",
+    "durationMs": 16255
+  },
+  {
+    "seq": 354,
+    "at": "2026-11-14T07:51:16.439Z",
+    "kind": "served",
+    "id": "bc876ae0-67ee-43f6-a8e4-fa1dfb7e9db0",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 21713,
+    "outputTokens": 8,
+    "totalTokens": 21721
+  },
+  {
+    "seq": 355,
+    "at": "2026-11-14T08:20:55.836Z",
+    "kind": "decision",
+    "id": "90803896-b843-459f-bd0f-f498e1f43c09",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 356,
+    "at": "2026-11-14T08:20:57.059Z",
+    "kind": "decision",
+    "id": "90803896-b843-459f-bd0f-f498e1f43c09",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 357,
+    "at": "2026-11-14T08:21:17.455Z",
+    "kind": "outcome",
+    "id": "90803896-b843-459f-bd0f-f498e1f43c09",
+    "outcome": "completed",
+    "durationMs": 17035
+  },
+  {
+    "seq": 358,
+    "at": "2026-11-14T08:21:17.570Z",
+    "kind": "served",
+    "id": "90803896-b843-459f-bd0f-f498e1f43c09",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 21932,
+    "outputTokens": 8,
+    "totalTokens": 21940
+  },
+  {
+    "seq": 359,
+    "at": "2026-11-14T08:40:04.193Z",
+    "kind": "decision",
+    "id": "cbcdb74d-0615-497b-be63-f86699402808",
+    "sessionHash": "2ce2956f94f4e3407f3b21d8740e46143f984cf7b47d6971c4bec3c901c1ea88",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 360,
+    "at": "2026-11-14T08:40:04.361Z",
+    "kind": "decision",
+    "id": "cbcdb74d-0615-497b-be63-f86699402808",
+    "sessionHash": "2ce2956f94f4e3407f3b21d8740e46143f984cf7b47d6971c4bec3c901c1ea88",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 361,
+    "at": "2026-11-14T08:40:16.083Z",
+    "kind": "outcome",
+    "id": "cbcdb74d-0615-497b-be63-f86699402808",
+    "outcome": "completed",
+    "durationMs": 8251
+  },
+  {
+    "seq": 362,
+    "at": "2026-11-14T08:40:16.112Z",
+    "kind": "served",
+    "id": "cbcdb74d-0615-497b-be63-f86699402808",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 2353,
+    "outputTokens": 356,
+    "totalTokens": 2709
+  },
+  {
+    "seq": 363,
+    "at": "2026-11-14T08:45:00.305Z",
+    "kind": "decision",
+    "id": "b602ff2a-a1a7-4d35-b1e0-889577364e43",
+    "sessionHash": "71bd58853c49aae7046145de92cf9566bec13cab9e0aede07e8ba7cc2a88224f",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 364,
+    "at": "2026-11-14T08:45:00.453Z",
+    "kind": "decision",
+    "id": "b602ff2a-a1a7-4d35-b1e0-889577364e43",
+    "sessionHash": "71bd58853c49aae7046145de92cf9566bec13cab9e0aede07e8ba7cc2a88224f",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 365,
+    "at": "2026-11-14T08:45:07.792Z",
+    "kind": "outcome",
+    "id": "b602ff2a-a1a7-4d35-b1e0-889577364e43",
+    "outcome": "completed",
+    "durationMs": 5625
+  },
+  {
+    "seq": 366,
+    "at": "2026-11-14T08:45:07.815Z",
+    "kind": "served",
+    "id": "b602ff2a-a1a7-4d35-b1e0-889577364e43",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 2352,
+    "outputTokens": 391,
+    "totalTokens": 2743
+  },
+  {
+    "seq": 367,
+    "at": "2026-11-14T08:50:55.635Z",
+    "kind": "decision",
+    "id": "3972961c-a8ac-4a03-bfb4-b363b3ba7177",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 368,
+    "at": "2026-11-14T08:50:56.763Z",
+    "kind": "decision",
+    "id": "3972961c-a8ac-4a03-bfb4-b363b3ba7177",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 369,
+    "at": "2026-11-14T08:51:15.106Z",
+    "kind": "outcome",
+    "id": "3972961c-a8ac-4a03-bfb4-b363b3ba7177",
+    "outcome": "completed",
+    "durationMs": 16592
+  },
+  {
+    "seq": 370,
+    "at": "2026-11-14T08:51:15.189Z",
+    "kind": "served",
+    "id": "3972961c-a8ac-4a03-bfb4-b363b3ba7177",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 22151,
+    "outputTokens": 8,
+    "totalTokens": 22159
+  },
+  {
+    "seq": 371,
+    "at": "2026-11-14T09:20:55.745Z",
+    "kind": "decision",
+    "id": "cb9974c0-b442-492d-822f-32a9b7945e50",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 372,
+    "at": "2026-11-14T09:20:56.809Z",
+    "kind": "decision",
+    "id": "cb9974c0-b442-492d-822f-32a9b7945e50",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 373,
+    "at": "2026-11-14T09:21:16.251Z",
+    "kind": "outcome",
+    "id": "cb9974c0-b442-492d-822f-32a9b7945e50",
+    "outcome": "completed",
+    "durationMs": 16537
+  },
+  {
+    "seq": 374,
+    "at": "2026-11-14T09:21:16.365Z",
+    "kind": "served",
+    "id": "cb9974c0-b442-492d-822f-32a9b7945e50",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 22370,
+    "outputTokens": 8,
+    "totalTokens": 22378
+  },
+  {
+    "seq": 375,
+    "at": "2026-11-14T09:50:55.853Z",
+    "kind": "decision",
+    "id": "1e053d73-a744-405c-86ec-c228e6bcb5c7",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 376,
+    "at": "2026-11-14T09:50:56.982Z",
+    "kind": "decision",
+    "id": "1e053d73-a744-405c-86ec-c228e6bcb5c7",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 377,
+    "at": "2026-11-14T09:51:16.920Z",
+    "kind": "outcome",
+    "id": "1e053d73-a744-405c-86ec-c228e6bcb5c7",
+    "outcome": "completed",
+    "durationMs": 16582
+  },
+  {
+    "seq": 378,
+    "at": "2026-11-14T09:51:17.026Z",
+    "kind": "served",
+    "id": "1e053d73-a744-405c-86ec-c228e6bcb5c7",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 22589,
+    "outputTokens": 8,
+    "totalTokens": 22597
+  },
+  {
+    "seq": 379,
+    "at": "2026-11-14T10:20:55.760Z",
+    "kind": "decision",
+    "id": "dee82b96-9c90-44ee-bdbb-6bc7952085dc",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 380,
+    "at": "2026-11-14T10:20:56.888Z",
+    "kind": "decision",
+    "id": "dee82b96-9c90-44ee-bdbb-6bc7952085dc",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 381,
+    "at": "2026-11-14T10:21:18.199Z",
+    "kind": "outcome",
+    "id": "dee82b96-9c90-44ee-bdbb-6bc7952085dc",
+    "outcome": "completed",
+    "durationMs": 17979
+  },
+  {
+    "seq": 382,
+    "at": "2026-11-14T10:21:18.283Z",
+    "kind": "served",
+    "id": "dee82b96-9c90-44ee-bdbb-6bc7952085dc",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 22809,
+    "outputTokens": 8,
+    "totalTokens": 22817
+  },
+  {
+    "seq": 383,
+    "at": "2026-11-14T10:50:55.975Z",
+    "kind": "decision",
+    "id": "14650380-b331-49ea-99c2-40c0ebe117bd",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 384,
+    "at": "2026-11-14T10:50:57.202Z",
+    "kind": "decision",
+    "id": "14650380-b331-49ea-99c2-40c0ebe117bd",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 385,
+    "at": "2026-11-14T10:51:17.913Z",
+    "kind": "outcome",
+    "id": "14650380-b331-49ea-99c2-40c0ebe117bd",
+    "outcome": "completed",
+    "durationMs": 17522
+  },
+  {
+    "seq": 386,
+    "at": "2026-11-14T10:51:17.991Z",
+    "kind": "served",
+    "id": "14650380-b331-49ea-99c2-40c0ebe117bd",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 23029,
+    "outputTokens": 8,
+    "totalTokens": 23037
+  },
+  {
+    "seq": 387,
+    "at": "2026-11-14T11:20:55.882Z",
+    "kind": "decision",
+    "id": "157e8025-7bdc-4189-9159-a4de23f69a6c",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 388,
+    "at": "2026-11-14T11:20:57.313Z",
+    "kind": "decision",
+    "id": "157e8025-7bdc-4189-9159-a4de23f69a6c",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 389,
+    "at": "2026-11-14T11:21:17.661Z",
+    "kind": "outcome",
+    "id": "157e8025-7bdc-4189-9159-a4de23f69a6c",
+    "outcome": "completed",
+    "durationMs": 17304
+  },
+  {
+    "seq": 390,
+    "at": "2026-11-14T11:21:17.744Z",
+    "kind": "served",
+    "id": "157e8025-7bdc-4189-9159-a4de23f69a6c",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 23249,
+    "outputTokens": 8,
+    "totalTokens": 23257
+  },
+  {
+    "seq": 391,
+    "at": "2026-11-14T11:50:55.785Z",
+    "kind": "decision",
+    "id": "f3644eee-2edc-4dfb-a769-1b870e67288c",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 392,
+    "at": "2026-11-14T11:50:56.908Z",
+    "kind": "decision",
+    "id": "f3644eee-2edc-4dfb-a769-1b870e67288c",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 393,
+    "at": "2026-11-14T11:51:17.285Z",
+    "kind": "outcome",
+    "id": "f3644eee-2edc-4dfb-a769-1b870e67288c",
+    "outcome": "completed",
+    "durationMs": 17423
+  },
+  {
+    "seq": 394,
+    "at": "2026-11-14T11:51:17.445Z",
+    "kind": "served",
+    "id": "f3644eee-2edc-4dfb-a769-1b870e67288c",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 23469,
+    "outputTokens": 8,
+    "totalTokens": 23477
+  },
+  {
+    "seq": 395,
+    "at": "2026-11-14T12:20:55.797Z",
+    "kind": "decision",
+    "id": "ba9c11ec-9e0b-4f14-9317-a6e8522993a0",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 396,
+    "at": "2026-11-14T12:20:56.916Z",
+    "kind": "decision",
+    "id": "ba9c11ec-9e0b-4f14-9317-a6e8522993a0",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 397,
+    "at": "2026-11-14T12:21:17.213Z",
+    "kind": "outcome",
+    "id": "ba9c11ec-9e0b-4f14-9317-a6e8522993a0",
+    "outcome": "completed",
+    "durationMs": 17431
+  },
+  {
+    "seq": 398,
+    "at": "2026-11-14T12:21:17.385Z",
+    "kind": "served",
+    "id": "ba9c11ec-9e0b-4f14-9317-a6e8522993a0",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 23689,
+    "outputTokens": 8,
+    "totalTokens": 23697
+  },
+  {
+    "seq": 399,
+    "at": "2026-11-14T12:50:55.861Z",
+    "kind": "decision",
+    "id": "aae32553-ed32-4691-9c73-07015102f712",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 400,
+    "at": "2026-11-14T12:50:57.130Z",
+    "kind": "decision",
+    "id": "aae32553-ed32-4691-9c73-07015102f712",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 401,
+    "at": "2026-11-14T12:51:18.353Z",
+    "kind": "outcome",
+    "id": "aae32553-ed32-4691-9c73-07015102f712",
+    "outcome": "completed",
+    "durationMs": 18035
+  },
+  {
+    "seq": 402,
+    "at": "2026-11-14T12:51:18.493Z",
+    "kind": "served",
+    "id": "aae32553-ed32-4691-9c73-07015102f712",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 23909,
+    "outputTokens": 8,
+    "totalTokens": 23917
+  },
+  {
+    "seq": 403,
+    "at": "2026-11-14T13:20:55.809Z",
+    "kind": "decision",
+    "id": "b98aa4c1-d4c1-4625-8ef3-5dca4b9e8e9a",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 404,
+    "at": "2026-11-14T13:20:56.932Z",
+    "kind": "decision",
+    "id": "b98aa4c1-d4c1-4625-8ef3-5dca4b9e8e9a",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 405,
+    "at": "2026-11-14T13:21:17.215Z",
+    "kind": "outcome",
+    "id": "b98aa4c1-d4c1-4625-8ef3-5dca4b9e8e9a",
+    "outcome": "completed",
+    "durationMs": 17426
+  },
+  {
+    "seq": 406,
+    "at": "2026-11-14T13:21:17.299Z",
+    "kind": "served",
+    "id": "b98aa4c1-d4c1-4625-8ef3-5dca4b9e8e9a",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 24128,
+    "outputTokens": 8,
+    "totalTokens": 24136
+  },
+  {
+    "seq": 407,
+    "at": "2026-11-14T13:50:55.814Z",
+    "kind": "decision",
+    "id": "7f2d8f35-19d2-41cd-a556-7df3f02681e2",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 408,
+    "at": "2026-11-14T13:50:57.223Z",
+    "kind": "decision",
+    "id": "7f2d8f35-19d2-41cd-a556-7df3f02681e2",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 409,
+    "at": "2026-11-14T13:51:18.661Z",
+    "kind": "outcome",
+    "id": "7f2d8f35-19d2-41cd-a556-7df3f02681e2",
+    "outcome": "completed",
+    "durationMs": 18393
+  },
+  {
+    "seq": 410,
+    "at": "2026-11-14T13:51:18.743Z",
+    "kind": "served",
+    "id": "7f2d8f35-19d2-41cd-a556-7df3f02681e2",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 24347,
+    "outputTokens": 8,
+    "totalTokens": 24355
+  },
+  {
+    "seq": 411,
+    "at": "2026-11-14T14:20:55.832Z",
+    "kind": "decision",
+    "id": "3ab1920e-1e43-417b-bb64-df76aabcc7a3",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 412,
+    "at": "2026-11-14T14:20:57.188Z",
+    "kind": "decision",
+    "id": "3ab1920e-1e43-417b-bb64-df76aabcc7a3",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 413,
+    "at": "2026-11-14T14:21:18.989Z",
+    "kind": "outcome",
+    "id": "3ab1920e-1e43-417b-bb64-df76aabcc7a3",
+    "outcome": "completed",
+    "durationMs": 18681
+  },
+  {
+    "seq": 414,
+    "at": "2026-11-14T14:21:19.147Z",
+    "kind": "served",
+    "id": "3ab1920e-1e43-417b-bb64-df76aabcc7a3",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 24566,
+    "outputTokens": 8,
+    "totalTokens": 24574
+  },
+  {
+    "seq": 415,
+    "at": "2026-11-14T14:40:04.054Z",
+    "kind": "decision",
+    "id": "6fc246a6-9efd-4e96-8348-5c00cca282e2",
+    "sessionHash": "11850d053239b06b0162110f7f6ec44cc2aa9ed986dd509e8b3de7ed3d5ba883",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 416,
+    "at": "2026-11-14T14:40:04.315Z",
+    "kind": "decision",
+    "id": "6fc246a6-9efd-4e96-8348-5c00cca282e2",
+    "sessionHash": "11850d053239b06b0162110f7f6ec44cc2aa9ed986dd509e8b3de7ed3d5ba883",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 417,
+    "at": "2026-11-14T14:40:16.266Z",
+    "kind": "outcome",
+    "id": "6fc246a6-9efd-4e96-8348-5c00cca282e2",
+    "outcome": "completed",
+    "durationMs": 8304
+  },
+  {
+    "seq": 418,
+    "at": "2026-11-14T14:40:16.296Z",
+    "kind": "served",
+    "id": "6fc246a6-9efd-4e96-8348-5c00cca282e2",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 2353,
+    "outputTokens": 346,
+    "totalTokens": 2699
+  },
+  {
+    "seq": 419,
+    "at": "2026-11-14T14:45:00.294Z",
+    "kind": "decision",
+    "id": "32b182d5-7d8c-417b-ae36-50acf51b85fc",
+    "sessionHash": "2695f0ce58a36c1a1987b1ede40c157cc441afd66c267226e5b7c06ce8456194",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 420,
+    "at": "2026-11-14T14:45:00.457Z",
+    "kind": "decision",
+    "id": "32b182d5-7d8c-417b-ae36-50acf51b85fc",
+    "sessionHash": "2695f0ce58a36c1a1987b1ede40c157cc441afd66c267226e5b7c06ce8456194",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 421,
+    "at": "2026-11-14T14:45:07.291Z",
+    "kind": "outcome",
+    "id": "32b182d5-7d8c-417b-ae36-50acf51b85fc",
+    "outcome": "completed",
+    "durationMs": 5350
+  },
+  {
+    "seq": 422,
+    "at": "2026-11-14T14:45:07.311Z",
+    "kind": "served",
+    "id": "32b182d5-7d8c-417b-ae36-50acf51b85fc",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 2352,
+    "outputTokens": 393,
+    "totalTokens": 2745
+  },
+  {
+    "seq": 423,
+    "at": "2026-11-14T14:50:55.719Z",
+    "kind": "decision",
+    "id": "b9392d9e-276e-4b53-a4c8-231f2f94ee2b",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 424,
+    "at": "2026-11-14T14:50:56.834Z",
+    "kind": "decision",
+    "id": "b9392d9e-276e-4b53-a4c8-231f2f94ee2b",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 425,
+    "at": "2026-11-14T14:51:16.827Z",
+    "kind": "outcome",
+    "id": "b9392d9e-276e-4b53-a4c8-231f2f94ee2b",
+    "outcome": "completed",
+    "durationMs": 18345
+  },
+  {
+    "seq": 426,
+    "at": "2026-11-14T14:51:16.909Z",
+    "kind": "served",
+    "id": "b9392d9e-276e-4b53-a4c8-231f2f94ee2b",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 24785,
+    "outputTokens": 8,
+    "totalTokens": 24793
+  },
+  {
+    "seq": 427,
+    "at": "2026-11-14T15:20:55.834Z",
+    "kind": "decision",
+    "id": "aee4cd11-a30f-41cc-99e3-f8155ac7a0de",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 428,
+    "at": "2026-11-14T15:20:56.960Z",
+    "kind": "decision",
+    "id": "aee4cd11-a30f-41cc-99e3-f8155ac7a0de",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 429,
+    "at": "2026-11-14T15:21:18.831Z",
+    "kind": "outcome",
+    "id": "aee4cd11-a30f-41cc-99e3-f8155ac7a0de",
+    "outcome": "completed",
+    "durationMs": 18900
+  },
+  {
+    "seq": 430,
+    "at": "2026-11-14T15:21:18.925Z",
+    "kind": "served",
+    "id": "aee4cd11-a30f-41cc-99e3-f8155ac7a0de",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 25004,
+    "outputTokens": 8,
+    "totalTokens": 25012
+  },
+  {
+    "seq": 431,
+    "at": "2026-11-14T15:50:55.740Z",
+    "kind": "decision",
+    "id": "f9a65e21-40db-43aa-968b-304bd50a7269",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 432,
+    "at": "2026-11-14T15:50:56.747Z",
+    "kind": "decision",
+    "id": "f9a65e21-40db-43aa-968b-304bd50a7269",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 433,
+    "at": "2026-11-14T15:51:18.449Z",
+    "kind": "outcome",
+    "id": "f9a65e21-40db-43aa-968b-304bd50a7269",
+    "outcome": "completed",
+    "durationMs": 18667
+  },
+  {
+    "seq": 434,
+    "at": "2026-11-14T15:51:18.571Z",
+    "kind": "served",
+    "id": "f9a65e21-40db-43aa-968b-304bd50a7269",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 25223,
+    "outputTokens": 8,
+    "totalTokens": 25231
+  },
+  {
+    "seq": 435,
+    "at": "2026-11-14T16:20:55.855Z",
+    "kind": "decision",
+    "id": "c8fb3b5a-f5c9-42a2-98fc-8cd5f9a40d6a",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 436,
+    "at": "2026-11-14T16:20:57.021Z",
+    "kind": "decision",
+    "id": "c8fb3b5a-f5c9-42a2-98fc-8cd5f9a40d6a",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 437,
+    "at": "2026-11-14T16:21:19.799Z",
+    "kind": "outcome",
+    "id": "c8fb3b5a-f5c9-42a2-98fc-8cd5f9a40d6a",
+    "outcome": "completed",
+    "durationMs": 19788
+  },
+  {
+    "seq": 438,
+    "at": "2026-11-14T16:21:20.002Z",
+    "kind": "served",
+    "id": "c8fb3b5a-f5c9-42a2-98fc-8cd5f9a40d6a",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 26018,
+    "outputTokens": 8,
+    "totalTokens": 26026
+  },
+  {
+    "seq": 439,
+    "at": "2026-11-14T16:50:55.859Z",
+    "kind": "decision",
+    "id": "c3fcd223-7164-4667-9837-60e0f17ace97",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 440,
+    "at": "2026-11-14T16:50:56.993Z",
+    "kind": "decision",
+    "id": "c3fcd223-7164-4667-9837-60e0f17ace97",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 441,
+    "at": "2026-11-14T16:51:19.972Z",
+    "kind": "outcome",
+    "id": "c3fcd223-7164-4667-9837-60e0f17ace97",
+    "outcome": "completed",
+    "durationMs": 19747
+  },
+  {
+    "seq": 442,
+    "at": "2026-11-14T16:51:20.061Z",
+    "kind": "served",
+    "id": "c3fcd223-7164-4667-9837-60e0f17ace97",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 26237,
+    "outputTokens": 8,
+    "totalTokens": 26245
+  },
+  {
+    "seq": 443,
+    "at": "2026-11-14T17:20:55.915Z",
+    "kind": "decision",
+    "id": "4d531340-ab97-426a-9a67-397921e4d7e3",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 444,
+    "at": "2026-11-14T17:20:57.143Z",
+    "kind": "decision",
+    "id": "4d531340-ab97-426a-9a67-397921e4d7e3",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 445,
+    "at": "2026-11-14T17:21:19.921Z",
+    "kind": "outcome",
+    "id": "4d531340-ab97-426a-9a67-397921e4d7e3",
+    "outcome": "completed",
+    "durationMs": 19469
+  },
+  {
+    "seq": 446,
+    "at": "2026-11-14T17:21:20.030Z",
+    "kind": "served",
+    "id": "4d531340-ab97-426a-9a67-397921e4d7e3",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 26456,
+    "outputTokens": 8,
+    "totalTokens": 26464
+  },
+  {
+    "seq": 447,
+    "at": "2026-11-14T17:50:55.811Z",
+    "kind": "decision",
+    "id": "de13fbbb-686b-4e45-a409-7f6faa72f021",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 448,
+    "at": "2026-11-14T17:50:56.965Z",
+    "kind": "decision",
+    "id": "de13fbbb-686b-4e45-a409-7f6faa72f021",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 449,
+    "at": "2026-11-14T17:51:20.040Z",
+    "kind": "outcome",
+    "id": "de13fbbb-686b-4e45-a409-7f6faa72f021",
+    "outcome": "completed",
+    "durationMs": 19996
+  },
+  {
+    "seq": 450,
+    "at": "2026-11-14T17:51:20.134Z",
+    "kind": "served",
+    "id": "de13fbbb-686b-4e45-a409-7f6faa72f021",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 26675,
+    "outputTokens": 8,
+    "totalTokens": 26683
+  },
+  {
+    "seq": 451,
+    "at": "2026-11-14T18:20:55.792Z",
+    "kind": "decision",
+    "id": "06252c2f-5b66-4e74-8b1d-df079f1a33a6",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 452,
+    "at": "2026-11-14T18:20:56.836Z",
+    "kind": "decision",
+    "id": "06252c2f-5b66-4e74-8b1d-df079f1a33a6",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 453,
+    "at": "2026-11-14T18:21:20.022Z",
+    "kind": "outcome",
+    "id": "06252c2f-5b66-4e74-8b1d-df079f1a33a6",
+    "outcome": "completed",
+    "durationMs": 20032
+  },
+  {
+    "seq": 454,
+    "at": "2026-11-14T18:21:20.185Z",
+    "kind": "served",
+    "id": "06252c2f-5b66-4e74-8b1d-df079f1a33a6",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 26894,
+    "outputTokens": 8,
+    "totalTokens": 26902
+  },
+  {
+    "seq": 455,
+    "at": "2026-11-14T18:50:55.815Z",
+    "kind": "decision",
+    "id": "b59ef3f1-e190-41d5-b0a2-bf2b6e6ecc4c",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 456,
+    "at": "2026-11-14T18:50:56.940Z",
+    "kind": "decision",
+    "id": "b59ef3f1-e190-41d5-b0a2-bf2b6e6ecc4c",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 457,
+    "at": "2026-11-14T18:51:20.106Z",
+    "kind": "outcome",
+    "id": "b59ef3f1-e190-41d5-b0a2-bf2b6e6ecc4c",
+    "outcome": "completed",
+    "durationMs": 20114
+  },
+  {
+    "seq": 458,
+    "at": "2026-11-14T18:51:20.193Z",
+    "kind": "served",
+    "id": "b59ef3f1-e190-41d5-b0a2-bf2b6e6ecc4c",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 27113,
+    "outputTokens": 8,
+    "totalTokens": 27121
+  },
+  {
+    "seq": 459,
+    "at": "2026-11-14T19:20:55.819Z",
+    "kind": "decision",
+    "id": "bc3b5f06-4c74-4fd8-97a8-a80b943b2c95",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 460,
+    "at": "2026-11-14T19:20:56.948Z",
+    "kind": "decision",
+    "id": "bc3b5f06-4c74-4fd8-97a8-a80b943b2c95",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 461,
+    "at": "2026-11-14T19:21:20.176Z",
+    "kind": "outcome",
+    "id": "bc3b5f06-4c74-4fd8-97a8-a80b943b2c95",
+    "outcome": "completed",
+    "durationMs": 20288
+  },
+  {
+    "seq": 462,
+    "at": "2026-11-14T19:21:20.281Z",
+    "kind": "served",
+    "id": "bc3b5f06-4c74-4fd8-97a8-a80b943b2c95",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 27332,
+    "outputTokens": 8,
+    "totalTokens": 27340
+  },
+  {
+    "seq": 463,
+    "at": "2026-11-14T19:50:55.925Z",
+    "kind": "decision",
+    "id": "8d7c3905-82c0-494f-aba5-9615a5649d6f",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 464,
+    "at": "2026-11-14T19:50:57.357Z",
+    "kind": "decision",
+    "id": "8d7c3905-82c0-494f-aba5-9615a5649d6f",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 465,
+    "at": "2026-11-14T19:51:20.236Z",
+    "kind": "outcome",
+    "id": "8d7c3905-82c0-494f-aba5-9615a5649d6f",
+    "outcome": "completed",
+    "durationMs": 19876
+  },
+  {
+    "seq": 466,
+    "at": "2026-11-14T19:51:20.344Z",
+    "kind": "served",
+    "id": "8d7c3905-82c0-494f-aba5-9615a5649d6f",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 27551,
+    "outputTokens": 8,
+    "totalTokens": 27559
+  },
+  {
+    "seq": 467,
+    "at": "2026-11-14T20:20:55.722Z",
+    "kind": "decision",
+    "id": "e531d02e-a300-46e6-9631-9bd7cf816a5d",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 468,
+    "at": "2026-11-14T20:20:56.861Z",
+    "kind": "decision",
+    "id": "e531d02e-a300-46e6-9631-9bd7cf816a5d",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 469,
+    "at": "2026-11-14T20:21:19.847Z",
+    "kind": "outcome",
+    "id": "e531d02e-a300-46e6-9631-9bd7cf816a5d",
+    "outcome": "completed",
+    "durationMs": 20019
+  },
+  {
+    "seq": 470,
+    "at": "2026-11-14T20:21:19.951Z",
+    "kind": "served",
+    "id": "e531d02e-a300-46e6-9631-9bd7cf816a5d",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 27770,
+    "outputTokens": 8,
+    "totalTokens": 27778
+  },
+  {
+    "seq": 471,
+    "at": "2026-11-14T20:40:03.843Z",
+    "kind": "decision",
+    "id": "0d24cdc2-2e7e-419b-b2c5-2d078fb745e8",
+    "sessionHash": "6da933bd96465cfc94324b543bb02e99bb54b8632caaef177f685545b3d1cfc0",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 472,
+    "at": "2026-11-14T20:40:04.044Z",
+    "kind": "decision",
+    "id": "0d24cdc2-2e7e-419b-b2c5-2d078fb745e8",
+    "sessionHash": "6da933bd96465cfc94324b543bb02e99bb54b8632caaef177f685545b3d1cfc0",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 473,
+    "at": "2026-11-14T20:40:15.926Z",
+    "kind": "outcome",
+    "id": "0d24cdc2-2e7e-419b-b2c5-2d078fb745e8",
+    "outcome": "completed",
+    "durationMs": 8163
+  },
+  {
+    "seq": 474,
+    "at": "2026-11-14T20:40:15.947Z",
+    "kind": "served",
+    "id": "0d24cdc2-2e7e-419b-b2c5-2d078fb745e8",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 2353,
+    "outputTokens": 394,
+    "totalTokens": 2747
+  },
+  {
+    "seq": 475,
+    "at": "2026-11-14T20:45:00.289Z",
+    "kind": "decision",
+    "id": "90c20632-2ba3-46b5-a387-433381970d0f",
+    "sessionHash": "7cefbe486c4ebc65f4c0fe6a9e775fe48236e3f043d65f82582f8759db0356c1",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 476,
+    "at": "2026-11-14T20:45:00.441Z",
+    "kind": "decision",
+    "id": "90c20632-2ba3-46b5-a387-433381970d0f",
+    "sessionHash": "7cefbe486c4ebc65f4c0fe6a9e775fe48236e3f043d65f82582f8759db0356c1",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 477,
+    "at": "2026-11-14T20:45:07.241Z",
+    "kind": "outcome",
+    "id": "90c20632-2ba3-46b5-a387-433381970d0f",
+    "outcome": "completed",
+    "durationMs": 5335
+  },
+  {
+    "seq": 478,
+    "at": "2026-11-14T20:45:07.260Z",
+    "kind": "served",
+    "id": "90c20632-2ba3-46b5-a387-433381970d0f",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 2352,
+    "outputTokens": 390,
+    "totalTokens": 2742
+  },
+  {
+    "seq": 479,
+    "at": "2026-11-14T20:50:55.726Z",
+    "kind": "decision",
+    "id": "e72dfdbf-e416-4465-b8c1-8f2c0fac0445",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 480,
+    "at": "2026-11-14T20:50:56.749Z",
+    "kind": "decision",
+    "id": "e72dfdbf-e416-4465-b8c1-8f2c0fac0445",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 481,
+    "at": "2026-11-14T20:51:17.904Z",
+    "kind": "outcome",
+    "id": "e72dfdbf-e416-4465-b8c1-8f2c0fac0445",
+    "outcome": "completed",
+    "durationMs": 19727
+  },
+  {
+    "seq": 482,
+    "at": "2026-11-14T20:51:18.011Z",
+    "kind": "served",
+    "id": "e72dfdbf-e416-4465-b8c1-8f2c0fac0445",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 27989,
+    "outputTokens": 8,
+    "totalTokens": 27997
+  },
+  {
+    "seq": 483,
+    "at": "2026-11-14T21:20:56.035Z",
+    "kind": "decision",
+    "id": "5e60762b-1956-4b3d-9158-d9dc31d9c62b",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 484,
+    "at": "2026-11-14T21:20:57.160Z",
+    "kind": "decision",
+    "id": "5e60762b-1956-4b3d-9158-d9dc31d9c62b",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 485,
+    "at": "2026-11-14T21:21:20.929Z",
+    "kind": "outcome",
+    "id": "5e60762b-1956-4b3d-9158-d9dc31d9c62b",
+    "outcome": "completed",
+    "durationMs": 20561
+  },
+  {
+    "seq": 486,
+    "at": "2026-11-14T21:21:21.027Z",
+    "kind": "served",
+    "id": "5e60762b-1956-4b3d-9158-d9dc31d9c62b",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 28208,
+    "outputTokens": 8,
+    "totalTokens": 28216
+  },
+  {
+    "seq": 487,
+    "at": "2026-11-14T21:50:55.940Z",
+    "kind": "decision",
+    "id": "b65528a8-bf6e-42f4-8d10-942fb01b5686",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 488,
+    "at": "2026-11-14T21:50:57.063Z",
+    "kind": "decision",
+    "id": "b65528a8-bf6e-42f4-8d10-942fb01b5686",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 489,
+    "at": "2026-11-14T21:51:20.746Z",
+    "kind": "outcome",
+    "id": "b65528a8-bf6e-42f4-8d10-942fb01b5686",
+    "outcome": "completed",
+    "durationMs": 20602
+  },
+  {
+    "seq": 490,
+    "at": "2026-11-14T21:51:20.851Z",
+    "kind": "served",
+    "id": "b65528a8-bf6e-42f4-8d10-942fb01b5686",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 28427,
+    "outputTokens": 8,
+    "totalTokens": 28435
+  },
+  {
+    "seq": 491,
+    "at": "2026-11-14T22:20:55.733Z",
+    "kind": "decision",
+    "id": "13e2327c-91a2-4cca-8e80-ec2ba981879b",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 492,
+    "at": "2026-11-14T22:20:57.066Z",
+    "kind": "decision",
+    "id": "13e2327c-91a2-4cca-8e80-ec2ba981879b",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 493,
+    "at": "2026-11-14T22:21:21.022Z",
+    "kind": "outcome",
+    "id": "13e2327c-91a2-4cca-8e80-ec2ba981879b",
+    "outcome": "completed",
+    "durationMs": 21106
+  },
+  {
+    "seq": 494,
+    "at": "2026-11-14T22:21:21.157Z",
+    "kind": "served",
+    "id": "13e2327c-91a2-4cca-8e80-ec2ba981879b",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 28647,
+    "outputTokens": 8,
+    "totalTokens": 28655
+  },
+  {
+    "seq": 495,
+    "at": "2026-11-14T22:50:55.839Z",
+    "kind": "decision",
+    "id": "a2b00f63-4d55-4048-ab1c-f607181ecb0c",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 496,
+    "at": "2026-11-14T22:50:57.169Z",
+    "kind": "decision",
+    "id": "a2b00f63-4d55-4048-ab1c-f607181ecb0c",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 497,
+    "at": "2026-11-14T22:51:21.302Z",
+    "kind": "outcome",
+    "id": "a2b00f63-4d55-4048-ab1c-f607181ecb0c",
+    "outcome": "completed",
+    "durationMs": 21077
+  },
+  {
+    "seq": 498,
+    "at": "2026-11-14T22:51:21.405Z",
+    "kind": "served",
+    "id": "a2b00f63-4d55-4048-ab1c-f607181ecb0c",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 28867,
+    "outputTokens": 8,
+    "totalTokens": 28875
+  },
+  {
+    "seq": 499,
+    "at": "2026-11-14T23:20:55.761Z",
+    "kind": "decision",
+    "id": "250eccb9-859e-445f-b796-0684c28b23b7",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 500,
+    "at": "2026-11-14T23:20:56.873Z",
+    "kind": "decision",
+    "id": "250eccb9-859e-445f-b796-0684c28b23b7",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 501,
+    "at": "2026-11-14T23:21:22.342Z",
+    "kind": "outcome",
+    "id": "250eccb9-859e-445f-b796-0684c28b23b7",
+    "outcome": "completed",
+    "durationMs": 22591
+  },
+  {
+    "seq": 502,
+    "at": "2026-11-14T23:21:22.430Z",
+    "kind": "served",
+    "id": "250eccb9-859e-445f-b796-0684c28b23b7",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 29087,
+    "outputTokens": 8,
+    "totalTokens": 29095
+  },
+  {
+    "seq": 503,
+    "at": "2026-11-14T23:50:55.948Z",
+    "kind": "decision",
+    "id": "10d335b1-d9df-4201-8b26-188fa40d199b",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 504,
+    "at": "2026-11-14T23:50:57.015Z",
+    "kind": "decision",
+    "id": "10d335b1-d9df-4201-8b26-188fa40d199b",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 505,
+    "at": "2026-11-14T23:51:21.381Z",
+    "kind": "outcome",
+    "id": "10d335b1-d9df-4201-8b26-188fa40d199b",
+    "outcome": "completed",
+    "durationMs": 21387
+  },
+  {
+    "seq": 506,
+    "at": "2026-11-14T23:51:21.478Z",
+    "kind": "served",
+    "id": "10d335b1-d9df-4201-8b26-188fa40d199b",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 29307,
+    "outputTokens": 8,
+    "totalTokens": 29315
+  },
+  {
+    "seq": 507,
+    "at": "2026-11-15T00:20:55.848Z",
+    "kind": "decision",
+    "id": "40c4aa88-a3a4-43b1-812f-82b7670b9390",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 508,
+    "at": "2026-11-15T00:20:56.948Z",
+    "kind": "decision",
+    "id": "40c4aa88-a3a4-43b1-812f-82b7670b9390",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 509,
+    "at": "2026-11-15T00:21:22.750Z",
+    "kind": "outcome",
+    "id": "40c4aa88-a3a4-43b1-812f-82b7670b9390",
+    "outcome": "completed",
+    "durationMs": 22583
+  },
+  {
+    "seq": 510,
+    "at": "2026-11-15T00:21:22.849Z",
+    "kind": "served",
+    "id": "40c4aa88-a3a4-43b1-812f-82b7670b9390",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 29527,
+    "outputTokens": 8,
+    "totalTokens": 29535
+  },
+  {
+    "seq": 511,
+    "at": "2026-11-15T00:50:55.853Z",
+    "kind": "decision",
+    "id": "af0d18bc-9510-4eba-abc1-550e720775da",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 512,
+    "at": "2026-11-15T00:50:56.979Z",
+    "kind": "decision",
+    "id": "af0d18bc-9510-4eba-abc1-550e720775da",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 513,
+    "at": "2026-11-15T00:51:21.589Z",
+    "kind": "outcome",
+    "id": "af0d18bc-9510-4eba-abc1-550e720775da",
+    "outcome": "completed",
+    "durationMs": 21688
+  },
+  {
+    "seq": 514,
+    "at": "2026-11-15T00:51:21.681Z",
+    "kind": "served",
+    "id": "af0d18bc-9510-4eba-abc1-550e720775da",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 29747,
+    "outputTokens": 8,
+    "totalTokens": 29755
+  },
+  {
+    "seq": 515,
+    "at": "2026-11-15T01:20:55.863Z",
+    "kind": "decision",
+    "id": "28e69bf0-ca0a-42cd-9ab1-992eefc85aca",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 516,
+    "at": "2026-11-15T01:20:57.090Z",
+    "kind": "decision",
+    "id": "28e69bf0-ca0a-42cd-9ab1-992eefc85aca",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 517,
+    "at": "2026-11-15T01:21:22.302Z",
+    "kind": "outcome",
+    "id": "28e69bf0-ca0a-42cd-9ab1-992eefc85aca",
+    "outcome": "completed",
+    "durationMs": 22094
+  },
+  {
+    "seq": 518,
+    "at": "2026-11-15T01:21:22.405Z",
+    "kind": "served",
+    "id": "28e69bf0-ca0a-42cd-9ab1-992eefc85aca",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 29966,
+    "outputTokens": 8,
+    "totalTokens": 29974
+  },
+  {
+    "seq": 519,
+    "at": "2026-11-15T01:50:55.966Z",
+    "kind": "decision",
+    "id": "0c363660-fd4a-4f6b-a2fc-f87ee685718d",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 520,
+    "at": "2026-11-15T01:50:57.005Z",
+    "kind": "decision",
+    "id": "0c363660-fd4a-4f6b-a2fc-f87ee685718d",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 521,
+    "at": "2026-11-15T01:51:21.781Z",
+    "kind": "outcome",
+    "id": "0c363660-fd4a-4f6b-a2fc-f87ee685718d",
+    "outcome": "completed",
+    "durationMs": 21928
+  },
+  {
+    "seq": 522,
+    "at": "2026-11-15T01:51:21.898Z",
+    "kind": "served",
+    "id": "0c363660-fd4a-4f6b-a2fc-f87ee685718d",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 30185,
+    "outputTokens": 8,
+    "totalTokens": 30193
+  },
+  {
+    "seq": 523,
+    "at": "2026-11-15T02:20:55.869Z",
+    "kind": "decision",
+    "id": "c7702376-a738-4b42-86b6-77b4408514bf",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 524,
+    "at": "2026-11-15T02:20:57.096Z",
+    "kind": "decision",
+    "id": "c7702376-a738-4b42-86b6-77b4408514bf",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 525,
+    "at": "2026-11-15T02:21:23.664Z",
+    "kind": "outcome",
+    "id": "c7702376-a738-4b42-86b6-77b4408514bf",
+    "outcome": "completed",
+    "durationMs": 23607
+  },
+  {
+    "seq": 526,
+    "at": "2026-11-15T02:21:23.755Z",
+    "kind": "served",
+    "id": "c7702376-a738-4b42-86b6-77b4408514bf",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 30954,
+    "outputTokens": 8,
+    "totalTokens": 30962
+  },
+  {
+    "seq": 527,
+    "at": "2026-11-15T02:40:03.896Z",
+    "kind": "decision",
+    "id": "5403cb66-3fd5-44a5-aa35-324d7ebff52a",
+    "sessionHash": "84e333285709cc67934e4db85d86046ab83fb3aebcedbcf91cff5ae298abe7d8",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 528,
+    "at": "2026-11-15T02:40:04.142Z",
+    "kind": "decision",
+    "id": "5403cb66-3fd5-44a5-aa35-324d7ebff52a",
+    "sessionHash": "84e333285709cc67934e4db85d86046ab83fb3aebcedbcf91cff5ae298abe7d8",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 529,
+    "at": "2026-11-15T02:40:16.439Z",
+    "kind": "outcome",
+    "id": "5403cb66-3fd5-44a5-aa35-324d7ebff52a",
+    "outcome": "completed",
+    "durationMs": 8644
+  },
+  {
+    "seq": 530,
+    "at": "2026-11-15T02:40:16.479Z",
+    "kind": "served",
+    "id": "5403cb66-3fd5-44a5-aa35-324d7ebff52a",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 2353,
+    "outputTokens": 336,
+    "totalTokens": 2689
+  },
+  {
+    "seq": 531,
+    "at": "2026-11-15T02:45:00.316Z",
+    "kind": "decision",
+    "id": "0c12e2af-a7e9-426b-86b1-6cd631d5c67e",
+    "sessionHash": "a3a675715a6478e55d7e5e07391eeaff69bd02469b099b96188d5280dc1331ad",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 532,
+    "at": "2026-11-15T02:45:00.454Z",
+    "kind": "decision",
+    "id": "0c12e2af-a7e9-426b-86b1-6cd631d5c67e",
+    "sessionHash": "a3a675715a6478e55d7e5e07391eeaff69bd02469b099b96188d5280dc1331ad",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 533,
+    "at": "2026-11-15T02:45:08.784Z",
+    "kind": "outcome",
+    "id": "0c12e2af-a7e9-426b-86b1-6cd631d5c67e",
+    "outcome": "completed",
+    "durationMs": 6456
+  },
+  {
+    "seq": 534,
+    "at": "2026-11-15T02:45:08.804Z",
+    "kind": "served",
+    "id": "0c12e2af-a7e9-426b-86b1-6cd631d5c67e",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 2352,
+    "outputTokens": 511,
+    "totalTokens": 2863
+  },
+  {
+    "seq": 535,
+    "at": "2026-11-15T02:50:55.972Z",
+    "kind": "decision",
+    "id": "dfd76987-c624-4814-ad6d-dc908890cad0",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 536,
+    "at": "2026-11-15T02:50:57.260Z",
+    "kind": "decision",
+    "id": "dfd76987-c624-4814-ad6d-dc908890cad0",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 537,
+    "at": "2026-11-15T02:51:22.335Z",
+    "kind": "outcome",
+    "id": "dfd76987-c624-4814-ad6d-dc908890cad0",
+    "outcome": "completed",
+    "durationMs": 23238
+  },
+  {
+    "seq": 538,
+    "at": "2026-11-15T02:51:22.423Z",
+    "kind": "served",
+    "id": "dfd76987-c624-4814-ad6d-dc908890cad0",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 31173,
+    "outputTokens": 8,
+    "totalTokens": 31181
+  },
+  {
+    "seq": 539,
+    "at": "2026-11-15T03:00:04.945Z",
+    "kind": "decision",
+    "id": "47da83aa-d57f-4ee1-b8ff-360ed1108e11",
+    "sessionHash": "b04b08ef3ab16fd71cbe1b9f4b9f59103322e4ff7791f81016c5d724dcc2ca77",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 540,
+    "at": "2026-11-15T03:00:05.133Z",
+    "kind": "decision",
+    "id": "47da83aa-d57f-4ee1-b8ff-360ed1108e11",
+    "sessionHash": "b04b08ef3ab16fd71cbe1b9f4b9f59103322e4ff7791f81016c5d724dcc2ca77",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 541,
+    "at": "2026-11-15T03:20:56.078Z",
+    "kind": "decision",
+    "id": "3685e187-cd01-48f2-99b2-caf82e19b15c",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 542,
+    "at": "2026-11-15T03:20:57.310Z",
+    "kind": "decision",
+    "id": "3685e187-cd01-48f2-99b2-caf82e19b15c",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 543,
+    "at": "2026-11-15T03:21:23.371Z",
+    "kind": "outcome",
+    "id": "3685e187-cd01-48f2-99b2-caf82e19b15c",
+    "outcome": "completed",
+    "durationMs": 23016
+  },
+  {
+    "seq": 544,
+    "at": "2026-11-15T03:21:23.467Z",
+    "kind": "served",
+    "id": "3685e187-cd01-48f2-99b2-caf82e19b15c",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 31392,
+    "outputTokens": 8,
+    "totalTokens": 31400
+  },
+  {
+    "seq": 545,
+    "at": "2026-11-15T03:50:55.861Z",
+    "kind": "decision",
+    "id": "6d294c01-a139-4e68-8019-c511fd39ec31",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 546,
+    "at": "2026-11-15T03:50:57.208Z",
+    "kind": "decision",
+    "id": "6d294c01-a139-4e68-8019-c511fd39ec31",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 547,
+    "at": "2026-11-15T03:51:23.170Z",
+    "kind": "outcome",
+    "id": "6d294c01-a139-4e68-8019-c511fd39ec31",
+    "outcome": "completed",
+    "durationMs": 22980
+  },
+  {
+    "seq": 548,
+    "at": "2026-11-15T03:51:23.258Z",
+    "kind": "served",
+    "id": "6d294c01-a139-4e68-8019-c511fd39ec31",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 31611,
+    "outputTokens": 8,
+    "totalTokens": 31619
+  },
+  {
+    "seq": 549,
+    "at": "2026-11-15T04:20:55.878Z",
+    "kind": "decision",
+    "id": "a6e29be4-75b6-47b2-925f-61880d27da87",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 550,
+    "at": "2026-11-15T04:20:57.313Z",
+    "kind": "decision",
+    "id": "a6e29be4-75b6-47b2-925f-61880d27da87",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 551,
+    "at": "2026-11-15T04:21:23.255Z",
+    "kind": "outcome",
+    "id": "a6e29be4-75b6-47b2-925f-61880d27da87",
+    "outcome": "completed",
+    "durationMs": 23065
+  },
+  {
+    "seq": 552,
+    "at": "2026-11-15T04:21:23.350Z",
+    "kind": "served",
+    "id": "a6e29be4-75b6-47b2-925f-61880d27da87",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 31830,
+    "outputTokens": 8,
+    "totalTokens": 31838
+  },
+  {
+    "seq": 553,
+    "at": "2026-11-15T04:50:55.803Z",
+    "kind": "decision",
+    "id": "63964c3f-22a2-42d3-aa2e-f29c1e6cbf09",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 554,
+    "at": "2026-11-15T04:50:56.907Z",
+    "kind": "decision",
+    "id": "63964c3f-22a2-42d3-aa2e-f29c1e6cbf09",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 555,
+    "at": "2026-11-15T04:51:17.332Z",
+    "kind": "outcome",
+    "id": "63964c3f-22a2-42d3-aa2e-f29c1e6cbf09",
+    "outcome": "completed",
+    "durationMs": 17402
+  },
+  {
+    "seq": 556,
+    "at": "2026-11-15T04:51:17.419Z",
+    "kind": "served",
+    "id": "63964c3f-22a2-42d3-aa2e-f29c1e6cbf09",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 23282,
+    "outputTokens": 8,
+    "totalTokens": 23290
+  },
+  {
+    "seq": 557,
+    "at": "2026-11-15T05:20:55.890Z",
+    "kind": "decision",
+    "id": "1eb961fd-03f5-43d8-a9f1-bf371f048d8d",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 558,
+    "at": "2026-11-15T05:20:57.121Z",
+    "kind": "decision",
+    "id": "1eb961fd-03f5-43d8-a9f1-bf371f048d8d",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 559,
+    "at": "2026-11-15T05:21:18.858Z",
+    "kind": "outcome",
+    "id": "1eb961fd-03f5-43d8-a9f1-bf371f048d8d",
+    "outcome": "completed",
+    "durationMs": 18500
+  },
+  {
+    "seq": 560,
+    "at": "2026-11-15T05:21:18.893Z",
+    "kind": "served",
+    "id": "1eb961fd-03f5-43d8-a9f1-bf371f048d8d",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 23501,
+    "outputTokens": 8,
+    "totalTokens": 23509
+  },
+  {
+    "seq": 561,
+    "at": "2026-11-15T05:50:55.883Z",
+    "kind": "decision",
+    "id": "4832a594-f9e4-4a88-aaad-a9f5fb8de4f5",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 562,
+    "at": "2026-11-15T05:50:56.889Z",
+    "kind": "decision",
+    "id": "4832a594-f9e4-4a88-aaad-a9f5fb8de4f5",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 563,
+    "at": "2026-11-15T05:51:20.514Z",
+    "kind": "outcome",
+    "id": "4832a594-f9e4-4a88-aaad-a9f5fb8de4f5",
+    "outcome": "completed",
+    "durationMs": 20556
+  },
+  {
+    "seq": 564,
+    "at": "2026-11-15T05:51:20.564Z",
+    "kind": "served",
+    "id": "4832a594-f9e4-4a88-aaad-a9f5fb8de4f5",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 23720,
+    "outputTokens": 8,
+    "totalTokens": 23728
+  },
+  {
+    "seq": 565,
+    "at": "2026-11-15T06:20:55.992Z",
+    "kind": "decision",
+    "id": "6395469f-6900-42b3-b370-ef452e117898",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 566,
+    "at": "2026-11-15T06:20:57.109Z",
+    "kind": "decision",
+    "id": "6395469f-6900-42b3-b370-ef452e117898",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 567,
+    "at": "2026-11-15T06:21:18.178Z",
+    "kind": "outcome",
+    "id": "6395469f-6900-42b3-b370-ef452e117898",
+    "outcome": "completed",
+    "durationMs": 17873
+  },
+  {
+    "seq": 568,
+    "at": "2026-11-15T06:21:18.222Z",
+    "kind": "served",
+    "id": "6395469f-6900-42b3-b370-ef452e117898",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 23939,
+    "outputTokens": 8,
+    "totalTokens": 23947
+  },
+  {
+    "seq": 569,
+    "at": "2026-11-15T06:50:55.898Z",
+    "kind": "decision",
+    "id": "8ffb0bb6-1f6b-46d3-9c7f-5772b66c7e21",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 570,
+    "at": "2026-11-15T06:50:57.232Z",
+    "kind": "decision",
+    "id": "8ffb0bb6-1f6b-46d3-9c7f-5772b66c7e21",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 571,
+    "at": "2026-11-15T06:51:18.510Z",
+    "kind": "outcome",
+    "id": "8ffb0bb6-1f6b-46d3-9c7f-5772b66c7e21",
+    "outcome": "completed",
+    "durationMs": 18143
+  },
+  {
+    "seq": 572,
+    "at": "2026-11-15T06:51:18.651Z",
+    "kind": "served",
+    "id": "8ffb0bb6-1f6b-46d3-9c7f-5772b66c7e21",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 24158,
+    "outputTokens": 8,
+    "totalTokens": 24166
+  },
+  {
+    "seq": 573,
+    "at": "2026-11-15T07:20:56.011Z",
+    "kind": "decision",
+    "id": "5275c64a-91f3-469b-9d3a-c09afb1415b9",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 574,
+    "at": "2026-11-15T07:20:57.242Z",
+    "kind": "decision",
+    "id": "5275c64a-91f3-469b-9d3a-c09afb1415b9",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 575,
+    "at": "2026-11-15T07:21:19.319Z",
+    "kind": "outcome",
+    "id": "5275c64a-91f3-469b-9d3a-c09afb1415b9",
+    "outcome": "completed",
+    "durationMs": 19160
+  },
+  {
+    "seq": 576,
+    "at": "2026-11-15T07:21:19.442Z",
+    "kind": "served",
+    "id": "5275c64a-91f3-469b-9d3a-c09afb1415b9",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 24377,
+    "outputTokens": 8,
+    "totalTokens": 24385
+  },
+  {
+    "seq": 577,
+    "at": "2026-11-15T07:50:56.017Z",
+    "kind": "decision",
+    "id": "e98f7a9e-3469-43db-b394-cf682050a7ef",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 578,
+    "at": "2026-11-15T07:50:57.335Z",
+    "kind": "decision",
+    "id": "e98f7a9e-3469-43db-b394-cf682050a7ef",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 579,
+    "at": "2026-11-15T07:51:18.968Z",
+    "kind": "outcome",
+    "id": "e98f7a9e-3469-43db-b394-cf682050a7ef",
+    "outcome": "completed",
+    "durationMs": 18684
+  },
+  {
+    "seq": 580,
+    "at": "2026-11-15T07:51:19.078Z",
+    "kind": "served",
+    "id": "e98f7a9e-3469-43db-b394-cf682050a7ef",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 24596,
+    "outputTokens": 8,
+    "totalTokens": 24604
+  },
+  {
+    "seq": 581,
+    "at": "2026-11-15T08:20:56.023Z",
+    "kind": "decision",
+    "id": "e56f9104-ab5c-481b-9ffa-cc9aacc90d1f",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 582,
+    "at": "2026-11-15T08:20:57.355Z",
+    "kind": "decision",
+    "id": "e56f9104-ab5c-481b-9ffa-cc9aacc90d1f",
+    "sessionHash": "6d9217fe77c7f11d9cc992aabe81a2d09604e9c48babbda8fdad3791f9c19f3b",
+    "target": "local",
+    "reason": "private_local_only",
+    "privacy": "private",
+    "selectedModel": "ollama/gemma4:e2b",
+    "task": {
+      "privacy": "private",
+      "complexity": "short",
+      "localAvailable": true,
+      "cloudAvailable": true,
+      "cloudRateLimited": false
+    }
+  },
+  {
+    "seq": 583,
+    "at": "2026-11-15T08:21:25.161Z",
+    "kind": "outcome",
+    "id": "e56f9104-ab5c-481b-9ffa-cc9aacc90d1f",
+    "outcome": "completed",
+    "durationMs": 24892
+  },
+  {
+    "seq": 584,
+    "at": "2026-11-15T08:21:25.265Z",
+    "kind": "served",
+    "id": "e56f9104-ab5c-481b-9ffa-cc9aacc90d1f",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "inputTokens": 24815,
+    "outputTokens": 8,
+    "totalTokens": 24823
+  }
+]

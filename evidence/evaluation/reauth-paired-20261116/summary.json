@@ -1,0 +1,423 @@
+{
+  "expectedTurns": 12,
+  "recordedTurns": 12,
+  "complete": true,
+  "groups": [
+    {
+      "type": "bulletin_extraction",
+      "arm": "local",
+      "attempts": 1,
+      "successful": 1,
+      "exactCorrect": 0,
+      "contentCorrect": 1,
+      "fieldAccuracy": 1.0,
+      "medianMs": 7380,
+      "p95Ms": 7380
+    },
+    {
+      "type": "bulletin_extraction",
+      "arm": "cloud",
+      "attempts": 1,
+      "successful": 1,
+      "exactCorrect": 1,
+      "contentCorrect": 1,
+      "fieldAccuracy": 1.0,
+      "medianMs": 5445,
+      "p95Ms": 5445
+    },
+    {
+      "type": "schedule_gap_reasoning",
+      "arm": "local",
+      "attempts": 2,
+      "successful": 2,
+      "exactCorrect": 0,
+      "contentCorrect": 2,
+      "fieldAccuracy": 1.0,
+      "medianMs": 11873.0,
+      "p95Ms": 13148
+    },
+    {
+      "type": "schedule_gap_reasoning",
+      "arm": "cloud",
+      "attempts": 2,
+      "successful": 2,
+      "exactCorrect": 2,
+      "contentCorrect": 2,
+      "fieldAccuracy": 1.0,
+      "medianMs": 17518.0,
+      "p95Ms": 25591
+    },
+    {
+      "type": "work_prioritization",
+      "arm": "local",
+      "attempts": 3,
+      "successful": 3,
+      "exactCorrect": 0,
+      "contentCorrect": 0,
+      "fieldAccuracy": 0.0,
+      "medianMs": 10841,
+      "p95Ms": 16386
+    },
+    {
+      "type": "work_prioritization",
+      "arm": "cloud",
+      "attempts": 3,
+      "successful": 3,
+      "exactCorrect": 1,
+      "contentCorrect": 1,
+      "fieldAccuracy": 0.3333333333333333,
+      "medianMs": 6407,
+      "p95Ms": 7771
+    }
+  ],
+  "rows": [
+    {
+      "caseId": "extract-06",
+      "type": "bulletin_extraction",
+      "arm": "cloud",
+      "servedModel": "gpt-6-luna",
+      "success": true,
+      "exactCorrect": true,
+      "contentCorrect": true,
+      "strictJson": true,
+      "fieldsMatched": 3,
+      "fieldsTotal": 3,
+      "elapsedMs": 5445,
+      "agentDurationMs": 3758,
+      "usage": {
+        "usageReport": {
+          "state": "available"
+        },
+        "input": 4731,
+        "output": 31,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "total": 4762,
+        "cost": {
+          "total": 0.0004886000000000001
+        }
+      },
+      "catalogCostEstimateUsd": 0.0004886000000000001,
+      "answer": "{\"event_date\":\"2026-12-07\",\"registration_deadline\":\"2026-11-25\",\"venue\":\"Hall B\"}"
+    },
+    {
+      "caseId": "extract-06",
+      "type": "bulletin_extraction",
+      "arm": "local",
+      "servedModel": "gemma4:e2b",
+      "success": true,
+      "exactCorrect": false,
+      "contentCorrect": true,
+      "strictJson": false,
+      "fieldsMatched": 3,
+      "fieldsTotal": 3,
+      "elapsedMs": 7380,
+      "agentDurationMs": 5305,
+      "usage": {
+        "usageReport": {
+          "state": "available"
+        },
+        "input": 264,
+        "output": 432,
+        "cacheRead": 4891,
+        "cacheWrite": 0,
+        "total": 5587,
+        "cost": {
+          "total": 0
+        }
+      },
+      "catalogCostEstimateUsd": 0,
+      "answer": "```json\n{\n  \"event_date\": \"2026-12-07\",\n  \"registration_deadline\": \"2026-11-25\",\n  \"venue\": \"Hall B\"\n}\n```"
+    },
+    {
+      "caseId": "gap-05",
+      "type": "schedule_gap_reasoning",
+      "arm": "cloud",
+      "servedModel": "gpt-6-luna",
+      "success": true,
+      "exactCorrect": true,
+      "contentCorrect": true,
+      "strictJson": true,
+      "fieldsMatched": 2,
+      "fieldsTotal": 2,
+      "elapsedMs": 9445,
+      "agentDurationMs": 5558,
+      "usage": {
+        "usageReport": {
+          "state": "available"
+        },
+        "input": 4744,
+        "output": 17,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "total": 4761,
+        "cost": {
+          "total": 0.00048290000000000003
+        }
+      },
+      "catalogCostEstimateUsd": 0.00048290000000000003,
+      "answer": "{\"start\":\"09:45\",\"end\":\"10:05\"}"
+    },
+    {
+      "caseId": "gap-05",
+      "type": "schedule_gap_reasoning",
+      "arm": "local",
+      "servedModel": "gemma4:e2b",
+      "success": true,
+      "exactCorrect": false,
+      "contentCorrect": true,
+      "strictJson": false,
+      "fieldsMatched": 2,
+      "fieldsTotal": 2,
+      "elapsedMs": 10598,
+      "agentDurationMs": 7855,
+      "usage": {
+        "usageReport": {
+          "state": "available"
+        },
+        "input": 282,
+        "output": 700,
+        "cacheRead": 4891,
+        "cacheWrite": 0,
+        "total": 5873,
+        "cost": {
+          "total": 0
+        }
+      },
+      "catalogCostEstimateUsd": 0,
+      "answer": "```json\n{\n\"start\": \"09:45\",\n\"end\": \"10:05\"\n}\n```"
+    },
+    {
+      "caseId": "gap-06",
+      "type": "schedule_gap_reasoning",
+      "arm": "cloud",
+      "servedModel": "gpt-6-luna",
+      "success": true,
+      "exactCorrect": true,
+      "contentCorrect": true,
+      "strictJson": true,
+      "fieldsMatched": 2,
+      "fieldsTotal": 2,
+      "elapsedMs": 25591,
+      "agentDurationMs": 21396,
+      "usage": {
+        "usageReport": {
+          "state": "available"
+        },
+        "input": 4744,
+        "output": 17,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "total": 4761,
+        "cost": {
+          "total": 0.00048290000000000003
+        }
+      },
+      "catalogCostEstimateUsd": 0.00048290000000000003,
+      "answer": "{\"start\":\"09:50\",\"end\":\"10:10\"}"
+    },
+    {
+      "caseId": "gap-06",
+      "type": "schedule_gap_reasoning",
+      "arm": "local",
+      "servedModel": "gemma4:e2b",
+      "success": true,
+      "exactCorrect": false,
+      "contentCorrect": true,
+      "strictJson": false,
+      "fieldsMatched": 2,
+      "fieldsTotal": 2,
+      "elapsedMs": 13148,
+      "agentDurationMs": 9536,
+      "usage": {
+        "usageReport": {
+          "state": "available"
+        },
+        "input": 282,
+        "output": 793,
+        "cacheRead": 4891,
+        "cacheWrite": 0,
+        "total": 5966,
+        "cost": {
+          "total": 0
+        }
+      },
+      "catalogCostEstimateUsd": 0,
+      "answer": "```json\n{\n\"start\": \"09:50\",\n\"end\": \"10:10\"\n}\n```"
+    },
+    {
+      "caseId": "priority-00",
+      "type": "work_prioritization",
+      "arm": "cloud",
+      "servedModel": "gpt-6-luna",
+      "success": true,
+      "exactCorrect": false,
+      "contentCorrect": false,
+      "strictJson": true,
+      "fieldsMatched": 0,
+      "fieldsTotal": 1,
+      "elapsedMs": 6407,
+      "agentDurationMs": 3653,
+      "usage": {
+        "usageReport": {
+          "state": "available"
+        },
+        "input": 4758,
+        "output": 35,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "total": 4793,
+        "cost": {
+          "total": 0.0004933
+        }
+      },
+      "catalogCostEstimateUsd": 0.0004933,
+      "answer": "{\"C0\":\"2026-12-02\",\"B0\":\"2026-12-02\",\"A0\":\"2026-12-03\"}"
+    },
+    {
+      "caseId": "priority-00",
+      "type": "work_prioritization",
+      "arm": "local",
+      "servedModel": "gemma4:e2b",
+      "success": true,
+      "exactCorrect": false,
+      "contentCorrect": false,
+      "strictJson": false,
+      "fieldsMatched": 0,
+      "fieldsTotal": 1,
+      "elapsedMs": 8087,
+      "agentDurationMs": 6604,
+      "usage": {
+        "usageReport": {
+          "state": "available"
+        },
+        "input": 293,
+        "output": 684,
+        "cacheRead": 4891,
+        "cacheWrite": 0,
+        "total": 5868,
+        "cost": {
+          "total": 0
+        }
+      },
+      "catalogCostEstimateUsd": 0,
+      "answer": "```json\n{\n  \"C0\": \"C0\",\n  \"B0\": \"B0\",\n  \"A0\": \"A0\"\n}\n```"
+    },
+    {
+      "caseId": "priority-05",
+      "type": "work_prioritization",
+      "arm": "cloud",
+      "servedModel": "gpt-6-luna",
+      "success": true,
+      "exactCorrect": false,
+      "contentCorrect": false,
+      "strictJson": true,
+      "fieldsMatched": 0,
+      "fieldsTotal": 1,
+      "elapsedMs": 5289,
+      "agentDurationMs": 3135,
+      "usage": {
+        "usageReport": {
+          "state": "available"
+        },
+        "input": 4758,
+        "output": 35,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "total": 4793,
+        "cost": {
+          "total": 0.0004933
+        }
+      },
+      "catalogCostEstimateUsd": 0.0004933,
+      "answer": "{\"C5\":\"2026-12-02\",\"B5\":\"2026-12-02\",\"A5\":\"2026-12-03\"}"
+    },
+    {
+      "caseId": "priority-05",
+      "type": "work_prioritization",
+      "arm": "local",
+      "servedModel": "gemma4:e2b",
+      "success": true,
+      "exactCorrect": false,
+      "contentCorrect": false,
+      "strictJson": false,
+      "fieldsMatched": 0,
+      "fieldsTotal": 1,
+      "elapsedMs": 16386,
+      "agentDurationMs": 11792,
+      "usage": {
+        "usageReport": {
+          "state": "available"
+        },
+        "input": 290,
+        "output": 748,
+        "cacheRead": 4894,
+        "cacheWrite": 0,
+        "total": 5932,
+        "cost": {
+          "total": 0
+        }
+      },
+      "catalogCostEstimateUsd": 0,
+      "answer": "```json\n[\n  \"C5\",\n  \"B5\",\n  \"A5\"\n]\n```"
+    },
+    {
+      "caseId": "priority-06",
+      "type": "work_prioritization",
+      "arm": "cloud",
+      "servedModel": "gpt-6-luna",
+      "success": true,
+      "exactCorrect": true,
+      "contentCorrect": true,
+      "strictJson": true,
+      "fieldsMatched": 1,
+      "fieldsTotal": 1,
+      "elapsedMs": 7771,
+      "agentDurationMs": 4046,
+      "usage": {
+        "usageReport": {
+          "state": "available"
+        },
+        "input": 4758,
+        "output": 17,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "total": 4775,
+        "cost": {
+          "total": 0.0004843
+        }
+      },
+      "catalogCostEstimateUsd": 0.0004843,
+      "answer": "{\"order\":[\"C6\",\"B6\",\"A6\"]}"
+    },
+    {
+      "caseId": "priority-06",
+      "type": "work_prioritization",
+      "arm": "local",
+      "servedModel": "gemma4:e2b",
+      "success": true,
+      "exactCorrect": false,
+      "contentCorrect": false,
+      "strictJson": false,
+      "fieldsMatched": 0,
+      "fieldsTotal": 1,
+      "elapsedMs": 10841,
+      "agentDurationMs": 8692,
+      "usage": {
+        "usageReport": {
+          "state": "available"
+        },
+        "input": 293,
+        "output": 878,
+        "cacheRead": 4891,
+        "cacheWrite": 0,
+        "total": 6062,
+        "cost": {
+          "total": 0
+        }
+      },
+      "catalogCostEstimateUsd": 0,
+      "answer": "```json\n{\n  \"C6\": \"Due 2026-12-02, Priority 1\",\n  \"B6\": \"Due 2026-12-02, Priority 2\",\n  \"A6\": \"Due 2026-12-03, Priority 1\"\n}\n```"
+    }
+  ]
+}

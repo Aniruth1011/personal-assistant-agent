@@ -1,0 +1,14 @@
+{
+  "id": "email-1fd0351c5c1dc9a8f806db99",
+  "status": "SENT",
+  "providerMessageId": "1a1e6e89c1fb52a6",
+  "approvedAt": "2026-11-17T00:29:25.650Z",
+  "messageIdMatches": true,
+  "sentLabel": true,
+  "fromMatches": true,
+  "toMatches": true,
+  "subjectMatches": true,
+  "bodyMatches": true,
+  "sendingEvents": 1,
+  "verification": "read-only gog gmail.get with gmail-no-send; assertions executed against durable outbox"
+}

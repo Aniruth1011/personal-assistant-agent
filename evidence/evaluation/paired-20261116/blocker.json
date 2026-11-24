@@ -1,0 +1,8 @@
+{
+  "at": "2026-11-16T20:15:40.420082+00:00",
+  "reason": "OpenAI OAuth token_revoked; provider auth circuit subsequently rejected cloud attempts",
+  "runnerPid": 6171,
+  "runnerState": "SIGSTOP pending provider reauthentication",
+  "recordedTurns": 41,
+  "resumePolicy": "Preserve original attempts; use a separately named rerun for failed/missing paired cases"
+}

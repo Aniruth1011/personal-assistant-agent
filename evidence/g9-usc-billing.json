@@ -1,0 +1,15 @@
+{
+  "recordedAt": "2026-11-12T23:00:42.600156+00:00",
+  "projectId": "amplified-coder-510723-p3",
+  "authentication": "USC account working",
+  "billingEnabled": true,
+  "requiredApisAlreadyEnabled": [
+    "run.googleapis.com",
+    "artifactregistry.googleapis.com",
+    "secretmanager.googleapis.com",
+    "cloudbuild.googleapis.com"
+  ],
+  "gmailCalendarAccount": "dedicated test account unchanged",
+  "personalPaymentMadeByAgent": false,
+  "deploymentComplete": false
+}

@@ -1,0 +1,6 @@
+{
+  "cloudLoggingSamples": 2864,
+  "gcsSamples": 2864,
+  "missingFromCloudLogging": [],
+  "missingFromGcs": []
+}

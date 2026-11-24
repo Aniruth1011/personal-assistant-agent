@@ -1,0 +1,20 @@
+{
+  "gate": 6,
+  "task": "G6-28",
+  "runtime": {
+    "openclaw": "2026.11.2",
+    "channelPlugin": "telegram"
+  },
+  "observed": {
+    "pluginStatus": "disabled",
+    "channelStatusCommand": "failed with unknown channel: telegram",
+    "credentialValuesInspected": false,
+    "outboundMessageSent": false
+  },
+  "requiredConfiguration": {
+    "botToken": "TELEGRAM_BOT_TOKEN must be provisioned locally or via Secret Manager; do not send the token in chat.",
+    "senderAllowlist": "numeric Telegram user ID must be configured under channels.telegram.allowFrom",
+    "dmPolicy": "allowlist"
+  },
+  "blocker": "Cannot safely activate or exercise Telegram until a bot token and numeric owner ID are available."
+}

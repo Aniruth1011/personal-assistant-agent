@@ -1,0 +1,18 @@
+{
+  "at": "2026-11-13T01:10:57.906Z",
+  "applications": [
+    {
+      "status": "AWAITING_APPROVAL",
+      "count": 2
+    },
+    {
+      "status": "CONFIRMED",
+      "count": 1
+    }
+  ],
+  "applicationEvents": 16,
+  "siteRecords": 1,
+  "nativeCronJobs": 12,
+  "applicationIntegrity": "ok",
+  "siteIntegrity": "ok"
+}

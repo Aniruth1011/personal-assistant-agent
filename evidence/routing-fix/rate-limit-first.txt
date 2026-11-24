@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "error": {
+    "type": "cli_error",
+    "message": "A Gateway is running for this state directory (pid 65, port 19877). Run without --local to use it, or stop the Gateway first (openclaw gateway stop)."
+  }
+}

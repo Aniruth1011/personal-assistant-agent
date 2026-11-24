@@ -1,0 +1,118 @@
+{
+  "cloud": [
+    {
+      "runAtMs": 1794969901199,
+      "status": "ok",
+      "model": "gpt-6-luna",
+      "provider": "openai",
+      "error": null
+    },
+    {
+      "runAtMs": 1794948300003,
+      "status": "ok",
+      "model": "gpt-6-luna",
+      "provider": "openai",
+      "error": null
+    },
+    {
+      "runAtMs": 1794943189703,
+      "status": "ok",
+      "model": "gpt-6-luna",
+      "provider": "openai",
+      "error": null
+    },
+    {
+      "runAtMs": 1794926700015,
+      "status": "ok",
+      "model": "gpt-6-luna",
+      "provider": "openai",
+      "error": null
+    },
+    {
+      "runAtMs": 1794905100018,
+      "status": "ok",
+      "model": "gpt-6-luna",
+      "provider": "openai",
+      "error": null
+    },
+    {
+      "runAtMs": 1794883500014,
+      "status": "ok",
+      "model": "gpt-6-luna",
+      "provider": "openai",
+      "error": null
+    },
+    {
+      "runAtMs": 1794862131660,
+      "status": "ok",
+      "model": "gpt-6-luna",
+      "provider": "openai",
+      "error": null
+    },
+    {
+      "runAtMs": 1794862016134,
+      "status": "ok",
+      "model": "gpt-6-luna",
+      "provider": "openai",
+      "error": null
+    }
+  ],
+  "local": [
+    {
+      "runAtMs": 1794969600002,
+      "status": "ok",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "error": null
+    },
+    {
+      "runAtMs": 1794948000011,
+      "status": "ok",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "error": null
+    },
+    {
+      "runAtMs": 1794926400005,
+      "status": "error",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "error": "Automation has no recorded inference account. Explicitly select its account with a model@profile update before running it."
+    },
+    {
+      "runAtMs": 1794904800004,
+      "status": "error",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "error": "Automation has no recorded inference account. Explicitly select its account with a model@profile update before running it."
+    },
+    {
+      "runAtMs": 1794883200001,
+      "status": "error",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "error": "Automation has no recorded inference account. Explicitly select its account with a model@profile update before running it."
+    },
+    {
+      "runAtMs": 1794861600017,
+      "status": "ok",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "error": null
+    },
+    {
+      "runAtMs": 1794859101624,
+      "status": "ok",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "error": null
+    },
+    {
+      "runAtMs": 1794840000001,
+      "status": "ok",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "error": null
+    }
+  ]
+}

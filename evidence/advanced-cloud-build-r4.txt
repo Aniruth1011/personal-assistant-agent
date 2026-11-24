@@ -1,0 +1,72 @@
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+Sending build context to Docker daemon  1.006MB
+Step 1/19 : FROM --platform=linux/amd64 node:24.22.1-bookworm-slim@sha256:e1582112fb9f152ed38eefcd712efc93fee1becb519fdfa57574d5e07eaa5e7d
+ ---> e1582112fb9f
+Step 2/19 : ENV NODE_ENV=production
+ ---> Using cache
+ ---> 1694ab2314c9
+Step 3/19 : RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates curl tini util-linux     && rm -rf /var/lib/apt/lists/*
+ ---> Using cache
+ ---> 0c047cfd227c
+Step 4/19 : RUN curl -fsSL https://pkgs.tailscale.com/stable/tailscale_1.104.7_amd64.tgz -o /tmp/tailscale.tgz     && echo 'e56693ff74a64f2591b7e819c280635a100aae1ddfb0ef058fcd052b7cd8d16c  /tmp/tailscale.tgz' | sha256sum -c -     && tar -xzf /tmp/tailscale.tgz -C /tmp     && install /tmp/tailscale_1.104.7_amd64/tailscale /tmp/tailscale_1.104.7_amd64/tailscaled /usr/local/bin/     && rm -rf /tmp/tailscale*
+ ---> Using cache
+ ---> 8c28d45dc9f1
+Step 5/19 : RUN curl -fsSL https://github.com/openclaw/gogcli/releases/download/v0.48.0/gogcli_0.48.0_linux_amd64.tar.gz -o /tmp/gog.tgz     && echo '8809d2f4fe95a0299b1a2a5c6bc912c4aba4b90a7b5e2c1f5cf11b9945a50004  /tmp/gog.tgz' | sha256sum -c -     && tar -xzf /tmp/gog.tgz -C /tmp ./gog && install /tmp/gog /usr/local/bin/gog && rm /tmp/gog /tmp/gog.tgz
+ ---> Using cache
+ ---> 1ea512b8f690
+Step 6/19 : WORKDIR /app
+ ---> Using cache
+ ---> 0e6603cf8930
+Step 7/19 : COPY package.json package-lock.json ./
+ ---> Using cache
+ ---> 911a2df0b71b
+Step 8/19 : RUN npm ci --include=dev
+ ---> Using cache
+ ---> 62db8705c1b8
+Step 9/19 : COPY deploy/runtime/package.json deploy/runtime/package-lock.json /opt/openclaw/
+ ---> Using cache
+ ---> 0adda427bfaa
+Step 10/19 : RUN npm ci --prefix /opt/openclaw --omit=dev
+ ---> Using cache
+ ---> 20a7c559a21f
+Step 11/19 : COPY src ./src
+ ---> 3e7b8b0870cd
+Step 12/19 : COPY fixtures ./fixtures
+ ---> 8983057391c5
+Step 13/19 : RUN ln -s /opt/openclaw/node_modules src/plugin/node_modules     && node_modules/.bin/tsc -p src/plugin/tsconfig.json     && mkdir -p src/plugin/dist/fixtures && cp -R fixtures/. src/plugin/dist/fixtures/
+ ---> [Warning] The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+ ---> Running in 3760020814ca
+ ---> Removed intermediate container 3760020814ca
+ ---> fd2207b2b120
+Step 14/19 : COPY . .
+ ---> cf10e9b9a38d
+Step 15/19 : RUN chmod -R a+rX /app     && mkdir -p /app/.runtime/host /data && ln -s /opt/openclaw/node_modules /app/.runtime/host/node_modules     && chown -R node:node /data /app/.runtime
+ ---> [Warning] The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+ ---> Running in 9b671777bf39
+ ---> Removed intermediate container 9b671777bf39
+ ---> d9f4cdf277af
+Step 16/19 : USER node
+ ---> [Warning] The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+ ---> Running in c8477ac5d6c2
+ ---> Removed intermediate container c8477ac5d6c2
+ ---> b162704c4673
+Step 17/19 : ENV APPLYPILOT_ENV=production
+ ---> [Warning] The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+ ---> Running in c032c48cb5e5
+ ---> Removed intermediate container c032c48cb5e5
+ ---> c0ab02e2999c
+Step 18/19 : ENTRYPOINT ["/usr/bin/tini", "--", "/usr/bin/setpriv", "--no-new-privs", "--inh-caps=-all", "--ambient-caps=-all", "--"]
+ ---> [Warning] The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+ ---> Running in 6fbd14fb50ee
+ ---> Removed intermediate container 6fbd14fb50ee
+ ---> 85b7d3e27ca4
+Step 19/19 : CMD ["node", "--import", "tsx", "deploy/assistant-runtime.mjs"]
+ ---> [Warning] The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+ ---> Running in 8097dad52564
+ ---> Removed intermediate container 8097dad52564
+ ---> 0f8fd3f2cc34
+Successfully built 0f8fd3f2cc34
+Successfully tagged us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime:advanced-20261113-r4

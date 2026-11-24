@@ -1,0 +1,10 @@
+{
+  "taskId": "todo-22ae534a76c9004ea5280b48",
+  "title": "Synthetic rehearsal task [duration:15m]",
+  "dueDate": null,
+  "priority": 2,
+  "status": "open",
+  "matchingRows": 1,
+  "createdAt": "2026-11-17T00:35:21.363Z",
+  "verification": "human Telegram command receipt and independent read-only cloud SQLite inspection"
+}

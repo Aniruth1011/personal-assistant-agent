@@ -1,0 +1,34 @@
+{
+  "recordedAt": "2026-11-12T20:07:24Z",
+  "telegram": {
+    "setupMessageMatched": true,
+    "senderCount": 1,
+    "dmPolicy": "allowlist",
+    "groupPolicy": "disabled",
+    "ingressObserved": true,
+    "replyVerifiedByUser": false
+  },
+  "modelProbe": {
+    "runId": "267aad1b-54eb-437d-bc5b-e8ff2fb01d39",
+    "provider": "ollama",
+    "model": "gemma4:e2b",
+    "contextTokens": 32768,
+    "response": "ApplyPilot local model ready.",
+    "durationMs": 8247,
+    "fallbackUsed": false
+  },
+  "regression": {
+    "filesPassed": 15,
+    "testsPassed": 118,
+    "verifyExitCode": 0
+  },
+  "negative": {
+    "invalidSenderExitCode": 1,
+    "configAssertionsPassed": true
+  },
+  "limitations": [
+    "Model probe used Gateway agent CLI, not a completed Telegram conversational roundtrip.",
+    "Live unauthorized-sender denial not tested with a second Telegram account.",
+    "Hybrid routing not implemented in this local diagnostic configuration."
+  ]
+}

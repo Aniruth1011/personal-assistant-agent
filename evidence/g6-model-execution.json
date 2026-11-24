@@ -1,0 +1,207 @@
+{
+  "at": "2026-11-12T20:28:00.907Z",
+  "runs": [
+    {
+      "session": "gate6-model-skills",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "durationMs": 6846,
+      "toolResults": [],
+      "skillReads": [],
+      "skillNames": [],
+      "limitation": "Development smoke probe; not held-out evaluation or a Telegram human approval."
+    },
+    {
+      "session": "gate6-direct-tools",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "durationMs": 5709,
+      "toolResults": [
+        {
+          "tool": "evaluate_eligibility",
+          "isError": false,
+          "status": "success"
+        }
+      ],
+      "skillReads": [],
+      "skillNames": [],
+      "limitation": "Development smoke probe; not held-out evaluation or a Telegram human approval."
+    },
+    {
+      "session": "gate6-direct-integrations",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "durationMs": 3140,
+      "toolResults": [],
+      "skillReads": [],
+      "skillNames": [],
+      "limitation": "Development smoke probe; not held-out evaluation or a Telegram human approval."
+    },
+    {
+      "session": "gate6-email-single",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "durationMs": 909,
+      "toolResults": [],
+      "skillReads": [],
+      "skillNames": [],
+      "limitation": "Development smoke probe; not held-out evaluation or a Telegram human approval."
+    },
+    {
+      "session": "gate6-email-natural",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "durationMs": 2695,
+      "toolResults": [
+        {
+          "tool": "list_test_emails",
+          "isError": true
+        }
+      ],
+      "skillReads": [],
+      "skillNames": [],
+      "limitation": "Development smoke probe; not held-out evaluation or a Telegram human approval."
+    },
+    {
+      "session": "gate6-email-hostid",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "durationMs": 4432,
+      "toolResults": [
+        {
+          "tool": "list_test_emails",
+          "isError": false,
+          "status": "success"
+        }
+      ],
+      "skillReads": [],
+      "skillNames": [],
+      "limitation": "Development smoke probe; not held-out evaluation or a Telegram human approval."
+    },
+    {
+      "session": "gate6-calendar-hostid",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "durationMs": 4763,
+      "toolResults": [
+        {
+          "tool": "list_test_events",
+          "isError": false,
+          "status": "success"
+        }
+      ],
+      "skillReads": [],
+      "skillNames": [],
+      "limitation": "Development smoke probe; not held-out evaluation or a Telegram human approval."
+    },
+    {
+      "session": "gate6-search-direct",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "durationMs": 3190,
+      "toolResults": [],
+      "skillReads": [],
+      "skillNames": [],
+      "limitation": "Development smoke probe; not held-out evaluation or a Telegram human approval."
+    },
+    {
+      "session": "gate6-search-skill",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "durationMs": 4360,
+      "toolResults": [],
+      "skillReads": [],
+      "skillNames": [
+        "applypilot",
+        "calendar",
+        "email",
+        "web-search"
+      ],
+      "limitation": "Development smoke probe; not held-out evaluation or a Telegram human approval."
+    },
+    {
+      "session": "gate6-search-thinking",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "durationMs": 8762,
+      "toolResults": [
+        {
+          "tool": "web_search",
+          "isError": false,
+          "sources": [
+            "https://docs.openclaw.ai/tools/plugin",
+            "https://docs.openclaw.ai/plugins/building-plugins"
+          ]
+        }
+      ],
+      "skillReads": [],
+      "skillNames": [
+        "applypilot",
+        "calendar",
+        "email",
+        "web-search"
+      ],
+      "limitation": "Development smoke probe; not held-out evaluation or a Telegram human approval."
+    },
+    {
+      "session": "gate6-four-skills-thinking",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "durationMs": 28992,
+      "toolResults": [
+        {
+          "tool": "skills_read",
+          "isError": false
+        },
+        {
+          "tool": "skills_read",
+          "isError": false
+        },
+        {
+          "tool": "skills_read",
+          "isError": false
+        },
+        {
+          "tool": "skills_read",
+          "isError": false
+        },
+        {
+          "tool": "evaluate_eligibility",
+          "isError": false,
+          "status": "success"
+        },
+        {
+          "tool": "list_test_emails",
+          "isError": false,
+          "status": "success"
+        },
+        {
+          "tool": "list_test_events",
+          "isError": false,
+          "status": "success"
+        },
+        {
+          "tool": "web_search",
+          "isError": false,
+          "sources": [
+            "https://docs.openclaw.ai/tools/plugin",
+            "https://docs.openclaw.ai/"
+          ]
+        }
+      ],
+      "skillReads": [
+        "applypilot",
+        "email",
+        "calendar",
+        "web-search"
+      ],
+      "skillNames": [
+        "applypilot",
+        "calendar",
+        "email",
+        "web-search"
+      ],
+      "limitation": "Development smoke probe; not held-out evaluation or a Telegram human approval."
+    }
+  ]
+}

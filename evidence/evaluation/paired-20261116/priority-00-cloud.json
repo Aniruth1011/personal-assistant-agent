@@ -1,0 +1,10 @@
+{
+  "caseId": "priority-00",
+  "type": "work_prioritization",
+  "arm": "cloud",
+  "startedAt": "2026-11-16T20:10:04.800639+00:00",
+  "elapsedMs": 15280,
+  "exit": 1,
+  "stdout": "",
+  "stderr": "file:///Users/aniruthsundararajan/Documents/Assignment3/Assignment%203%20attached%20files%20Nov%206,%202026%201217%20PM/scripts/evaluation/gateway-rpc.mjs:14\n    reject(new Error(\"PAIR_TIMEOUT\"));\n           ^\n\nError: PAIR_TIMEOUT\n    at Timeout._onTimeout (file:///Users/aniruthsundararajan/Documents/Assignment3/Assignment%203%20attached%20files%20Nov%206,%202026%201217%20PM/scripts/evaluation/gateway-rpc.mjs:14:12)\n    at listOnTimeout (node:internal/timers:685:17)\n    at process.processTimers (node:internal/timers:618:7)\n\nNode.js v26.10.0\n"
+}

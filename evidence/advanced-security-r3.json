@@ -1,0 +1,15 @@
+{
+  "image": "sha256:aa056e417797bf941f00638d7fb234865d7aac4196e60629aa0dde0b10f7eb21",
+  "command": "openclaw security audit --deep --json (actual deployed Linux runtime as node user)",
+  "first": {
+    "critical": 0,
+    "warn": 1,
+    "reason": "device metadata change pending approval; verified Linux CLI operator.read repair request"
+  },
+  "rerun": {
+    "critical": 0,
+    "warn": 0,
+    "info": 2
+  },
+  "limits": "Informational exposure/small-model findings and separate npm dependency review remain; audit is not proof of absence of vulnerabilities."
+}

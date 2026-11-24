@@ -1,0 +1,107 @@
+[
+  {
+    "label": "Briefing",
+    "id": "96945971-a927-45e1-a06a-191183001f5b",
+    "result": {
+      "entries": [
+        {
+          "ts": 1794944006031,
+          "jobId": "96945971-a927-45e1-a06a-191183001f5b",
+          "action": "finished",
+          "status": "ok",
+          "completionStatus": "succeeded",
+          "summary": "ApplyPilot briefing \u2014 2026-11-17 (America/Los_Angeles)\nCalendar conflicts: 0. Dedicated test calendar only.\nWorking-time gaps: 2026-11-17T19:00:00Z \u2192 2026-11-18T01:00:00Z\nSuggested 60-minute slots: 2026-11-17T19:34:00.000Z \u2192 2026-11-17T20:34:00.000Z\nEmail [1a1d199699d2aa9f]: ApplyPilot synthetic recruiter reply \u2014 approval test  \u2014 Thank you for the interview invitation. Could you please share the available time options and any details I should review beforehand? [unknown]; needs clarification.\nEmail [1a1c47015a3f4508]: SYNTHETIC TEST \u2014 Interview invitation \u2014 ApplyPilot  \u2014 Reply deadline: 2026-11-11 5:00 PM Pacific Do not reply or take any external action. [deadline]; deadline (unverified text): 2026-11-11 5:00 PM Pacific.\nDraft available for review: /reviewemail 1a1c47015a3f4508 (not sent).\nWeather \u2014 Los Angeles (fixed demo city): 19.8 \u00b0C, WMO code 0; observed 2026-11-17T19:30:00.000Z; https://open-meteo.com/; forecast: 2026-11-17: 11.2\u201321.1 \u00b0C, rain 5%, WMO 3; 2026-11-18: 11.2\u201319.3 \u00b0C, rain 36%, WMO 3\nOpen tasks: 2.\nTask plan [todo-c8425eab437f8275a2ca4920]: Synthetic video deadline 20261117-0005 [duration:15m]; 15 minutes; 2026-11-17T19:34:00.000Z \u2192 2026-11-17T19:49:00.000Z; explicit_task_duration. Suggestion only, not booked.\nTask plan [todo-916591be55d397181404197c]: Prepare Atlas demo [duration:45m]; 45 minutes; no slot; overdue_requires_replanning. Suggestion only, not booked.\nTask [todo-c8425eab437f8275a2ca4920]: Synthetic video deadline 20261117-0005 [duration:15m]; P1; due 2026-11-17\nTask [todo-916591be55d397181404197c]: Prepare Atlas demo [duration:45m]; P2; due 2026-11-13",
+          "runId": "cron:96945971-a927-45e1-a06a-191183001f5b:1794943979232:cron-slot-v1.WyIvZGF0YS9ydW50aW1lL3N0YXRlL2Nyb24vam9icy5qc29uIiwiOTY5NDU5NzEtYTkyNy00NWUxLWEwNmEtMTkxMTgzMDAxZjViIiwxNzk0OTQzOTc5MTc0XQ",
+          "runAtMs": 1794943979232,
+          "durationMs": 26799,
+          "delivered": true,
+          "deliveryStatus": "delivered",
+          "delivery": {
+            "intended": {
+              "channel": "telegram",
+              "to": "1545580532",
+              "source": "explicit"
+            },
+            "delivered": true
+          },
+          "jobName": "Video preflight \u2014 Briefing"
+        }
+      ],
+      "total": 1,
+      "offset": 0,
+      "limit": 1,
+      "hasMore": false,
+      "nextOffset": null
+    }
+  },
+  {
+    "label": "Deadline reminder",
+    "id": "df72b3eb-80a4-473f-b721-c01f864d0f51",
+    "result": {
+      "entries": [
+        {
+          "ts": 1794944029536,
+          "jobId": "df72b3eb-80a4-473f-b721-c01f864d0f51",
+          "action": "finished",
+          "status": "ok",
+          "completionStatus": "succeeded",
+          "summary": "Scheduled deadline reminder\nSynthetic video deadline 20261117-0005 [duration:15m]\nDue: 2026-11-17; priority P1; status: open.\nThis is the one-time video reminder for your saved task; no task was changed.",
+          "runId": "cron:df72b3eb-80a4-473f-b721-c01f864d0f51:1794944024531:cron-slot-v1.WyIvZGF0YS9ydW50aW1lL3N0YXRlL2Nyb24vam9icy5qc29uIiwiZGY3MmIzZWItODBhNC00NzNmLWI3MjEtYzAxZjg2NGQwZjUxIiwxNzk0OTQ0MDI0MTc0XQ",
+          "runAtMs": 1794944024531,
+          "durationMs": 5005,
+          "delivered": true,
+          "deliveryStatus": "delivered",
+          "delivery": {
+            "intended": {
+              "channel": "telegram",
+              "to": "1545580532",
+              "source": "explicit"
+            },
+            "delivered": true
+          },
+          "jobName": "Video preflight \u2014 Deadline reminder"
+        }
+      ],
+      "total": 1,
+      "offset": 0,
+      "limit": 1,
+      "hasMore": false,
+      "nextOffset": null
+    }
+  },
+  {
+    "label": "Recap (simulated evening)",
+    "id": "84f6dceb-04dc-4a12-b893-58592d33186a",
+    "result": {
+      "entries": [
+        {
+          "ts": 1794944072100,
+          "jobId": "84f6dceb-04dc-4a12-b893-58592d33186a",
+          "action": "finished",
+          "status": "ok",
+          "completionStatus": "succeeded",
+          "summary": "ApplyPilot recap \u2014 2026-11-18 (America/Los_Angeles)\nCalendar conflicts: 0. Dedicated test calendar only.\nWorking-time gaps: 2026-11-18T19:00:00Z \u2192 2026-11-19T01:00:00Z\nSuggested 60-minute slots: 2026-11-18T19:00:00.000Z \u2192 2026-11-18T20:00:00.000Z\nEmail [1a1e6e89c1fb52a6]: ApplyPilot synthetic project coordinator reply \u2014 approval test  \u2014 Thank you for the message. I noted the following point: \u201cReply deadline: 2026-11-11 5:00 PM Pacific Do not reply or take any external action.\u201d Please let me know if any response or [deadline]; deadline (unverified text): 2026-11-11 5:00 PM Pacific Do not reply or take any external action.\nDraft available for review: /reviewemail 1a1e6e89c1fb52a6 (not sent).\nEmail [1a1d199699d2aa9f]: ApplyPilot synthetic recruiter reply \u2014 approval test  \u2014 Thank you for the interview invitation. Could you please share the available time options and any details I should review beforehand? [unknown]; needs clarification.\nEmail [1a1c47015a3f4508]: SYNTHETIC TEST \u2014 Interview invitation \u2014 ApplyPilot  \u2014 Reply deadline: 2026-11-11 5:00 PM Pacific Do not reply or take any external action. [deadline]; deadline (unverified text): 2026-11-11 5:00 PM Pacific.\nDraft available for review: /reviewemail 1a1c47015a3f4508 (not sent).\nOpen tasks: 2.\nTask plan [todo-c8425eab437f8275a2ca4920]: Synthetic video deadline 20261117-0005 [duration:15m]; 15 minutes; no slot; overdue_requires_replanning. Suggestion only, not booked.\nTask plan [todo-916591be55d397181404197c]: Prepare Atlas demo [duration:45m]; 45 minutes; no slot; overdue_requires_replanning. Suggestion only, not booked.\nTask [todo-c8425eab437f8275a2ca4920]: Synthetic video deadline 20261117-0005 [duration:15m]; P1; due 2026-11-17\nTask [todo-916591be55d397181404197c]: Prepare Atlas demo [duration:45m]; P2; due 2026-11-13\nTasks completed today: 0.\nActivity today: 0 unique messages processed; 0 confirmed email sends; 32 reports generated (delivery tracked separately).\nNeeds clarification: email 1a1d199699d2aa9f; /reviewemail 1a1d199699d2aa9f.\nUpcoming/overdue deadline: Synthetic video deadline 20261117-0005 [duration:15m] \u2014 2026-11-17\nUpcoming/overdue deadline: Prepare Atlas demo [duration:45m] \u2014 2026-11-13",
+          "runId": "cron:84f6dceb-04dc-4a12-b893-58592d33186a:1794944069267:cron-slot-v1.WyIvZGF0YS9ydW50aW1lL3N0YXRlL2Nyb24vam9icy5qc29uIiwiODRmNmRjZWItMDRkYy00YTEyLWI4OTMtNTg1OTJkMzMxODZhIiwxNzk0OTQ0MDY5MTc0XQ",
+          "runAtMs": 1794944069267,
+          "durationMs": 2833,
+          "delivered": true,
+          "deliveryStatus": "delivered",
+          "delivery": {
+            "intended": {
+              "channel": "telegram",
+              "to": "1545580532",
+              "source": "explicit"
+            },
+            "delivered": true
+          },
+          "jobName": "Video preflight \u2014 Recap (simulated evening)"
+        }
+      ],
+      "total": 1,
+      "offset": 0,
+      "limit": 1,
+      "hasMore": false,
+      "nextOffset": null
+    }
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "configuredAt": "2026-11-17T08:20:39.699995+00:00",
+  "startAt": "2026-11-17T08:25:36.000Z",
+  "jobs": [
+    {
+      "id": "8b9b9386-3e29-41b1-81a7-81b7d2ee1fa3",
+      "label": "Briefing",
+      "at": "2026-11-17T08:26:36.000Z",
+      "enabledVerified": true
+    },
+    {
+      "id": "84d44c23-b477-4504-a8e4-5d64b0a79186",
+      "label": "Deadline reminder",
+      "at": "2026-11-17T08:30:06.000Z",
+      "enabledVerified": true
+    },
+    {
+      "id": "bf837fdc-86bb-41ad-806a-25d4935cc76b",
+      "label": "Recap (simulated evening)",
+      "at": "2026-11-17T08:31:36.000Z",
+      "enabledVerified": true
+    }
+  ]
+}

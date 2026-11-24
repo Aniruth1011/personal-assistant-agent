@@ -1,0 +1,1 @@
+{"ok":true,"restartRequired":false,"runtime":{"operationId":"cdfc0af0-c6b1-4807-ac33-8d2da6235485","generation":4,"pluginIds":["applypilot-agent"],"sourceDigests":{"applypilot-agent":"58de6e74a8df375a765e4a1515bab16adc7d6b87c8d910a5c1001ee1b2259006"},"selectedEntries":{"applypilot-agent":"/app/src/plugin/dist/src/plugin/src/index.js"}},"pluginIds":["applypilot-agent"]}

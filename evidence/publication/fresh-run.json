@@ -1,0 +1,8 @@
+{
+  "at": "2026-11-16T20:50:03.437531+00:00",
+  "command": "node scripts/triage.mjs fixtures/tasks.json 2026-11-16",
+  "cwd": "/var/folders/xx/1q6z2yhx5x70_zs53mgz2l240000gn/T/a3-fresh-skill-alt_l10e/workspace/skills/@aniruth1011/assistant-todo-triage",
+  "exit": 0,
+  "stdout": "{\n  \"today\": \"2026-11-16\",\n  \"total\": 4,\n  \"completed\": 1,\n  \"overdue\": [\n    {\n      \"id\": \"atlas-review\",\n      \"title\": \"Review fictional Atlas notes\",\n      \"dueDate\": \"2026-11-15\",\n      \"priority\": 1,\n      \"status\": \"open\"\n    }\n  ],\n  \"dueToday\": [\n    {\n      \"id\": \"atlas-slides\",\n      \"title\": \"Prepare fictional Atlas slides\",\n      \"dueDate\": \"2026-11-16\",\n      \"priority\": 2,\n      \"status\": \"open\"\n    }\n  ],\n  \"upcoming\": [],\n  \"undated\": [\n    {\n      \"id\": \"atlas-reading\",\n      \"title\": \"Read fictional reference\",\n      \"dueDate\": null,\n      \"priority\": 3,\n      \"status\": \"open\"\n    }\n  ]\n}\n",
+  "stderr": ""
+}

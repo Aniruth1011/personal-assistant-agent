@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "eventId": "event-mock-meeting-001",
+  "synthetic": true,
+  "title": "Mock meeting — Northstar Fictional Labs",
+  "startsAt": "2026-11-12T10:00:00-08:00",
+  "endsAt": "2026-11-12T10:45:00-08:00",
+  "timeZone": "America/Los_Angeles",
+  "sourceEmailId": "email-meeting-invitation-001"
+}

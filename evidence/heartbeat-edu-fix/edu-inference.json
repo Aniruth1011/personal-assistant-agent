@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-11-17T19:20:48.028801+00:00",
+  "status": "ok",
+  "model": "gpt-6-luna",
+  "provider": "openai",
+  "reply": [
+    {
+      "text": "Merge sort guarantees O(n log n) time and is stable, but typically needs O(n) extra memory. Quicksort is usually faster in practice and can sort in place, but has O(n\u00b2) worst-case time and is typically unstable.",
+      "mediaUrl": null
+    }
+  ],
+  "authPolicy": "Only USC education profile allowed in automatic OpenAI order",
+  "tokenPlan": "education",
+  "uscIdentity": true
+}

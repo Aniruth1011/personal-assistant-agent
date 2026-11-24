@@ -1,0 +1,22 @@
+{
+  "kind": "human Telegram greeting rehearsal",
+  "messages": [
+    {
+      "role": "user",
+      "timestamp": 1794875115000,
+      "content": "Hi, what can you do?"
+    },
+    {
+      "role": "assistant",
+      "provider": "ollama",
+      "model": "gemma4:e2b",
+      "timestamp": 1794875121636,
+      "content": [
+        {
+          "type": "text",
+          "text": "Hello! I am a personal assistant designed to help you manage tasks, research information, and coordinate things through Telegram. I can help you with things like checking your calendar, looking at your to-do list, drafting emails, and searching the web. How can I assist you today?"
+        }
+      ]
+    }
+  ]
+}

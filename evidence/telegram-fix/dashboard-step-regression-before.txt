@@ -1,0 +1,41 @@
+
+> applypilot@0.1.0 test
+> vitest run src/router/policy.test.ts
+
+
+ RUN  v5.1.0 /Users/aniruthsundararajan/Documents/Assignment3/Assignment 3 attached files Nov 6, 2026 1217 PM
+
+ ❯ src/router/policy.test.ts (13 tests | 1 failed) 6ms
+   ❯ deterministic task-aware routing (13)
+     × recognizes the assignment reasoning prompt while preserving privacy precedence 2ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/router/policy.test.ts > deterministic task-aware routing > recognizes the assignment reasoning prompt while preserving privacy precedence
+AssertionError: expected { privacy: 'public', …(1) } to deeply equal { privacy: 'public', …(1) }
+
+- Expected
++ Received
+
+  {
+-   "complexity": "reasoning",
++   "complexity": "short",
+    "privacy": "public",
+  }
+
+ ❯ src/router/policy.test.ts:100:40
+     98|   it("recognizes the assignment reasoning prompt while preserving priv…
+     99|     const prompt = "Explain step by step why the sky is blue.";
+    100|     expect(classifyTask(prompt, true)).toEqual({privacy:"public",compl…
+       |                                        ^
+    101|     expect(classifyTask("Explain step-by-step why the sky is blue.", t…
+    102|     expect(classifyTask("What is 12 * 9?", true).complexity).toBe("sho…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 12 passed (13)
+   Start at  16:03:18
+   Duration  116ms (import 53%, transform 35%, tests 10%, worker 3%)
+

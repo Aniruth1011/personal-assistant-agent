@@ -1,0 +1,34 @@
+{
+  "kind": "manual recap rehearsal; simulated timing",
+  "messages": [
+    {
+      "role": "user",
+      "timestamp": 1794876321927,
+      "content": [
+        {
+          "type": "text",
+          "text": "/recap"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "timestamp": 1794876321926,
+      "content": [
+        {
+          "type": "text",
+          "text": "ApplyPilot recap \u2014 2026-11-17 (America/Los_Angeles)\nCalendar conflicts: 0. Dedicated test calendar only.\nWorking-time gaps: 2026-11-17T19:00:00Z \u2192 2026-11-18T01:00:00Z\nSuggested 60-minute slots: 2026-11-17T19:00:00.000Z \u2192 2026-11-17T20:00:00.000Z\nEmail [1a1e6e89c1fb52a6]: ApplyPilot synthetic project coordinator reply \u2014 approval test  \u2014 Thank you for the message. I noted the following point: \u201cReply deadline: 2026-11-11 5:00 PM Pacific Do not reply or take any external action.\u201d Please let me know if any response or [deadline]; deadline (unverified text): 2026-11-11 5:00 PM Pacific Do not reply or take any external action.\nDraft available for review: /reviewemail 1a1e6e89c1fb52a6 (not sent).\nEmail [1a1d199699d2aa9f]: ApplyPilot synthetic recruiter reply \u2014 approval test  \u2014 Thank you for the interview invitation. Could you please share the available time options and any details I should review beforehand? [unknown]; needs clarification.\nEmail [1a1c47015a3f4508]: SYNTHETIC TEST \u2014 Interview invitation \u2014 ApplyPilot  \u2014 Reply deadline: 2026-11-11 5:00 PM Pacific Do not reply or take any external action. [deadline]; deadline (unverified text): 2026-11-11 5:00 PM Pacific.\nDraft available for review: /reviewemail 1a1c47015a3f4508 (not sent).\nOpen tasks: 1.\nTask plan [todo-916591be55d397181404197c]: Prepare Atlas demo [duration:45m]; 45 minutes; no slot; overdue_requires_replanning. Suggestion only, not booked.\nTask [todo-916591be55d397181404197c]: Prepare Atlas demo [duration:45m]; P2; due 2026-11-13\nTasks completed today: 1.\nCompleted: Synthetic rehearsal task [duration:15m] [todo-22ae534a76c9004ea5280b48]\nActivity today: 1 unique messages processed; 1 confirmed email sends; 43 reports generated (delivery tracked separately).\nNeeds clarification: email 1a1d199699d2aa9f; /reviewemail 1a1d199699d2aa9f.\nUpcoming/overdue deadline: Prepare Atlas demo [duration:45m] \u2014 2026-11-13"
+        }
+      ]
+    }
+  ],
+  "verified": [
+    "completed rehearsal task included",
+    "one confirmed email send included",
+    "next-day calendar availability included"
+  ],
+  "scopeNotes": [
+    "Report header uses next-day preview date; completed-today activity is for current local day.",
+    "Activity counter is application-tracked activity, not a claim to count every native Telegram message."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "source": "Deployed gateway log",
+  "at": "2026-11-16T22:33:24.634Z",
+  "event": "telegram outbound send ok",
+  "operation": "sendMessage",
+  "messageId": "80",
+  "deliveryKind": "text",
+  "chunkCount": 1,
+  "correlation": "Immediately after matching public search run completion; recipient identifier omitted."
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "jsonPayload": {
+      "bootId": "32e5a902-219a-4364-b158-eb3f1a1da35d",
+      "counts": {
+        "assistant_alerts": 4,
+        "assistant_email_context": 2,
+        "assistant_report_runs": 198,
+        "email_outbox_events": 3,
+        "knowledge_events": 1,
+        "knowledge_facts": 1,
+        "todo_events": 1,
+        "todos": 1
+      },
+      "memoryHashes": {
+        "IDENTITY.md": "e4ce84fb1b75695e7f3ff30434dbc56ff12d4873eef92d1cd9d853a37033ae7a",
+        "KNOWLEDGE.md": "bb9053b304100f5a3046ae74b5ddc60bf2a5c0c48d8e6b8fbf548d08c5261206",
+        "MEMORY.md": "e97fb80369ddcfa5e085ccbcb3f76617cdb94633a5173506e86ce776490d58f1",
+        "SOUL.md": "db0d77417721fc30540a8bcba0ed7d92f7024b671f850f47bbc7a7d88a953b6b",
+        "USER.md": "87490e98f0ec33cd9cc7eab924927a9981dcc343a0d9fee7b3e755e1b7d04557"
+      },
+      "outbox": [
+        {
+          "count": 1,
+          "status": "SENT"
+        }
+      ]
+    },
+    "timestamp": "2026-11-16T22:42:08.120643Z"
+  }
+]

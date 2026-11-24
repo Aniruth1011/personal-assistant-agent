@@ -1,0 +1,54 @@
+{
+  "artifacts": {
+    "images": [
+      "us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime:oauth-routing-20261116"
+    ]
+  },
+  "createTime": "2026-11-16T20:38:07.894716013Z",
+  "id": "0e658484-695f-475e-9f6a-1c80cd745c4b",
+  "images": [
+    "us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime:oauth-routing-20261116"
+  ],
+  "logUrl": "https://console.cloud.google.com/cloud-build/builds;region=us-west1/0e658484-695f-475e-9f6a-1c80cd745c4b?project=469697186976",
+  "logsBucket": "gs://469697186976-us-west1-cloudbuild-logs",
+  "name": "projects/469697186976/locations/us-west1/builds/0e658484-695f-475e-9f6a-1c80cd745c4b",
+  "options": {
+    "logging": "LEGACY",
+    "pool": {},
+    "workerRelease": "legacy"
+  },
+  "projectId": "amplified-coder-510723-p3",
+  "queueTtl": "3600s",
+  "serviceAccount": "projects/amplified-coder-510723-p3/serviceAccounts/469697186976-compute@developer.gserviceaccount.com",
+  "source": {
+    "storageSource": {
+      "bucket": "amplified-coder-510723-p3_cloudbuild",
+      "generation": "1794861487603926",
+      "object": "source/1794861487.19337-ad3395d2a2e942f0a0444a45a7a707a8.tgz"
+    }
+  },
+  "sourceProvenance": {
+    "resolvedStorageSource": {
+      "bucket": "amplified-coder-510723-p3_cloudbuild",
+      "generation": "1794861487603926",
+      "object": "source/1794861487.19337-ad3395d2a2e942f0a0444a45a7a707a8.tgz"
+    }
+  },
+  "status": "QUEUED",
+  "steps": [
+    {
+      "args": [
+        "docker",
+        "build",
+        "--network",
+        "cloudbuild",
+        "--no-cache",
+        "-t",
+        "us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime:oauth-routing-20261116",
+        "."
+      ],
+      "name": "gcr.io/cloud-builders/gcb-internal"
+    }
+  ],
+  "timeout": "3600s"
+}

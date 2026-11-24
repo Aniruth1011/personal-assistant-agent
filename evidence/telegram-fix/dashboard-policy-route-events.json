@@ -1,0 +1,57 @@
+[
+  {
+    "at": "2026-11-17T00:06:36.486Z",
+    "id": "dashboard-policy-fixed-20261117",
+    "kind": "decision",
+    "privacy": "public",
+    "reason": "public_reasoning_cloud",
+    "selectedModel": "openai/gpt-6-luna",
+    "seq": 1285,
+    "sessionHash": "4147179dfb935fa1abdd5a1512838d3aa52f3fb506763613dadac03b34cb3309",
+    "target": "cloud",
+    "task": {
+      "cloudAvailable": true,
+      "cloudRateLimited": false,
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "privacy": "public"
+    }
+  },
+  {
+    "at": "2026-11-17T00:06:36.641Z",
+    "id": "dashboard-policy-fixed-20261117",
+    "kind": "decision",
+    "privacy": "public",
+    "reason": "public_reasoning_cloud",
+    "selectedModel": "openai/gpt-6-luna",
+    "seq": 1286,
+    "sessionHash": "4147179dfb935fa1abdd5a1512838d3aa52f3fb506763613dadac03b34cb3309",
+    "target": "cloud",
+    "task": {
+      "cloudAvailable": true,
+      "cloudRateLimited": false,
+      "complexity": "reasoning",
+      "localAvailable": true,
+      "privacy": "public"
+    }
+  },
+  {
+    "at": "2026-11-17T00:06:40.823Z",
+    "durationMs": 4013,
+    "id": "dashboard-policy-fixed-20261117",
+    "kind": "outcome",
+    "outcome": "completed",
+    "seq": 1287
+  },
+  {
+    "at": "2026-11-17T00:06:40.843Z",
+    "id": "dashboard-policy-fixed-20261117",
+    "inputTokens": 5400,
+    "kind": "served",
+    "model": "gpt-6-luna",
+    "outputTokens": 136,
+    "provider": "openai",
+    "seq": 1288,
+    "totalTokens": 5536
+  }
+]

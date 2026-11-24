@@ -1,0 +1,15 @@
+{
+  "rows": 139,
+  "decisionReasons": {
+    "private_local_only": 56,
+    "short_local": 8,
+    "public_reasoning_cloud": 2,
+    "private_local_unavailable": 2
+  },
+  "servedModels": {
+    "gemma4:e2b": 29,
+    "gpt-6-luna": 1
+  },
+  "delegations": 0,
+  "privateServedByCloud": 0
+}

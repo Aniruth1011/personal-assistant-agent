@@ -1,0 +1,22 @@
+{
+  "recordedAt": "2026-11-12T22:46:52.872963+00:00",
+  "configuredCalendarDisplayName": "Test",
+  "configurationMatchesEnvironment": true,
+  "calendarAccessRole": "owner",
+  "november13Read": {
+    "http": 200,
+    "eventCount": 0
+  },
+  "entireNovemberRead": {
+    "commandExitCode": 0,
+    "eventCount": 0,
+    "hasNextPage": false
+  },
+  "recap": {
+    "http": 200,
+    "conflictCount": 0,
+    "meetingContextPresent": false
+  },
+  "remoteMutations": 0,
+  "decision": "BLOCKED: imported fixture not visible in configured secondary calendar"
+}

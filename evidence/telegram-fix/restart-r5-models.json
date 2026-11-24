@@ -1,0 +1,80 @@
+[
+  {
+    "insertId": "6afb89380000b096645f1f62",
+    "jsonPayload": {
+      "at": "2026-11-16T22:52:40.044Z",
+      "event": "assistant.ready",
+      "formal48h": "NOT_STARTED",
+      "localModelAvailable": true,
+      "telegram": true
+    },
+    "labels": {
+      "app": "applypilot",
+      "instanceId": "00e8a408bde8fc01583a864f9244f10c5ef75ddafcbf0b07580704915b1dcdca007100e6b3a49af32d3380237001d71fa1cdbb755c03f865808f3fdde0232b2d99bb27c6ce9ae13247a49adf2d11c98a0a6bfc10e07332e6243e20dce830",
+      "phase": "gate9-connectivity"
+    },
+    "logName": "projects/amplified-coder-510723-p3/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2026-11-16T22:52:40.053706594Z",
+    "resource": {
+      "labels": {
+        "instance_name": "applypilot-gate9",
+        "location": "us-west1",
+        "project_id": "amplified-coder-510723-p3"
+      },
+      "type": "cloud_run_instance"
+    },
+    "timestamp": "2026-11-16T22:52:40.045206Z"
+  },
+  {
+    "insertId": "6afb892a000d44dc59091bf9",
+    "jsonPayload": {
+      "at": "2026-11-16T22:52:26.869Z",
+      "event": "assistant.routed_model_verified",
+      "kind": "local",
+      "model": "gemma4:e2b",
+      "provider": "ollama"
+    },
+    "labels": {
+      "app": "applypilot",
+      "instanceId": "00e8a408bde8fc01583a864f9244f10c5ef75ddafcbf0b07580704915b1dcdca007100e6b3a49af32d3380237001d71fa1cdbb755c03f865808f3fdde0232b2d99bb27c6ce9ae13247a49adf2d11c98a0a6bfc10e07332e6243e20dce830",
+      "phase": "gate9-connectivity"
+    },
+    "logName": "projects/amplified-coder-510723-p3/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2026-11-16T22:52:27.192141801Z",
+    "resource": {
+      "labels": {
+        "instance_name": "applypilot-gate9",
+        "location": "us-west1",
+        "project_id": "amplified-coder-510723-p3"
+      },
+      "type": "cloud_run_instance"
+    },
+    "timestamp": "2026-11-16T22:52:26.869596Z"
+  },
+  {
+    "insertId": "6afb8916000bafa365de1e9b",
+    "jsonPayload": {
+      "at": "2026-11-16T22:52:06.765Z",
+      "event": "assistant.routed_model_verified",
+      "kind": "cloud",
+      "model": "gpt-6-luna",
+      "provider": "openai"
+    },
+    "labels": {
+      "app": "applypilot",
+      "instanceId": "00e8a408bde8fc01583a864f9244f10c5ef75ddafcbf0b07580704915b1dcdca007100e6b3a49af32d3380237001d71fa1cdbb755c03f865808f3fdde0232b2d99bb27c6ce9ae13247a49adf2d11c98a0a6bfc10e07332e6243e20dce830",
+      "phase": "gate9-connectivity"
+    },
+    "logName": "projects/amplified-coder-510723-p3/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2026-11-16T22:52:06.775371859Z",
+    "resource": {
+      "labels": {
+        "instance_name": "applypilot-gate9",
+        "location": "us-west1",
+        "project_id": "amplified-coder-510723-p3"
+      },
+      "type": "cloud_run_instance"
+    },
+    "timestamp": "2026-11-16T22:52:06.765859Z"
+  }
+]

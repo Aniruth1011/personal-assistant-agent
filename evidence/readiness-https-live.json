@@ -1,0 +1,19 @@
+{
+  "at": "2026-11-13T08:20:56.071Z",
+  "tlsValidation": "default certificate verification enabled",
+  "results": [
+    {
+      "authenticated": false,
+      "http": 401,
+      "denied": true
+    },
+    {
+      "authenticated": true,
+      "http": 200,
+      "denied": false
+    }
+  ],
+  "responseOk": true,
+  "taskCount": 1,
+  "expectedTaskPresent": true
+}

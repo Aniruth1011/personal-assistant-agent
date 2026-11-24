@@ -1,0 +1,4 @@
+FROM us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime@sha256:8f395e0a2212843eb7a3617cc8cc189ae9114b3443a399b871fcf72cdb5062b1
+COPY --chown=root:root src/plugin/src/read-request-hooks.ts /app/src/plugin/src/read-request-hooks.ts
+COPY --chown=root:root src/plugin/dist/src/plugin/src/read-request-hooks.js /app/src/plugin/dist/src/plugin/src/read-request-hooks.js
+COPY --chown=root:root src/plugin/dist/src/plugin/src/read-request-hooks.d.ts /app/src/plugin/dist/src/plugin/src/read-request-hooks.d.ts

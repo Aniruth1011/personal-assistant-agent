@@ -1,0 +1,93 @@
+{
+  "at": "2026-11-13T07:21:32.049Z",
+  "kind": "Live deployed Gateway tool RPC; no email send/calendar mutation; not a model or Telegram command test",
+  "records": [
+    {
+      "kind": "briefing",
+      "http": 200,
+      "status": "success",
+      "characters": 983,
+      "forecast": true,
+      "sourceEmailCount": 2,
+      "meetingContextCount": 0,
+      "recapActivity": false,
+      "pendingDecisions": 0,
+      "issues": [],
+      "delivery": "not_attempted; scheduler delivery history is authoritative"
+    },
+    {
+      "kind": "email",
+      "http": 200,
+      "status": "success",
+      "characters": 765,
+      "forecast": false,
+      "sourceEmailCount": 2,
+      "meetingContextCount": 0,
+      "recapActivity": false,
+      "pendingDecisions": 0,
+      "issues": [],
+      "delivery": "not_attempted; scheduler delivery history is authoritative"
+    },
+    {
+      "kind": "calendar",
+      "http": 200,
+      "status": "success",
+      "characters": 768,
+      "forecast": false,
+      "sourceEmailCount": 2,
+      "meetingContextCount": 0,
+      "recapActivity": false,
+      "pendingDecisions": 0,
+      "issues": [],
+      "delivery": "not_attempted; scheduler delivery history is authoritative"
+    },
+    {
+      "kind": "recap",
+      "http": 200,
+      "status": "success",
+      "characters": 1978,
+      "forecast": false,
+      "sourceEmailCount": 2,
+      "meetingContextCount": 2,
+      "recapActivity": true,
+      "pendingDecisions": 0,
+      "issues": [],
+      "delivery": "not_attempted; scheduler delivery history is authoritative"
+    },
+    {
+      "kind": "knowledge",
+      "http": 200,
+      "status": "success",
+      "characters": 134,
+      "forecast": false,
+      "sourceEmailCount": 0,
+      "meetingContextCount": 0,
+      "recapActivity": false,
+      "pendingDecisions": 0,
+      "knowledgeFacts": 0
+    },
+    {
+      "tool": "list_todos",
+      "http": 200,
+      "items": 0
+    },
+    {
+      "tool": "assistant_report",
+      "http": 500
+    },
+    {
+      "tool": "send_approved_email",
+      "http": 404
+    },
+    {
+      "tool": "prepare_application",
+      "http": 404
+    },
+    {
+      "tool": "web_search",
+      "http": 200,
+      "items": 2
+    }
+  ],
+  "image": "sha256:0f8fd3f2cc347cc3530181311673be2b645183162c5ea49ad0790ca4b0458089"
+}

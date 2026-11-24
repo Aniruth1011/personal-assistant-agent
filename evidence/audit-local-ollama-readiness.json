@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-13T07:39:29.921Z",
+  "kind": "Direct laptop Ollama context/readiness probe, not an agent benchmark",
+  "http": 200,
+  "model": "gemma4:e2b",
+  "answer": "4",
+  "done": true,
+  "promptTokens": 23,
+  "outputTokens": 1,
+  "latencyMs": 4253,
+  "requestedContext": 32768,
+  "thinking": false
+}

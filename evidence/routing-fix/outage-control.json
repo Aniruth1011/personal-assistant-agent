@@ -1,0 +1,6 @@
+{
+  "start": "2026-11-16T19:57:24.667948+00:00",
+  "restoredAt": "2026-11-16T19:57:40.516930+00:00",
+  "method": "SIGSTOP/SIGCONT actual Ollama listener; finally restoration",
+  "localProbeExit": 28
+}

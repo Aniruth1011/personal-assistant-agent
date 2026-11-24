@@ -1,0 +1,22 @@
+{
+  "at": "2026-11-13T08:29:21.808Z",
+  "purpose": "Synthetic read-only model liveness; no model override; no delivery; not benchmark results",
+  "jobs": [
+    {
+      "kind": "local",
+      "id": "2c9eabec-5076-4619-92b7-15db2d04f513",
+      "enabled": true,
+      "cron": "40 */6 * * *",
+      "timeZone": "America/Los_Angeles",
+      "delivery": "none"
+    },
+    {
+      "kind": "cloud",
+      "id": "7153f8db-96c6-4091-90c0-e1af4e0a2432",
+      "enabled": true,
+      "cron": "45 */6 * * *",
+      "timeZone": "America/Los_Angeles",
+      "delivery": "none"
+    }
+  ]
+}

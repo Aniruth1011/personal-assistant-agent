@@ -1,0 +1,10 @@
+{
+  "caseId": "gap-06",
+  "type": "schedule_gap_reasoning",
+  "arm": "cloud",
+  "startedAt": "2026-11-16T20:15:10.179766+00:00",
+  "elapsedMs": 1895,
+  "exit": 1,
+  "stdout": "",
+  "stderr": "All models failed (1): openai/gpt-6-luna: Provider openai has auth issue (skipping all models) (auth) | MODEL_FALLBACK_SKIPPED\n"
+}

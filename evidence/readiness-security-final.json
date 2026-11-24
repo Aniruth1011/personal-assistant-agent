@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-13T08:28:25.823Z",
+  "image": "sha256:df7364fdd6e4378a10d66be054657c5ff561994063ab5bfcd40a259b2c0a861c",
+  "command": "openclaw security audit --deep --json; actual deployed runtime as node user",
+  "summary": {
+    "critical": 0,
+    "warn": 0,
+    "info": 2
+  },
+  "informational": [
+    "summary.attack_surface",
+    "models.small_params"
+  ],
+  "previous": "readiness-security-startup.json"
+}

@@ -1,0 +1,48 @@
+{
+  "kind": "human Telegram unread-email rehearsal; tool results authoritative",
+  "messages": [
+    {
+      "role": "user",
+      "timestamp": 1794875189830,
+      "content": "Show my private unread test emails. First call assistant_report with {\"kind\":\"unread_email\"} and report its current results. Do not send email or mutate any state."
+    },
+    {
+      "role": "assistant",
+      "provider": "ollama",
+      "model": "gemma4:e2b",
+      "timestamp": 1794875193670,
+      "content": [
+        {
+          "type": "toolCall",
+          "id": "call_s76p27zc",
+          "name": "assistant_report",
+          "arguments": {
+            "kind": "unread_email"
+          }
+        }
+      ]
+    },
+    {
+      "role": "toolResult",
+      "timestamp": 1794875196452,
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"status\": \"success\",\n  \"text\": \"ApplyPilot unread_email \u2014 2026-11-16 (America/Los_Angeles)\\nCalendar conflicts: 0. Dedicated test calendar only.\\nWorking-time gaps: 2026-11-16T19:00:00Z \u2192 2026-11-17T01:00:00Z\\nSuggested 60-minute slots: none\\nEmail [1a1d199699d2aa9f]: ApplyPilot synthetic recruiter reply \u2014 approval test  \u2014 Thank you for the interview invitation. Could you please share the available time options and any details I should review beforehand? [unknown]; needs clarification.\\nEmail [1a1c47015a3f4508]: SYNTHETIC TEST \u2014 Interview invitation \u2014 ApplyPilot  \u2014 Reply deadline: 2026-11-11 5:00 PM Pacific Do not reply or take any external action. [deadline]; deadline (unverified text): 2026-11-11 5:00 PM Pacific.\\nDraft available for review: /reviewemail 1a1c47015a3f4508 (not sent).\\nOpen tasks: 1.\\nTask plan [todo-916591be55d397181404197c]: Prepare Atlas demo [duration:45m]; 45 minutes; no slot; overdue_requires_replanning. Suggestion only, not booked.\\nTask [todo-916591be55d397181404197c]: Prepare Atlas demo [duration:45m]; P2; due 2026-11-13\",\n  \"issues\": [],\n  \"analysis\": {\n    \"date\": \"2026-11-16\",\n    \"timeZone\": \"America/Los_Angeles\",\n    \"dayStart\": \"2026-11-16T08:00:00Z\",\n    \"dayEnd\": \"2026-11-17T08:00:00Z\",\n    \"eventIds\": [\n      \"synthetic-focus-preference\"\n    ],\n    \"conflicts\": [],\n    \"gaps\": [\n      {\n        \"start\": \"2026-11-16T19:00:00Z\",\n        \"end\": \"2026-11-17T01:00:00Z\"\n      }\n    ],\n    \"suggestedSlots\": [],\n    \"scope\": \"dedicated_test_calendar_only\"\n  },\n  \"alerts\": [],\n  \"delivery\": \"not_attempted; scheduler delivery history is authoritative\"\n}"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "provider": "ollama",
+      "model": "gemma4:e2b",
+      "timestamp": 1794875202058,
+      "content": [
+        {
+          "type": "text",
+          "text": "The report for your private unread test emails is as follows:\n\n**General Status:**\n*   **Date Range:** 2026-11-16 to 2026-11-17 (America/Los_Angeles timezone).\n*   **Calendar Conflicts:** None. The calendar is dedicated to test purposes only.\n*   **Working-Time Gaps:** There is a gap between 19:00 UTC on 2026-11-16 and 01:00 UTC on 2026-11-17, but no suggested slots were available during this time.\n\n**Specific Emails Noted:**\n1.  **Email [1a1d199699d2aa9f]:** ApplyPilot synthetic recruiter reply \u2014 approval test. This email requires clarification.\n2.  **Email [1a1c47015a3f4508]:** SYNTHETIC TEST \u2014 Interview invitation \u2014 ApplyPilot. The reply deadline was set for 2026-11-11 5:00 PM Pacific. This email is currently in draft.\n\n**Open Tasks:**\n*   There is one open task: \"Prepare Atlas demo\" (Duration: 45 minutes), which was due on 2026-11-13. This task is overdue and requires replanning.\n\nNo emails were sent or state was mutated."
+        }
+      ]
+    }
+  ]
+}

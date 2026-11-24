@@ -1,0 +1,57 @@
+{
+  "status": "failed",
+  "messages": [
+    {
+      "role": "system",
+      "timestamp": 1794868601049,
+      "content": [
+        {
+          "type": "text",
+          "text": "Compaction"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "timestamp": 1794868584000,
+      "content": "Summarise mu unread test emails , don\u2019t send anything"
+    },
+    {
+      "role": "assistant",
+      "timestamp": 1794868617319,
+      "model": "gemma4:e2b",
+      "content": [
+        {
+          "type": "text",
+          "text": "I have reviewed the available test emails. There are no unread test emails."
+        }
+      ]
+    },
+    {
+      "role": "system",
+      "timestamp": 1794868658658,
+      "content": [
+        {
+          "type": "text",
+          "text": "Compaction"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "timestamp": 1794868637000,
+      "content": "Show my calendar emails and available time slots today"
+    },
+    {
+      "role": "assistant",
+      "timestamp": 1794868677722,
+      "model": "gemma4:e2b",
+      "content": [
+        {
+          "type": "text",
+          "text": "I have reviewed the available test emails. There are no unread test emails."
+        }
+      ]
+    }
+  ]
+}

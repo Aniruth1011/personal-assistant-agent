@@ -1,0 +1,45 @@
+{
+  "recordedAt": "2026-11-13T07:26:09.652Z",
+  "source": "Actual deployed OpenClaw cron.runs RPC, authenticated operator.read; native one-shot scheduling, not manual report invocation",
+  "image": "sha256:0f8fd3f2cc347cc3530181311673be2b645183162c5ea49ad0790ca4b0458089",
+  "results": [
+    {
+      "kind": "briefing",
+      "jobId": "87be53c0-62cf-4bfb-a2da-51bd6ec57733",
+      "scheduledAt": "2026-11-13T07:19:57.560Z",
+      "status": "ok",
+      "delivered": true,
+      "deliveryStatus": "delivered",
+      "runAtMs": 1794554398657,
+      "finishedAtMs": 1794554507057,
+      "durationMs": 108400,
+      "hasForecast": true
+    },
+    {
+      "kind": "recap",
+      "jobId": "42bcccd7-dabb-4715-ac75-5838b48efa2e",
+      "scheduledAt": "2026-11-13T07:22:23.859Z",
+      "status": "ok",
+      "delivered": true,
+      "deliveryStatus": "delivered",
+      "runAtMs": 1794554543957,
+      "finishedAtMs": 1794554607251,
+      "durationMs": 63294,
+      "hasActivity": true
+    },
+    {
+      "kind": "alerts",
+      "jobId": "c1ff6cfc-4048-4322-b259-450eb4f330a5",
+      "scheduledAt": "2026-11-13T07:24:09.856Z",
+      "status": "ok",
+      "delivered": false,
+      "deliveryStatus": "not-delivered",
+      "deliverySuppressionReason": "empty",
+      "runAtMs": 1794554650461,
+      "finishedAtMs": 1794554684651,
+      "durationMs": 34190
+    }
+  ],
+  "formal48h": "NOT_STARTED",
+  "limitation": "Alert suppression passed; no fresh nonempty alert was generated in this run."
+}

@@ -1,0 +1,11 @@
+
+> applypilot@0.1.0 verify
+> npm run format:check && npm run lint && npm run typecheck && npm test && npm run check:secrets
+
+
+> applypilot@0.1.0 format:check
+> prettier --check .
+
+Checking formatting...
+[warn] src/plugin/src/read-request-hooks.test.ts
+[warn] Code style issues found in the above file. Run Prettier with --write to fix.

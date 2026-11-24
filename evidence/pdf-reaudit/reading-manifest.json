@@ -1,0 +1,86 @@
+{
+  "checkedAt": "2026-11-17T19:08:40.579468+00:00",
+  "method": "End-to-end page-marked text extraction and reading; diagrams are not independently validated by text extraction",
+  "pdfCount": 13,
+  "pageCount": 357,
+  "documents": [
+    {
+      "file": "Assignment3_Video_Instructions.pdf",
+      "pages": 6,
+      "words": 402,
+      "emptyPages": []
+    },
+    {
+      "file": "Assignment3_local_Gemma.pdf",
+      "pages": 29,
+      "words": 7227,
+      "emptyPages": []
+    },
+    {
+      "file": "Assignment_3_Description.pdf",
+      "pages": 20,
+      "words": 6811,
+      "emptyPages": []
+    },
+    {
+      "file": "Assignment_3_Setup_Recommendations.pdf",
+      "pages": 23,
+      "words": 7794,
+      "emptyPages": []
+    },
+    {
+      "file": "Deployment_Reference.pdf",
+      "pages": 23,
+      "words": 5208,
+      "emptyPages": []
+    },
+    {
+      "file": "Lecture_15_SDK_Landscape_v4.pdf",
+      "pages": 32,
+      "words": 2342,
+      "emptyPages": []
+    },
+    {
+      "file": "Lecture_16_Architecture_Deep_Dive_v2.pdf",
+      "pages": 28,
+      "words": 1789,
+      "emptyPages": []
+    },
+    {
+      "file": "Lecture_17_Agent_Security.pdf",
+      "pages": 32,
+      "words": 1701,
+      "emptyPages": []
+    },
+    {
+      "file": "Lecture_18_Measurement.pdf",
+      "pages": 32,
+      "words": 1940,
+      "emptyPages": []
+    },
+    {
+      "file": "Lecture_19_JSON_RPC_MCP_Transport.pdf",
+      "pages": 31,
+      "words": 2148,
+      "emptyPages": []
+    },
+    {
+      "file": "Lecture_20_WebSockets_LLM_Streaming_A2A_v2.pdf",
+      "pages": 30,
+      "words": 2246,
+      "emptyPages": []
+    },
+    {
+      "file": "Lecture_21_computer_use_capability.pdf",
+      "pages": 37,
+      "words": 2113,
+      "emptyPages": []
+    },
+    {
+      "file": "Lecture_22_loops_autonomous_orchestration.pdf",
+      "pages": 34,
+      "words": 1986,
+      "emptyPages": []
+    }
+  ]
+}

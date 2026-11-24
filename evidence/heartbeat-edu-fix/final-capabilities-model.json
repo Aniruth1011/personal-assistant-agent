@@ -1,0 +1,8 @@
+{
+  "scope": "Operator probe of the isolated private context; not a genuine human Telegram dispatch",
+  "at": "2026-11-17T19:45:38.525744+00:00",
+  "model": "gemma4:e2b",
+  "reply": "I provide dedicated test email summaries and human-approved replies. I offer read-only calendar suggestions and comprehensive public web research. I manage persistent to-do lists for ongoing tasks. Additionally, I handle scheduled briefings, reminders, and recaps to keep you informed.",
+  "toolCalls": 0,
+  "historicalReportEcho": false
+}

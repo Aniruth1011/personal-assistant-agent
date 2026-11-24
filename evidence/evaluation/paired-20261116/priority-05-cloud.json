@@ -1,0 +1,10 @@
+{
+  "caseId": "priority-05",
+  "type": "work_prioritization",
+  "arm": "cloud",
+  "startedAt": "2026-11-16T20:14:46.775685+00:00",
+  "elapsedMs": 2046,
+  "exit": 1,
+  "stdout": "",
+  "stderr": "All models failed (1): openai/gpt-6-luna: Provider openai has auth issue (skipping all models) (auth) | MODEL_FALLBACK_SKIPPED\n"
+}

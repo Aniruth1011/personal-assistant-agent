@@ -1,0 +1,25 @@
+{
+  "status": "DRAFT; human approval pending",
+  "messages": [
+    {
+      "role": "user",
+      "timestamp": 1794875282946,
+      "content": [
+        {
+          "type": "text",
+          "text": "/reviewemail 1a1c47015a3f4508"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "timestamp": 1794875282944,
+      "content": [
+        {
+          "type": "text",
+          "text": "SYNTHETIC EMAIL REVIEW \u2014 DRAFT\nDraft: email-1fd0351c5c1dc9a8f806db99\nTo: agentai599@gmail.com\nSubject: ApplyPilot synthetic project coordinator reply \u2014 approval test\nThank you for the message. I noted the following point: \u201cReply deadline: 2026-11-11 5:00 PM Pacific Do not reply or take any external action.\u201d\nPlease let me know if any response or preparation is required.\nExpires: 2026-11-17T00:43:01.526Z\nThis sends only to the dedicated test account itself. If you approve exactly this recipient and content, send:\n/approveemail [payload-bound approval omitted from report]"
+        }
+      ]
+    }
+  ]
+}

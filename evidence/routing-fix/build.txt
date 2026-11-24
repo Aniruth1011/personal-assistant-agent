@@ -1,0 +1,20 @@
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+Sending build context to Docker daemon  1.031MB
+Step 1/19 : FROM --platform=linux/amd64 node:24.22.1-bookworm-slim@sha256:e1582112fb9f152ed38eefcd712efc93fee1becb519fdfa57574d5e07eaa5e7d
+24.22.1-bookworm-slim: Pulling from library/node
+cfac3e1f6765: Pulling fs layer
+3c5439d0ae62: Pulling fs layer
+0c1909f260bd: Pulling fs layer
+a186b86152d9: Pulling fs layer
+1a501360ef0b: Pulling fs layer
+cfac3e1f6765: Download complete
+0c1909f260bd: Download complete
+1a501360ef0b: Download complete
+3c5439d0ae62: Download complete
+3c5439d0ae62: Pull complete
+0c1909f260bd: Pull complete
+a186b86152d9: Download complete
+failed to extract layer (application/vnd.oci.image.layer.v1.tar+gzip sha256:a186b86152d92b5466c18410027465dbb26f0238ab7fca29a459b6896022bc2e) to overlayfs as "extract-249977300-oOJW sha256:5057911f1dc806e711cf84e964d0aaf01bfa5f7c3211ec559bf2cc66f3897bca": write /var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/867/fs/usr/local/bin/node: no space left on device

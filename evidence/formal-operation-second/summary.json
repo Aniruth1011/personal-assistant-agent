@@ -1,0 +1,51 @@
+{
+  "generatedAt": "2026-11-20T06:58:03.696Z",
+  "window": {
+    "start": "2026-11-18T06:48:37.058Z",
+    "end": "2026-11-20T06:48:37.058Z"
+  },
+  "image": "us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime@sha256:8fdf113b938c1e3a2dcb21ec1ef62c4dd86245c1dbcab57bec0755aa2cba189d",
+  "configHash": "12a60e7251e82b400309ec323c7ba36f9ded82afe4c388b3a054a42e3dce44e1",
+  "status": "COVERAGE_COMPLETE_SCHEDULE_AND_INCIDENT_REVIEW_REQUIRED",
+  "completeTime": true,
+  "observedThrough": "2026-11-20T06:48:37.058Z",
+  "samples": 2865,
+  "firstSample": "2026-11-18T06:48:47.186Z",
+  "lastSample": "2026-11-20T06:48:12.699Z",
+  "maxIntervalSeconds": 62.716,
+  "gapsOver180s": 0,
+  "unhealthy": 0,
+  "configDrift": 0,
+  "bootIds": [
+    "e6215b72-606b-45a6-85f3-b2ab563c2ebd"
+  ],
+  "restartReviewRequired": false,
+  "logReconciled": true,
+  "countsFirst": {
+    "todos": 4,
+    "todo_events": 5,
+    "knowledge_facts": 1,
+    "knowledge_events": 1,
+    "assistant_email_context": 7,
+    "assistant_report_runs": 301,
+    "assistant_alerts": 9,
+    "email_outbox_events": 13
+  },
+  "countsLast": {
+    "todos": 4,
+    "todo_events": 5,
+    "knowledge_facts": 1,
+    "knowledge_events": 1,
+    "assistant_email_context": 10,
+    "assistant_report_runs": 405,
+    "assistant_alerts": 9,
+    "email_outbox_events": 16
+  },
+  "memoryFileVersions": {
+    "SOUL.md": 1,
+    "USER.md": 1,
+    "IDENTITY.md": 1,
+    "MEMORY.md": 1,
+    "KNOWLEDGE.md": 1
+  }
+}

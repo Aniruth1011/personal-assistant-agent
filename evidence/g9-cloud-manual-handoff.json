@@ -1,0 +1,53 @@
+{
+  "healthAndSchedules": [
+    {
+      "kind": "health",
+      "ok": true,
+      "channelKeys": [
+        "telegram"
+      ]
+    },
+    {
+      "kind": "jobs",
+      "jobs": [
+        {
+          "name": "heartbeat-main",
+          "enabled": true
+        },
+        {
+          "name": "ApplyPilot encrypted checkpoint",
+          "enabled": true
+        },
+        {
+          "name": "ApplyPilot alerts",
+          "enabled": true
+        },
+        {
+          "name": "ApplyPilot recap",
+          "enabled": true
+        },
+        {
+          "name": "Memory Dreaming Promotion",
+          "enabled": true
+        },
+        {
+          "name": "ApplyPilot briefing",
+          "enabled": true
+        }
+      ]
+    }
+  ],
+  "localInference": {
+    "recordedAt": "2026-11-13T01:12:36.305Z",
+    "runId": "5cfacbbd-9944-4a1c-b0b4-5b30b93c3c60",
+    "status": "ok",
+    "model": "gemma4:e2b",
+    "provider": "ollama",
+    "response": [
+      "4"
+    ]
+  },
+  "gatewayReadinessHttpStatus": 200,
+  "ollamaProxyTagsHttpStatus": 200,
+  "formal48h": "NOT_STARTED"
+}

@@ -1,0 +1,62 @@
+{
+  "at": "2026-11-12T20:53:56.765376+00:00",
+  "applicationId": "application-90644b9060c48cb4",
+  "status": "CONFIRMED",
+  "matchingSiteRecords": 1,
+  "confirmationHttp": 200,
+  "confirmationIdPresentInHtml": true,
+  "storedVisibleConfirmationVerified": true,
+  "approvalCount": 1,
+  "approvalConsumed": true,
+  "events": [
+    {
+      "from_status": null,
+      "to_status": "PREPARED",
+      "event_type": "prepared",
+      "occurred_at": "2026-11-12T19:46:37.302Z"
+    },
+    {
+      "from_status": "PREPARED",
+      "to_status": "FILLED",
+      "event_type": "filled",
+      "occurred_at": "2026-11-12T19:46:37.302Z"
+    },
+    {
+      "from_status": "FILLED",
+      "to_status": "VERIFIED",
+      "event_type": "verified",
+      "occurred_at": "2026-11-12T19:46:37.302Z"
+    },
+    {
+      "from_status": "VERIFIED",
+      "to_status": "AWAITING_APPROVAL",
+      "event_type": "awaiting_approval",
+      "occurred_at": "2026-11-12T19:46:37.302Z"
+    },
+    {
+      "from_status": "AWAITING_APPROVAL",
+      "to_status": "APPROVED",
+      "event_type": "human_approved",
+      "occurred_at": "2026-11-12T20:53:22.150Z"
+    },
+    {
+      "from_status": "APPROVED",
+      "to_status": "SUBMITTING",
+      "event_type": "submission_started",
+      "occurred_at": "2026-11-12T20:53:22.376Z"
+    },
+    {
+      "from_status": "SUBMITTING",
+      "to_status": "SUBMITTED",
+      "event_type": "browser_submission_and_site_record_verified",
+      "occurred_at": "2026-11-12T20:53:22.469Z"
+    },
+    {
+      "from_status": "SUBMITTED",
+      "to_status": "CONFIRMED",
+      "event_type": "visible_confirmation_verified",
+      "occurred_at": "2026-11-12T20:53:22.506Z"
+    }
+  ],
+  "scope": "Actual user Telegram approval; independently inspected local DB, site record, and confirmation HTML. Not cloud deployment evidence."
+}

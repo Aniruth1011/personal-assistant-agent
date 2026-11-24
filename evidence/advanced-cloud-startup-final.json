@@ -1,0 +1,105 @@
+[
+  {
+    "at": "2026-11-13T07:14:11.822Z",
+    "event": "assistant.state_restored",
+    "files": 21
+  },
+  {
+    "at": "2026-11-13T07:14:12.503Z",
+    "event": "assistant.google_credentials_ready"
+  },
+  {
+    "at": "2026-11-13T07:14:12.647Z",
+    "event": "tailscale.identity_restored"
+  },
+  {
+    "at": "2026-11-13T07:14:14.801Z",
+    "event": "tailscale.identity_durable"
+  },
+  {
+    "at": "2026-11-13T07:14:20.123Z",
+    "event": "cloud_to_laptop.inference_verified",
+    "model": "gemma4:e2b"
+  },
+  {
+    "at": "2026-11-13T07:14:20.124Z",
+    "event": "probe.ready"
+  },
+  {
+    "at": "2026-11-13T07:14:20.125Z",
+    "event": "assistant.gateway_starting"
+  },
+  {
+    "at": "2026-11-13T07:14:20.136Z",
+    "elapsedSeconds": 0,
+    "event": "assistant.readiness_wait",
+    "response": "REQUEST_TIMEOUT_OR_UNAVAILABLE"
+  },
+  {
+    "at": "2026-11-13T07:14:50.757Z",
+    "elapsedSeconds": 31,
+    "event": "assistant.readiness_wait",
+    "response": "REQUEST_TIMEOUT_OR_UNAVAILABLE"
+  },
+  {
+    "at": "2026-11-13T07:15:21.645Z",
+    "elapsedSeconds": 62,
+    "event": "assistant.readiness_wait",
+    "response": "REQUEST_TIMEOUT_OR_UNAVAILABLE"
+  },
+  {
+    "at": "2026-11-13T07:15:54.457Z",
+    "elapsedSeconds": 94,
+    "event": "assistant.readiness_wait",
+    "response": "REQUEST_TIMEOUT_OR_UNAVAILABLE"
+  },
+  {
+    "at": "2026-11-13T07:16:26.657Z",
+    "elapsedSeconds": 127,
+    "event": "assistant.readiness_wait",
+    "response": "REQUEST_TIMEOUT_OR_UNAVAILABLE"
+  },
+  {
+    "at": "2026-11-13T07:16:57.956Z",
+    "elapsedSeconds": 158,
+    "event": "assistant.readiness_wait",
+    "response": "HTTP_503"
+  },
+  {
+    "at": "2026-11-13T07:21:37.447Z",
+    "capabilities": "0000000000000000",
+    "event": "assistant.isolation_verified",
+    "noNewPrivileges": "1",
+    "uid": 1000
+  },
+  {
+    "at": "2026-11-13T07:21:48.345Z",
+    "calendarCount": 2,
+    "emailCount": 1,
+    "event": "assistant.google_read_verified"
+  },
+  {
+    "at": "2026-11-13T07:24:08.657Z",
+    "event": "assistant.routed_model_verified",
+    "kind": "cloud",
+    "model": "gpt-6-luna",
+    "provider": "openai"
+  },
+  {
+    "at": "2026-11-13T07:25:27.447Z",
+    "event": "assistant.routed_model_verified",
+    "kind": "local",
+    "model": "gemma4:e2b",
+    "provider": "ollama"
+  },
+  {
+    "at": "2026-11-13T07:25:39.948Z",
+    "event": "assistant.https_pending_admin"
+  },
+  {
+    "at": "2026-11-13T07:25:39.949Z",
+    "event": "assistant.ready",
+    "formal48h": "NOT_STARTED",
+    "localModelAvailable": true
+  }
+]

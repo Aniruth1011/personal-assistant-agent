@@ -1,0 +1,9 @@
+{
+  "at": "2026-11-16T19:32:28.489730+00:00",
+  "files": {
+    "src/router/policy.ts": "ea385156f808955d53c448fdbb479c2a67bbaaa689326b9722e1979ea9909d85",
+    "src/plugin/src/router-hooks.ts": "3c5753646496473331fa9c94762c3876ef286f500718729142fbb4fb1a04f516",
+    "evidence/formal-window-manifest.json": "946d8acbba566b5fb4730d6ab0af65405be6bee9d626537fb27dfc871c90b1db",
+    "evidence/formal-operation/result.json": "343b0e62316e7d2c6735c3d17bf667d505fc5648e7f4ac3a6f176367ec5e24a0"
+  }
+}

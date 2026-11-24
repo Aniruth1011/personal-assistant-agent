@@ -1,0 +1,20 @@
+
+> applypilot@0.1.0 verify
+> npm run format:check && npm run lint && npm run typecheck && npm test && npm run check:secrets
+
+
+> applypilot@0.1.0 format:check
+> prettier --check .
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> applypilot@0.1.0 lint
+> eslint .
+
+
+/Users/aniruthsundararajan/Documents/Assignment3/Assignment 3 attached files Nov 6, 2026 1217 PM/publication/assistant-todo-triage/scripts/triage.mjs
+  26:7  error  Unexpected control character(s) in regular expression: \x00, \x1f  no-control-regex
+
+✖ 1 problem (1 error, 0 warnings)
+

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ApplyPilot//Synthetic evaluation//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:applypilot-demo-meeting-20261113@example.test
+DTSTAMP:20261112T212814Z
+DTSTART:20261113T230000Z
+DTEND:20261114T000000Z
+SUMMARY:Synthetic meeting - Northstar Fictional Labs
+DESCRIPTION:Fictional Ada Example meeting. Controlled assignment fixture.
+END:VEVENT
+BEGIN:VEVENT
+UID:applypilot-demo-assignment-20261113@example.test
+DTSTAMP:20261112T212814Z
+DTSTART:20261113T233000Z
+DTEND:20261114T003000Z
+SUMMARY:Synthetic assignment review - Northstar Fictional Labs
+DESCRIPTION:Fictional assignment session. Intentional overlap for conflict
+  detection.
+END:VEVENT
+END:VCALENDAR

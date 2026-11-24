@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "windowId": "2026-11-13T08-30-39-916Z",
+  "observedThrough": "2026-11-15T08:30:39.916Z",
+  "completeTime": true,
+  "sampleCount": 2864,
+  "gaps": [],
+  "unhealthy": [],
+  "configDrift": [],
+  "bootIds": [
+    "e381125b-0621-4e50-ad24-c03f72dc0b18"
+  ],
+  "restartReviewRequired": false,
+  "status": "COVERAGE_COMPLETE_SCHEDULE_AND_INCIDENT_REVIEW_REQUIRED",
+  "firstSample": "2026-11-13T08:31:38.244Z",
+  "lastSample": "2026-11-15T08:30:30.429Z",
+  "maxGapSeconds": 62.331,
+  "scheduledJobs": {
+    "applypilot-native-checkpoint-v1": {
+      "runs": 288,
+      "statuses": {
+        "ok": 288
+      },
+      "deliveries": {
+        "not-started": 288
+      },
+      "errors": 0
+    },
+    "applypilot-observation-local-v1": {
+      "runs": 8,
+      "statuses": {
+        "ok": 8
+      },
+      "deliveries": {
+        "not-started": 8
+      },
+      "errors": 0
+    },
+    "applypilot-observation-cloud-v1": {
+      "runs": 8,
+      "statuses": {
+        "ok": 8
+      },
+      "deliveries": {
+        "not-started": 8
+      },
+      "errors": 0
+    },
+    "2bc856ac-4e5c-4447-bdc7-ef40740d0cb0": {
+      "runs": 96,
+      "statuses": {
+        "ok": 96
+      },
+      "deliveries": {
+        "not-started": 96
+      },
+      "errors": 0
+    },
+    "applypilot-alerts-v1": {
+      "runs": 96,
+      "statuses": {
+        "ok": 96
+      },
+      "deliveries": {
+        "not-started": 96
+      },
+      "errors": 0
+    },
+    "applypilot-briefing-v1": {
+      "runs": 2,
+      "statuses": {
+        "ok": 2
+      },
+      "deliveries": {
+        "started": 2
+      },
+      "errors": 0
+    },
+    "applypilot-recap-v1": {
+      "runs": 2,
+      "statuses": {
+        "ok": 2
+      },
+      "deliveries": {
+        "started": 2
+      },
+      "errors": 0
+    },
+    "9c639cc1-41b4-4e0a-876b-c90c50f4f736": {
+      "runs": 2,
+      "statuses": {
+        "ok": 2
+      },
+      "deliveries": {
+        "not-started": 2
+      },
+      "errors": 0
+    }
+  },
+  "routeCounts": {
+    "{\"kind\":\"decision\",\"target\":\"local\",\"reason\":\"private_local_only\"}": 228,
+    "{\"kind\":\"outcome\",\"outcome\":\"completed\"}": 112,
+    "{\"kind\":\"served\",\"model\":\"gemma4:e2b\"}": 112
+  },
+  "failedRuns": [],
+  "unhealthyDetails": [],
+  "firstCounts": {
+    "todos": 1,
+    "todo_events": 1,
+    "knowledge_facts": 1,
+    "knowledge_events": 1,
+    "assistant_email_context": 2,
+    "assistant_report_runs": 17,
+    "assistant_alerts": 4,
+    "email_outbox_events": 3
+  },
+  "lastCounts": {
+    "todos": 1,
+    "todo_events": 1,
+    "knowledge_facts": 1,
+    "knowledge_events": 1,
+    "assistant_email_context": 2,
+    "assistant_report_runs": 117,
+    "assistant_alerts": 4,
+    "email_outbox_events": 3
+  }
+}

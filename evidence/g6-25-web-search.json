@@ -1,0 +1,51 @@
+{
+  "gate": 6,
+  "task": "G6-25",
+  "runtime": {
+    "openclaw": "2026.11.2",
+    "node": "24.22.1",
+    "nativeTool": "web_search",
+    "providerPlugin": "@openclaw/duckduckgo-plugin@2026.11.2",
+    "providerIntegrity": "sha512-lACLSRwQ2lbMA6KnRaYu1UKwppOmWEGX/EZslNpTiVRVQ64aKyRnN2k72kAAWJwrcznAOrVOHMCkxaWXBhgQBg==",
+    "safeSearch": "strict",
+    "region": "us-en"
+  },
+  "skill": {
+    "source": "skills/web-search/SKILL.md",
+    "installedInTestWorkspace": true,
+    "openclawSkillsCheck": "eligible and model-visible"
+  },
+  "happy": {
+    "query": "site:docs.openclaw.ai/plugins OpenClaw plugin SDK",
+    "gatewayTool": "web_search",
+    "gatewaySource": "core",
+    "provider": "duckduckgo",
+    "resultCount": 2,
+    "sources": [
+      {
+        "title": "Plugin SDK overview - OpenClaw",
+        "url": "https://docs.openclaw.ai/plugins/sdk-overview"
+      },
+      {
+        "title": "Building plugins - OpenClaw",
+        "url": "https://docs.openclaw.ai/plugins/building-plugins"
+      }
+    ],
+    "externalContentWrappedAsUntrusted": true
+  },
+  "edge": {
+    "query": "xqvzzprmno-17392026-unique-nonexistent-applypilot-query",
+    "actualCount": 3,
+    "observation": "Search returned unrelated results despite the unique query; no relevant answer was inferred or reported as a match."
+  },
+  "failureAndFix": {
+    "beforeProviderConfiguration": "Gateway tools.invoke returned not_found / Tool not available: web_search; tools.web.search.provider was unset.",
+    "resolution": "Installed the version matching OpenClaw 2026.11.2, pinned it, configured provider=duckduckgo, SafeSearch strict, region us-en.",
+    "afterConfiguration": "Gateway tools.invoke returned actual core-provider results."
+  },
+  "limitations": [
+    "DuckDuckGo integration is experimental HTML-based search and may return challenges or irrelevant results.",
+    "This is local Gateway evidence, not Telegram or cloud deployment evidence.",
+    "No candidate information was used in queries."
+  ]
+}

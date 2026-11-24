@@ -1,0 +1,65 @@
+{
+  "jobs": {
+    "applypilot-native-checkpoint-v1": {
+      "runs": 288,
+      "delivered": 0,
+      "models": {},
+      "unavailableSummaries": 0
+    },
+    "applypilot-observation-local-v1": {
+      "runs": 8,
+      "delivered": 0,
+      "models": {
+        "gemma4:e2b": 8
+      },
+      "unavailableSummaries": 0
+    },
+    "applypilot-observation-cloud-v1": {
+      "runs": 8,
+      "delivered": 0,
+      "models": {
+        "gemma4:e2b": 8
+      },
+      "unavailableSummaries": 0
+    },
+    "heartbeat:main": {
+      "runs": 96,
+      "delivered": 0,
+      "models": {},
+      "unavailableSummaries": 0
+    },
+    "applypilot-alerts-v1": {
+      "runs": 96,
+      "delivered": 0,
+      "models": {},
+      "unavailableSummaries": 0
+    },
+    "applypilot-briefing-v1": {
+      "runs": 2,
+      "delivered": 2,
+      "models": {},
+      "unavailableSummaries": 0
+    },
+    "applypilot-recap-v1": {
+      "runs": 2,
+      "delivered": 2,
+      "models": {},
+      "unavailableSummaries": 0
+    },
+    "memory-core:memory-dreaming-promotion": {
+      "runs": 2,
+      "delivered": 0,
+      "models": {
+        "gemma4:e2b": 2
+      },
+      "unavailableSummaries": 0
+    }
+  },
+  "memoryHashVersions": {
+    "SOUL.md": 1,
+    "USER.md": 1,
+    "IDENTITY.md": 1,
+    "MEMORY.md": 1,
+    "KNOWLEDGE.md": 1
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "gate": 6,
+  "task": "G6-19",
+  "runtime": {
+    "openclaw": "2026.11.2",
+    "node": "24.22.1",
+    "execution": "local Gateway tools.invoke against dedicated synthetic Gmail",
+    "stateDatabase": "same local SQLite file across Gateway restart"
+  },
+  "observed": [
+    {
+      "atUtc": "2026-11-11T00:11:48.939Z",
+      "operation": "list_test_emails",
+      "result": "success",
+      "providerPageCount": 1,
+      "pendingThreadReturned": true,
+      "auditResult": "success"
+    },
+    {
+      "atUtc": "2026-11-11T00:12:14.973Z",
+      "operation": "list_test_emails after Gateway restart",
+      "result": "success",
+      "source": "persisted pending queue",
+      "auditResult": "pending_replay",
+      "providerSearchRepeated": false
+    },
+    {
+      "atUtc": "2026-11-11T00:12:22.501Z",
+      "operation": "classify_recruitment_email",
+      "result": "success",
+      "eventDeduplication": "duplicate",
+      "pendingThreadAcknowledged": true,
+      "auditResult": "duplicate"
+    }
+  ],
+  "sqliteInspection": {
+    "recruitmentEventRows": 1,
+    "pendingThreadRowsAfterAcknowledgement": 0,
+    "mailboxNextPageTokenPresent": false,
+    "databaseModeOctal": "0600",
+    "rawBodyColumnPresent": false
+  },
+  "testCoverage": {
+    "paginationToken": "provider fixture returned cursor-page-2; next page invocation received that saved token",
+    "replay": "unacknowledged thread IDs replay before another provider page",
+    "acknowledgement": "event persistence precedes queue acknowledgement; provider failure retains pending thread",
+    "restart": "cursor and pending queue survived SQLite close/reopen and Gateway restart",
+    "providerFailure": "saved cursor did not advance and no pending record was lost",
+    "cursorMismatch": "stale/foreign cursor rejected without provider call"
+  },
+  "limitations": [
+    "live Gmail search returned a single page, so multi-page token traversal used a deterministic provider fixture",
+    "state is local SQLite; GCS snapshot/archive recovery remains a Gate 9 requirement",
+    "no email was sent and no application/calendar state changed"
+  ]
+}

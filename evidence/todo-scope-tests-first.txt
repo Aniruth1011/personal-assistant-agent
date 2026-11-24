@@ -1,0 +1,51 @@
+
+> applypilot@0.1.0 test
+> vitest run
+
+
+ RUN  v5.1.0 /Users/aniruthsundararajan/Documents/Assignment3/Assignment 3 attached files Nov 6, 2026 1217 PM
+
+ ❯ src/integrations/email-classifier.test.ts (5 tests | 1 failed) 7ms
+   ❯ deterministic project email classification (5)
+     × does not resolve conflicting meeting and cancellation claims 4ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/integrations/email-classifier.test.ts > deterministic project email classification > does not resolve conflicting meeting and cancellation claims
+AssertionError: expected { primaryCategory: 'meeting', …(7) } to match object { primaryCategory: 'unknown', …(4) }
+(3 matching properties omitted from actual)
+
+- Expected
++ Received
+
+  {
+    "categories": [
+      "meeting",
+-     "cancellation",
+    ],
+    "confidence": "low",
+    "needsHumanReview": true,
+-   "primaryCategory": "unknown",
++   "primaryCategory": "meeting",
+    "reviewReasons": [
+-     "CONFLICTING_EVENT_SIGNALS",
+      "MEETING_TIME_UNSPECIFIED",
+    ],
+  }
+
+ ❯ src/integrations/email-classifier.test.ts:78:20
+     76|     );
+     77|
+     78|     expect(result).toMatchObject({
+       |                    ^
+     79|       primaryCategory: "unknown",
+     80|       categories: ["meeting", "cancellation"],
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 17 passed (18)
+      Tests  1 failed | 81 passed (82)
+   Start at  22:31:05
+   Duration  606ms (import 57%, transform 21%, tests 20%, worker 2%)
+

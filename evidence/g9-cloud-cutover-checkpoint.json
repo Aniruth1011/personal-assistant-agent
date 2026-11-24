@@ -1,0 +1,42 @@
+{
+  "at": "2026-11-13T01:00:55.268312+00:00",
+  "gate": "9",
+  "status": "BLOCKED_PENDING_LAPTOP_NETWORK_AND_RUNTIME_ACCEPTANCE",
+  "image": "us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime@sha256:c1f7f0da4aa6c07f4483faa62660b0ef70fda84b453afa7f5eb3f9d5ac7d1d1d",
+  "cloudConditions": [
+    {
+      "lastTransitionTime": "2026-11-13T01:00:33.576478Z",
+      "message": "Imported container image in 1.19s.",
+      "status": "True",
+      "type": "ContainerReady"
+    },
+    {
+      "lastTransitionTime": "2026-11-13T01:00:33.791156Z",
+      "message": "Provisioned imported containers.",
+      "status": "True",
+      "type": "ResourcesAvailable"
+    },
+    {
+      "lastTransitionTime": "2026-11-13T01:00:35.042289Z",
+      "message": "System will retry after 00:01 from lastTransitionTime for polling interval",
+      "reason": "WaitingForOperation",
+      "severity": "Info",
+      "status": "True",
+      "type": "Retry"
+    },
+    {
+      "lastTransitionTime": "2026-11-13T01:00:35.042289Z",
+      "message": "Waiting for instance to start.",
+      "status": "Unknown",
+      "type": "Running"
+    }
+  ],
+  "localRegression": {
+    "files": 26,
+    "testsPassed": 169,
+    "log": ".runtime/g9-readiness-verify.log"
+  },
+  "assistantReadyVerified": false,
+  "formal48h": "NOT_STARTED",
+  "userAction": "Disconnect conflicting Cisco VPN; leave Tailscale enabled."
+}

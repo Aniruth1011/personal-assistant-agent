@@ -1,0 +1,28 @@
+{
+  "recordedAt": "2026-11-12T22:07:44.788Z",
+  "memory": {
+    "http": 200,
+    "preferences": {
+      "timeZone": "America/Los_Angeles",
+      "meetingMinutes": 60,
+      "protectFocusTime": true,
+      "source": "synthetic_seed",
+      "updatedAt": "2026-11-12T21:49:13.767Z"
+    }
+  },
+  "invalidInput": {
+    "http": 500,
+    "rejected": true
+  },
+  "calendar": {
+    "http": 200,
+    "status": "success",
+    "eventCount": 0
+  },
+  "postRestartAlert": {
+    "status": "ok",
+    "delivered": false,
+    "deliverySuppressionReason": "empty"
+  },
+  "workspaceMemoryExists": true
+}

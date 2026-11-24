@@ -1,0 +1,43 @@
+{
+  "at": "2026-11-12T23:46:43.535Z",
+  "runId": "71de3cec-7a96-4a81-a3e1-5196c9bc5705",
+  "events": [
+    {
+      "at": "2026-11-12T23:46:18.255Z",
+      "kind": "decision",
+      "id": "71de3cec-7a96-4a81-a3e1-5196c9bc5705",
+      "sessionHash": "d36a88f619f4f4e9e286cd741052a4f225cd14bb8f402976104841cc78c83d84",
+      "target": "held",
+      "reason": "private_local_unavailable",
+      "privacy": "private",
+      "fallbacks": [],
+      "selectedModel": null,
+      "task": {
+        "privacy": "private",
+        "complexity": "short",
+        "localAvailable": false,
+        "cloudAvailable": true,
+        "cloudRateLimited": false
+      }
+    },
+    {
+      "at": "2026-11-12T23:46:19.817Z",
+      "kind": "decision",
+      "id": "71de3cec-7a96-4a81-a3e1-5196c9bc5705",
+      "sessionHash": "d36a88f619f4f4e9e286cd741052a4f225cd14bb8f402976104841cc78c83d84",
+      "target": "held",
+      "reason": "private_local_unavailable",
+      "privacy": "private",
+      "fallbacks": [],
+      "selectedModel": null,
+      "task": {
+        "privacy": "private",
+        "complexity": "short",
+        "localAvailable": false,
+        "cloudAvailable": true,
+        "cloudRateLimited": false
+      }
+    }
+  ],
+  "servedCount": 0
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "jsonPayload": {
+      "at": "2026-11-13T08:25:04.310Z",
+      "event": "assistant.routed_model_verified",
+      "kind": "local",
+      "model": "gemma4:e2b",
+      "provider": "ollama"
+    }
+  },
+  {
+    "jsonPayload": {
+      "at": "2026-11-13T08:24:46.811Z",
+      "event": "assistant.routed_model_verified",
+      "kind": "cloud",
+      "model": "gpt-6-luna",
+      "provider": "openai"
+    }
+  }
+]

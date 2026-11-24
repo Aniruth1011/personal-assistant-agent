@@ -1,0 +1,9 @@
+{
+  "source": "scoped hook observation of human browser request",
+  "agentId": "public-research",
+  "tainted": false,
+  "attachments": false,
+  "prompt": "Explain step by step why the sky is blue",
+  "hooksObserved": 2,
+  "privacyInferenceCorrection": "Earlier private_local_only rows were not matched to this request."
+}

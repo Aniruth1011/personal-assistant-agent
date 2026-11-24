@@ -1,0 +1,28 @@
+{
+  "at": "2026-11-17T08:07:05.030067+00:00",
+  "before": {
+    "payloadKind": "agentTurn",
+    "message": "This is a clone for video briefing.",
+    "schedule": "0 8 * * * America/Los_Angeles"
+  },
+  "after": {
+    "id": "e77f923c-9fa2-4649-bf4e-d8e7ea149830",
+    "name": "Video Briefing",
+    "enabled": false,
+    "payload": {
+      "kind": "script",
+      "script": "const report = await assistant_report({ kind: \"briefing\" });\nreturn { notify: report.text };",
+      "timeoutSeconds": 180,
+      "toolBudget": 1,
+      "toolsAllow": [
+        "assistant_report"
+      ]
+    },
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 8 * * *",
+      "tz": "America/Los_Angeles"
+    }
+  },
+  "note": "Restored original briefing script, paused duplicate pending a new future recording time. Did not send a message or trigger a run. No video-alert job found."
+}

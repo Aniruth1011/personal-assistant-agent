@@ -1,0 +1,362 @@
+[
+  {
+    "caseId": "extract-08",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "gap-04",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "extract-09",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": {
+      "search": 0,
+      "describe": 0,
+      "call": 0
+    }
+  },
+  {
+    "caseId": "gap-09",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "extract-05",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "priority-01",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "extract-04",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "gap-08",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": {
+      "search": 0,
+      "describe": 0,
+      "call": 0
+    }
+  },
+  {
+    "caseId": "priority-04",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "extract-00",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "extract-01",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "priority-09",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "gap-01",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "gap-00",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "priority-08",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": {
+      "search": 0,
+      "describe": 0,
+      "call": 0
+    }
+  },
+  {
+    "caseId": "gap-07",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": {
+      "search": 0,
+      "describe": 0,
+      "call": 0
+    }
+  },
+  {
+    "caseId": "gap-06",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "priority-02",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "priority-03",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "extract-07",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "priority-07",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": {
+      "search": 0,
+      "describe": 0,
+      "call": 0
+    }
+  },
+  {
+    "caseId": "extract-03",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "extract-02",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "priority-06",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "gap-02",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "gap-03",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "priority-05",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "extract-01",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "extract-00",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "priority-04",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "priority-08",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "gap-00",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "gap-01",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "priority-09",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": {
+      "search": 0,
+      "describe": 0,
+      "call": 0
+    }
+  },
+  {
+    "caseId": "extract-09",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "gap-05",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "gap-04",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "extract-08",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": {
+      "search": 0,
+      "describe": 0,
+      "call": 0
+    }
+  },
+  {
+    "caseId": "gap-08",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "extract-04",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "priority-00",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "priority-01",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "extract-05",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "gap-09",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": {
+      "search": 0,
+      "describe": 0,
+      "call": 0
+    }
+  },
+  {
+    "caseId": "extract-02",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "extract-03",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "priority-07",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "gap-03",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "gap-02",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "gap-07",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "extract-07",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": {
+      "search": 0,
+      "describe": 0,
+      "call": 0
+    }
+  },
+  {
+    "caseId": "priority-03",
+    "arm": "cloud",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "priority-02",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  },
+  {
+    "caseId": "extract-06",
+    "arm": "local",
+    "successfulToolNames": [],
+    "bridgeCalls": null
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "ApplyPilot alerts",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "*/30 * * * *",
+      "tz": "America/Los_Angeles"
+    }
+  },
+  {
+    "name": "ApplyPilot recap",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 18 * * *",
+      "tz": "America/Los_Angeles"
+    }
+  },
+  {
+    "name": "ApplyPilot briefing",
+    "enabled": true,
+    "schedule": {
+      "kind": "cron",
+      "expr": "0 8 * * *",
+      "tz": "America/Los_Angeles"
+    }
+  },
+  {
+    "name": "heartbeat-main",
+    "enabled": false,
+    "schedule": {
+      "kind": "every",
+      "everyMs": 1800000,
+      "anchorMs": 861120
+    }
+  }
+]

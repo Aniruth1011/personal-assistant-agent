@@ -1,0 +1,41 @@
+{
+  "gate": 6,
+  "task": "G6-24",
+  "runtime": {
+    "openclaw": "2026.11.2",
+    "node": "24.22.1",
+    "gogcli": "0.48.0",
+    "pluginBuild": "passed",
+    "pluginValidation": "passed",
+    "pluginLoaded": true
+  },
+  "localTests": {
+    "timedAndAllDayEvents": "passed with deterministic provider fixture",
+    "invalidPrimaryCalendarAndRange": "failed_safe before provider invocation",
+    "providerOutageAndMalformedEvent": "failed_safe",
+    "forbiddenCalendarMutationCommands": "absent from captured provider args"
+  },
+  "liveGateway": {
+    "observedAtUtc": "2026-11-11T00:28:36.880Z",
+    "tool": "list_test_events",
+    "source": "plugin",
+    "status": "failed_safe",
+    "errorCode": "CALENDAR_NOT_CONFIGURED",
+    "evidenceReferenceCount": 0,
+    "providerRequestMade": false,
+    "auditResult": "CALENDAR_NOT_CONFIGURED"
+  },
+  "verification": {
+    "format": "passed",
+    "lint": "passed",
+    "typecheck": "passed",
+    "testFiles": 14,
+    "testsPassed": 111,
+    "secretScan": "passed; no configured patterns in 116 files"
+  },
+  "blocker": "Dedicated test calendar ID and Calendar read-only OAuth authorization are not configured in the Gateway process.",
+  "limitations": [
+    "Mock provider tests are not live Google Calendar integration evidence.",
+    "No calendar data was read or changed."
+  ]
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "jsonPayload": {
+      "at": "2026-11-13T08:30:39.916Z",
+      "bootId": "e381125b-0621-4e50-ad24-c03f72dc0b18",
+      "configHash": "5b96be2f37a5ad877a6ddf11a36354dac8d2ffa01e6292505ea7210b353b330e",
+      "end": "2026-11-15T08:30:39.916Z",
+      "event": "operations.window_started",
+      "image": "us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime@sha256:df7364fdd6e4378a10d66be054657c5ff561994063ab5bfcd40a259b2c0a861c",
+      "status": "RUNNING_NOT_YET_EVALUATED",
+      "windowId": "2026-11-13T08-30-39-916Z"
+    },
+    "timestamp": "2026-11-13T08:31:14.631320021Z"
+  }
+]

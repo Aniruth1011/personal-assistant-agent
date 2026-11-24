@@ -1,0 +1,9 @@
+{
+  "startedAt": "2026-11-16T20:41:59.551844+00:00",
+  "root": "/var/folders/xx/1q6z2yhx5x70_zs53mgz2l240000gn/T/a3-fresh-skill-alt_l10e",
+  "stateEmpty": true,
+  "workspaceEmpty": true,
+  "runtime": "OpenClaw 2026.11.2",
+  "skill": "assistant-todo-triage",
+  "version": "1.0.0"
+}

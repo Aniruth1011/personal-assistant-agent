@@ -1,0 +1,169 @@
+{
+  "at": "2026-11-12T21:21:10.336943+00:00",
+  "scope": "Actual local inference, paused-Ollama hold, recovery. Cloud is not live-tested; unit hook test uses explicit cloud double.",
+  "runs": {
+    "gate7-hooks-enabled": "9fb7cc91-e583-4656-8141-434af573d973",
+    "gate7-private-offline": "e7db3f6a-4257-40b9-ad99-e58d93555db1",
+    "gate7-local-recovered": "53f3bf0e-b825-4147-b533-724ffc9a381c"
+  },
+  "events": [
+    {
+      "at": "2026-11-12T21:17:28.634Z",
+      "kind": "outcome",
+      "id": "91a626cd-7afe-4092-9d83-713fdd2a5172",
+      "outcome": "completed",
+      "durationMs": 5536
+    },
+    {
+      "at": "2026-11-12T21:18:28.359Z",
+      "kind": "decision",
+      "id": "9fb7cc91-e583-4656-8141-434af573d973",
+      "sessionHash": "bc305f0c76ef7ef4541b09247a1cf44e551b2443daf5dc127eef07b496441537",
+      "target": "local",
+      "reason": "private_local_only",
+      "privacy": "private",
+      "fallbacks": [],
+      "selectedModel": "ollama/gemma4:e2b",
+      "task": {
+        "privacy": "private",
+        "complexity": "short",
+        "localAvailable": true,
+        "cloudAvailable": false,
+        "cloudRateLimited": false
+      }
+    },
+    {
+      "at": "2026-11-12T21:18:28.377Z",
+      "kind": "decision",
+      "id": "9fb7cc91-e583-4656-8141-434af573d973",
+      "sessionHash": "bc305f0c76ef7ef4541b09247a1cf44e551b2443daf5dc127eef07b496441537",
+      "target": "local",
+      "reason": "private_local_only",
+      "privacy": "private",
+      "fallbacks": [],
+      "selectedModel": "ollama/gemma4:e2b",
+      "task": {
+        "privacy": "private",
+        "complexity": "short",
+        "localAvailable": true,
+        "cloudAvailable": false,
+        "cloudRateLimited": false
+      }
+    },
+    {
+      "at": "2026-11-12T21:18:33.057Z",
+      "kind": "outcome",
+      "id": "9fb7cc91-e583-4656-8141-434af573d973",
+      "outcome": "completed",
+      "durationMs": 4574
+    },
+    {
+      "at": "2026-11-12T21:18:33.075Z",
+      "kind": "served",
+      "id": "9fb7cc91-e583-4656-8141-434af573d973",
+      "provider": "ollama",
+      "model": "gemma4:e2b",
+      "inputTokens": 2215,
+      "outputTokens": 337,
+      "totalTokens": 6772,
+      "cost": null
+    },
+    {
+      "at": "2026-11-12T21:19:31.294Z",
+      "kind": "decision",
+      "id": "e7db3f6a-4257-40b9-ad99-e58d93555db1",
+      "sessionHash": "4d286ce1123f53d64883c3bfc954a51ad18884d09ff4e24635deb16af2eefb08",
+      "target": "held",
+      "reason": "private_local_unavailable",
+      "privacy": "private",
+      "fallbacks": [],
+      "selectedModel": null,
+      "task": {
+        "privacy": "private",
+        "complexity": "short",
+        "localAvailable": false,
+        "cloudAvailable": false,
+        "cloudRateLimited": false
+      }
+    },
+    {
+      "at": "2026-11-12T21:19:32.900Z",
+      "kind": "decision",
+      "id": "e7db3f6a-4257-40b9-ad99-e58d93555db1",
+      "sessionHash": "4d286ce1123f53d64883c3bfc954a51ad18884d09ff4e24635deb16af2eefb08",
+      "target": "held",
+      "reason": "private_local_unavailable",
+      "privacy": "private",
+      "fallbacks": [],
+      "selectedModel": null,
+      "task": {
+        "privacy": "private",
+        "complexity": "short",
+        "localAvailable": false,
+        "cloudAvailable": false,
+        "cloudRateLimited": false
+      }
+    },
+    {
+      "at": "2026-11-12T21:20:48.563Z",
+      "kind": "decision",
+      "id": "53f3bf0e-b825-4147-b533-724ffc9a381c",
+      "sessionHash": "e2cb57c36d45f306b7f22a24f84dc31cfe37974d67f03eda32a34481effb5f78",
+      "target": "local",
+      "reason": "private_local_only",
+      "privacy": "private",
+      "fallbacks": [],
+      "selectedModel": "ollama/gemma4:e2b",
+      "task": {
+        "privacy": "private",
+        "complexity": "short",
+        "localAvailable": true,
+        "cloudAvailable": false,
+        "cloudRateLimited": false
+      }
+    },
+    {
+      "at": "2026-11-12T21:20:48.630Z",
+      "kind": "decision",
+      "id": "53f3bf0e-b825-4147-b533-724ffc9a381c",
+      "sessionHash": "e2cb57c36d45f306b7f22a24f84dc31cfe37974d67f03eda32a34481effb5f78",
+      "target": "local",
+      "reason": "private_local_only",
+      "privacy": "private",
+      "fallbacks": [],
+      "selectedModel": "ollama/gemma4:e2b",
+      "task": {
+        "privacy": "private",
+        "complexity": "short",
+        "localAvailable": true,
+        "cloudAvailable": false,
+        "cloudRateLimited": false
+      }
+    },
+    {
+      "at": "2026-11-12T21:20:50.300Z",
+      "kind": "outcome",
+      "id": "53f3bf0e-b825-4147-b533-724ffc9a381c",
+      "outcome": "completed",
+      "durationMs": 1408
+    },
+    {
+      "at": "2026-11-12T21:20:50.309Z",
+      "kind": "served",
+      "id": "53f3bf0e-b825-4147-b533-724ffc9a381c",
+      "provider": "ollama",
+      "model": "gemma4:e2b",
+      "inputTokens": 2215,
+      "outputTokens": 15,
+      "totalTokens": 6450,
+      "cost": null
+    }
+  ],
+  "assertions": {
+    "localServed": true,
+    "privateOutageHeld": true,
+    "noInferenceOnHeldRun": true,
+    "localRecovered": true,
+    "noPromptInTelemetry": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "scope": "root",
+  "metadata": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "dependencies": {
+      "prod": 58,
+      "dev": 193,
+      "optional": 53,
+      "peer": 36,
+      "peerOptional": 0,
+      "total": 250
+    }
+  },
+  "advisories": [],
+  "error": null
+}

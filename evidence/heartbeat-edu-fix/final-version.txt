@@ -1,0 +1,3 @@
+Authenticated deployed OpenClaw Gateway
+Version: 2026.11.2
+Verified at: 2026-11-17T19:44:47.688Z

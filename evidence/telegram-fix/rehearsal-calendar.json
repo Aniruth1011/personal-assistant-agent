@@ -1,0 +1,48 @@
+{
+  "kind": "human Telegram calendar rehearsal; tool report authoritative",
+  "messages": [
+    {
+      "role": "user",
+      "timestamp": 1794875544030,
+      "content": "Show my private calendar and available time slots today. First call assistant_report with {\"kind\":\"calendar\"} and report its current results. Do not send email or mutate any state."
+    },
+    {
+      "role": "assistant",
+      "provider": "ollama",
+      "model": "gemma4:e2b",
+      "timestamp": 1794875552322,
+      "content": [
+        {
+          "type": "toolCall",
+          "id": "call_37hijurd",
+          "name": "assistant_report",
+          "arguments": {
+            "kind": "calendar"
+          }
+        }
+      ]
+    },
+    {
+      "role": "toolResult",
+      "timestamp": 1794875554631,
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"status\": \"success\",\n  \"text\": \"ApplyPilot calendar \u2014 2026-11-16 (America/Los_Angeles)\\nCalendar conflicts: 0. Dedicated test calendar only.\\nWorking-time gaps: 2026-11-16T19:00:00Z \u2192 2026-11-17T01:00:00Z\\nSuggested 60-minute slots: none\\nEmail [1a1e6e89c1fb52a6]: ApplyPilot synthetic project coordinator reply \u2014 approval test  \u2014 Thank you for the message. I noted the following point: \u201cReply deadline: 2026-11-11 5:00 PM Pacific Do not reply or take any external action.\u201d Please let me know if any response or [deadline]; deadline (unverified text): 2026-11-11 5:00 PM Pacific Do not reply or take any external action.\\nDraft available for review: /reviewemail 1a1e6e89c1fb52a6 (not sent).\\nEmail [1a1d199699d2aa9f]: ApplyPilot synthetic recruiter reply \u2014 approval test  \u2014 Thank you for the interview invitation. Could you please share the available time options and any details I should review beforehand? [unknown]; needs clarification.\\nEmail [1a1c47015a3f4508]: SYNTHETIC TEST \u2014 Interview invitation \u2014 ApplyPilot  \u2014 Reply deadline: 2026-11-11 5:00 PM Pacific Do not reply or take any external action. [deadline]; deadline (unverified text): 2026-11-11 5:00 PM Pacific.\\nDraft available for review: /reviewemail 1a1c47015a3f4508 (not sent).\\nOpen tasks: 1.\\nTask plan [todo-916591be55d397181404197c]: Prepare Atlas demo [duration:45m]; 45 minutes; no slot; overdue_requires_replanning. Suggestion only, not booked.\\nTask [todo-916591be55d397181404197c]: Prepare Atlas demo [duration:45m]; P2; due 2026-11-13\",\n  \"issues\": [],\n  \"analysis\": {\n    \"date\": \"2026-11-16\",\n    \"timeZone\": \"America/Los_Angeles\",\n    \"dayStart\": \"2026-11-16T08:00:00Z\",\n    \"dayEnd\": \"2026-11-17T08:00:00Z\",\n    \"eventIds\": [\n      \"synthetic-focus-preference\"\n    ],\n    \"conflicts\": [],\n    \"gaps\": [\n      {\n        \"start\": \"2026-11-16T19:00:00Z\",\n        \"end\": \"2026-11-17T01:00:00Z\"\n      }\n    ],\n    \"suggestedSlots\": [],\n    \"scope\": \"dedicated_test_calendar_only\"\n  },\n  \"alerts\": [],\n  \"delivery\": \"not_attempted; scheduler delivery history is authoritative\"\n}"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "provider": "ollama",
+      "model": "gemma4:e2b",
+      "timestamp": 1794875559527,
+      "content": [
+        {
+          "type": "text",
+          "text": "Based on the `assistant_report` for the calendar, here are the current results for the requested period:\n\n**Calendar Summary (for 2026-11-16 / 2026-11-17):**\n\n*   **Conflicts:** 0. The calendar is designated as a \"dedicated test calendar only.\"\n*   **Available Time Slots:** There are no suggested 60-minute slots available. The only working-time gap identified is between 2026-11-16T19:00:00Z and 2026-11-17T01:00:00Z.\n*   **Scope:** The calendar is restricted to a dedicated test calendar.\n*   **Alerts:** There are no active alerts.\n\nIn summary, based on this report, there are no available time slots for booking."
+        }
+      ]
+    }
+  ]
+}

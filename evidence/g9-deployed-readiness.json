@@ -1,0 +1,56 @@
+{
+  "recordedAt": "2026-11-13T01:12:13.748589+00:00",
+  "image": "sha256:c1f7f0da4aa6c07f4483faa62660b0ef70fda84b453afa7f5eb3f9d5ac7d1d1d",
+  "events": [
+    {
+      "timestamp": "2026-11-13T01:07:38.439220Z",
+      "at": "2026-11-13T01:07:38.437Z",
+      "capabilities": "0000000000000000",
+      "event": "assistant.isolation_verified",
+      "noNewPrivileges": "1",
+      "uid": 1000
+    },
+    {
+      "timestamp": "2026-11-13T01:07:41.535750Z",
+      "at": "2026-11-13T01:07:41.533Z",
+      "calendarCount": 2,
+      "emailCount": 1,
+      "event": "assistant.google_read_verified"
+    },
+    {
+      "timestamp": "2026-11-13T01:07:48.085690Z",
+      "at": "2026-11-13T01:07:48.084Z",
+      "event": "assistant.browser_read_verified",
+      "siteFamilies": 3,
+      "submissions": 0
+    },
+    {
+      "timestamp": "2026-11-13T01:09:04.726274Z",
+      "at": "2026-11-13T01:09:04.724Z",
+      "event": "assistant.routed_model_verified",
+      "kind": "cloud",
+      "model": "gpt-6-luna",
+      "provider": "openai"
+    },
+    {
+      "timestamp": "2026-11-13T01:09:04.726299Z",
+      "at": "2026-11-13T01:09:04.724Z",
+      "event": "assistant.local_model_check_held",
+      "reason": "LOCAL_PATH_UNAVAILABLE"
+    },
+    {
+      "timestamp": "2026-11-13T01:09:08.470968Z",
+      "at": "2026-11-13T01:09:08.470Z",
+      "event": "assistant.https_pending_admin"
+    },
+    {
+      "timestamp": "2026-11-13T01:09:08.470975Z",
+      "at": "2026-11-13T01:09:08.470Z",
+      "event": "assistant.ready",
+      "formal48h": "NOT_STARTED",
+      "localModelAvailable": false,
+      "telegram": true
+    }
+  ],
+  "formal48h": "NOT_STARTED"
+}

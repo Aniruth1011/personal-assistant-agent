@@ -1,0 +1,18 @@
+{
+  "at": "2026-11-13T17:13:11.997Z",
+  "cloudAdminCheck": "BLOCKED_GCLOUD_REAUTH",
+  "checks": [
+    {
+      "name": "cloudGateway",
+      "http": 200,
+      "ready": true
+    },
+    {
+      "name": "localOllama",
+      "http": 200,
+      "models": [
+        "gemma4:e2b"
+      ]
+    }
+  ]
+}

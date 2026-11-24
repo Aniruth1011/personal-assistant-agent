@@ -1,0 +1,93 @@
+{
+  "at": "2026-11-17T06:15:52.133891+00:00",
+  "files": [
+    {
+      "path": "evidence/security-audit/SEC-INJ-001-deployed.json",
+      "sha256": "df736da292288f1f0d7d72b30444d90c8ba04fa0b23490133d93691ed32ffc06"
+    },
+    {
+      "path": "evidence/security-audit/SEC-INJ-001-local.json",
+      "sha256": "8976321df0bdf0199d8163cf1a0adc0227a217506eeea1ea94d389bccc607937"
+    },
+    {
+      "path": "evidence/security-audit/SEC-INJ-002-deployed.json",
+      "sha256": "c16d479bfc9976314053fb736ff8d9c497e8e787175223ea96d47dae1b768b82"
+    },
+    {
+      "path": "evidence/security-audit/SEC-INJ-002-local.json",
+      "sha256": "9d14e990874b11686aa87dcdb923859b5967eae23631d095f1902c2774d0b8a7"
+    },
+    {
+      "path": "evidence/security-audit/SEC-INJ-003-deployed.json",
+      "sha256": "8d4a6bef060ead62ed3d06b3bc911e0efcbdbd295c8e967832e8e50fac226820"
+    },
+    {
+      "path": "evidence/security-audit/SEC-INJ-003-local.json",
+      "sha256": "fe35e6d275ca31a28640ff735095fa4aba9ca18f132c75444090b6b1773bb702"
+    },
+    {
+      "path": "evidence/security-audit/cloud-deep.json",
+      "sha256": "a8804c1a6c69f9c9c12e6efbc87d894b3b3934429d7ae959905a90dc14ca6a34"
+    },
+    {
+      "path": "evidence/security-audit/cloud-isolation.json",
+      "sha256": "61fbfe246ea0a95b8de07e42e865e14084d0163573c8377fe387f31c83ea4071"
+    },
+    {
+      "path": "evidence/security-audit/cloud-state.json",
+      "sha256": "5f08fdf47fcac110adf922f15a63a6ec47d7ecaac7be3ed530226206011a1e54"
+    },
+    {
+      "path": "evidence/security-audit/effective-policy.json",
+      "sha256": "1f316a543f733700d4b708e9b36811e1d0587d42bc72cb92960e49c2773c9e40"
+    },
+    {
+      "path": "evidence/security-audit/final-artifact-scan.txt",
+      "sha256": "b6b5d4922870a68780cabdc52ec1229dc25b4785bae772448e2d831ef41be3c9"
+    },
+    {
+      "path": "evidence/security-audit/https-auth.json",
+      "sha256": "8a93abae549dcbd69f7e91ada9be72fce1764246ce19dc34990e68ab9860fd60"
+    },
+    {
+      "path": "evidence/security-audit/injection-test-run.txt",
+      "sha256": "64a239adcfee0a584860a4415e312407631b16b1b490e48dac1683c8b75b20ae"
+    },
+    {
+      "path": "evidence/security-audit/plugin-dependency-audit.json",
+      "sha256": "b99de33b649b033d686d9f945d296425a8cd679eb295147a574bb7b4c316f479"
+    },
+    {
+      "path": "evidence/security-audit/plugin-tests.txt",
+      "sha256": "4941523e6f53500338b5db6e6fb80b2065634b954e94d6b2ceae4f661a5a0d0e"
+    },
+    {
+      "path": "evidence/security-audit/prior-security-review.md",
+      "sha256": "29addf18b09a6a01f9f6ba3dc41c234a5512060a9b175b1ef7b1a1f23c4db47b"
+    },
+    {
+      "path": "evidence/security-audit/root-dependency-audit.json",
+      "sha256": "8a02e8b6246de690310988c104b058ee892cd94d67b37b412c5393d3b04a846a"
+    },
+    {
+      "path": "evidence/security-audit/targeted-secret-scan.json",
+      "sha256": "0ca5f80a6b316ce8f4a82fd8718a27f2267002f2f7467f853a9b6e512cf5cc96"
+    },
+    {
+      "path": "evidence/security-audit/verify.txt",
+      "sha256": "e114eed5146be84bf7612545c7e601a10b229d10d0bc9d08c8d8f27adfcee75c"
+    },
+    {
+      "path": "reports/security/SECURITY_REVIEW.md",
+      "sha256": "fa98b80ee4d8a578e7ae710f12306e1dd3070247c06cc9d5701431fc51999615"
+    },
+    {
+      "path": "fixtures/security-injection-cases.json",
+      "sha256": "3a00d1edd93fbdd8eab6bd0f6619c68106876cddc6ddb606b54af5af5c8d778e"
+    },
+    {
+      "path": "tests/integration/security-injection.test.ts",
+      "sha256": "bc3cd7c97cf0699180ecf2b67807298106e9d1f56a0560ecfb1e674c997910f3"
+    }
+  ]
+}

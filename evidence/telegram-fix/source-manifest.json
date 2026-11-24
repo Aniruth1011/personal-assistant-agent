@@ -1,0 +1,9 @@
+{
+  "at": "2026-11-16T22:20:53.845114+00:00",
+  "sha256": {
+    "src/plugin/src/read-request-hooks.ts": "26cc8abcbc7930165de46a485c4e23a7c2af645ac98443459a13bbf700883963",
+    "src/plugin/src/index.ts": "125c0b8798686c6f087c6de149278e7d8eb47f706cdb7df775f92ef249ebcbec",
+    "src/scheduler/reports.ts": "13c9dac94617a43168a4340a73c929376874fbc6b1c43a42a3a540d0f4a5e394",
+    "src/integrations/gogcli-email.ts": "1e2c2982a7b982db470f9582150acb0f5e8617505473765613344e5b8840f17b"
+  }
+}

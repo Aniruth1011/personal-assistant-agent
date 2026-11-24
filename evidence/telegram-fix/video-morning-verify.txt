@@ -1,0 +1,36 @@
+
+> applypilot@0.1.0 verify
+> npm run format:check && npm run lint && npm run typecheck && npm test && npm run check:secrets
+
+
+> applypilot@0.1.0 format:check
+> prettier --check .
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> applypilot@0.1.0 lint
+> eslint .
+
+
+> applypilot@0.1.0 typecheck
+> tsc --noEmit
+
+
+> applypilot@0.1.0 test
+> vitest run
+
+
+ RUN  v5.1.0 /Users/aniruthsundararajan/Documents/Assignment3/Assignment 3 attached files Nov 6, 2026 1217 PM
+
+
+ Test Files  23 passed (23)
+      Tests  103 passed (103)
+   Start at  10:03:47
+   Duration  663ms (import 70%, tests 22%, transform 6%, worker 2%)
+
+
+> applypilot@0.1.0 check:secrets
+> node scripts/check-secrets.mjs
+
+No configured credential patterns found in 3529 file(s).

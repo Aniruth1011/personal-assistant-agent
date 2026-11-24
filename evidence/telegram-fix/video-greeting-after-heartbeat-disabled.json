@@ -1,0 +1,23 @@
+{
+  "at": "2026-11-17T18:29:32.711240+00:00",
+  "scope": "Authenticated operator request to same main session, deliver=false; not a new human Telegram message.",
+  "messages": [
+    {
+      "role": "user",
+      "timestamp": 1794940109534,
+      "model": null,
+      "content": "Hi, what can you do?"
+    },
+    {
+      "role": "assistant",
+      "timestamp": 1794940123990,
+      "model": "gemma4:e2b",
+      "content": [
+        {
+          "type": "text",
+          "text": "I am a personal assistant for synthetic project planning, email, calendar, and web research. I can help you manage tasks, review emails, and analyze your schedule. I operate primarily through Telegram. I can read events from a synthetic calendar, and I can guide authenticated users to add or complete tasks through Telegram commands. I do not have access to personal records or USC email/calendar accounts."
+        }
+      ]
+    }
+  ]
+}

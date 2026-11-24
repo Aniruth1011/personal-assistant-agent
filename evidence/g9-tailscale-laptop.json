@@ -1,0 +1,11 @@
+{
+  "recordedAt": "2026-11-12T23:04:10.241452+00:00",
+  "backendState": "Running",
+  "selfOnline": true,
+  "health": [],
+  "peerCount": 390,
+  "ollamaBind": "127.0.0.1:11434",
+  "serveConfigured": false,
+  "cloudToLaptopInference": "NOT_RUN",
+  "reason": "Tailnet ownership/access grants must be established before exposing model"
+}

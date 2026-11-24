@@ -1,0 +1,13 @@
+{
+  "draftId": "email-1fd0351c5c1dc9a8f806db99",
+  "humanReplayReply": "Stopped safely: EMAIL_ALREADY_ATTEMPTED. No automatic send retry.",
+  "statusAfter": "SENT",
+  "providerMessageIdUnchanged": "1a1e6e89c1fb52a6",
+  "sendingEventsAfter": 1,
+  "sentEventsAfter": 1,
+  "auditSequenceUnchanged": [
+    "DRAFT",
+    "SENDING",
+    "SENT"
+  ]
+}

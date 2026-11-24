@@ -1,0 +1,14 @@
+{
+  "image": "sha256:b520e3abc4c130d23c8d02194677f2011a6e0a30e7c71777bba874e6135653a2",
+  "build": "6b77728b-2de8-4aa9-bd6f-65559097248a",
+  "compiledHookSha256": "6d470784122338280831e31526ca973d57801942be65d9f78fc7e82e53f3592e",
+  "deployedHookMatches": true,
+  "postReplacementConfig": {
+    "heartbeatEvery": "0m",
+    "heartbeatTarget": "none",
+    "isolatedHeartbeatSession": true,
+    "execNotifyOnExit": false,
+    "eduOnly": true
+  },
+  "configVerifiedAt": "2026-11-17T19:39:28.966Z"
+}

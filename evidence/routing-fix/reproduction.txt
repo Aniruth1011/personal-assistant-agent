@@ -1,0 +1,32 @@
+
+ RUN  v5.1.0 /Users/aniruthsundararajan/Documents/Assignment3/Assignment 3 attached files Nov 6, 2026 1217 PM
+
+ ❯ src/router/policy.test.ts (12 tests | 1 failed) 6ms
+   ❯ deterministic task-aware routing (12)
+     × routes the pinned native scheduler envelope by its actual request 3ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/router/policy.test.ts > deterministic task-aware routing > routes the pinned native scheduler envelope by its actual request
+AssertionError: expected { privacy: 'private', …(1) } to deeply equal { privacy: 'public', …(1) }
+
+- Expected
++ Received
+
+  {
+    "complexity": "reasoning",
+-   "privacy": "public",
++   "privacy": "private",
+  }
+
+ ❯ src/router/policy.test.ts:77:78
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 11 passed (12)
+   Start at  11:32:41
+   Duration  124ms (import 55%, transform 32%, tests 10%, worker 3%)
+

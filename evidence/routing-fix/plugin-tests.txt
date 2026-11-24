@@ -1,0 +1,13 @@
+
+> openclaw-plugin-applypilot-agent@0.1.0 test
+> vitest run --config ./vitest.config.ts
+
+
+ RUN  v5.1.0 /Users/aniruthsundararajan/Documents/Assignment3/Assignment 3 attached files Nov 6, 2026 1217 PM/src/plugin
+
+
+ Test Files  5 passed (5)
+      Tests  15 passed (15)
+   Start at  11:33:53
+   Duration  432ms (import 68%, transform 25%, tests 6%, worker 1%)
+

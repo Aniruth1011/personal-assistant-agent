@@ -1,0 +1,48 @@
+
+> applypilot@0.1.0 test
+> vitest run
+
+
+ RUN  v5.1.0 /Users/aniruthsundararajan/Documents/Assignment3/Assignment 3 attached files Nov 6, 2026 1217 PM
+
+ ❯ src/plugin/src/index.test.ts (10 tests | 1 failed) 26ms
+   ❯ ApplyPilot OpenClaw tools (10)
+     × drafts a grounded synthetic meeting reply without sending or creating a Gmail draft 5ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/plugin/src/index.test.ts > ApplyPilot OpenClaw tools > drafts a grounded synthetic meeting reply without sending or creating a Gmail draft
+AssertionError: expected { status: 'success', …(4) } to match object { status: 'success', …(2) }
+(3 matching properties omitted from actual)
+
+- Expected
++ Received
+
+@@ -1,8 +1,9 @@
+  {
+    "data": {
+-     "body": StringContaining "available time options",
++     "body": "Thank you for the message. I noted the following point: “Meeting invitation. Suggested time: 2026-11-12 10:30 AM Pacific.”
++ Please let me know if any response or preparation is required.",
+      "category": "meeting",
+      "contentTrust": "untrusted_external_content",
+      "notSent": true,
+    },
+    "evidenceRefs": [
+
+ ❯ src/plugin/src/index.test.ts:254:20
+    252|       runner,
+    253|     );
+    254|     expect(result).toMatchObject({
+       |                    ^
+    255|       status: "success",
+    256|       data: {
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 18 passed (19)
+      Tests  1 failed | 86 passed (87)
+   Start at  22:46:27
+   Duration  613ms (import 66%, tests 21%, transform 12%, worker 2%)
+

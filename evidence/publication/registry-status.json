@@ -1,0 +1,19 @@
+{
+  "skill": null,
+  "latestVersion": null,
+  "owner": null,
+  "moderation": {
+    "isSuspicious": false,
+    "isMalwareBlocked": false,
+    "verdict": "clean",
+    "reasonCodes": [],
+    "summary": "No suspicious patterns detected.",
+    "engineVersion": "v2.4.27",
+    "updatedAt": 1794861711146,
+    "evidence": [],
+    "legacyReason": "pending.publication"
+  },
+  "version": null,
+  "versions": null,
+  "file": null
+}

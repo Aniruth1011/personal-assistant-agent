@@ -1,0 +1,10 @@
+{
+  "caseId": "gap-05",
+  "type": "schedule_gap_reasoning",
+  "arm": "cloud",
+  "startedAt": "2026-11-16T20:14:29.749619+00:00",
+  "elapsedMs": 17025,
+  "exit": 1,
+  "stdout": "",
+  "stderr": "\u26a0\ufe0f Couldn't sign in to the AI service. Sign in again under Models in the Control UI or run `openclaw configure`. | token_revoked\n"
+}

@@ -1,0 +1,27 @@
+{
+  "at": "2026-11-13T00:00:16.764Z",
+  "events": [
+    {
+      "at": "2026-11-13T00:00:05.155Z",
+      "event": "probe.ready"
+    },
+    {
+      "at": "2026-11-13T00:00:05.154Z",
+      "answer": "4",
+      "context": 32768,
+      "event": "cloud_to_laptop.inference_verified",
+      "model": "gemma4:e2b",
+      "proxy": "explicit_socks5"
+    },
+    {
+      "at": "2026-11-13T00:00:04.597Z",
+      "event": "tailscale.identity_durable",
+      "restored": true,
+      "tagged": true
+    },
+    {
+      "at": "2026-11-13T00:00:02.037Z",
+      "event": "tailscale.identity_restored"
+    }
+  ]
+}

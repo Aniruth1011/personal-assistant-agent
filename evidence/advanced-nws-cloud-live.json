@@ -1,0 +1,19 @@
+{
+  "at": "2026-11-13T07:15:39.363Z",
+  "image": "sha256:0f8fd3f2cc347cc3530181311673be2b645183162c5ea49ad0790ca4b0458089",
+  "method": "demoWeather() as runtime node user inside actual Cloud Run Instance",
+  "status": "forecast_only",
+  "source": "https://api.weather.gov/gridpoints/LOX/155,45/forecast",
+  "generatedAt": "2026-11-13T04:38:21+00:00",
+  "temperaturesC": [
+    15,
+    22.2,
+    13.9
+  ],
+  "rainPercent": [
+    56,
+    56,
+    78
+  ],
+  "currentObservationClaimed": false
+}

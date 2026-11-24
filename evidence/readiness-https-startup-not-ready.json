@@ -1,0 +1,16 @@
+{
+  "at": "2026-11-13T08:07:14.583Z",
+  "tlsValidation": "default certificate verification enabled",
+  "results": [
+    {
+      "authenticated": false,
+      "failed": true,
+      "code": "ECONNREFUSED"
+    },
+    {
+      "authenticated": true,
+      "failed": true,
+      "code": "ECONNREFUSED"
+    }
+  ]
+}

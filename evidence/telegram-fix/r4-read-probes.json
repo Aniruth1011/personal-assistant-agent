@@ -1,0 +1,80 @@
+[
+  {
+    "label": "email",
+    "status": "ok",
+    "payloads": [
+      {
+        "text": "Based on the report from the `assistant_report` tool, here is the summary of your unread test emails:\n\n**General Status:**\n*   No calendar conflicts were found. The calendar is dedicated to test purposes only.\n*   A working-time gap was identified between **2026-11-16T19:00:00Z and 2026-11-17T01:00:00Z**. A suggested 60-minute slot was **2026-11-16T22:35:00Z to 2026-11-16T23:35:00Z**.\n\n**Email Details:**\n1.  **Email [1a1d199699d2aa9f] (Synthetic recruiter reply \u2014 approval test):** Requires clarification regarding available time options.\n2.  **Email [1a1c47015a3f4508] (SYNTHETIC TEST \u2014 Interview invitation):** Has a reply deadline of **2026-11-11 5:00 PM Pacific**. A draft version is available for review.\n\n**Open Tasks:**\n*   There is one open task: **Prepare Atlas demo** (duration: 45 minutes). This task is overdue and requires replanning; suggestions are provided, but no booking is made.",
+        "mediaUrl": null
+      }
+    ],
+    "receipt": {
+      "runId": "telegram-fix-r4-email-20261116",
+      "sessionId": "telegram-fix-r4-main-20261116",
+      "turnId": "telegram-fix-r4-email-20261116",
+      "requested": {
+        "provider": "ollama",
+        "model": "gemma4:e2b"
+      },
+      "effective": {
+        "provider": "ollama",
+        "model": "gemma4:e2b",
+        "responseModel": "gemma4:e2b"
+      },
+      "successfulToolNames": [
+        "assistant_report"
+      ],
+      "rerouted": false,
+      "terminalDisposition": "visible"
+    }
+  },
+  {
+    "label": "calendar",
+    "status": "ok",
+    "payloads": [
+      {
+        "text": "Based on the calendar report for today (Mon 2026-11-16, Timezone: America/Los_Angeles):\n\n**Available Time Slots:**\n*   There are **no calendar conflicts**. The calendar is dedicated to test purposes only.\n*   A suggested 60-minute slot is available: **22:36 UTC to 23:36 UTC**.\n\n**Calendar Context:**\n*   The general working gap identified is from **19:00 UTC to 01:00 UTC** on November 17th.\n\n**Email Summary (Recap):**\nThe unread emails are the same as previously reported:\n1.  A synthetic recruiter reply asking for available time options.\n2.  An interview invitation with a reply deadline of 2026-11-11 5:00 PM Pacific.\n\n**Open Tasks:**\n*   There is one overdue task: **Prepare Atlas demo** (45 minutes). It is marked as overdue and requires replanning. No booking was made.",
+        "mediaUrl": null
+      }
+    ],
+    "receipt": {
+      "runId": "telegram-fix-r4-calendar-20261116",
+      "sessionId": "telegram-fix-r4-main-20261116",
+      "turnId": "telegram-fix-r4-calendar-20261116",
+      "requested": {
+        "provider": "ollama",
+        "model": "gemma4:e2b"
+      },
+      "effective": {
+        "provider": "ollama",
+        "model": "gemma4:e2b",
+        "responseModel": "gemma4:e2b"
+      },
+      "successfulToolNames": [
+        "assistant_report"
+      ],
+      "rerouted": false,
+      "terminalDisposition": "visible"
+    }
+  },
+  {
+    "toolCalls": [
+      {
+        "type": "toolCall",
+        "id": "call_fhzyo1gx",
+        "name": "assistant_report",
+        "arguments": {
+          "kind": "unread_email"
+        }
+      },
+      {
+        "type": "toolCall",
+        "id": "call_y8iswtlt",
+        "name": "assistant_report",
+        "arguments": {
+          "kind": "calendar"
+        }
+      }
+    ]
+  }
+]

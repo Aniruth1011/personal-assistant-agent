@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "windowId": "2026-11-18T06-48-37-058Z",
+  "observedThrough": "2026-11-20T06:48:37.058Z",
+  "completeTime": true,
+  "sampleCount": 2865,
+  "gaps": [],
+  "unhealthy": [],
+  "configDrift": [],
+  "bootIds": [
+    "e6215b72-606b-45a6-85f3-b2ab563c2ebd"
+  ],
+  "restartReviewRequired": false,
+  "status": "COVERAGE_COMPLETE_SCHEDULE_AND_INCIDENT_REVIEW_REQUIRED"
+}

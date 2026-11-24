@@ -1,0 +1,12 @@
+{
+  "recordedAt": "2026-11-12T23:13:28.418468+00:00",
+  "policySave": "reported by user",
+  "observedLocalPacketFilterRules": 0,
+  "peerCount": 0,
+  "serveTcpPort": 11434,
+  "forwardTarget": "127.0.0.1:11434",
+  "funnelEnabled": false,
+  "cloudEnrollment": "pending one-use tagged auth key",
+  "cloudInference": "NOT_RUN",
+  "remoteAllowDenyTests": "NOT_RUN"
+}

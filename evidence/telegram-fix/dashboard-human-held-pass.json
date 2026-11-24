@@ -1,0 +1,24 @@
+{
+  "sessionKey": "agent:main:main",
+  "localEndpointCheck": "curl exit7 connection refused",
+  "messages": [
+    {
+      "role": "user",
+      "timestamp": 1794874843730,
+      "content": "This is confidential: remind me my locker code is on a sticky note."
+    },
+    {
+      "role": "assistant",
+      "provider": "openclaw",
+      "model": "gateway-injected",
+      "timestamp": 1794874846384,
+      "content": [
+        {
+          "type": "text",
+          "text": "Held safely: the required local model is unavailable. No task content was sent to a cloud model."
+        }
+      ]
+    }
+  ],
+  "routingObservation": "held / private_local_unavailable; gateway-injected reply, no inference response"
+}

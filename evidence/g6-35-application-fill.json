@@ -1,0 +1,81 @@
+{
+  "gate": "6",
+  "task": "G6-35",
+  "scope": "controlled application fill and independent verification; no submission",
+  "runtime": {
+    "node": "24.22.1",
+    "openclawPlugin": "2026.11.2",
+    "playwright": "1.65.0",
+    "chromium": "158.0.8127.18",
+    "gatewayRunningForLiveToolCall": false
+  },
+  "verification": {
+    "pluginTests": "2 files, 34 tests passed",
+    "projectTests": "15 files, 118 tests passed",
+    "format": "passed",
+    "lint": "passed",
+    "typecheck": "passed",
+    "secretScan": "passed; no configured credential patterns in 127 files",
+    "openclawPluginValidation": "passed: Plugin applypilot-agent is valid.",
+    "gitDiffCheck": "passed"
+  },
+  "controlledBrowserCases": [
+    {
+      "case": "happy-single-page",
+      "actual": "Verified; application persisted as AWAITING_APPROVAL; zero submission records"
+    },
+    {
+      "case": "happy-multi-step",
+      "actual": "Verified; application persisted as AWAITING_APPROVAL; zero submission records"
+    },
+    {
+      "case": "happy-conditional-dynamic",
+      "actual": "Verified; application persisted as AWAITING_APPROVAL; zero submission records"
+    },
+    {
+      "case": "edge-unsupported-question",
+      "actual": "needs_human; injected browser factory was not called"
+    },
+    {
+      "case": "edge-repeated-fill",
+      "actual": "Same application ID replayed; persisted event count remained four; zero submission records"
+    },
+    {
+      "case": "failure-non-loopback-origin",
+      "actual": "CONTROLLED_ORIGIN_INVALID; browser was not started"
+    },
+    {
+      "case": "failure-unavailable-local-server",
+      "actual": "BROWSER_EXECUTION_FAILED; no evidence refs and no submission records"
+    }
+  ],
+  "security": {
+    "databaseFileMode": "0600",
+    "databaseStorage": "local temporary disk; GCS paths rejected",
+    "allowedOrigin": "exact http://127.0.0.1:<port> only",
+    "submissionAction": "never invoked by fill_application",
+    "fixtureData": "fictional candidate, résumé, and job only",
+    "auditLogs": "request/correlation IDs, result, duration, and field count only"
+  },
+  "liveGatewayInvocation": "NOT_RUN: no OpenClaw Gateway process was running in this workspace",
+  "initialFailuresRetainedInDevLog": [
+    "First browser run lacked the temporary Playwright Chromium cache; installed the pinned Playwright browser and reran.",
+    "Initial plugin suite lacked its pinned OpenClaw package in node_modules; installed OpenClaw 2026.11.2 without changing a lockfile.",
+    "The added synthetic ready job changed catalog output; gave it a unique controlled listing URL and updated the discovery test to assert both matching jobs.",
+    "First full typecheck found optional result-data narrowing gaps in new tests; added explicit guards and reran the full verification."
+  ],
+  "externalIntegrations": {
+    "gogOAuthValidity": true,
+    "validatedScopes": [
+      "gmail.readonly",
+      "gmail.send",
+      "calendar.readonly"
+    ],
+    "telegram": "deferred by user until tomorrow; not accessed or configured"
+  },
+  "limitations": [
+    "Plugin validation and tests do not substitute for invoking fill_application through a running Gateway.",
+    "Application approval/submission tools are not registered in the OpenClaw plugin yet.",
+    "Telegram delivery and authenticated email sending remain incomplete."
+  ]
+}

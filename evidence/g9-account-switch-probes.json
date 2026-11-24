@@ -1,0 +1,46 @@
+{
+  "at": "2026-11-12T23:27:06.719Z",
+  "oauthProfilePresent": true,
+  "defaultModel": "ollama/gemma4:e2b",
+  "cloudInferenceVerified": false,
+  "catalogModels": 0,
+  "probes": [
+    {
+      "source": "g9-cloud-probe-private",
+      "results": [
+        {
+          "provider": "openai",
+          "status": "no_model",
+          "error": "No model available for check"
+        }
+      ],
+      "totalTargets": 0
+    },
+    {
+      "source": "g9-cloud-probe-configured-private",
+      "results": [
+        {
+          "provider": "openai",
+          "model": "openai/gpt-6-astra",
+          "status": "format",
+          "error": "400 The 'gpt-6-astra' model is not supported when using Codex with a ChatGPT account.",
+          "latencyMs": 881
+        }
+      ],
+      "totalTargets": 1
+    },
+    {
+      "source": "g9-cloud-probe-fallback-private",
+      "results": [
+        {
+          "provider": "openai",
+          "model": "openai/gpt-5.5",
+          "status": "format",
+          "error": "400 The 'gpt-5.5' model is not supported when using Codex with a ChatGPT account.",
+          "latencyMs": 447
+        }
+      ],
+      "totalTargets": 1
+    }
+  ]
+}

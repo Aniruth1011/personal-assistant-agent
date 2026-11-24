@@ -1,0 +1,17 @@
+{
+  "recordedAt": "2026-11-12T22:52:38.897282+00:00",
+  "projectId": "job-application-514306",
+  "authentication": "working; dedicated account lists project",
+  "oldConfiguredProject": "not accessible to new account",
+  "requiredApiActivation": "FAILED_PRECONDITION",
+  "reason": "UREQ_PROJECT_BILLING_NOT_FOUND",
+  "billingLinked": false,
+  "deployedResources": false,
+  "formal48HourWindow": "NOT_STARTED",
+  "otherReadinessIssues": [
+    "Tailscale not installed/authenticated",
+    "Docker/Colima stopped",
+    "Cloud model not authenticated in current runtime",
+    "OpenClaw audit critical small-model web access; deep probe missing operator.read"
+  ]
+}

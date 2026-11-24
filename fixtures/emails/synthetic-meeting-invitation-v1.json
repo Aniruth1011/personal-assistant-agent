@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "emailId": "email-meeting-invitation-001",
+  "synthetic": true,
+  "from": "coordinator@northstar.test",
+  "to": "ada@example.test",
+  "subject": "Synthetic meeting invitation",
+  "body": "A fictional project team invites Ada Example to a mock meeting on 2026-11-12 at 10:00 America/Los_Angeles.",
+  "receivedAt": "2026-11-09T08:00:00-08:00",
+  "category": "meeting"
+}

@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-11-16T20:47:54.717644+00:00",
+  "method": "SSH JSON parse of live config, booleans only",
+  "openaiAllowed": true,
+  "openaiEnabled": true,
+  "readyz": {
+    "ready": true,
+    "coreReady": true,
+    "failing": []
+  }
+}

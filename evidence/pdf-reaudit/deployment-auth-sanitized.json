@@ -1,0 +1,108 @@
+{
+  "checkedAt": "2026-11-17T19:05:46.583Z",
+  "resourceKind": "Instance",
+  "instance": "applypilot-gate9",
+  "region": "us-west1",
+  "runtimeServiceAccount": "applypilot-runtime@amplified-coder-510723-p3.iam.gserviceaccount.com",
+  "containers": [
+    {
+      "image": "us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime@sha256:bb67eb5a42942b44e8a2f28871a70673a05b4549b307310fb03bbbd98adcb1b5",
+      "resources": {
+        "limits": {
+          "cpu": "2",
+          "memory": "4Gi"
+        }
+      },
+      "volumeMounts": [
+        {
+          "mountPath": "/secrets/tailscale",
+          "name": "applypilot-tailscale-auth-xot-geb"
+        },
+        {
+          "mountPath": "/secrets/backup",
+          "name": "applypilot-backup-key-toz-rol"
+        },
+        {
+          "mountPath": "/secrets/runtime",
+          "name": "applypilot-runtime-credentials-naz-qiy"
+        }
+      ]
+    }
+  ],
+  "secretReferences": [
+    {
+      "name": "applypilot-tailscale-auth-xot-geb",
+      "secret": {
+        "items": [
+          {
+            "key": "1",
+            "path": "key"
+          }
+        ],
+        "secretName": "applypilot-tailscale-auth"
+      }
+    },
+    {
+      "name": "applypilot-backup-key-toz-rol",
+      "secret": {
+        "items": [
+          {
+            "key": "1",
+            "path": "key"
+          }
+        ],
+        "secretName": "applypilot-backup-key"
+      }
+    },
+    {
+      "name": "applypilot-runtime-credentials-naz-qiy",
+      "secret": {
+        "items": [
+          {
+            "key": "1",
+            "path": "credentials"
+          }
+        ],
+        "secretName": "applypilot-runtime-credentials"
+      }
+    }
+  ],
+  "liveGateway": {
+    "version": "2026.11.2",
+    "uid": 1000,
+    "effectiveCapabilities": "0000000000000000",
+    "noNewPrivileges": true,
+    "authMode": "token",
+    "allowTailscale": false,
+    "openAiApiKeyEnvironmentPresent": false
+  },
+  "openai": {
+    "agent": "public-research",
+    "profile": "openai:agentai599@gmail.com",
+    "type": "oauth",
+    "provider": "openai",
+    "hasAccessToken": true,
+    "hasRefreshToken": true,
+    "hasApiKey": false,
+    "tokenPlanType": "free",
+    "entitlementCaveat": "Token metadata is not an independent billing/workspace verification; no evidence of USC Edu entitlement."
+  },
+  "google": {
+    "account": "agentai599@gmail.com",
+    "auth": "oauth",
+    "clientProject": "job-application-514306",
+    "clientIdPresent": true,
+    "clientSecretPresentInBootstrap": true,
+    "liveClientMatchesBootstrap": true,
+    "scopes": [
+      "openid",
+      "email",
+      "userinfo.email",
+      "gmail.readonly",
+      "gmail.send",
+      "calendar.readonly"
+    ],
+    "tokenStorage": "gog file keyring; password from runtime Secret Manager bundle"
+  },
+  "secretsExcluded": true
+}

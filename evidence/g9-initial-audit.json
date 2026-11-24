@@ -1,0 +1,35 @@
+{
+  "recordedAt": "2026-11-12T22:51:54.436335+00:00",
+  "summary": {
+    "critical": 1,
+    "warn": 2,
+    "info": 1
+  },
+  "findings": [
+    {
+      "checkId": "summary.attack_surface",
+      "severity": "info",
+      "title": "Exposure summary",
+      "remediation": null
+    },
+    {
+      "checkId": "gateway.trusted_proxies_missing",
+      "severity": "warn",
+      "title": "Reverse proxy headers are not trusted",
+      "remediation": "Set gateway.trustedProxies to your proxy IPs or keep the Control UI local-only."
+    },
+    {
+      "checkId": "models.small_params",
+      "severity": "critical",
+      "title": "Small models require sandboxing and web tools disabled",
+      "remediation": "If you must use small models, disable web_search/web_fetch/browser globally or for each small model with tools.byProvider[\"provider/model\"].deny=[\"group:web\",\"browser\"]; use agents.defaults.sandbox.mode=\"all\" for defense in depth."
+    },
+    {
+      "checkId": "gateway.probe_failed",
+      "severity": "warn",
+      "title": "Gateway check failed (deep)",
+      "remediation": "Run \"openclaw status --all\" to debug connectivity/auth, then re-run \"openclaw security audit --deep\"."
+    }
+  ],
+  "deepProbe": "failed: missing operator.read scope; not a passed deep audit"
+}

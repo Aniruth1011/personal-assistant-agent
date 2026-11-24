@@ -1,0 +1,1 @@
+No configured credential patterns found in 23 file(s).

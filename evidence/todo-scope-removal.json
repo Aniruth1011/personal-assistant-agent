@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-11-13T06:34:39.993397+00:00",
+  "scope": "Local source/configuration validation; no cloud deployment",
+  "registeredTools": [
+    "list_todos",
+    "durability_checkpoint",
+    "assistant_report",
+    "list_test_emails",
+    "get_test_email",
+    "classify_assistant_email",
+    "draft_email_reply",
+    "list_test_events"
+  ],
+  "skills": [
+    "calendar",
+    "email",
+    "todo",
+    "web-search"
+  ],
+  "removedModulesAbsent": true,
+  "walkthroughLinks": 98,
+  "brokenLinks": [],
+  "historicalRecordsPreserved": true,
+  "legacyStorageNames": "retained only for backward-compatible state restore",
+  "formal48h": "NOT_STARTED"
+}

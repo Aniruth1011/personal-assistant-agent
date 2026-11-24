@@ -1,0 +1,33 @@
+{
+  "verifiedAt": "2026-11-15T08:40:13.815255+00:00",
+  "windowId": "2026-11-13T08-30-39-916Z",
+  "operationalObservation": "PASS",
+  "assignmentOverall": "INCOMPLETE",
+  "start": "2026-11-13T08:30:39.916Z",
+  "end": "2026-11-15T08:30:39.916Z",
+  "hours": 48,
+  "samples": 2864,
+  "maximumSampleIntervalSeconds": 62.331,
+  "unhealthySamples": 0,
+  "observedRestarts": 0,
+  "configChanges": 0,
+  "cloudLoggingAndGcsMatch": true,
+  "briefingsDelivered": 2,
+  "recapsDelivered": 2,
+  "alertPollsSucceeded": 96,
+  "checkpointsSucceeded": 288,
+  "openDefects": [
+    {
+      "id": "OPS-ROUTING-001",
+      "description": "All eight cloud-labelled scheduled probes served by ollama/gemma4:e2b; no in-window cloud inference demonstrated",
+      "status": "OPEN",
+      "effect": "Hybrid-routing demonstration/acceptance remains incomplete; does not constitute process downtime"
+    }
+  ],
+  "limitations": [
+    "Health sampled approximately once per minute; cannot exclude unobserved sub-minute events",
+    "No new alert delivered inside window; fresh alert was demonstrated before window",
+    "Google provider access continued, but explicit refresh-event telemetry was not separately recorded",
+    "Post-window IAP SSH failed; evidence verified through immutable GCS objects and encrypted native snapshot instead"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "openclawVersion": "2026.11.2",
+  "plugins": [
+    {
+      "id": "duckduckgo",
+      "package": "@openclaw/duckduckgo-plugin",
+      "version": "2026.11.2",
+      "integrity": "sha512-lACLSRwQ2lbMA6KnRaYu1UKwppOmWEGX/EZslNpTiVRVQ64aKyRnN2k72kAAWJwrcznAOrVOHMCkxaWXBhgQBg==",
+      "provider": "duckduckgo",
+      "configuration": {
+        "safeSearch": "strict",
+        "region": "us-en"
+      },
+      "notes": "Pinned to the OpenClaw host version. Provider is experimental HTML-based search; treat all results as untrusted and handle irrelevant or challenge responses without fabrication."
+    }
+  ]
+}

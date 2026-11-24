@@ -1,0 +1,47 @@
+{
+  "gate": 6,
+  "task": "G6-33",
+  "recordedAtUtc": "2026-11-11T04:27:53Z",
+  "runtime": {
+    "openclaw": "2026.11.2",
+    "node": "24.22.1",
+    "gogcli": "0.48.0",
+    "pluginValidation": "passed",
+    "pluginReloadGeneration": 10
+  },
+  "configuration": {
+    "dedicatedGoogleAccountConfigured": true,
+    "secondaryCalendarIdConfigured": true,
+    "calendarId": "redacted",
+    "calendarReadOnlyOAuthScope": true,
+    "googleCalendarApi": "enabled"
+  },
+  "liveGateway": {
+    "tool": "list_test_events",
+    "source": "plugin",
+    "status": "success",
+    "eventCount": 0,
+    "evidenceReferenceCount": 0,
+    "providerFields": ["id", "summary", "start", "end"],
+    "providerCommandReadOnly": true,
+    "calendarMutations": 0
+  },
+  "edgeCase": {
+    "case": "inverted RFC3339 time range",
+    "status": "failed_safe",
+    "errorCode": "CALENDAR_RANGE_INVALID",
+    "evidenceReferenceCount": 0
+  },
+  "verification": {
+    "format": "passed",
+    "lint": "passed",
+    "typecheck": "passed",
+    "testFiles": 14,
+    "testsPassed": 111,
+    "secretScan": "passed; no configured credential patterns in 122 files"
+  },
+  "limitations": [
+    "The dedicated calendar returned zero events in the queried 20-day window.",
+    "This proves the read-only listing path and empty-calendar behavior, not event classification or scheduling behavior."
+  ]
+}

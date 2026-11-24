@@ -1,0 +1,40 @@
+{
+  "recordedAt": "2026-11-12T23:04:41.708385+00:00",
+  "summary": {
+    "critical": 0,
+    "warn": 2,
+    "info": 2
+  },
+  "findings": [
+    {
+      "checkId": "summary.attack_surface",
+      "severity": "info",
+      "title": "Exposure summary"
+    },
+    {
+      "checkId": "gateway.trusted_proxies_missing",
+      "severity": "warn",
+      "title": "Reverse proxy headers are not trusted"
+    },
+    {
+      "checkId": "models.small_params",
+      "severity": "info",
+      "title": "Small models require sandboxing and web tools disabled"
+    },
+    {
+      "checkId": "gateway.probe_failed",
+      "severity": "warn",
+      "title": "Gateway check failed (deep)"
+    }
+  ],
+  "deepProbePassed": false,
+  "deepProbeReason": "missing scope: operator.read",
+  "regression": {
+    "testFilesPassed": 22,
+    "testsPassed": 155,
+    "format": "PASS",
+    "lint": "PASS",
+    "typecheck": "PASS",
+    "credentialPatternScanFiles": 181
+  }
+}

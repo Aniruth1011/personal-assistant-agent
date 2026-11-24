@@ -1,0 +1,10 @@
+{
+  "caseId": "extract-06",
+  "type": "bulletin_extraction",
+  "arm": "cloud",
+  "startedAt": "2026-11-16T20:15:08.454638+00:00",
+  "elapsedMs": 1724,
+  "exit": 1,
+  "stdout": "",
+  "stderr": "All models failed (1): openai/gpt-6-luna: Provider openai has auth issue (skipping all models) (auth) | MODEL_FALLBACK_SKIPPED\n"
+}

@@ -1,0 +1,2 @@
+NAME          ID              SIZE      PROCESSOR    CONTEXT    RUNNER    UNTIL               
+gemma4:e2b    45d11505b91d    7.4 GB    100% GPU     32768      mlx       29 minutes from now    

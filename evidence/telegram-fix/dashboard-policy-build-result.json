@@ -1,0 +1,16 @@
+{
+  "results": {
+    "images": [
+      {
+        "artifactRegistryPackage": "projects/amplified-coder-510723-p3/locations/us-west1/repositories/applypilot/packages/runtime/versions/sha256:bb67eb5a42942b44e8a2f28871a70673a05b4549b307310fb03bbbd98adcb1b5",
+        "digest": "sha256:bb67eb5a42942b44e8a2f28871a70673a05b4549b307310fb03bbbd98adcb1b5",
+        "name": "us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime:dashboard-routing-20261117",
+        "pushTiming": {
+          "endTime": "2026-11-17T00:07:23.215758664Z",
+          "startTime": "2026-11-17T00:07:21.570140358Z"
+        }
+      }
+    ]
+  },
+  "status": "SUCCESS"
+}

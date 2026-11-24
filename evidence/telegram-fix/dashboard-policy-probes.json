@@ -1,0 +1,52 @@
+{
+  "kind": "synthetic authenticated Control UI protocol probes, no Telegram delivery",
+  "messages": [
+    {
+      "role": "user",
+      "timestamp": 1794873996243,
+      "content": "Explain step by step why the sky is blue."
+    },
+    {
+      "role": "assistant",
+      "model": "gpt-6-luna",
+      "provider": "openai",
+      "timestamp": 1794873996813,
+      "content": [
+        {
+          "type": "text",
+          "text": "1. Sunlight contains many colors, which together look white.\n2. As sunlight enters Earth\u2019s atmosphere, it encounters tiny gas molecules.\n3. Those molecules scatter shorter-wavelength light more strongly than longer-wavelength light. This is called **Rayleigh scattering**.\n4. Blue light has a shorter wavelength than red light, so it gets scattered across the sky more.\n5. That scattered blue light reaches your eyes from many directions, making the daytime sky look blue.\n\nViolet light is scattered even more, but the sky doesn\u2019t look violet because sunlight has less violet, our eyes are less sensitive to it, and some is absorbed in the atmosphere.",
+          "textSignature": "{\"v\":1,\"id\":\"msg_03233a88a09eddc1016afb9a8e4f9887d09ae2d9611815d6fa\",\"phase\":\"final_answer\"}"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "timestamp": 1794874024747,
+      "content": "What is 12 times 9?"
+    },
+    {
+      "role": "assistant",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "timestamp": 1794874029442,
+      "content": [
+        {
+          "type": "text",
+          "text": "108"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "model": "delivery-mirror",
+      "provider": "openclaw",
+      "timestamp": 1794874029515,
+      "content": [
+        {
+          "type": "text",
+          "text": "Selected model ollama/gemma4:e2b restored (was openai/gpt-6-luna)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "gate": 6,
+  "task": "G6-17",
+  "runtime": {
+    "openclaw": "2026.11.2",
+    "node": "24.22.1",
+    "execution": "local OpenClaw Gateway tools.invoke; dedicated synthetic Gmail",
+    "stateDatabase": "local SQLite under /private/tmp; same file reused after Gateway restart"
+  },
+  "observed": [
+    {
+      "atUtc": "2026-11-10T23:57:28.145Z",
+      "deduplication": "new",
+      "primaryCategory": "interview",
+      "categories": ["interview", "deadline"],
+      "confidence": "high",
+      "needsHumanReview": false,
+      "contentTrust": "untrusted_external_content",
+      "evidenceReferenceCount": 2,
+      "auditResult": "new"
+    },
+    {
+      "atUtc": "2026-11-10T23:57:34.171Z",
+      "deduplication": "duplicate",
+      "firstObservedAtPreserved": true,
+      "auditResult": "duplicate"
+    },
+    {
+      "atUtc": "2026-11-10T23:58:02.622Z",
+      "deduplication": "duplicate",
+      "firstObservedAtPreserved": true,
+      "gatewayWasRestartedBetweenCalls": true,
+      "auditResult": "duplicate"
+    }
+  ],
+  "sqliteInspection": {
+    "eventRows": 1,
+    "uniqueDedupKeys": 1,
+    "modeOctal": "0600",
+    "rawBodyColumnPresent": false,
+    "storedClassificationTrust": "untrusted_external_content"
+  },
+  "failureAndEdgeCoverage": {
+    "unitTests": [
+      "case-normalized account and duplicate return original classification",
+      "same message ID is scoped per account",
+      "restart/reopen recognizes duplicate",
+      "event updates and deletes rejected",
+      "invalid and unavailable database path fails safely",
+      "missing APPLYPILOT_STATE_DB fails before Gmail provider call",
+      "provider failure records no event"
+    ],
+    "sideEffects": "no email send and no application state mutation"
+  },
+  "limitations": [
+    "deduplication persists locally; GCS archival/snapshot recovery remains a Gate 9 requirement",
+    "mailbox pagination cursor persistence is not part of this task",
+    "no calendar, email reply, or alert was created"
+  ]
+}

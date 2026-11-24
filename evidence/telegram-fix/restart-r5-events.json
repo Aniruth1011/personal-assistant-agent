@@ -1,0 +1,74 @@
+[
+  {
+    "jsonPayload": {
+      "event": "assistant.readiness_wait"
+    },
+    "timestamp": "2026-11-16T22:46:07.149688Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "assistant.readiness_wait"
+    },
+    "timestamp": "2026-11-16T22:45:36.950097Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "operations.archived"
+    },
+    "timestamp": "2026-11-16T22:45:07.347312Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "operations.started"
+    },
+    "timestamp": "2026-11-16T22:45:06.902146Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "assistant.readiness_wait"
+    },
+    "timestamp": "2026-11-16T22:45:06.465920Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "assistant.gateway_starting"
+    },
+    "timestamp": "2026-11-16T22:45:06.455156Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "probe.ready"
+    },
+    "timestamp": "2026-11-16T22:45:06.451444Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "cloud_to_laptop.inference_verified"
+    },
+    "timestamp": "2026-11-16T22:45:06.450783Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "tailscale.identity_durable"
+    },
+    "timestamp": "2026-11-16T22:45:06.033634Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "tailscale.identity_restored"
+    },
+    "timestamp": "2026-11-16T22:45:03.865217Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "assistant.google_credentials_ready"
+    },
+    "timestamp": "2026-11-16T22:45:03.645929Z"
+  },
+  {
+    "jsonPayload": {
+      "event": "assistant.state_restored"
+    },
+    "timestamp": "2026-11-16T22:45:02.922516Z"
+  }
+]

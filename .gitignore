@@ -1,0 +1,21 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.log
+.DS_Store
+.npmrc.local
+evidence/private/
+
+
+# OAuth client downloads must stay outside the project tree.
+client_secret*.json
+oauth_client*.json
+credentials.json
+
+.runtime/

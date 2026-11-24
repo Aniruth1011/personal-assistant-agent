@@ -1,0 +1,11 @@
+{
+  "recordedAt": "2026-11-12T23:09:47.304085+00:00",
+  "backendState": "Running",
+  "dedicatedAccountMatched": true,
+  "peerCount": 0,
+  "health": [],
+  "policyGenerated": true,
+  "policyApplied": false,
+  "serveEnabled": false,
+  "cloudConnectivityVerified": false
+}

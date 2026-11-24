@@ -1,0 +1,1 @@
+Read-only export of the second formal window. raw/ holds every GCS health sample; summary.json, assessment.json, log-reconciliation.json, job-review.json and route-summary.json are recomputed from raw/ by scripts/operations/export-window-incremental.mjs.

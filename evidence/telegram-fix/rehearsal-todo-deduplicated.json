@@ -1,0 +1,8 @@
+{
+  "taskId": "todo-22ae534a76c9004ea5280b48",
+  "status": "open",
+  "matchingTasksAfterReplay": 1,
+  "createdEventsAfterReplay": 1,
+  "createdAtUnchanged": "2026-11-17T00:35:21.363Z",
+  "verification": "human repeated identical Telegram command; independent read-only SQLite inspection"
+}

@@ -1,0 +1,49 @@
+{
+  "gate": 6,
+  "task": "G6-15",
+  "runtime": {
+    "openclaw": "2026.11.2",
+    "node": "24.22.1",
+    "execution": "Gateway tools.invoke against built ApplyPilot plugin",
+    "pluginValidation": "passed"
+  },
+  "happy": {
+    "observedAtUtc": "2026-11-10T23:43:33Z",
+    "status": "success",
+    "primaryCategory": "interview",
+    "categories": ["interview", "deadline"],
+    "confidence": "high",
+    "needsHumanReview": false,
+    "deadlineText": "2026-11-11 5:00 PM Pacific",
+    "interviewTimeText": "2026-11-12 10:30 AM Pacific (dedicated test calendar only)",
+    "contentTrust": "untrusted_external_content",
+    "evidenceReferenceCount": 2,
+    "auditResult": "success",
+    "bodyReturned": false
+  },
+  "failure": {
+    "observedAtUtc": "2026-11-10T23:44:03Z",
+    "input": "valid-format nonexistent thread ID",
+    "status": "failed_safe",
+    "errorCode": "EMAIL_PROVIDER_UNAVAILABLE",
+    "retryable": true,
+    "evidenceReferenceCount": 0,
+    "auditResult": "EMAIL_PROVIDER_UNAVAILABLE"
+  },
+  "edgeAndSecurityCoverage": {
+    "unitCases": [
+      "unknown/injection text",
+      "unresolved deadline",
+      "conflicting interview and rejection signals",
+      "calendar-invalid date/time",
+      "escaped line separators"
+    ],
+    "expectedBehavior": "ambiguous or unsupported event data requires human review; email text cannot authorize actions",
+    "forbiddenEffectsObserved": "no application state mutation, email send, or message body in audit output"
+  },
+  "limitations": [
+    "live test used the dedicated synthetic Gmail account only",
+    "the local Gateway is not cloud deployment evidence",
+    "model-driven tool dispatch did not occur; the live proof used the documented Gateway tools.invoke RPC directly"
+  ]
+}

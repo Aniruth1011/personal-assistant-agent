@@ -1,0 +1,22 @@
+{
+  "at": "2026-11-12T20:59:38+00:00",
+  "kind": "Preapproval only; no live send evidence",
+  "drafts": [
+    {
+      "id": "email-374ecedcf2a1248eaa1cc7d2",
+      "status": "DRAFT",
+      "approved": false,
+      "providerMessageIdPresent": false
+    }
+  ],
+  "mockProviderTests": {
+    "files": 17,
+    "tests": 128,
+    "passed": true
+  },
+  "registeredCommands": [
+    "reviewemail",
+    "approveemail",
+    "emailstatus"
+  ]
+}

@@ -1,0 +1,15 @@
+AGENTS.md
+SKILLS.md
+APPLYPILOT_PLAN.md
+DEV_LOG.md
+*.pdf
+node_modules/
+dist/
+coverage/
+.runtime/
+evidence/
+
+# Credential material is not source code.
+client_secret*.json
+oauth_client*.json
+credentials.json

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "windowId": "2026-11-13T08-30-39-916Z",
+  "observedThrough": "2026-11-13T08:32:09.466Z",
+  "completeTime": false,
+  "sampleCount": 1,
+  "gaps": [],
+  "unhealthy": [],
+  "configDrift": [],
+  "bootIds": [
+    "e381125b-0621-4e50-ad24-c03f72dc0b18"
+  ],
+  "restartReviewRequired": false,
+  "status": "IN_PROGRESS"
+}

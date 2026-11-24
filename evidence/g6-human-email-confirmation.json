@@ -1,0 +1,30 @@
+{
+  "at": "2026-11-12T21:11:41.178413+00:00",
+  "draftId": "email-374ecedcf2a1248eaa1cc7d2",
+  "approvalAt": "2026-11-12T21:10:53.541Z",
+  "checks": {
+    "statusSent": true,
+    "messageIdMatches": true,
+    "sentLabel": true,
+    "recipientMatches": true,
+    "senderMatches": true,
+    "subjectMatches": true,
+    "bodyMatches": true,
+    "oneSendAttempt": true
+  },
+  "events": [
+    {
+      "status": "DRAFT",
+      "at": "2026-11-12T20:57:55.620Z"
+    },
+    {
+      "status": "SENDING",
+      "at": "2026-11-12T21:10:53.541Z"
+    },
+    {
+      "status": "SENT",
+      "at": "2026-11-12T21:10:54.576Z"
+    }
+  ],
+  "verification": "Independent read-only Gmail get; no email send executed by this check."
+}

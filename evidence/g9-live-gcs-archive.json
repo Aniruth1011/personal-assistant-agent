@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-12T23:35:26.964Z",
+  "prefix": "gate9/1794526527197",
+  "snapshotId": "e184cc3eb184ba0ee91f0f9e3fc20fc1ab21707867dba306a2326a6297645c98",
+  "applications": 3,
+  "restoredApplications": 3,
+  "eventsArchived": 16,
+  "integrity": {
+    "integrity_check": "ok"
+  },
+  "duplicateSnapshotStable": true,
+  "changedEventRejected": true,
+  "unavailableBucketRejected": true,
+  "scope": "Live GCS adapter and SQLite snapshot replay; runtime transaction checkpoint integration is still pending."
+}

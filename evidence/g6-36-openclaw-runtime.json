@@ -1,0 +1,54 @@
+{
+  "gate": "6",
+  "task": "G6-36",
+  "runtime": {
+    "openclaw": "2026.11.2",
+    "node": "24.22.1",
+    "profile": "isolated under /private/tmp; no Telegram channel configured",
+    "gatewayBind": "loopback only",
+    "gatewayPort": 19877,
+    "testSite": "http://127.0.0.1:3210",
+    "applicationDatabase": "isolated local SQLite under /private/tmp"
+  },
+  "pluginRuntimeInspection": {
+    "command": "openclaw plugins inspect applypilot-agent --runtime --json",
+    "actualStatus": "loaded",
+    "activated": true,
+    "toolCount": 10,
+    "toolNames": [
+      "evaluate_eligibility",
+      "inspect_job_url",
+      "prepare_application",
+      "fill_application",
+      "list_test_emails",
+      "get_test_email",
+      "classify_recruitment_email",
+      "draft_recruiter_reply",
+      "list_test_events",
+      "discover_jobs"
+    ],
+    "diagnostics": []
+  },
+  "pluginDoctor": {
+    "result": "Plugin discovery, module loading, compatibility, and configuration checks passed.",
+    "compatibilityNotice": "Plugin uses older OpenClaw APIs; informational."
+  },
+  "gatewayStart": {
+    "actualOutcome": "failed_safe",
+    "error": "Plugin entry is outside its captured source package",
+    "impact": "Gateway shut down during startup; fill_application was not invoked through HTTP/WebSocket.",
+    "retries": 2,
+    "secondAttempt": "Removed explicit plugins.load.paths and refreshed registry; startup error persisted."
+  },
+  "setupObservations": [
+    "Initial local plugin install was refused by the CLI's outside-ClawHub review warning; reran with --force after reviewing this local project and explicitly accepting its declared capabilities.",
+    "Plugin installation reported conflicting child rows for its package owner. Plugin doctor still passed, but this registry/source-capture path needs investigation."
+  ],
+  "cleanup": {
+    "gatewayProcessRunning": false,
+    "testSiteProcessRunning": false,
+    "publicOrTailnetBinding": false,
+    "telegramConfigured": false
+  },
+  "conclusion": "OpenClaw successfully runtime-inspected and activated the plugin's ten tool contracts, but a real Gateway tool invocation remains NOT_RUN because isolated Gateway startup failed."
+}

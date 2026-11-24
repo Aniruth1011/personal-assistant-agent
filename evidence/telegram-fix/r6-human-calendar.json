@@ -1,0 +1,55 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "timestamp": 1794870545877,
+      "content": "Show my private calendar and available time slots today. First call assistant_report with {\"kind\":\"calendar\"} and report its current results. Do not send email or mutate any state."
+    },
+    {
+      "role": "assistant",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "timestamp": 1794870549605,
+      "content": [
+        {
+          "type": "toolCall",
+          "id": "call_fh30ww60",
+          "name": "assistant_report",
+          "arguments": {
+            "kind": "calendar"
+          }
+        }
+      ]
+    },
+    {
+      "role": "toolResult",
+      "timestamp": 1794870551402,
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"status\": \"success\",\n  \"text\": \"ApplyPilot calendar \u2014 2026-11-16 (America/Los_Angeles)\\nCalendar conflicts: 0. Dedicated test calendar only.\\nWorking-time gaps: 2026-11-16T19:00:00Z \u2192 2026-11-17T01:00:00Z\\nSuggested 60-minute slots: 2026-11-16T23:10:00.000Z \u2192 2026-11-17T00:10:00.000Z\\nEmail [1a1d199699d2aa9f]: ApplyPilot synthetic recruiter reply \u2014 approval test  \u2014 Thank you for the interview invitation. Could you please share the available time options and any details I should review beforehand? [unknown]; needs clarification.\\nEmail [1a1c47015a3f4508]: SYNTHETIC TEST \u2014 Interview invitation \u2014 ApplyPilot  \u2014 Reply deadline: 2026-11-11 5:00 PM Pacific Do not reply or take any external action. [deadline]; deadline (unverified text): 2026-11-11 5:00 PM Pacific.\\nDraft available for review: /reviewemail 1a1c47015a3f4508 (not sent).\\nOpen tasks: 1.\\nTask plan [todo-916591be55d397181404197c]: Prepare Atlas demo [duration:45m]; 45 minutes; no slot; overdue_requires_replanning. Suggestion only, not booked.\\nTask [todo-916591be55d397181404197c]: Prepare Atlas demo [duration:45m]; P2; due 2026-11-13\",\n  \"issues\": [],\n  \"analysis\": {\n    \"date\": \"2026-11-16\",\n    \"timeZone\": \"America/Los_Angeles\",\n    \"dayStart\": \"2026-11-16T08:00:00Z\",\n    \"dayEnd\": \"2026-11-17T08:00:00Z\",\n    \"eventIds\": [\n      \"synthetic-focus-preference\"\n    ],\n    \"conflicts\": [],\n    \"gaps\": [\n      {\n        \"start\": \"2026-11-16T19:00:00Z\",\n        \"end\": \"2026-11-17T01:00:00Z\"\n      }\n    ],\n    \"suggestedSlots\": [\n      {\n        \"start\": \"2026-11-16T23:10:00.000Z\",\n        \"end\": \"2026-11-17T00:10:00.000Z\"\n      }\n    ],\n    \"scope\": \"dedicated_test_calendar_only\"\n  },\n  \"alerts\": [],\n  \"delivery\": \"not_attempted; scheduler delivery history is authoritative\"\n}"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "timestamp": 1794870556037,
+      "content": [
+        {
+          "type": "text",
+          "text": "Based on the calendar report for today, **Monday, 2026-11-16**, here is the information regarding your private calendar:\n\n*   **Calendar Scope:** This calendar is designated for \"dedicated test calendar only.\"\n*   **Conflicts:** There are no calendar conflicts.\n*   **Available Time Slots:** There is a working-time gap between **19:00 UTC (2026-11-16)** and **01:00 UTC (2026-11-17)**.\n*   **Suggested Slots:** A suggested 60-minute slot is available during this gap, specifically from **23:10 UTC (2026-11-16)** to **00:10 UTC (2026-11-17)**.\n\nPlease note that this information is from a dedicated test calendar."
+        }
+      ]
+    }
+  ],
+  "delivery": {
+    "at": "2026-11-16T23:09:17.380Z",
+    "operation": "sendMessage",
+    "messageId": 102,
+    "status": "ok",
+    "chunkCount": 1
+  },
+  "note": "Tool/model transcript and native delivery receipt; outgoing Telegram body is not retained by this delivery log."
+}

@@ -1,0 +1,73 @@
+{
+  "verifiedAt": "2026-11-17T08:14:00.215711+00:00",
+  "scope": "Three real native one-time preflight jobs with Telegram delivered receipts, plus authenticated ControlUI-protocol model probes. Not the final video.",
+  "runs": [
+    {
+      "jobId": "0b2690c9-a0c2-41f0-a816-f6a0758f937e",
+      "jobName": "Video preflight \u2014 Briefing",
+      "runAtMs": 1794903107770,
+      "durationMs": 11027,
+      "completionStatus": "succeeded",
+      "status": "ok",
+      "delivered": true,
+      "deliveryStatus": "delivered",
+      "summary": "ApplyPilot briefing \u2014 2026-11-17 (America/Los_Angeles)\nCalendar conflicts: 0. Dedicated test calendar only.\nWorking-time gaps: 2026-11-17T19:00:00Z \u2192 2026-11-18T01:00:00Z\nSuggested 60-minute slots: 2026-11-17T19:00:00.000Z \u2192 2026-11-17T20:00:00.000Z\nEmail [1a1d199699d2aa9f]: ApplyPilot synthetic recruiter reply \u2014 approval test  \u2014 Thank you for the interview invitation. Could you please share the available time options and any details I should review beforehand? [unknown]; needs clarification.\nEmail [1a1c47015a3f4508]: SYNTHETIC TEST \u2014 Interview invitation \u2014 ApplyPilot  \u2014 Reply deadline: 2026-11-11 5:00 PM Pacific Do not reply or take any external action. [deadline]; deadline (unverified text): 2026-11-11 5:00 PM Pacific.\nDraft available for review: /reviewemail 1a1c47015a3f4508 (not sent).\nWeather \u2014 Los Angeles (fixed demo city); current observations unavailable; NWS forecast: Tonight (2026-11-16T23:00:00-08:00 \u2192 2026-11-17T06:00:00-08:00): 11.1 \u00b0C, Partly Cloudy, rain 9%; Tuesday (2026-11-17T06:00:00-08:00 \u2192 2026-11-17T18:00:00-08:00): 18.9 \u00b0C, Sunny, rain 0%; Tuesday Night (2026-11-17T18:00:00-08:00 \u2192 2026-11-18T06:00:00-08:00): 10 \u00b0C, Partly Cloudy, rain 0%; generated 2026-11-17T07:24:01+00:00; https://api.weather.gov/gridpoints/LOX/155,45/forecast\nOpen tasks: 2.\nTask plan [todo-c8425eab437f8275a2ca4920]: Synthetic video deadline 20261117-0005 [duration:15m]; 15 minutes; 2026-11-17T19:00:00.000Z \u2192 2026-11-17T19:15:00.000Z; explicit_task_duration. Suggestion only, not booked.\nTask plan [todo-916591be55d397181404197c]: Prepare Atlas demo [duration:45m]; 45 minutes; no slot; overdue_requires_replanning. Suggestion only, not booked.\nTask [todo-c8425eab437f8275a2ca4920]: Synthetic video deadline 20261117-0005 [duration:15m]; P1; due 2026-11-17\nTask [todo-916591be55d397181404197c]: Prepare Atlas demo [duration:45m]; P2; due 2026-11-13"
+    },
+    {
+      "jobId": "848dfe1a-a69b-41cb-b595-0ec1a7103abc",
+      "jobName": "Video preflight \u2014 Deadline reminder",
+      "runAtMs": 1794903152770,
+      "durationMs": 795,
+      "completionStatus": "succeeded",
+      "status": "ok",
+      "delivered": true,
+      "deliveryStatus": "delivered",
+      "summary": "Scheduled deadline reminder\nSynthetic video deadline 20261117-0005 [duration:15m]\nDue: 2026-11-17; priority P1; status: open.\nThis is the one-time video reminder for your saved task; no task was changed."
+    },
+    {
+      "jobId": "969e5ccf-239c-4967-bd14-22148d3e75ca",
+      "jobName": "Video preflight \u2014 Recap (simulated evening)",
+      "runAtMs": 1794903197770,
+      "durationMs": 3218,
+      "completionStatus": "succeeded",
+      "status": "ok",
+      "delivered": true,
+      "deliveryStatus": "delivered",
+      "summary": "ApplyPilot recap \u2014 2026-11-18 (America/Los_Angeles)\nCalendar conflicts: 0. Dedicated test calendar only.\nWorking-time gaps: 2026-11-18T19:00:00Z \u2192 2026-11-19T01:00:00Z\nSuggested 60-minute slots: 2026-11-18T19:00:00.000Z \u2192 2026-11-18T20:00:00.000Z\nEmail [1a1e6e89c1fb52a6]: ApplyPilot synthetic project coordinator reply \u2014 approval test  \u2014 Thank you for the message. I noted the following point: \u201cReply deadline: 2026-11-11 5:00 PM Pacific Do not reply or take any external action.\u201d Please let me know if any response or [deadline]; deadline (unverified text): 2026-11-11 5:00 PM Pacific Do not reply or take any external action.\nDraft available for review: /reviewemail 1a1e6e89c1fb52a6 (not sent).\nEmail [1a1d199699d2aa9f]: ApplyPilot synthetic recruiter reply \u2014 approval test  \u2014 Thank you for the interview invitation. Could you please share the available time options and any details I should review beforehand? [unknown]; needs clarification.\nEmail [1a1c47015a3f4508]: SYNTHETIC TEST \u2014 Interview invitation \u2014 ApplyPilot  \u2014 Reply deadline: 2026-11-11 5:00 PM Pacific Do not reply or take any external action. [deadline]; deadline (unverified text): 2026-11-11 5:00 PM Pacific.\nDraft available for review: /reviewemail 1a1c47015a3f4508 (not sent).\nOpen tasks: 2.\nTask plan [todo-c8425eab437f8275a2ca4920]: Synthetic video deadline 20261117-0005 [duration:15m]; 15 minutes; no slot; overdue_requires_replanning. Suggestion only, not booked.\nTask plan [todo-916591be55d397181404197c]: Prepare Atlas demo [duration:45m]; 45 minutes; no slot; overdue_requires_replanning. Suggestion only, not booked.\nTask [todo-c8425eab437f8275a2ca4920]: Synthetic video deadline 20261117-0005 [duration:15m]; P1; due 2026-11-17\nTask [todo-916591be55d397181404197c]: Prepare Atlas demo [duration:45m]; P2; due 2026-11-13\nTasks completed today: 0.\nActivity today: 0 unique messages processed; 0 confirmed email sends; 1 reports generated (delivery tracked separately).\nNeeds clarification: email 1a1d199699d2aa9f; /reviewemail 1a1d199699d2aa9f.\nUpcoming/overdue deadline: Synthetic video deadline 20261117-0005 [duration:15m] \u2014 2026-11-17\nUpcoming/overdue deadline: Prepare Atlas demo [duration:45m] \u2014 2026-11-13"
+    }
+  ],
+  "models": [
+    {
+      "probe": "local",
+      "provider": "ollama",
+      "model": "gemma4:e2b",
+      "timestamp": 1794903088608,
+      "content": [
+        {
+          "type": "text",
+          "text": "108"
+        }
+      ]
+    },
+    {
+      "probe": "cloud",
+      "provider": "openai",
+      "model": "gpt-6-luna",
+      "timestamp": 1794903101207,
+      "content": [
+        {
+          "type": "text",
+          "text": "1. Sunlight contains many colors, which together appear white.\n2. As sunlight enters Earth\u2019s atmosphere, it encounters tiny air molecules.\n3. Those molecules scatter shorter wavelengths of light more strongly than longer ones. Blue light has a shorter wavelength than red, so it gets scattered in many directions.\n4. That scattered blue light reaches your eyes from across the sky, making the sky look blue.\n\nViolet light scatters even more, but the Sun emits less of it, and our eyes are less sensitive to violet\u2014so blue dominates what we see.",
+          "textSignature": "{\"v\":1,\"id\":\"msg_0395ad0d3644e229016afc0c3ec8e087d09d4139cb67a8570d\",\"phase\":\"final_answer\"}"
+        }
+      ]
+    }
+  ],
+  "recordingJobs": "Prepared and paused; user runs video-demo.mjs arm when Zoom ready.",
+  "limitations": [
+    "External provider outages remain possible.",
+    "Reminder is an explicitly scheduled reminder of an existing saved task, not a new event detection.",
+    "Recap is at simulated evening timing and its heading uses next-day preview date.",
+    "Original48hour evidence and original recurring jobs unchanged."
+  ]
+}

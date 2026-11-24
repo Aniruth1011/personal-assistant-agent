@@ -1,0 +1,1 @@
+Local diagnostic Gateway: loopback port 19877; token authentication; private state in .runtime/state.

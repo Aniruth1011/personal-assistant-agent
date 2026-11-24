@@ -1,0 +1,105 @@
+----------------------------- REMOTE BUILD OUTPUT ------------------------------
+starting build "28783d66-e792-4aca-83da-7e7a2a7ff06d" using release legacy
+
+FETCHSOURCE
+Fetching storage object: gs://amplified-coder-510723-p3_cloudbuild/source/1794861382.281621-1b69559d50bd4579ac833f9e9406a4db.tgz#1794861382737627
+Copying gs://amplified-coder-510723-p3_cloudbuild/source/1794861382.281621-1b69559d50bd4579ac833f9e9406a4db.tgz#1794861382737627...
+/ [0 files][    0.0 B/  3.0 KiB]                                                / [1 files][  3.0 KiB/  3.0 KiB]                                                
+Operation completed over 1 objects/3.0 KiB.                                      
+BUILD
+Already have image (with digest): gcr.io/cloud-builders/gcb-internal
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+Sending build context to Docker daemon  10.24kB
+Step 1/2 : FROM us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime@sha256:e7cdaeb8fee94df39729e4829c80bbf6904df70ab77f23de2e6da375e642aad7
+us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime@sha256:e7cdaeb8fee94df39729e4829c80bbf6904df70ab77f23de2e6da375e642aad7: Pulling from amplified-coder-510723-p3/applypilot/runtime
+3c5439d0ae62: Pulling fs layer
+0c1909f260bd: Pulling fs layer
+a186b86152d9: Pulling fs layer
+1a501360ef0b: Pulling fs layer
+cfac3e1f6765: Pulling fs layer
+f8ca19ab6388: Pulling fs layer
+512bd428640b: Pulling fs layer
+281312ac5dcd: Pulling fs layer
+d513c282d5e4: Pulling fs layer
+35397a014fcc: Pulling fs layer
+feb76285a64b: Pulling fs layer
+c70cf360f7d8: Pulling fs layer
+a6764ba577ac: Pulling fs layer
+07bdb86a930d: Pulling fs layer
+5a896844f319: Pulling fs layer
+d1ca26b53598: Pulling fs layer
+8b3f0d545438: Pulling fs layer
+4b7a3a5c2f44: Pulling fs layer
+512bd428640b: Waiting
+281312ac5dcd: Waiting
+d513c282d5e4: Waiting
+35397a014fcc: Waiting
+feb76285a64b: Waiting
+c70cf360f7d8: Waiting
+a6764ba577ac: Waiting
+07bdb86a930d: Waiting
+5a896844f319: Waiting
+d1ca26b53598: Waiting
+8b3f0d545438: Waiting
+4b7a3a5c2f44: Waiting
+1a501360ef0b: Verifying Checksum
+1a501360ef0b: Download complete
+cfac3e1f6765: Verifying Checksum
+cfac3e1f6765: Download complete
+0c1909f260bd: Verifying Checksum
+0c1909f260bd: Download complete
+f8ca19ab6388: Verifying Checksum
+f8ca19ab6388: Download complete
+d513c282d5e4: Verifying Checksum
+d513c282d5e4: Download complete
+35397a014fcc: Verifying Checksum
+35397a014fcc: Download complete
+3c5439d0ae62: Download complete
+c70cf360f7d8: Verifying Checksum
+c70cf360f7d8: Download complete
+281312ac5dcd: Verifying Checksum
+281312ac5dcd: Download complete
+07bdb86a930d: Download complete
+5a896844f319: Download complete
+a186b86152d9: Verifying Checksum
+a186b86152d9: Download complete
+8b3f0d545438: Download complete
+d1ca26b53598: Verifying Checksum
+d1ca26b53598: Download complete
+512bd428640b: Verifying Checksum
+512bd428640b: Download complete
+4b7a3a5c2f44: Verifying Checksum
+4b7a3a5c2f44: Download complete
+feb76285a64b: Verifying Checksum
+feb76285a64b: Download complete
+3c5439d0ae62: Pull complete
+0c1909f260bd: Pull complete
+a6764ba577ac: Verifying Checksum
+a6764ba577ac: Download complete
+a186b86152d9: Pull complete
+1a501360ef0b: Pull complete
+cfac3e1f6765: Pull complete
+f8ca19ab6388: Pull complete
+512bd428640b: Pull complete
+281312ac5dcd: Pull complete
+d513c282d5e4: Pull complete
+35397a014fcc: Pull complete
+feb76285a64b: Pull complete
+c70cf360f7d8: Pull complete
+a6764ba577ac: Pull complete
+07bdb86a930d: Pull complete
+5a896844f319: Pull complete
+d1ca26b53598: Pull complete
+8b3f0d545438: Pull complete
+4b7a3a5c2f44: Pull complete
+Digest: sha256:e7cdaeb8fee94df39729e4829c80bbf6904df70ab77f23de2e6da375e642aad7
+Status: Downloaded newer image for us-west1-docker.pkg.dev/amplified-coder-510723-p3/applypilot/runtime@sha256:e7cdaeb8fee94df39729e4829c80bbf6904df70ab77f23de2e6da375e642aad7
+ ---> dfc39849d532
+Step 2/2 : COPY --chown=root:root --chmod=644 local-gateway.mjs /app/scripts/local-gateway.mjs
+the --chmod option requires BuildKit. Refer to https://docs.docker.com/go/buildkit/ to learn how to build images with BuildKit enabled
+ERROR
+ERROR: build step 0 "gcr.io/cloud-builders/gcb-internal" failed: step exited with non-zero status: 1
+--------------------------------------------------------------------------------

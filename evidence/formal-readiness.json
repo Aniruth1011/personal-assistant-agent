@@ -1,0 +1,9 @@
+{
+  "https": true,
+  "memoryRecovery": true,
+  "freshAlert": true,
+  "localModel": true,
+  "cloudModel": true,
+  "securityAudit": true,
+  "routingFailurePolicy": true
+}

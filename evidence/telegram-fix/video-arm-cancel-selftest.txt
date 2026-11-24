@@ -1,0 +1,7 @@
+READY. All three one-time jobs are armed and verified. No task command is needed.
+START ZOOM RECORDING AT 12:12:51 AM Pacific
+Briefing: 12:13:51 AM Pacific
+Deadline reminder: 12:17:21 AM Pacific
+Recap (simulated evening): 12:18:51 AM Pacific
+During recording: identity/version; local request; cloud request; stop Ollama/private held; restart/private recovery; routing log/ollama ps; Telegram greeting. Show arriving briefing/reminder/recap. The recap runs at simulated evening timing.
+Video jobs paused. Original recurring jobs unchanged.

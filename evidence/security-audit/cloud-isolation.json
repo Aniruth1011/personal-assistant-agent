@@ -1,0 +1,10 @@
+{
+  "at": "2026-11-17T06:13:37.024Z",
+  "pid": 68,
+  "status": [
+    "Name:\topenclaw-gatewa",
+    "Uid:\t1000\t1000\t1000\t1000",
+    "CapEff:\t0000000000000000",
+    "NoNewPrivs:\t1"
+  ]
+}

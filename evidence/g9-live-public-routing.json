@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-12T23:42:23.006Z",
+  "runs": [
+    {
+      "source": "g9-public-cloud-run",
+      "status": "ok",
+      "provider": "openai",
+      "model": "gpt-6-luna",
+      "receipt": {
+        "runId": "4c8037f2-7c11-4b5d-b7f8-8cd29b4f8f50",
+        "sessionId": "gate9-public-cloud-01",
+        "turnId": "4c8037f2-7c11-4b5d-b7f8-8cd29b4f8f50",
+        "requested": {
+          "provider": "ollama",
+          "model": "gemma4:e2b"
+        },
+        "effective": {
+          "provider": "openai",
+          "model": "gpt-6-luna",
+          "responseModel": "gpt-6-luna"
+        },
+        "successfulToolNames": [],
+        "rerouted": true,
+        "terminalDisposition": "visible"
+      },
+      "response": [
+        "Merge sort guarantees O(n log n) time but typically uses O(n) extra space.  \nQuicksort is usually faster in practice and often in-place, but its worst case is O(n²).  \nMerge sort is stable by default; quicksort generally isn’t."
+      ]
+    },
+    {
+      "source": "g9-public-short-final",
+      "status": "ok",
+      "provider": "ollama",
+      "model": "gemma4:e2b",
+      "receipt": {
+        "runId": "e4de0e7c-969c-4869-a282-f18177395553",
+        "sessionId": "gate9-public-short-03",
+        "turnId": "e4de0e7c-969c-4869-a282-f18177395553",
+        "requested": {
+          "provider": "ollama",
+          "model": "gemma4:e2b"
+        },
+        "effective": {
+          "provider": "ollama",
+          "model": "gemma4:e2b",
+          "responseModel": "gemma4:e2b"
+        },
+        "successfulToolNames": [],
+        "rerouted": false,
+        "terminalDisposition": "visible"
+      },
+      "response": [
+        "4"
+      ]
+    }
+  ]
+}

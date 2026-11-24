@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@openclaw/duckduckgo-plugin": "2026.11.2",
+    "openclaw": "2026.11.2"
+  },
+  "overrides": {
+    "brace-expansion": "5.0.13",
+    "glob": "14.0.6",
+    "ip-address": "10.7.6",
+    "minimatch": "11.0.1",
+    "postcss-selector-parser": "7.2.1",
+    "undici@^6": "6.29.1",
+    "zod": "4.6.7",
+    "npm": "12.2.3"
+  }
+}

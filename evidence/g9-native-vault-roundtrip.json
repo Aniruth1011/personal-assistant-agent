@@ -1,0 +1,8 @@
+{
+  "at": "2026-11-13T00:05:56.961Z",
+  "fileCount": 14,
+  "encryptedBytes": 1923313,
+  "restoredCronJobs": 6,
+  "allBytesEqual": true,
+  "scope": "Actual native SQLite backup/encrypted restore with integrity checks; scratch target only, no live activation."
+}

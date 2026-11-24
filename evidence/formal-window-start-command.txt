@@ -1,0 +1,7 @@
+Copying file:///var/folders/xx/1q6z2yhx5x70_zs53mgz2l240000gn/T/applypilot-window-qOGdDZ/manifest.json to gs://applypilot-amplified-coder-510723-p3/operations/active-window.json
+  
+...
+Copying file:///var/folders/xx/1q6z2yhx5x70_zs53mgz2l240000gn/T/applypilot-window-qOGdDZ/manifest.json to gs://applypilot-amplified-coder-510723-p3/operations/manifests/2026-11-13T08-30-39-916Z.json
+  
+...
+{"start":"2026-11-13T08:30:39.916Z","end":"2026-11-15T08:30:39.916Z","id":"2026-11-13T08-30-39-916Z","status":"RUNNING_NOT_YET_EVALUATED"}

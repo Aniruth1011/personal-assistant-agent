@@ -1,0 +1,61 @@
+{
+  "verifiedAt": "2026-11-17T17:56:59.379230+00:00",
+  "runs": [
+    {
+      "jobId": "747caebb-9590-4186-a6ab-2b9bdf4a86bd",
+      "runAtMs": 1794938089811,
+      "durationMs": 3402,
+      "status": "ok",
+      "delivered": true,
+      "deliveryStatus": "delivered",
+      "summary": "ApplyPilot briefing \u2014 2026-11-17 (America/Los_Angeles)\nCalendar conflicts: 0. Dedicated test calendar only.\nWorking-time gaps: 2026-11-17T19:00:00Z \u2192 2026-11-18T01:00:00Z\nSuggested 60-minute slots: 2026-11-17T19:00:00.000Z \u2192 2026-11-17T20:00:00.000Z\nEmail [1a1d199699d2aa9f]: ApplyPilot synthetic recruiter reply \u2014 approval test  \u2014 Thank you for the interview invitation. Could you please share the available time options and any details I should review beforehand? [unknown]; needs clarification.\nEmail [1a1c47015a3f4508]: SYNTHETIC TEST \u2014 Interview invitation \u2014 ApplyPilot  \u2014 Reply deadline: 2026-11-11 5:00 PM Pacific Do not reply or take any external action. [deadline]; deadline (unverified text): 2026-11-11 5:00 PM Pacific.\nDraft available for review: /reviewemail 1a1c47015a3f4508 (not sent).\nWeather \u2014 Los Angeles (fixed demo city): 18.4 \u00b0C, WMO code 0; observed 2026-11-17T17:45:00.000Z; https://open-meteo.com/; forecast: 2026-11-17: 11.8\u201321.1 \u00b0C, rain 5%, WMO 3; 2026-11-18: 11.9\u201319.3 \u00b0C, rain 36%, WMO 3\nOpen tasks: 2.\nTask plan [todo-c8425eab437f8275a2ca4920]: Synthetic video deadline 20261117-0005 [duration:15m]; 15 minutes; 2026-11-17T19:00:00.000Z \u2192 2026-11-17T19:15:00.000Z; explicit_task_duration. Suggestion only, not booked.\nTask plan [todo-916591be55d397181404197c]: Prepare Atlas demo [duration:45m]; 45 minutes; no slot; overdue_requires_replanning. Suggestion only, not booked.\nTask [todo-c8425eab437f8275a2ca4920]: Synthetic video deadline 20261117-0005 [duration:15m]; P1; due 2026-11-17\nTask [todo-916591be55d397181404197c]: Prepare Atlas demo [duration:45m]; P2; due 2026-11-13"
+    },
+    {
+      "jobId": "6f02d6ad-52a3-46be-a593-bb1120dc2043",
+      "runAtMs": 1794938134812,
+      "durationMs": 824,
+      "status": "ok",
+      "delivered": true,
+      "deliveryStatus": "delivered",
+      "summary": "Scheduled deadline reminder\nSynthetic video deadline 20261117-0005 [duration:15m]\nDue: 2026-11-17; priority P1; status: open.\nThis is the one-time video reminder for your saved task; no task was changed."
+    },
+    {
+      "jobId": "2fdbe2a9-0820-4336-bc6a-787d3a7561f9",
+      "runAtMs": 1794938179812,
+      "durationMs": 3068,
+      "status": "ok",
+      "delivered": true,
+      "deliveryStatus": "delivered",
+      "summary": "ApplyPilot recap \u2014 2026-11-18 (America/Los_Angeles)\nCalendar conflicts: 0. Dedicated test calendar only.\nWorking-time gaps: 2026-11-18T19:00:00Z \u2192 2026-11-19T01:00:00Z\nSuggested 60-minute slots: 2026-11-18T19:00:00.000Z \u2192 2026-11-18T20:00:00.000Z\nEmail [1a1e6e89c1fb52a6]: ApplyPilot synthetic project coordinator reply \u2014 approval test  \u2014 Thank you for the message. I noted the following point: \u201cReply deadline: 2026-11-11 5:00 PM Pacific Do not reply or take any external action.\u201d Please let me know if any response or [deadline]; deadline (unverified text): 2026-11-11 5:00 PM Pacific Do not reply or take any external action.\nDraft available for review: /reviewemail 1a1e6e89c1fb52a6 (not sent).\nEmail [1a1d199699d2aa9f]: ApplyPilot synthetic recruiter reply \u2014 approval test  \u2014 Thank you for the interview invitation. Could you please share the available time options and any details I should review beforehand? [unknown]; needs clarification.\nEmail [1a1c47015a3f4508]: SYNTHETIC TEST \u2014 Interview invitation \u2014 ApplyPilot  \u2014 Reply deadline: 2026-11-11 5:00 PM Pacific Do not reply or take any external action. [deadline]; deadline (unverified text): 2026-11-11 5:00 PM Pacific.\nDraft available for review: /reviewemail 1a1c47015a3f4508 (not sent).\nOpen tasks: 2.\nTask plan [todo-c8425eab437f8275a2ca4920]: Synthetic video deadline 20261117-0005 [duration:15m]; 15 minutes; no slot; overdue_requires_replanning. Suggestion only, not booked.\nTask plan [todo-916591be55d397181404197c]: Prepare Atlas demo [duration:45m]; 45 minutes; no slot; overdue_requires_replanning. Suggestion only, not booked.\nTask [todo-c8425eab437f8275a2ca4920]: Synthetic video deadline 20261117-0005 [duration:15m]; P1; due 2026-11-17\nTask [todo-916591be55d397181404197c]: Prepare Atlas demo [duration:45m]; P2; due 2026-11-13\nTasks completed today: 0.\nActivity today: 0 unique messages processed; 0 confirmed email sends; 23 reports generated (delivery tracked separately).\nNeeds clarification: email 1a1d199699d2aa9f; /reviewemail 1a1d199699d2aa9f.\nUpcoming/overdue deadline: Synthetic video deadline 20261117-0005 [duration:15m] \u2014 2026-11-17\nUpcoming/overdue deadline: Prepare Atlas demo [duration:45m] \u2014 2026-11-13"
+    }
+  ],
+  "models": [
+    {
+      "probe": "local",
+      "model": "gemma4:e2b",
+      "provider": "ollama",
+      "timestamp": 1794938054562,
+      "content": [
+        {
+          "type": "text",
+          "text": "108"
+        }
+      ]
+    },
+    {
+      "probe": "cloud",
+      "model": "gpt-6-luna",
+      "provider": "openai",
+      "timestamp": 1794938047860,
+      "content": [
+        {
+          "type": "text",
+          "text": "1. Sunlight looks white, but it contains many colors\u2014different wavelengths of visible light.\n2. As sunlight enters Earth\u2019s atmosphere, it encounters tiny air molecules.\n3. Those molecules scatter shorter wavelengths much more strongly than longer ones. This is called **Rayleigh scattering**.\n4. Blue light has a shorter wavelength than red light, so it gets scattered across the sky in every direction.\n5. That scattered blue light reaches your eyes from all across the sky, making the sky look blue.\n\nViolet light scatters even more, but sunlight contains less of it, and our eyes are less sensitive to violet. So the sky appears blue rather than violet.",
+          "textSignature": "{\"v\":1,\"id\":\"msg_0fb38f2c04114a0c016afc94c2a47887d0b84c1df65db13b56\",\"phase\":\"final_answer\"}"
+        }
+      ]
+    }
+  ],
+  "routingLogDisplay": "requires interactive Google reauthentication",
+  "recordingJobs": "Remain paused pending log-display verification and fresh recording time."
+}

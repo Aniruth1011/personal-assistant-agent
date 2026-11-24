@@ -1,0 +1,15 @@
+{
+  "recordedAt": "2026-11-12T21:29:41.734971+00:00",
+  "gate": 8,
+  "scope": "calendar analysis component, not full Gate8 acceptance",
+  "command": "npx --yes --package=node@24.22.1 -- npm run verify",
+  "exitCode": 0,
+  "testFilesPassed": 20,
+  "testsPassed": 146,
+  "format": "PASS",
+  "lint": "PASS",
+  "typecheck": "PASS",
+  "secretScanFiles": 159,
+  "liveCalendarConflictVerification": "NOT_RUN: fixture import/readback pending",
+  "formal48HourWindow": "NOT_STARTED"
+}
