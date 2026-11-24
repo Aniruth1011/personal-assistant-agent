@@ -1,6 +1,8 @@
-# ApplyPilot — proactive personal assistant
+# Personal Assistant Agent — proactive personal assistant
 
 A CSCI 599 Assignment 3 assistant accessed through Telegram. Four skills: **calendar, email, web search and to-do management**. Uses fictional users, synthetic tasks/messages/events and dedicated temporary accounts.
+
+The project's internal working name was ApplyPilot. That name is kept in the code identifiers so they match the deployed system: the npm package name, `APPLYPILOT_*` environment variables, the `applypilot-gate9` Cloud Run instance and `APPLYPILOT_PLAN.md`.
 
 **Platform attribution:** built on unmodified [OpenClaw](https://github.com/openclaw/openclaw) 2026.11.2 (not a fork), extended through the project plugin in `src/plugin`. Two small pieces are adapted from OpenClaw and attributed in code comments: the scheduler boilerplate matched in `src/router/policy.ts` (from OpenClaw `src/cron/isolated-agent/run.ts`) and the background-work pattern in `src/plugin/src/read-request-hooks.ts` (from the OpenClaw plugin SDK runtime docs). `scripts/evaluation/gateway-rpc.mjs` calls the pinned OpenClaw gateway client directly.
 
